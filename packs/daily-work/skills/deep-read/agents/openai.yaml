@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deep Read"
+  short_description: "Read difficult material and turn it into useful understanding"
+  default_prompt: "Use $deep-read to explain this material, preserve evidence boundaries, and identify useful next steps."

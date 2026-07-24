@@ -1,0 +1,1510 @@
+{
+  "omission_summary": {
+    "by_reason": {
+      "dependency_cache": 7,
+      "generation_material": 100,
+      "local_state": 1,
+      "recovery_artifact": 1,
+      "test_metadata": 118
+    },
+    "total": 227
+  },
+  "omissions": [],
+  "patches": [
+    {
+      "description": "Remove maintainer-machine status and paths, fix a command example, and require confirmation before external account mutations.",
+      "packaged_path": "packs/browser-automation/skills/opencli/SKILL.md",
+      "packaged_sha256": "4174619858fd57d812521f4e7f1425110d743d9c2f5b7d99e1f96cd6f8543563",
+      "source_path": "skills/opencli/SKILL.md",
+      "source_sha256": "b527d8556da96090ef8afdeaa976ebc85334a455b5467bfd47277e76a17fc4e3",
+      "upstream_commit": "5256711a25458e537c5a63d2a6f9c7fd36d0d1eb",
+      "upstream_origin": "https://github.com/jackwener/opencli"
+    },
+    {
+      "description": "Frame Liuyao as a traditional cultural exercise, prohibit high-risk predictions, use the installed deterministic script, and remove private research-log references.",
+      "packaged_path": "packs/cultural-practices/skills/liuyao/SKILL.md",
+      "packaged_sha256": "840e9fbe4b9dd3b6dc0cf95a8a2edf653fc6e7392ca5a4f7df8b6b12ea1871c6",
+      "source_path": "liuyao/SKILL.md",
+      "source_sha256": "c1e8cfff3eff7958957532390a7ca0a5dcfb236ca7818f102a986fc35be7f9aa",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Use valid portable metadata, explicit foreground invocation, project-local state, and approval before configuration, command, dependency, or external changes.",
+      "packaged_path": "packs/experimental-self-improvement/skills/self-evolve/SKILL.md",
+      "packaged_sha256": "55313d91988c0a495014609105a409d538cb0aa45e361792b2242ed3c0a3e198",
+      "source_path": "self-evolve/SKILL.md",
+      "source_sha256": "7862924100074196c7a2f2ad0747db581c7db3f773a8c59aae5f9f1c604a8d67",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Store reports under the selected project's state directory and mark proposed physical changes as separately approval-gated.",
+      "packaged_path": "packs/experimental-self-improvement/skills/self-evolve/assets/evolution-report-template.md",
+      "packaged_sha256": "b3e1284e0d4e87fc9734f53b7d8143b95087324df607f10f6b1f9b7da641bc4d",
+      "source_path": "self-evolve/assets/evolution-report-template.md",
+      "source_sha256": "dcee7127330dede1788be43b65c692360d8b4c9a338dec8a0097a5d3b55a8893",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace autonomous installation and schedule edits with explicit approval gates and forbid unattended background loops.",
+      "packaged_path": "packs/experimental-self-improvement/skills/self-evolve/references/constraints-and-rules.md",
+      "packaged_sha256": "29b9620ea8eb0c951bae5e69efefe5d6616391a6ffe59e04c42f9c0eba19f830",
+      "source_path": "self-evolve/references/constraints-and-rules.md",
+      "source_sha256": "4f52e68393ab60ff6816f07a9768fc6ed55e06b6517e0ed38ac6ce438a8c1be0",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Use selected-project state, foreground ticks, read-only telemetry by default, isolated stress tests, and user-approved solidification.",
+      "packaged_path": "packs/experimental-self-improvement/skills/self-evolve/references/execution-protocol.md",
+      "packaged_sha256": "ab17e7c130c720c9388f93ffec03c5b5d20b0110a33fc83309c6644ca629299e",
+      "source_path": "self-evolve/references/execution-protocol.md",
+      "source_sha256": "ea268136c1874122194006025db8514f331a6c7f855460373d6c3a8b7b39f98c",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove duplicate checks and add explicit authorization and runtime-neutral regression gates.",
+      "packaged_path": "packs/experimental-self-improvement/skills/self-evolve/references/quality-checklist.md",
+      "packaged_sha256": "d49fbf0440fc2e889e37e044559870d0bbf43fc201b7fed11ea311e4bccb09ff",
+      "source_path": "self-evolve/references/quality-checklist.md",
+      "source_sha256": "6d55e6063f6ae36edb4150ba8f298bdc8d892abad4e404820aff51de3ef8666c",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace the Claude-home quick-start path with the active Runtime's project-level Skill installation.",
+      "packaged_path": "packs/financial-research/skills/chanlun-trading/references/original-quickstart.md",
+      "packaged_sha256": "95a7d4afa5d57b6efd9b14269b0a329a291a9731398360261e9a086d1272c0e5",
+      "source_path": "chanlun-trading/references/original-quickstart.md",
+      "source_sha256": "c7329e66f0698d8cedaa1915ed72b153198ea79536886a6c1cf9b282bc960b27",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "https://github.com/noahnan-max/chanlun-trading-system"
+    },
+    {
+      "description": "Replace a Claude-home installation command in the retained legacy README with runtime-neutral project installation guidance.",
+      "packaged_path": "packs/financial-research/skills/chanlun-trading/references/original-readme.md",
+      "packaged_sha256": "c18a3f0d9ae6ebf7c6c172464bf8b0e6168979c6fe1d6d34a75bb99c2b937a61",
+      "source_path": "chanlun-trading/references/original-readme.md",
+      "source_sha256": "2592c74f69c4b9e5780f94f8fc5b29d76d2d4ce9b26b7b5f2e84b04557ea583e",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "https://github.com/noahnan-max/chanlun-trading-system"
+    },
+    {
+      "description": "Replace a Claude Code home-path instruction with runtime-neutral project Skill discovery guidance.",
+      "packaged_path": "packs/financial-research/skills/chanlun-trading/references/original-skill.md",
+      "packaged_sha256": "dac5f2c042686a971e6a7424356b99b5ac1b1a34653f9927ce50ca988e5fd512",
+      "source_path": "chanlun-trading/references/original-skill.md",
+      "source_sha256": "7669db06cd0dac8421c49eedf4e733f1615f1322cae849b3e281911a55898d76",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "https://github.com/noahnan-max/chanlun-trading-system"
+    },
+    {
+      "description": "Publish the package router index generated and verified by scripts/build_full_router_index.py.",
+      "packaged_path": "packs/full-routing/skills/all-skills-router/references/skill-index.json",
+      "packaged_sha256": "4829cd4ae40a924653cca128c6d5561d741ceaf1c49acfdc72e2743c83c0f9d3",
+      "source_sha256": "04a07894b8445cbfe6c7dd314b8e016873e9cf8be99525478e3febd2b2a7e564",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "package_generator:scripts/build_full_router_index.py",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/generated-domain-perspectives/skills/bill-buxton-perspective/SKILL.md",
+      "packaged_sha256": "21d30742e548993a8a1a628cecdc0bfcb6a6d88a7cebd2202e2473a1a5c0666e",
+      "source_sha256": "478b4f1b1a75def580dcc5b26c833639b02e17eeeb928a9f6e3df922c286c589",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Describe installation through the active Agent Runtime instead of a Cursor-only source directory.",
+      "packaged_path": "packs/generated-domain-perspectives/skills/tooby-cosmides-perspective/SKILL.md",
+      "packaged_sha256": "c1cfcb75b093331366f0e8857d0dabe4e2da25eff77ff61136f9962f25d446eb",
+      "source_path": "tooby-cosmides-perspective/SKILL.md",
+      "source_sha256": "5b3e5cdce4d01cbbfed31a0d7d7dd0269afd18eaabb3129eab928f93c9e7edc2",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Resolve the primary Skill file from the installed Skill directory instead of a Cursor-only path.",
+      "packaged_path": "packs/generated-domain-perspectives/skills/xu-shunying-perspective/references/evals.md",
+      "packaged_sha256": "09f1db6547604114d24e0d0a30e229b00f70d58499e20ea1f7c3cac1fb2c3dd2",
+      "source_path": "xu-shunying-perspective/references/evals.md",
+      "source_sha256": "991e36cb94298f4db86350222d6739f4508a7b8503f95d8441dea0aaf3c8974e",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove OpenClaw credential, notification, cron, and no-confirmation coupling; use current Runtime subagents and project-local claim state.",
+      "packaged_path": "packs/github-automation/skills/gh-issues/SKILL.md",
+      "packaged_sha256": "aa4d9287867d97b473ebb07744c2fa68930004ad85095609aa6c13b8f67f13b5",
+      "source_path": "gh-issues/SKILL.md",
+      "source_sha256": "e7a64973e186211725e18a45d076803abc07915e348fd94691e7acaea367d54a",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "https://github.com/openclaw/openclaw"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/knowledge-vault/skills/file-organize/SKILL.md",
+      "packaged_sha256": "ce155f8c21e7487d683968bbad76642307656097fdd2d9f89bfc05ea6923a432",
+      "source_sha256": "8a20b89e7334a585907ef0d3125644c09f7c1bff2653104441308893c55b7ed6",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/knowledge-vault/skills/fleeting-note/SKILL.md",
+      "packaged_sha256": "194c80c0c7378d32cb5a7b77072a065d3b2f14152706c2ba65179e9cad356230",
+      "source_sha256": "edebf53e608885a36078dbbd71e2b6d0ebb55d83599320dc913aa9df972363cf",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/knowledge-vault/skills/index-note/SKILL.md",
+      "packaged_sha256": "f9169eaa9edc7982be8a5d9c2f161c0ca6d861641e57acce03ee178053064ec5",
+      "source_sha256": "df03e3623a4c8730fdc70669d97c361711bcf46cbc5124271b0f26e350b3f99e",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/knowledge-vault/skills/index-note/references/20260203_索引体系设计规范.md",
+      "packaged_sha256": "c195bd05da0e9958c8df323738c526863c273283bb8d3b5010188ba3e349579b",
+      "source_sha256": "1ef8d860fa45656e0c115b2808bdac829d2d4dc0b36ec1d547736ccafddaaece",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/knowledge-vault/skills/index-note/references/output-templates.md",
+      "packaged_sha256": "89d48980949540dba6109c11b85315119296c49c335a5d27368376d0026b4b13",
+      "source_sha256": "892b20eeecc1480e6bb1e80f7a49fe5744d9f6cda9cc5990a1cd7317fad28bfa",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/knowledge-vault/skills/index-note/references/入网流程.md",
+      "packaged_sha256": "4b97bf707dc597f7e1b8287442a35759f9ece52105e70be9d228a4f11a61d604",
+      "source_sha256": "3dd140165fe754645a67718572dd89fb8a6808e39b074e99913285624e780df4",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/knowledge-vault/skills/index-note/scripts/batch_network_integration.py",
+      "packaged_sha256": "5be28de5332e9005a9e05ed6c1d42a6c74844d2e646237a7091efbd426ddc735",
+      "source_sha256": "19bd21018eb37a8b6c33bcfceddc273eece98fd7f552279d446cf7a9ca98f800",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/knowledge-vault/skills/index-note/scripts/create_unindexed_manifest.py",
+      "packaged_sha256": "974a0402f12a85a803fc0527828da93b2c47fd8c3b9aabb679a2330f14521430",
+      "source_sha256": "066c84e0f285ad7573c3dfed8b21d113dfa85dfa4f1d679d9e6478744bc657a6",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace private Vault conventions and autonomous writes with project discovery, proposal-first behavior, and explicit write authorization.",
+      "packaged_path": "packs/knowledge-vault/skills/link-proposer/SKILL.md",
+      "packaged_sha256": "0655eaf1a5655dea714e67557c0726d542cc5952a6e05980895516dc95d59e5a",
+      "source_path": "link-proposer/SKILL.md",
+      "source_sha256": "fbc4c46005110187e38d1f2b2d3631033b9b95eb9fc380963f958ac7f81dc703",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/knowledge-vault/skills/meeting-note/SKILL.md",
+      "packaged_sha256": "c1886f51eb0ff9a579fe58e1e80548d3c787c6be8514f8e1e1c48209971b5e6e",
+      "source_sha256": "44ea70d79fc321dccea198b106fbc40d0830cf5694e0e221a9fe9d7799efbb78",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Default to a conversational artifact proposal and discover the target Vault conventions before authorized writes.",
+      "packaged_path": "packs/knowledge-vault/skills/methodology-to-vault/SKILL.md",
+      "packaged_sha256": "3d7560a8ccf52f04fe57067c6f893de62b363962a2dd62b8e411be050e1057a9",
+      "source_path": "methodology-to-vault/SKILL.md",
+      "source_sha256": "a8176c1d0deeda0767cc867db888a03e800d0e3cf4eae9900510208b70beb2c0",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/knowledge-vault/skills/note-split/SKILL.md",
+      "packaged_sha256": "24795724cc1c2e687b484b0bb85df12326a1831c5c334f73ccada91b433254f3",
+      "source_sha256": "0519789979b9accbc4ccde148f876028849efde98f302661609b9bc69cb1e0dc",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/knowledge-vault/skills/random-walk/SKILL.md",
+      "packaged_sha256": "528eddad23afef766904691866a364e97870ed0643ac112a0678caffe75af581",
+      "source_sha256": "a28ba1f64f02f9343eeaceeba73d7c1f9c8b46d97302cfbc73770a38d9b06244",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace Cursor-only preamble and private index references with current-project rules and proposal-first writes.",
+      "packaged_path": "packs/knowledge-vault/skills/structure-note/SKILL.md",
+      "packaged_sha256": "eebb10e0ca1b2275f5a7870a7b28fc4a4b5adef2deb8a6d4be1c346f315ea810",
+      "source_path": "structure-note/SKILL.md",
+      "source_sha256": "eec47be4ebcd87ed50f12dd1cf25880406299740ef136562e0332a1d4f154386",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace the maintainer name with a generic future reader.",
+      "packaged_path": "packs/knowledge-vault/skills/structure-note/references/结构化流程.md",
+      "packaged_sha256": "d62320b0bcad7911d4fff9f669ad282911251ad3c28b3028695908420ac99426",
+      "source_path": "structure-note/references/结构化流程.md",
+      "source_sha256": "58e992373a907e4b9b7c0be267a694aff7cb9ffe22975c6f80da7048e3c5ed02",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Treat the index root as a project convention and require an exact preview plus separate confirmation before moving, bulk relinking, or deleting files.",
+      "packaged_path": "packs/knowledge-vault/skills/zk-index-refactor/SKILL.md",
+      "packaged_sha256": "daf54cc6730d49b481d87178d941717cf9bf5d89d95257ecca2f7f8136b78e3c",
+      "source_path": "zk-index-refactor/SKILL.md",
+      "source_sha256": "6a2481cbcb4c34fa6f91a0ff5d3eb117c070e095c9cbe36834b5a535f270e525",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Require explicit confirmation of the exact deletion list.",
+      "packaged_path": "packs/knowledge-vault/skills/zk-index-refactor/references/checklist.md",
+      "packaged_sha256": "b3a624eae19799bef4511a55e83571453b1be10e2e88f4711d2fac4231492fc0",
+      "source_path": "zk-index-refactor/references/checklist.md",
+      "source_sha256": "6b3e8cf40c5f49a276205d39f5656c238d4ade8c4f130dfa7d320ca2efcb18aa",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/macos-integrations/skills/apple-reminders/SKILL.md",
+      "packaged_sha256": "d87a3e50f741aa6fe7823aaeafab2a35299ed76a957998390133aebae9603622",
+      "source_sha256": "0cbe33ba91010d54e2c53e20500ffc1fd8320b507b1ba8fcb5cf3170487a5918",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Resolve the deterministic chart builder from the installed Skill and require a user-selected output path instead of a private daily-note directory.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/ai-product-radar/SKILL.md",
+      "packaged_sha256": "df6991a93eb04227a7aaa705fa786327a45506c6f3a86cbedf275c399bd4ee62",
+      "source_path": "ai-product-radar/SKILL.md",
+      "source_sha256": "5ef8c435cf0b4653d1424ba11c1f1a84831d88ff3928b026bac1e3a09ff1c734",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Resolve deterministic Listing lint from the installed Skill rather than a Cursor-only path and RTK wrapper.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/amazon-listing-optimizer/SKILL.md",
+      "packaged_sha256": "793e7371220038f7bfda0df0ea9ebc8fb83b0e1e575ac9f58cfae7333a36d55a",
+      "source_path": "amazon-listing-optimizer/SKILL.md",
+      "source_sha256": "b9ca84ba491205d76f7a91f2d683150c07acbbf4eb83704d6ac67bffbea34ae1",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Use the target project's active rules and naming conventions instead of a Cursor Vault preamble and file-organize dependency.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/competitive-profile-builder/SKILL.md",
+      "packaged_sha256": "ac5d9230d02de116a2923cf9851c33d5bd00d521e12dd10614b7752a96096e71",
+      "source_path": "competitive-profile-builder/SKILL.md",
+      "source_sha256": "03959e8b49a8a43b27b8172665694fabfd6cdaec2ae253994528289589277f6e",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace private Vault and product references with runtime-neutral project design sources.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/frontend-guidelines/SKILL.md",
+      "packaged_sha256": "70f594f69daaded2e2acc39b8ab608115a314ae30c20814159cf9d67a6c90da9",
+      "source_path": "frontend-guidelines/SKILL.md",
+      "source_sha256": "9367f2cdc1c2bf6c5af5f154d74ce8283538fa2e94bd6264dbf7f3abf94a56a5",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove maintainer-machine paths and private product tokens while retaining the public design-system reference.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/frontend-guidelines/resources/awesome-design-md.md",
+      "packaged_sha256": "b8c654453233ac98baedbf7eb6a420db3f4e59f944af6840c9f372b66d2ff0d5",
+      "source_path": "frontend-guidelines/resources/awesome-design-md.md",
+      "source_sha256": "848ae7cefe50f5a9e566882262bb523645c64d8ab6ad7040bb3c3fe67b1964ff",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove Vault and Cursor assumptions, require a user-selected project path, and make knowledge-network Skills optional.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/industry-research-os/SKILL.md",
+      "packaged_sha256": "766bfaa0640e039a7805dfa63e1a68587e5f998165c4866c549c36f648d25fe9",
+      "source_path": "industry-research-os/SKILL.md",
+      "source_sha256": "02f002f393e6a9d432a786fedcd21ee5537a211757bd6c14e76c82c610be241e",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace a private research-note path with a self-contained public provenance statement.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/industry-research-os/references/article-framework.md",
+      "packaged_sha256": "ba56e277cfb098d107307cb832321b232e52ddecaf0fd6ec360187e132b944a5",
+      "source_path": "industry-research-os/references/article-framework.md",
+      "source_sha256": "e99a838d7f8e92dd30581aa8090f22edab0e5454f9ca8b265fa6f99f8899f49d",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace automatic Vault writes and mandatory backlink edits with explicit invocation, conversational output, and user-authorized project writes.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/learning-deepening/SKILL.md",
+      "packaged_sha256": "b16e579695fb8ad9dd510af7dbfe57ac7ba98f1a5c493ca9c3eaa6af4107f4c5",
+      "source_path": "learning-deepening/SKILL.md",
+      "source_sha256": "575282c836c578e4bb4ee28c56ad346484a1830082917ddcec7a1a0ca00ea3b8",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/learning-deepening/references/output-template.md",
+      "packaged_sha256": "94e57fb87b18fbb8f7e088d2c057b3af1d61f13b590c95e3127e607a475bef1d",
+      "source_sha256": "15dd7c821735ef262331db8b3e294b63787174e7d56f531a29f41498f3db2423",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/learning-deepening/references/question-templates.md",
+      "packaged_sha256": "46a4e51355235b24e65229c9602ba746b9cf88c2bae6a737e2d907146cf140f6",
+      "source_sha256": "d369787297544e74f4d48cad1bdf4dcf74b1bf1f2961a3aee52c040b369fa664",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Resolve the optional Job Statement gate through an installed Skill or inline checks instead of a Cursor-only path.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/product-brief/SKILL.md",
+      "packaged_sha256": "359255df15e6f21258d5fb6fb928bdb83a634d08cef63c679aeedb5d4e7d3ca3",
+      "source_path": "product-brief/SKILL.md",
+      "source_sha256": "1bbc7cc61cee751a1c5c2e5a99841d0d99768bdc414b67d1ab80e8dda98bab7f",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove private preamble, personalization, history, archive, and knowledge-network assumptions while preserving decision frameworks.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/strategic-advisor/SKILL.md",
+      "packaged_sha256": "7e7aa329514838d5843252a7b4cfd43f66809a92f3e39db0764da6b6d2cb454d",
+      "source_path": "strategic-advisor/SKILL.md",
+      "source_sha256": "dcb9b3a10b78c0fad7c6bf53d93172b4e55ce33ec8ed314bcbdd83ac7a2e9880",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove a mandatory private personalization file and make knowledge-network links conditional on the target project.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/strategic-planning/SKILL.md",
+      "packaged_sha256": "3cc86b6c531a226d0e7eb00c04967d3f34ffd21990328dda30e23921e117ba6e",
+      "source_path": "strategic-planning/SKILL.md",
+      "source_sha256": "7c92190e7b812125ba1a898bca27e3d006125ddd98be7330aea1f9c62fb7e9ba",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace maintainer-specific Agent nicknames and Cursor routing with the active Runtime's actual main and specialist Agent surfaces.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/task-routing/SKILL.md",
+      "packaged_sha256": "64a70a27d90163ff6f0986e9d77ad12e524016e7fb5dc98e160d87fa3734a83b",
+      "source_path": "task-routing/SKILL.md",
+      "source_sha256": "28b611a7c17d395b45f2ec2c92ce3536dbcb1038eca1862e3fd9efe42f8689df",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Describe runtime mirrors generically instead of naming a Cursor-only rules directory.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/truth-source-governance/SKILL.md",
+      "packaged_sha256": "4031b95fd2cdae5bb4511c1822f40f54c48c1cffa4a72270d2aee63d70bc6aa2",
+      "source_path": "truth-source-governance/SKILL.md",
+      "source_sha256": "74a7c85e725e221d944bcf2ac262502de5f410707f285dbeb35b10ef7a25cf78",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Use the active Runtime's independent read-only review surface and label any self-review fallback instead of assuming Cursor's Task tool.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/verify-output/SKILL.md",
+      "packaged_sha256": "4cb18040d288064107991fc66202994fb1deacb9e9e51ba2ba0bb1b1b58e2763",
+      "source_path": "verify-output/SKILL.md",
+      "source_sha256": "75096b155ea68864a829d0cc6f40b0641bbde94a96b1a2d95aa093eba2cf33f3",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Use runtime-neutral independent review, conversational output by default, and explicit authorization before remediation.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/workflow-audit/SKILL.md",
+      "packaged_sha256": "8c16fe8801512bdf967c18d9cbf7480deddb02a2f27556efc5d6bc22dd8439db",
+      "source_path": "workflow-audit/SKILL.md",
+      "source_sha256": "23d2be207cd77da867291fcda5b0d770d7c7718ecabb2c068d4974b1b4a65c96",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove private project and sync-service coupling and require approval of the exact branch and worktree path before creation.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/worktree-handoff/SKILL.md",
+      "packaged_sha256": "0ade3acdb423088f0763e6e39e9e3bcebe74ee7961ca192e03cdc9e90ae023d9",
+      "source_path": "worktree-handoff/SKILL.md",
+      "source_sha256": "917c4d3122ff09da5e2ee57f2a92104dc89fb30f8f9c9836a8e7ec3de9386c7b",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish a clean safety rewrite limited to read-only privacy auditing, documented controls, and official support routing.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/claude-code-privacy-audit/SKILL.md",
+      "packaged_sha256": "f2ac2d0e31ffa648db4feb9b6c487bc026c9bf466cd0eacf14888ae677253aa4",
+      "source_sha256": "a89c62b29696d4973e6f9085a19273059ffeddc68e1f21e6855314b1b2c777eb",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "reviewed_manual_portable_derivative",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/deep-reading/SKILL.md",
+      "packaged_sha256": "9abc1f89e34a9ca64441d1c4b93d1b3af11ef8b3850ea79ddb1d4ef4cb5038bf",
+      "source_sha256": "4498bd108a5037f76eba7b3194e5caaa1b8414a09b1d297b6d08fb8fd7a73bca",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/deep-reading/templates/structure_note_template.md",
+      "packaged_sha256": "bdd4e28805ba13041c697fb76b46859f3f52648e5c6659703a4f741f34f2727b",
+      "source_sha256": "2499e4d82dab7f57f7d7c170f0ade02f017d1f0d316caf117e70611b5e581e11",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/developer-toolkit/SKILL.md",
+      "packaged_sha256": "0e706309b6b45143c7dc466c3f9f82e90f8a0f29d90c51823b56400e380fcd82",
+      "source_sha256": "5849be986f3d6ac4dc429c1e0dde2745c2089ef89a8e3725f9e66d6dc042f3e2",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/developer-toolkit/references/CHANGELOG-skill.md",
+      "packaged_sha256": "f33947ae65bc5067b3fcb10007d21875bb48b20b86d952783ae628c870ed92b7",
+      "source_sha256": "3d8e9e99fb9dc06373a0fad941e68602ebc794fb06df0384324daca68ef56a02",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/developer-toolkit/references/examples.md",
+      "packaged_sha256": "9c6558d9bfc64fe62ddb64d57819c834b6ce84f4f56d9714e65bf4973e46f6a3",
+      "source_sha256": "815f1743e6ec728c4e1a2205256d277e2e34fc71ad2d58f1dc2aad831b4acbb3",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/developer-toolkit/references/glossary.md",
+      "packaged_sha256": "df71c90bdee3603c1bc6ba143412ad6a9b654781fdf280bd637a7bad5ce98205",
+      "source_sha256": "797a754d9455f59c2beafe3105be63216436033b4c9178daab7151e426bf8862",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/developer-toolkit/references/install.md",
+      "packaged_sha256": "5433fe12ed8382a917b39a612e098b7eca0ed08522f75878870a484efa9e0627",
+      "source_sha256": "e677db073fded6729d80f659bc3581e0f24ef7f0f34d98f23a5925ace27c78d9",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/developer-toolkit/references/onboarding.md",
+      "packaged_sha256": "52b70d3d0e6fafb49a048e5cc957ee8c6aadceec431e281d4104b81a58b2fabb",
+      "source_sha256": "37fb8550780583e293a8a161a10e41dd6b9b04db79f5dada68a5963bff8a0d04",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/developer-toolkit/references/pressure-prompts.md",
+      "packaged_sha256": "56fb5b9b7806e3e39571ded2b1c79a546bb11d95ea1a012cba88d0965d15283b",
+      "source_sha256": "62065ba24d4d2ca36af12eb2bf5eca417e98a3a5853b61adcfa03edfc9f015fe",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/SKILL.md",
+      "packaged_sha256": "868bf38aaf6f506cede0225e0e960004a9cf7d00706890d1ce490478fa835711",
+      "source_sha256": "10431f92e268b4b9858b3f58216f0d37ee2768316233bfb1a8ef605175dbedb8",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/examples/project_execution/tool01_产品灵魂_project.md",
+      "packaged_sha256": "715e37d1c0f2d586e038a7f69e3dd8151e561dd225af78f71a83b90358ef0aeb",
+      "source_sha256": "1b0ca4b1f4104386b60b502f83e9f4cb7d96efdf1688714a5402030dd771a2ec",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/examples/project_execution/tool02_JAS行为调查问卷_project.md",
+      "packaged_sha256": "f33db924a5f688634d325914b84d35041f954bbe9326fb6a9eff0570f4612729",
+      "source_sha256": "acbb61158b8638ec3ef0d75c4b1dcba195c0e54dfeb23d0f133674e6dd0ba464",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/examples/project_execution/tool03_四镜深度洞察分析_project.md",
+      "packaged_sha256": "e0d10bc78a58848824dc91ae129621b8217eb2133de2e8d68ddfa8417079295d",
+      "source_sha256": "92e05201f272fca783ea3cdc52cc1e5b3a8ee1b429620255b34893a5c35c02d1",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/examples/project_execution/tool03b_创新概念输出_project.md",
+      "packaged_sha256": "5afba7c967ceb22190a17d0751947854b9cae585de9be583f2ab28961de97c6b",
+      "source_sha256": "6e3d3eac1c9cfc54ed98730b07b01eff4db8857940ef05cb19adc604b7934ed0",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/examples/project_execution/tool04_目标用户分群_project.md",
+      "packaged_sha256": "19c1021e7c6f1d25dfc6f8d4dcee6855e61d3680be66c6be93c737c0f1d1a4cf",
+      "source_sha256": "bb4984db19b4e0fecea9cc0f720b6cc063d030ebc0f795ff06f29f4eb5143b10",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/examples/project_execution/tool05_文献阅读方向建议_project.md",
+      "packaged_sha256": "72783ff77309aba418ec7f478cd24d5c6e4e762c0839cad8066c54e5ffbccd4b",
+      "source_sha256": "ca0eaea77e2939c086f405554246e9c40673c3ecfac30bea3b3cf5fee7b7dbbb",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/examples/project_execution/tool06_情感与社交需求_project.md",
+      "packaged_sha256": "61c9fc584a30b7ae4f0b69f1e79ab2a19c69ac3b9b2733885e80d3efd4ee6449",
+      "source_sha256": "c542c932840787db545763b7be25760d6638a76aa8415d4e59611555de9a72e3",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/examples/project_execution/tool07_功能需求清单_project.md",
+      "packaged_sha256": "38e097e7a4e38b82ec5da0ebd5fe1667714a24c6c33a3661bbf947bced7f3b2f",
+      "source_sha256": "34991758d0a432fde3df1fb86ae746942dca6dd31e403eb8052b0c3bc9b583ab",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/examples/project_execution/tool08_产品生态系统设计_project.md",
+      "packaged_sha256": "00757ca3b9c1b509f92d3cc2a472d1564f9d54c9e58f0b518dc41ed9f8a8e27d",
+      "source_sha256": "8ee33c082f7297416a43d09d386e789b6866b4c77f0c62aff08895d1f3b25b0d",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/examples/project_execution/tool09_深度访谈问题清单_project.md",
+      "packaged_sha256": "6ba1aab7964b7f9cb8f4233f8f92ddb49ea7cee58b5cbfbf883b798461b67ac9",
+      "source_sha256": "7f0ec38bc6c712d24730e28e33a2da74557f218a03a8cc85bcb21f2df5d8851f",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/examples/project_execution/tool10_量化调研问卷_project.md",
+      "packaged_sha256": "26b89bda6588378f4cce4858a2d4fc2a630a3ae6d9dcf6a2dac4988791c8451b",
+      "source_sha256": "04fd9eb81e94a48fe67c33f386333aec0f08a9766a83b6f09f6f8b216154bf91",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/references/cascade_sop.md",
+      "packaged_sha256": "380eb95e17d3d56c9b5cfc247649d1cdac6b0faed1a569028d7f6bd7aeb6ab93",
+      "source_sha256": "37430fbd92ab819a6b946dd28d50c8aff6022652a3e5121ffb1416e9fd58402e",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/references/execution_tips.md",
+      "packaged_sha256": "909243584449415b71d81d6886bf889d35f886e1ec8d058b7f4c368c44584893",
+      "source_sha256": "f098be36e02884ce1321fd36afc35a2466c61e79eaec393ad2a30237bdb4acc9",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/references/expert_panel_review.md",
+      "packaged_sha256": "bd2071408e8924a136a15c8c120a340bf3281bd29027cf3c281c1dc1d537d481",
+      "source_sha256": "33de37064a766565582596193d805b57f442d2fd73eba64608105912130be41e",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/templates/_d6_load_bearing.md",
+      "packaged_sha256": "9070ab0fe6732deb3a38906c66b0879878e44bf3a111cddad0523013b0da3155",
+      "source_sha256": "9332b32680d74663c8e2ade3728aa5d56782bae350c72673138753d8f2f8a0f9",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/templates/_sidecar.md",
+      "packaged_sha256": "365387bb63fe9d8fd4e57eba9c6b7f63bc659717372a498cedb1459e59ef5b3e",
+      "source_sha256": "8a0beb577fea4c722fc3c737bf0e8457233c8ea454b6b31d7e4e76d16e0a6c1f",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/templates/_signal_ledger.md",
+      "packaged_sha256": "a506cee33a86c78e77f223605027b0188591d49b5d2574b8bb5ceaeb28483a3c",
+      "source_sha256": "8fc0528d70cd8ca58407463ee04919486cf679ce86b85302829cddd633434632",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/templates/tool01_product_soul.md",
+      "packaged_sha256": "a531c7b17b92f0db8e8efec9678d84b3230b56de1c878ca36a83ddf9555f4aa8",
+      "source_sha256": "406f57f34b2a0e8822c79ad9f4b28e436181f4df3badc0f67b3a85e252a636c9",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/templates/tool02_jas_survey.md",
+      "packaged_sha256": "3d91d1d28fced7788195f6290880b64472bc566633fb36e1ba1921af7deb7461",
+      "source_sha256": "984f1cf5463f00c3f9fbdab40de9922479769377acbcf3528a52d2d1ff0ee24e",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/templates/tool03_four_lens.md",
+      "packaged_sha256": "5c47d9bd6f6b2085622149f74ce9cc274bcb9be378fe6b89e7dd179e8d5db982",
+      "source_sha256": "5ffe8cf3cf9946e29487bb9a371a33bae6dd39149d8b799f65979cb5b8004f3d",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/templates/tool03b_innovation.md",
+      "packaged_sha256": "c322f62f99eabbe4f56821c40bb538332dc284d2901e44d5489cac4c7f0b673b",
+      "source_sha256": "84eefe0f912cddfbd897bef9a809e01964a18233486f5e0022ace60c0f83d131",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/templates/tool04_target_users.md",
+      "packaged_sha256": "00bf61ed599f706043eb0b6276b82e0daf25254c0999965fab98b8749ca42fdd",
+      "source_sha256": "2e4a5a652a75d03f653cbacd814479b9cd49e252fba976580cdb29c56e42a3f6",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/templates/tool05_literature.md",
+      "packaged_sha256": "ccb3308d1784feea97afa00af9f1ebaaa80905023b5b88ad37342fe2de53869b",
+      "source_sha256": "f2ed78429783934815f8c518c92de2ebe9b9858537b39902e2a97b242aa67537",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/templates/tool06_emotional_social.md",
+      "packaged_sha256": "95ecf758d24be2df0f89deeaeef65d95b2b920a156b7c837b6cd960996ddb74b",
+      "source_sha256": "9344530cff5f5a8472df6511d54b20207bdfbcaac3ba88baa527b728f9913617",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/templates/tool07_functional_needs.md",
+      "packaged_sha256": "f209400cf6d796394d5cce3451888a44429ba5a3bb0ff1da013e594fde5236ba",
+      "source_sha256": "d5e1f3bd93fc57792c57ba72757ab5ef6bc9dcad45a0d84a7004f70a92c11b1d",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/templates/tool08_ecosystem.md",
+      "packaged_sha256": "65ec640cb2392e41f27480139b2a72cd230b29d4640ee7f38f4e903d45309acd",
+      "source_sha256": "c23d6360c63912544837307052501f66479613737e99ca2025022ec59314f654",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/templates/tool09_interview_questions.md",
+      "packaged_sha256": "ed783ae0635345115ada8769f28bb8b836d1c5fcc0e4d78c2ced15eed6881e69",
+      "source_sha256": "6383cfc6086350d7f33dbb7e7cf5b98ff9e00f8cccbaec66ef764f159fd5231b",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v1/templates/tool10_survey_design.md",
+      "packaged_sha256": "f4abfdd51e303cf3a0105613bc9f5c20f719ab745f6b91d8e47617b6f28c6d6c",
+      "source_sha256": "d1e89d6abbf3c75b8d2416147fb1074ec96c88cda03b04a2577ccec2942e3522",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v2-1/SKILL.md",
+      "packaged_sha256": "dd533c3a5583ea44ecdffc04c96f738b931fe3999d418228c693eeebeb4fc28b",
+      "source_sha256": "e3fb8dab23c174f4dcb6f356615acc1d4f784b4372b916b062f3dd137dbf37c1",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v2-1/references/methodology_foundations.md",
+      "packaged_sha256": "0926d181a2357b1a887070440a05323c40f1971e8c702e40caeb5b6306d4befb",
+      "source_sha256": "2106a10f3ba59eee8409071bf5b0083485388a4126523b42e2c61e237f498e92",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v2-1/references/original_prompt_blocks.md",
+      "packaged_sha256": "993a433a9403968072d6904b0da5578a74707f8817ddb7370f2726e6b8cdaf0e",
+      "source_sha256": "30d16c0c22b0670718b042e8ae2f1894bdf2674298afb11ecac855788f046f0c",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v2-1/references/v1_engineering_extensions.md",
+      "packaged_sha256": "e1e48c3dd61df61d2303ab873faf32fca0c7eabe2e35c22c4a8add559f238f53",
+      "source_sha256": "f4663f8311f46b10db7f44aaa2ee36b1fa20a0e772929a2e939e7a689d1cba2d",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite-v2-1/templates/tool08_ecosystem.md",
+      "packaged_sha256": "1781330133c3c6764793f5502021c7314278b13cbca09ef7d72d46e6747fffaf",
+      "source_sha256": "7341b290d9f62abe1fd1a95e480a27d9bf47ed48bda2d19528e39f0f220eedc0",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite/SKILL.md",
+      "packaged_sha256": "6234798be39739fe448558741242b00486d42d6787086f5c90b64456b35e1a9c",
+      "source_sha256": "5c0f1e80085b017b0c26eaf4ac8ca5a6d7deefbcb3239e553ac62c9d11e5b9dc",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite/references/execution.md",
+      "packaged_sha256": "8f76eccfee79173f21f8bbc3fd1d73e224bb61988ebd725398150fcfbf4ad4d8",
+      "source_sha256": "e0fb0ffc5719343e5e6953cda437b10b396c478c406251a3147f97c7d0333536",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite/references/gpt_self_acceptance_rubric.md",
+      "packaged_sha256": "2ebd5bcb92d4a9f10a9b6d10b1e07518a4761eb34ee519a6ec76ba5c189a4ad8",
+      "source_sha256": "8e6947ecb2b44708e15e04b07bc7664c68fd42222374430c4d5a327db6c04ed2",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite/references/methodology_foundations.md",
+      "packaged_sha256": "6c082d1887b68373c918f343a7132342ae3f24fa87317d729b3b24ad787064ba",
+      "source_sha256": "2106a10f3ba59eee8409071bf5b0083485388a4126523b42e2c61e237f498e92",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite/references/original_prompt_blocks.md",
+      "packaged_sha256": "f1a3a6c76d54930ea4a563dd18902feb692e6c5cf56799205cce39f0d8375fed",
+      "source_sha256": "30d16c0c22b0670718b042e8ae2f1894bdf2674298afb11ecac855788f046f0c",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite/references/v1_engineering_extensions.md",
+      "packaged_sha256": "5b86bb818d278e20469d0312b0cb514fa067b06bb63023f650dffbe9f86c73a1",
+      "source_sha256": "eeb10ab77473fddbd8cffe1d1be66945af5354b39eec5c9b08d94ed44595972a",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite/references/verify.md",
+      "packaged_sha256": "07724e8efea70c039d36d830d46ba51ac9eb97772d03f91f9b52f6d675978a2b",
+      "source_sha256": "7432d9a5e27edc8451213a892af3e394e6720a95714b201b7320eb8bf5d88cbf",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite/templates/tool01_product_soul.md",
+      "packaged_sha256": "5cabfe40b9d1e09a20a53d408665efea42e5ff1d5d5c253513cde29c9d5a48b7",
+      "source_sha256": "a2fe36f6f542b7468611e96ccf2bd88f8ae6f900ed63f0e153a18aa77d25893e",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/evidence-research-suite/templates/tool08_ecosystem.md",
+      "packaged_sha256": "1781330133c3c6764793f5502021c7314278b13cbca09ef7d72d46e6747fffaf",
+      "source_sha256": "7341b290d9f62abe1fd1a95e480a27d9bf47ed48bda2d19528e39f0f220eedc0",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/github/SKILL.md",
+      "packaged_sha256": "03c6082d2b5fe63b762f664d9e5d88ccb9f61e69f5cdc015704690ab3cc9241b",
+      "source_sha256": "85c58f6d143f93474a33c33bec88cd577640a2a1d80083fa849f7855906bbbe8",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/jtbd-desk-research/SKILL.md",
+      "packaged_sha256": "c3c5d11bf848e8fc7f7a7adbd48258ddfacc20152a0c1fdcf49659dfc0b8310d",
+      "source_sha256": "2a82a4880db0409606cdc35c2bcd585022855062e6bfef6b154eb200da10bf96",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/jtbd-desk-research/references/execution_plan_template.md",
+      "packaged_sha256": "e75ac7b4fbf103534f0fabac32949a442914d2b423f66da811dc5e3b7d356d3f",
+      "source_sha256": "5b131ba13aaddb09563811c788a580b7c786496a9073f4c5abe56340a6dca69e",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/jtbd-desk-research/references/filing_rules.md",
+      "packaged_sha256": "24fed0c2868078409d3402d55cf7e097e228462e228c8bd2cef0c75214821b13",
+      "source_sha256": "ccb6a1fd270ff7fd795ac262d6e04f4b00e85e7b3c3edefb5d299674d3c1e697",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/jtbd-desk-research/references/forces_analysis.md",
+      "packaged_sha256": "980b06d7b08bf05b0c9a0d28f5050b0eb76f2d1600cf31b2004dee40d4926421",
+      "source_sha256": "2d9c811960464c419973102c18624bcdf244af77112493820c7102837c34cacd",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/jtbd-desk-research/references/job_validation.md",
+      "packaged_sha256": "694c0423aa78f9a99004bd7ba536cd978b91cd78f929bcd9fcd1f7dfd23da46a",
+      "source_sha256": "020f505022041fe862a3c3c77cd44f4030856debf1561391bbdf43e95ae61030",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/jtbd-desk-research/references/quality_checklist.md",
+      "packaged_sha256": "e15692fc420e021c8926a02f5bf86fcc5543d4bfc1f5365bc81b521487843f9a",
+      "source_sha256": "43826326fd07de83135951a92025ae610b119bf1e204bddd4e5ee0f688afe8cf",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/jtbd-desk-research/references/workaround_catalog.md",
+      "packaged_sha256": "1c905c35032a7f4fd5a7272bfc93cadd948464cea443a74cbca32c8da5e342f4",
+      "source_sha256": "428b6bff4a174c53b7bb482454ae0362d79ab67e35b27cd36f6ab7a1171e6aad",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/memory-dream/references/memory-md-example.md",
+      "packaged_sha256": "846542dec06bec6037cda9d93a8c480ab95102d445c188044e9466ed0d65d117",
+      "source_sha256": "d2b9303e3bd57c2408fda3915d2df94e9ecfdf6b5e8886f27b78b1827ec82f35",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/open-loops/SKILL.md",
+      "packaged_sha256": "23a8d3038750d947dd03e960d0a3f2b9ac5002719175be83b583b01e0c7418b1",
+      "source_sha256": "fdddd233cdf5ec03628bc57f0bb4adff7e47cbffb1e030b0ec474ef7373fd5f9",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/product-cloud-operations/SKILL.md",
+      "packaged_sha256": "9244daa8fdf4437df086df3864b8a950ea50f13323edaa54b341dad849145dae",
+      "source_sha256": "e6ec7397a8af4ae701ac9d9de2fb9010bc3abfe374ca8c34b86d9472bc0fb5d8",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/product-cloud-operations/agents/openai.yaml",
+      "packaged_sha256": "6a284888f1bfdba5185c8aa03af659e7598df6ac85e00201ef7864fde283312b",
+      "source_sha256": "e1422729837b7ea94536966e83278671f6f8a1c92da1057a7845d2fa9cfbc228",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/product-evidence-loop/SKILL.md",
+      "packaged_sha256": "8a902e1124b7ce5bfa242caed7ded329eda18dbadfcff58d1d019635f17833ac",
+      "source_sha256": "9504cf0a66166bc804b3d665658cb0daf5bbb602d139764e02d3948d7f4ffd78",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/product-evidence-loop/references/sop.md",
+      "packaged_sha256": "faa85fb39c939aadf2288e36e7b0e1ef7f527b26ef1c4189325ca752852fbb1f",
+      "source_sha256": "91c02914a28494a3d9cf3281e15c286e2f8cdf5f8ab6ed2ea949d9cc2af70db1",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/product-evidence-loop/templates/reviewtrace.md",
+      "packaged_sha256": "9ad00971fcdc6dcda1384d81d865244af8e8ad9ebe543c7b01b0d026a9da0286",
+      "source_sha256": "f6d5f19c8c05a59d551e18d82a3caebea9a76dcaacd43fa77073883911a13355",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/project-issue-workflow/SKILL.md",
+      "packaged_sha256": "43e778a96fd5280e301e1cd5c1d6b4ab189ad35f40bffa2948acdbf72ff03385",
+      "source_sha256": "de5c195481cfbac1ca1e793c0644adc2458a82773af1e41a30fbacbfda420dad",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/project-launch-report/SKILL.md",
+      "packaged_sha256": "24518dffc14d5dc50e900d5b33cf8697f9ab19af55384dcbf49ad1777743d604",
+      "source_sha256": "f3c3b7503ecd7689d73b470186ac86e8bd617b98f2eb10b4d65aab138937e22d",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/project-launch-report/references/automation.md",
+      "packaged_sha256": "6bdeb64b995391ba0dbb8f9cb36e41ffb7b9f692015fceca961e28ddcf8f3ec9",
+      "source_sha256": "a2a09b42a30490fcc190202444faa511ffe5a904b28e5ef025c5f8165a0b6b2c",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/project-launch-report/scripts/project_issue_launch_report.py",
+      "packaged_sha256": "e7441b8e08a3ac5df6772c838f7c90866d2d3531db97b89148cefa7eb981fedc",
+      "source_sha256": "562f69525484d068f9c67ec352c0660e30cfd4d55667a353d7e2e5917418fc3e",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/requirement-card-governance/SKILL.md",
+      "packaged_sha256": "945f2cbc4ed0b9b099cd1e8d4687e761140121b77ebd533fc286599c9453cab7",
+      "source_sha256": "371c851593b9afcdcb747cfa462368f8b46e544e1e0b5d52900d4fe5b844bcd6",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/vault-writing-preamble/SKILL.md",
+      "packaged_sha256": "98573edf11a269f3cc99a71b22ea0b8f00ab3734d5b99263c487d7aa7a1d240b",
+      "source_sha256": "e944905cd70bf5fab1dc69158863b9b635bf65a47899f65fc6dfbcff158c149d",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/maintainer-portable-workflows/skills/vault-writing-preamble/references/vault-operating-contract.md",
+      "packaged_sha256": "f7def078648824737b42d1c35fbab9f80d4f5ae0b230de19f27bea2997e982ea",
+      "source_sha256": "564d92ce20cd041e48f1dc98000fe88d9c99cb13b4d21c5aebabfad7112dd39d",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/ab-test-setup/SKILL.md",
+      "packaged_sha256": "36431a0869ccbc5608e1e547c6615116b9bf04425231af343dceabeb13e64eea",
+      "source_path": "ab-test-setup/SKILL.md",
+      "source_sha256": "8d0bc9befef73edd90aaa4d03e376a1a7a4a11c6cebe1c46ba3002a4e8c0a405",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/analytics-tracking/SKILL.md",
+      "packaged_sha256": "1afbfa54e2f26304ac587d73b94041c4a682db8e48d6ee433bb8f47b7a3d69a9",
+      "source_path": "analytics-tracking/SKILL.md",
+      "source_sha256": "2c3185a9bf861fe0a8e9c84409f78f304bf9d5ec5cef349d1c3794cf77574fae",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/competitor-alternatives/SKILL.md",
+      "packaged_sha256": "02ad1b7c136c2926fe3f521ba0095f97b7ee645887cefbbc05a65f46879f7ee5",
+      "source_path": "competitor-alternatives/SKILL.md",
+      "source_sha256": "b44eded661f3efde11065a85df1f5118428c9d7235215946c3f5ac9cd7db09c2",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/email-sequence/SKILL.md",
+      "packaged_sha256": "4c00291dd6dad482f08e042ad77a3194e18f539b2e873ec409b4796533e3912c",
+      "source_path": "email-sequence/SKILL.md",
+      "source_sha256": "7f587db063bc347390b1209cb105fea4b8385a2835de50a55893faac44fc5128",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/form-cro/SKILL.md",
+      "packaged_sha256": "580d3ae586534564262d8beb74580d7103c105bc5b1b6db2ae67d96bd29a806b",
+      "source_path": "form-cro/SKILL.md",
+      "source_sha256": "acb959d42c01008d250722d20c4797d05c910a1cec305559c1652682338d3507",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/free-tool-strategy/SKILL.md",
+      "packaged_sha256": "87480452345c483b252606ce64d8b19a963d0a7e1b1127b9be9690ca37fc8a83",
+      "source_path": "free-tool-strategy/SKILL.md",
+      "source_sha256": "142b527301233653a906da73c6c75956e539f22fbc57ab623f3b90da320b3ef8",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/launch-strategy/SKILL.md",
+      "packaged_sha256": "e86f4d6b6e779247233315991a1b33fa287294d9d8b9542b3a45111f9df970cc",
+      "source_path": "launch-strategy/SKILL.md",
+      "source_sha256": "4f8485bc4ccd4e4882629c557993de74c79f8fb6fd4caba89a63363f717d1497",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/onboarding-cro/SKILL.md",
+      "packaged_sha256": "db78196a0f62016e5c7deba78221dd21e52835864842a489a2436da768eb3ec6",
+      "source_path": "onboarding-cro/SKILL.md",
+      "source_sha256": "1181d6e44b10eb0cefa83a319ec9d422b40e080455f9a76f206ff3a69578cdfd",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/page-cro/SKILL.md",
+      "packaged_sha256": "7fc086d4f972d5788766ff45d3712d349c82cab11bdff66b699e2ff184de00eb",
+      "source_path": "page-cro/SKILL.md",
+      "source_sha256": "e53a43b805713941732a1a3a8439af58219cf539b3b5525e64d9ae216ba29891",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/paid-ads/SKILL.md",
+      "packaged_sha256": "eaa4684f3003112a8abd2eca071d3b3c4ed54fea8ffb78847bc43107c738bd2d",
+      "source_path": "paid-ads/SKILL.md",
+      "source_sha256": "82307271ea81218ef505b82cabe83c6c1d02aae0e95d3c2869906aa429be5487",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/paywall-upgrade-cro/SKILL.md",
+      "packaged_sha256": "e02953c825b76e837d79aa3988126830ac6517fce64552361062cd8e88474ee6",
+      "source_path": "paywall-upgrade-cro/SKILL.md",
+      "source_sha256": "871eed7c9f1f09adf05047b22993a777180b34078365c786491da6a39cca5b80",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/popup-cro/SKILL.md",
+      "packaged_sha256": "43d8fef96536bb89cd327d6b305fb7a13c7f473a63904e5b37d606e2b3c9facd",
+      "source_path": "popup-cro/SKILL.md",
+      "source_sha256": "a4c57a95fad970522401c976d10b857fc48fc9cd37c3dc481b2b5ff932b09322",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Store product marketing context in the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/product-marketing-context/SKILL.md",
+      "packaged_sha256": "735ad26fd9acbb7b7d9e48706a888f32559dd9ab095ecdbfd28d1b763395edeb",
+      "source_path": "product-marketing-context/SKILL.md",
+      "source_sha256": "8e86514b56870f1205b978acc8d7fa9e49b40f9d28a3d0eb667fa7c1bceba9ca",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Replace private workspace references with the cited public article and installed companion Skill.",
+      "packaged_path": "packs/marketing/skills/reddit-geo/SKILL.md",
+      "packaged_sha256": "60ae3b3f96c304f02e85a6b3c4c5d0aa2a5c46527e3700741f900592b992c1dc",
+      "source_path": "reddit-geo/SKILL.md",
+      "source_sha256": "09a3e6e3ed85aa30ab21a292ec1db9df467d20b83fe132e978162dd59b368db2",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove the private local article path and resolve companion research files from the installed Skill.",
+      "packaged_path": "packs/marketing/skills/reddit-geo/references/research/01-article-framework.md",
+      "packaged_sha256": "fb0b1554f88bdf69b8b651b8830eec17df99417f03f5f9bcd11e90f7d6f1e8a4",
+      "source_path": "reddit-geo/references/research/01-article-framework.md",
+      "source_sha256": "72458cf45acae3fc0fb75214b83e443bb505817f692941c1a78651d3dea56919",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/referral-program/SKILL.md",
+      "packaged_sha256": "30a0e91771082585cdc7bfc3624d92b3af4c3b3d24f292d5318e898d733d2ab6",
+      "source_path": "referral-program/SKILL.md",
+      "source_sha256": "f4e2b95e6b42bfe46a46fc0593112ae1e2a8674faa0ffcb1d7b2dcf4c3403ece",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/schema-markup/SKILL.md",
+      "packaged_sha256": "24056f0f027933f5d6252a9adb8da40cfad514e9319d674b6056c40c7b548d3a",
+      "source_path": "schema-markup/SKILL.md",
+      "source_sha256": "02642e31c45d994e7f15a6c418649cfc10914e37302517f942514927878dcb0e",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/signup-flow-cro/SKILL.md",
+      "packaged_sha256": "2f468a3a211b85f32317c7476489d371ca53a6c9297e3fdf5c5b1436d854439e",
+      "source_path": "signup-flow-cro/SKILL.md",
+      "source_sha256": "2cd950db24b69cd3ba6511557942f2eb381e9714c9a7881154b3071c14749468",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/social-content/SKILL.md",
+      "packaged_sha256": "b797c152769ecffb7fb01fca71208a7a416c03439e2deddfa9eab45cd49d4696",
+      "source_path": "social-content/SKILL.md",
+      "source_sha256": "cab8b1dc1e1b607fd2322fc3f9dc552a23b128bf46e65ea6bd297318ed7752fc",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Use only the independently authored deck renderer and validator, remove private examples, and require approval before installing Playwright.",
+      "packaged_path": "packs/media/skills/rednote-caption-to-screenshots/SKILL.md",
+      "packaged_sha256": "4121fc8a9e3fbe6286c7068d56f776961a7176095b0de6b71ba09634ff5e405d",
+      "source_path": "rednote-caption-to-screenshots/SKILL.md",
+      "source_sha256": "700795cffabdbf1ead76951f9bec7ce94926ee525e9dd0f312a6462862c6f247",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Resolve the deck renderer from the installed Skill instead of a Cursor-only path.",
+      "packaged_path": "packs/media/skills/rednote-caption-to-screenshots/references/20260126_小红书图文轮播_工程化出图工作流.md",
+      "packaged_sha256": "e4f7641f79767a39583ec50bf0d5f5eec54f938e74b6266c65f6e95326cb5e85",
+      "source_path": "rednote-caption-to-screenshots/references/20260126_小红书图文轮播_工程化出图工作流.md",
+      "source_sha256": "f0b8518a87d7b719f89d00560b0d7ebcf092f4568e0a5d6b9bcb9adadd2d94bc",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Use the installed Skill script directly and require a user-authorized project output path instead of a private daily-note location.",
+      "packaged_path": "packs/media/skills/youtube-video-radar/SKILL.md",
+      "packaged_sha256": "c85a9ec444213335bd8ef0eeb31c66ca387882802e1a98455a54a29376065737",
+      "source_path": "youtube-video-radar/SKILL.md",
+      "source_sha256": "ee914c00d89a785e28b21bb6129928ea5c317822d8d82562608c664adca93e60",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove maintainer-specific Vault index links from the report template.",
+      "packaged_path": "packs/media/skills/youtube-video-radar/references/report-template.md",
+      "packaged_sha256": "dbe9122c64f8656f14e2739ae5b83b8d926368d4c6ba0be3570c5dc8125043d2",
+      "source_path": "youtube-video-radar/references/report-template.md",
+      "source_sha256": "380db6512e58e326999045f9615be49a506007240329fe523b73bec3caf24213",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Invoke yt-dlp directly instead of relying on the maintainer's RTK shell wrapper.",
+      "packaged_path": "packs/media/skills/youtube-video-radar/scripts/youtube_radar.py",
+      "packaged_sha256": "b5a8a17056805f86e4b220cc880532fba81b9d35608ab48e18c247356df5f086",
+      "source_path": "youtube-video-radar/scripts/youtube_radar.py",
+      "source_sha256": "c06ed2410633c8ae5d9f14536dce688b844535aa9f43f27f3369c9c53fe71b0e",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Use a runtime-neutral project Skill root in the research-merge usage example.",
+      "packaged_path": "packs/persona-authoring/skills/huashu-nuwa/scripts/merge_research.py",
+      "packaged_sha256": "013a9cbe4b2b9e80b6c25fe253b9442717e0d3a9880b7dac21ab36d90eea628c",
+      "source_path": "scripts/merge_research.py",
+      "source_sha256": "bd371814fb32cf10ab171b0f5d20d5a0ca2e9f83570bdf763729d0ab3187c6a6",
+      "upstream_commit": "72857dc720f4d1dd3e68a40a544341dfc65ea33e",
+      "upstream_origin": "https://github.com/alchaincyf/nuwa-skill"
+    },
+    {
+      "description": "Remove Cursor-only hook claims and use runtime-neutral Skill-relative scripts and references.",
+      "packaged_path": "packs/planning-workflows/skills/planning-with-files/SKILL.md",
+      "packaged_sha256": "be8d1e24851981c23f512716c56672ca72ea27f153d2cf462f690e57ef965594",
+      "source_path": "planning-with-files/SKILL.md",
+      "source_sha256": "cffcf17bf317692e51321640ccdcc7f65e2d3e9881c276026ac2bb2f528ebe9a",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "https://github.com/OthmanAdi/planning-with-files"
+    },
+    {
+      "description": "Publish a dated public-research snapshot, remove runtime prompt excerpts and private research-log pointers, and prohibit extracting hidden prompts.",
+      "packaged_path": "packs/research-workflows/skills/claude-system-prompt-anatomy/SKILL.md",
+      "packaged_sha256": "56f01e8e02ba9934fb37fc6fd7f3795e9fcfa02a95a528b7dc7f06c2a22c4abe",
+      "source_path": "claude-system-prompt-anatomy/SKILL.md",
+      "source_sha256": "8fcbe243d7d919770c21ad81fce3a781d15eeab644632f3f20e3e3c914c7a9b9",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace private runtime-sample provenance with a compact official public-source map and authenticity boundary.",
+      "packaged_path": "packs/research-workflows/skills/claude-system-prompt-anatomy/references/sources/README.md",
+      "packaged_sha256": "39e11bab939d09eb43575bb0b3fc6a9e39ffb5c254043631f3782cc88ac7f459",
+      "source_path": "claude-system-prompt-anatomy/references/sources/README.md",
+      "source_sha256": "445952e7ca4b6823223b1445e18db7959249e17f37515bec5826f95ca382fe9f",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/research-workflows/skills/deep-research/SKILL.md",
+      "packaged_sha256": "dae16e5698ee2f78e295f29d8839c62967ad11ed50463828aadd0a73d85d9a6a",
+      "source_sha256": "48ac6ecfcf1e7976830311fa344927bb254586cbd0a0553e4f1ab305f0c4789d",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Resolve companion Skills from the installed catalog, replace private examples with a data-rights boundary, and use a runtime-neutral independent reviewer.",
+      "packaged_path": "packs/research-workflows/skills/jtbd-amazon-research/SKILL.md",
+      "packaged_sha256": "3f19fac8b8a579ae62ebfe93c0965723ecf5e60cffcd5e69c133ba256806836e",
+      "source_path": "jtbd-amazon-research/SKILL.md",
+      "source_sha256": "5863eb96ce95d4d3f7f004cae572113ec0eae6ee400a5c2504e38e9976483b70",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove private examples and Cursor-only install paths while preserving the deterministic audit workflow.",
+      "packaged_path": "packs/research-workflows/skills/jtbd-result-audit/SKILL.md",
+      "packaged_sha256": "813cea491fa558c6a3b5ed5c3a32e672b7f7a8ed269e05c20f6bd859c6290cdb",
+      "source_path": "jtbd-result-audit/SKILL.md",
+      "source_sha256": "3882122a1b138da21acc295c41e8ce08d7884f15f0c6a7a5818ca0fec5cc31ba",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Disclose the optional Cursor Agent backend, remove private examples, and resolve companion files from installed Skill directories.",
+      "packaged_path": "packs/research-workflows/skills/jtbd-review-runner/SKILL.md",
+      "packaged_sha256": "e1ff2ff7da6ac89911e2f8c38914b30b2f9bcb059a1e03628bb327131642beab",
+      "source_path": "jtbd-review-runner/SKILL.md",
+      "source_sha256": "aeabe968195ce3b7bd77e93bb34bcf5f1c7d41ca0ec1e884fbf8553a89d10f76",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/skill-authoring/skills/skill-creator/SKILL.md",
+      "packaged_sha256": "3cc204a77aaa4b2951e0f80a021dc3c91dab91fbd6df5f0b810967f933fb036f",
+      "source_sha256": "59d69108c886b3a031989f40849fca8c1b8f590fb500e2c1e9a51902066d8dfa",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/skill-authoring/skills/skill-creator/references/cursor-workspace-adapter.md",
+      "packaged_sha256": "64137b90b9453f5c2cf742ec0df8e9aa509bf9039f92af79226f43b42d2e0328",
+      "source_sha256": "4a890fd51c1ff49ac6647e0c931ff656a0eb5ed658289db519f0029fd1d3e2cb",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/skill-authoring/skills/skill-creator/references/skill-iteration-lessons.md",
+      "packaged_sha256": "96e26f985a65237c990096264896ec9b06563400120387b807e1cc22766e8369",
+      "source_sha256": "f0ac974f97ed8955aa8c2ffe0b862d35947c094982d17ad8c648649037c8a311",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/skill-authoring/skills/skill-creator/scripts/add_zk_preamble.py",
+      "packaged_sha256": "825aba973ce93fbea84164c1c6c4010f423128e66b96afe1e1cab6069e7fdb8e",
+      "source_sha256": "b41094fa20b1d6facec524a8b21f376ec0e79d8a1eb6cbce2494cd4575c15d7c",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/skill-authoring/skills/skill-creator/scripts/init_skill.py",
+      "packaged_sha256": "6e4fc2ccfcee7346826814fc3a2ee484d9f3a51d8ba11f1529a69d3ea693b932",
+      "source_sha256": "0e55bfcc5c7d1c9b26a150e5e43f5e42bc24dd98e116c36c6954015acf4f6bec",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish the current maintainer-selected implementation after deterministic privacy and portability rewrites.",
+      "packaged_path": "packs/skill-authoring/skills/skill-creator/scripts/quick_validate.py",
+      "packaged_sha256": "b2753fd29ee4e5b22b7343f8a90557f504ba2bd3471b9a7b54d3a76a1c6dc4d8",
+      "source_sha256": "9c254be263a3f705fbab4673fa362ccb218a922bcfc989ec223a9d147030a94b",
+      "source_snapshot": "catalog/maintainer_source_snapshot.json",
+      "transformation": "deterministic_portability_sanitizer",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Use any user-authorized connector, browser session, or export; prohibit access-control bypass; and require an authorized output path before writes.",
+      "packaged_path": "packs/web-extraction/skills/rednote-reader/SKILL.md",
+      "packaged_sha256": "a1368effe0ee999b63836f99d99fdc35f3be82311f3861e28b6f2842290291b1",
+      "source_path": "rednote-reader/SKILL.md",
+      "source_sha256": "977e2d29637f4100c0ed693c152c7a75b40ef6e0d868abfbffbeeca44ad72d24",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove the requests dependency, restrict downloads to public HTTPS Rednote CDN image URLs, reject non-image responses, cap file size, and omit failed paths.",
+      "packaged_path": "packs/web-extraction/skills/rednote-reader/scripts/download_note_images.py",
+      "packaged_sha256": "f5f9d5d697c808a3a1ee3a6487958757c45028fc36d50312361ca278f76ba87f",
+      "source_path": "rednote-reader/scripts/download_note_images.py",
+      "source_sha256": "9cb8fbeb9a57455f8ce9507fa961fd07b8bdc18789c881a45299b7dba9805f88",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    }
+  ],
+  "schema_version": 1
+}

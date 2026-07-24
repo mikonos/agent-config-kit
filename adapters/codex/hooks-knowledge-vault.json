@@ -1,0 +1,19 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"import base64; print(base64.b64decode('eyJob29rU3BlY2lmaWNPdXRwdXQiOiB7Imhvb2tFdmVudE5hbWUiOiAiU2Vzc2lvblN0YXJ0IiwgImFkZGl0aW9uYWxDb250ZXh0IjogIkFnZW50IENvbmZpZyBLaXQgaXMgYWN0aXZlLiBVc2UgdGhlIHN0YXJ0LWhlcmUgc2tpbGwgd2hlbiB0aGUgdXNlciBpcyB1bnN1cmUgaG93IHRvIGJlZ2luLiBGb2xsb3cgZXhpc3RpbmcgcHJvamVjdCBpbnN0cnVjdGlvbnMgZmlyc3QuIERvIG5vdCBwZXJmb3JtIGRlbGV0aW9uLCBleHRlcm5hbCB3cml0ZXMsIGRlcGxveW1lbnQsIHBheW1lbnQsIG9yIG90aGVyIGlycmV2ZXJzaWJsZSBhY3Rpb25zIHdpdGhvdXQgY2xlYXIgYXV0aG9yaXphdGlvbi5cbktub3dsZWRnZSBWYXVsdCBwcm9maWxlIGlzIGFjdGl2ZS4gUHJlZmVyIHNtYWxsIGxpbmtlZCBub3RlcywgcHJlc2VydmUgdGhlIHVzZXIncyBleGlzdGluZyB2YXVsdCBzdHJ1Y3R1cmUsIGFuZCB2ZXJpZnkgbGlua3MgYW5kIHBhdGhzIGJlZm9yZSB3cml0aW5nLiJ9fQ==').decode('utf-8'))\"",
+            "timeout": 5,
+            "statusMessage": "Loading Agent Config Kit",
+            "commandWindows": "py -3 -c \"import base64; print(base64.b64decode('eyJob29rU3BlY2lmaWNPdXRwdXQiOiB7Imhvb2tFdmVudE5hbWUiOiAiU2Vzc2lvblN0YXJ0IiwgImFkZGl0aW9uYWxDb250ZXh0IjogIkFnZW50IENvbmZpZyBLaXQgaXMgYWN0aXZlLiBVc2UgdGhlIHN0YXJ0LWhlcmUgc2tpbGwgd2hlbiB0aGUgdXNlciBpcyB1bnN1cmUgaG93IHRvIGJlZ2luLiBGb2xsb3cgZXhpc3RpbmcgcHJvamVjdCBpbnN0cnVjdGlvbnMgZmlyc3QuIERvIG5vdCBwZXJmb3JtIGRlbGV0aW9uLCBleHRlcm5hbCB3cml0ZXMsIGRlcGxveW1lbnQsIHBheW1lbnQsIG9yIG90aGVyIGlycmV2ZXJzaWJsZSBhY3Rpb25zIHdpdGhvdXQgY2xlYXIgYXV0aG9yaXphdGlvbi5cbktub3dsZWRnZSBWYXVsdCBwcm9maWxlIGlzIGFjdGl2ZS4gUHJlZmVyIHNtYWxsIGxpbmtlZCBub3RlcywgcHJlc2VydmUgdGhlIHVzZXIncyBleGlzdGluZyB2YXVsdCBzdHJ1Y3R1cmUsIGFuZCB2ZXJpZnkgbGlua3MgYW5kIHBhdGhzIGJlZm9yZSB3cml0aW5nLiJ9fQ==').decode('utf-8'))\""
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Agent Config Kit safe startup reminder."
+}

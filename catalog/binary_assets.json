@@ -1,0 +1,35 @@
+{
+  "assets": [
+    {
+      "description": "Darwin Skill visual reference.",
+      "path": "packs/maintainer-portable-workflows/skills/darwin-skill/assets/aso-hero.png",
+      "sha256": "e506a09d52f855dde09cd8a8b8152786e327cb9df4896a1cffaeae56d1022794"
+    },
+    {
+      "description": "Darwin Skill visual reference.",
+      "path": "packs/maintainer-portable-workflows/skills/darwin-skill/assets/banner-check.png",
+      "sha256": "6c881a22a15615c405e8237aba513452c1c355edf910ee29577be5a2ea6cf1e4"
+    },
+    {
+      "description": "Darwin Skill visual reference.",
+      "path": "packs/maintainer-portable-workflows/skills/darwin-skill/assets/chart-loop.png",
+      "sha256": "6757c2cc3e5ac90a2b144d2f9aa9fe387f1f4af85a5151f82acc7ae68233fcda"
+    },
+    {
+      "description": "Darwin Skill visual reference.",
+      "path": "packs/maintainer-portable-workflows/skills/darwin-skill/assets/chart-phases.png",
+      "sha256": "482f65c0ed482710ac0f39be55df95cb3a6fefa9ed491ccfdeebdc8382f47f42"
+    },
+    {
+      "description": "Darwin Skill visual reference.",
+      "path": "packs/maintainer-portable-workflows/skills/darwin-skill/assets/chart-ratchet.png",
+      "sha256": "f006428fd86685a25eb01b183d3aaee455b9e10ca34f9fe0dece149405e78d7e"
+    },
+    {
+      "description": "Darwin Skill visual reference.",
+      "path": "packs/maintainer-portable-workflows/skills/darwin-skill/assets/chart-rubric.png",
+      "sha256": "0ecc92d9d2d9cca171f0dce0ac8703cb79b33bcc51c7fb6538a0f09a22010223"
+    }
+  ],
+  "schema_version": 1
+}

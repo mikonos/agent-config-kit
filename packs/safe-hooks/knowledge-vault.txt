@@ -1,0 +1,1 @@
+Knowledge Vault profile is active. Prefer small linked notes, preserve the user's existing vault structure, and verify links and paths before writing.

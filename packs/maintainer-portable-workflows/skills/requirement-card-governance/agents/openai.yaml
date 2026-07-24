@@ -1,0 +1,4 @@
+interface:
+  display_name: "Requirement Card Governance"
+  short_description: "Route requirement cards through release gates."
+  default_prompt: "Decide where this requirement belongs and update the right artifact."

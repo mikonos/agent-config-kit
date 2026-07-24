@@ -1,0 +1,22 @@
+{
+  "scope": {
+    "marketplace": "US",
+    "locale": "en-US",
+    "product_type": "ARTIFICIAL_PLANT",
+    "parent_asin": "B0PARENT01",
+    "target_launch": "2026-08-01"
+  },
+  "policy_snapshot": {
+    "checked_at": "2026-07-15",
+    "effective_at": "2026-07-27",
+    "title_max_chars": 75,
+    "item_highlights_max_chars": 125,
+    "scope": "US non-media public announcement; target product type still requires live verification"
+  },
+  "children": [
+    {"asin": "B0RED0001", "color": "Red", "pack_count": 12, "pack_unit": "bundles"},
+    {"asin": "B0WHITE01", "color": "White", "pack_count": 8, "pack_unit": "bundles"}
+  ],
+  "old_title": "ExampleBrand Artificial Outdoor Flowers UV Resistant Fake Plants for Outdoors Garden Porch Patio Window Box Planter Farmhouse Decor Realistic Faux Greenery 12 Bundles",
+  "request": "bulk update and publish all children"
+}

@@ -1,0 +1,14 @@
+{
+  "_comment": "MCP get_note_content 返回的 JSON 保存为此格式后，可用 --manifest 传入 download_note_images.py。只需保留 imgs / title / author / url。",
+  "title": "我给 OpenClaw 搭建的「永不失忆」记忆系统",
+  "author": "bryan",
+  "url": "http://xhslink.com/o/5szVO8EVIq4",
+  "content": "",
+  "imgs": [
+    "https://sns-webpic-qc.xhscdn.com/.../01.webp",
+    "https://sns-webpic-qc.xhscdn.com/.../02.webp"
+  ],
+  "tags": [],
+  "likes": 127,
+  "comments": 18
+}

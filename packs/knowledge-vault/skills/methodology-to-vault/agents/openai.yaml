@@ -1,0 +1,4 @@
+interface:
+  display_name: "Methodology To Vault"
+  short_description: "Land researched methods as vault artifacts."
+  default_prompt: "Research this method and land it in the vault as a reusable artifact."

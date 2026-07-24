@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon Listing Optimizer"
+  short_description: "Evidence-first Amazon Listing audit, rewrite, lint, and experiment workflow."
+  default_prompt: "Audit or optimize this Amazon Listing from product facts, current marketplace rules, customer questions, and measurable experiments without inventing claims or publishing automatically."

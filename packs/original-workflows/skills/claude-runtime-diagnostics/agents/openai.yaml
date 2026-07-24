@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude Runtime Diagnostics"
+  short_description: "Diagnose Claude install, plugins, config, sessions."
+  default_prompt: "Diagnose why this Claude Code capability is not visible or working."

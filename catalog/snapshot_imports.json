@@ -1,0 +1,1627 @@
+{
+  "schema_version": 1,
+  "imports": {
+    "khazix-writer": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "081bfbf5bc0f0c9a2c5a6410eaaa9de18a0cc50f932a1195f45df04e30018602"
+        },
+        {
+          "path": "references/content_methodology.md",
+          "sha256": "e9d12c563c04a8795cb1513b222c275df0ecfbc885149d02da2bc817a10bdcd2"
+        },
+        {
+          "path": "references/style_examples.md",
+          "sha256": "6ebf6f03072099c5f705d620fcbd2deeac15a2d4340617b72fa861d7f00cce7f"
+        }
+      ],
+      "license_path": "khazix-skills/LICENSE",
+      "license_sha256": "b7f53d07ea4ae2eef26a4f8b28cb7d4df95586e2aa713df408f1ffde9f5a0fea",
+      "origin": "https://github.com/KKKKhazix/khazix-skills",
+      "pack": "writing",
+      "source": "agents-global",
+      "source_dir": "khazix-skills/khazix-writer",
+      "skill": "khazix-writer"
+    },
+    "opencli-local-adaptation": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "b527d8556da96090ef8afdeaa976ebc85334a455b5467bfd47277e76a17fc4e3"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "0210b8b66cf00358242cb921ba2be3a46dfe0190159b1b952388a3880ce1ff54",
+      "license_source": "opencli-upstream",
+      "origin": "https://github.com/jackwener/opencli",
+      "pack": "browser-automation",
+      "source": "agents-home",
+      "source_dir": "skills/opencli",
+      "skill": "opencli"
+    },
+    "coreyhaines31-ab-test-setup-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "8d0bc9befef73edd90aaa4d03e376a1a7a4a11c6cebe1c46ba3002a4e8c0a405"
+        },
+        {
+          "path": "references/sample-size-guide.md",
+          "sha256": "96aef9d20c4607662beb924fa31260dee4c0db0c1dd6b607cdb3c4c701f9efd2"
+        },
+        {
+          "path": "references/test-templates.md",
+          "sha256": "761a40b9de8d16f18fa7f60b59e77aa749607ac8014af43e0b022f47fa87c812"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "license_source": "marketing-upstream",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "ab-test-setup",
+      "skill": "ab-test-setup"
+    },
+    "coreyhaines31-analytics-tracking-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "2c3185a9bf861fe0a8e9c84409f78f304bf9d5ec5cef349d1c3794cf77574fae"
+        },
+        {
+          "path": "references/event-library.md",
+          "sha256": "efc7bdb0a7b3efdea9e67ff0d1bc894dcf89ec9b9b8f3414f123d12bee109412"
+        },
+        {
+          "path": "references/ga4-implementation.md",
+          "sha256": "f33fd6db0cbdb1bdc183af5f52bedd956d14680e54bca2e2c3917de29698636e"
+        },
+        {
+          "path": "references/gtm-implementation.md",
+          "sha256": "112da33832439d2ae0b2729e5031fc927df444cd1ae8eb20542d45c1b5690f52"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "license_source": "marketing-upstream",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "analytics-tracking",
+      "skill": "analytics-tracking"
+    },
+    "coreyhaines31-competitor-alternatives-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "b44eded661f3efde11065a85df1f5118428c9d7235215946c3f5ac9cd7db09c2"
+        },
+        {
+          "path": "references/content-architecture.md",
+          "sha256": "9fbc1793b63f3e0302ff4f05ec74fb9944792a5f878a890aba47bab5b2ac4d35"
+        },
+        {
+          "path": "references/templates.md",
+          "sha256": "8f367433afe78d532f81e0da757514cdbeaa3ea39689ce158c1c963079a93046"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "license_source": "marketing-upstream",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "competitor-alternatives",
+      "skill": "competitor-alternatives"
+    },
+    "coreyhaines31-email-sequence-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "7f587db063bc347390b1209cb105fea4b8385a2835de50a55893faac44fc5128"
+        },
+        {
+          "path": "references/copy-guidelines.md",
+          "sha256": "02f08897e4aa99ecc4ec1893d61d0c26d0c5e62e09af26f175087455e9b68e01"
+        },
+        {
+          "path": "references/email-types.md",
+          "sha256": "a5dd4f0555a7b21d2ff426948d15657825b9d16265652563f5e272d2e1879bfd"
+        },
+        {
+          "path": "references/sequence-templates.md",
+          "sha256": "d47b12e263ad52b72ab741c490bbc98d8bf8034d61faccc50b7dbb2650a9fba0"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "license_source": "marketing-upstream",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "email-sequence",
+      "skill": "email-sequence"
+    },
+    "coreyhaines31-form-cro-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "acb959d42c01008d250722d20c4797d05c910a1cec305559c1652682338d3507"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "license_source": "marketing-upstream",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "form-cro",
+      "skill": "form-cro"
+    },
+    "coreyhaines31-free-tool-strategy-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "142b527301233653a906da73c6c75956e539f22fbc57ab623f3b90da320b3ef8"
+        },
+        {
+          "path": "references/tool-types.md",
+          "sha256": "3869418a784ec94e95528dbe3f39cd2571cff6f7649e5e0be28d675be61d5a3f"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "license_source": "marketing-upstream",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "free-tool-strategy",
+      "skill": "free-tool-strategy"
+    },
+    "coreyhaines31-launch-strategy-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "4f8485bc4ccd4e4882629c557993de74c79f8fb6fd4caba89a63363f717d1497"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "license_source": "marketing-upstream",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "launch-strategy",
+      "skill": "launch-strategy"
+    },
+    "coreyhaines31-onboarding-cro-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "1181d6e44b10eb0cefa83a319ec9d422b40e080455f9a76f206ff3a69578cdfd"
+        },
+        {
+          "path": "references/experiments.md",
+          "sha256": "b4caad0b50ca9483a6a79846d0b24a7bab62850b45a3f2232d73f78629468932"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "license_source": "marketing-upstream",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "onboarding-cro",
+      "skill": "onboarding-cro"
+    },
+    "coreyhaines31-page-cro-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "e53a43b805713941732a1a3a8439af58219cf539b3b5525e64d9ae216ba29891"
+        },
+        {
+          "path": "references/experiments.md",
+          "sha256": "bbcc356c0af36cfaa4556bf9e929deac30c65cafb37f909d7c51d4777fe254ca"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "license_source": "marketing-upstream",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "page-cro",
+      "skill": "page-cro"
+    },
+    "coreyhaines31-paid-ads-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "82307271ea81218ef505b82cabe83c6c1d02aae0e95d3c2869906aa429be5487"
+        },
+        {
+          "path": "references/ad-copy-templates.md",
+          "sha256": "853ab37e23b75aa3355bdbed9a1357948e635dbdf737be5a1a7aa0126d701206"
+        },
+        {
+          "path": "references/audience-targeting.md",
+          "sha256": "21ed7c99fb1124ca38635d6f313cc2f3ca49a192f390cd55293b7bd5a028e1b1"
+        },
+        {
+          "path": "references/platform-setup-checklists.md",
+          "sha256": "b86e206f8c7233c235d7d385a69e17fac16ac001ab130242b7700fe650752f69"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "license_source": "marketing-upstream",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "paid-ads",
+      "skill": "paid-ads"
+    },
+    "coreyhaines31-paywall-upgrade-cro-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "871eed7c9f1f09adf05047b22993a777180b34078365c786491da6a39cca5b80"
+        },
+        {
+          "path": "references/experiments.md",
+          "sha256": "5a5760e23c4809ddbc123905e0073ebca2653e7edad29482db810b825d62bd19"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "license_source": "marketing-upstream",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "paywall-upgrade-cro",
+      "skill": "paywall-upgrade-cro"
+    },
+    "coreyhaines31-popup-cro-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "a4c57a95fad970522401c976d10b857fc48fc9cd37c3dc481b2b5ff932b09322"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "license_source": "marketing-upstream",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "popup-cro",
+      "skill": "popup-cro"
+    },
+    "coreyhaines31-product-marketing-context-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "8e86514b56870f1205b978acc8d7fa9e49b40f9d28a3d0eb667fa7c1bceba9ca"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "license_source": "marketing-upstream",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "product-marketing-context",
+      "skill": "product-marketing-context"
+    },
+    "coreyhaines31-referral-program-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "f4e2b95e6b42bfe46a46fc0593112ae1e2a8674faa0ffcb1d7b2dcf4c3403ece"
+        },
+        {
+          "path": "references/affiliate-programs.md",
+          "sha256": "691313b7c7157c1791759e046c08434219172fa5c3dc145a04ed8476c503fe0c"
+        },
+        {
+          "path": "references/program-examples.md",
+          "sha256": "2baad60cdb251414ea559bd4dcf23d6c394ff66e593ae9392453f2e24f585c8a"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "license_source": "marketing-upstream",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "referral-program",
+      "skill": "referral-program"
+    },
+    "coreyhaines31-schema-markup-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "02642e31c45d994e7f15a6c418649cfc10914e37302517f942514927878dcb0e"
+        },
+        {
+          "path": "references/schema-examples.md",
+          "sha256": "5d55c96ae9859a5fb84cb18828c4a96dcd468e7aeec667c88fdf9032558ab318"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "license_source": "marketing-upstream",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "schema-markup",
+      "skill": "schema-markup"
+    },
+    "coreyhaines31-signup-flow-cro-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "2cd950db24b69cd3ba6511557942f2eb381e9714c9a7881154b3071c14749468"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "license_source": "marketing-upstream",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "signup-flow-cro",
+      "skill": "signup-flow-cro"
+    },
+    "coreyhaines31-social-content-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "cab8b1dc1e1b607fd2322fc3f9dc552a23b128bf46e65ea6bd297318ed7752fc"
+        },
+        {
+          "path": "references/platforms.md",
+          "sha256": "3c4e1b15717a3bcd4ed0cf29dc167dac28aa88bbf01723fde53815122396090f"
+        },
+        {
+          "path": "references/post-templates.md",
+          "sha256": "db6525e51a690b61faf97a0acf51a2a57526de90da01c6bb37679d056c18c7f4"
+        },
+        {
+          "path": "references/reverse-engineering.md",
+          "sha256": "c27bef59d463b3b11331c1770f4a23e9e6bbce7d7c8db1e7f7f4f14ba206243f"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "license_source": "marketing-upstream",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "social-content",
+      "skill": "social-content"
+    },
+    "qa-cases-original": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "261dd05d9c122472c37f79ca89703641fcd9f45e1795e027fa258f98508a3fd6"
+        },
+        {
+          "path": "references/ai-features.md",
+          "sha256": "3e145314016621cfc82db11b831f5c2333f4a80011ba38736d079c7d4302e041"
+        },
+        {
+          "path": "references/api-backend.md",
+          "sha256": "e6880f9f588d99aa17d0d5e73807b195a417aa3f4924d9f973ad8ec4b6cd5cca"
+        },
+        {
+          "path": "references/frontend-ui.md",
+          "sha256": "ec03016015b182d0082e7ded09face7c7fe7391cf6b909bbb36ae18b637a2dc1"
+        },
+        {
+          "path": "references/revenue-events.md",
+          "sha256": "c98e47bfe75655d93bcb191a33f805c5ca0a760dcb52a1101f863dc89b4052c6"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "quality-assurance",
+      "source": "agents-home",
+      "source_dir": "skills/qa-cases",
+      "skill": "qa-cases"
+    },
+    "nuwa-perspectives": {
+      "license_path": "huashu-nuwa/LICENSE",
+      "license_sha256": "d0952e801d7484cc5344f41cc0378567d20a3c996b784eb97460287adde9ab37",
+      "origin": "https://github.com/alchaincyf/nuwa-skill",
+      "pack": "perspectives",
+      "source": "agents-global",
+      "skills": {
+        "andrej-karpathy-perspective": "08d359f706f60f866de5c6aa4e9db8d401587ab0ac0296f92552aa5d522ce438",
+        "elon-musk-perspective": "c2b86f0c5f3e632199f997ef306c1f0611a04f6fe81f110fbc7c4ccacab4c00d",
+        "feynman-perspective": "768e2a90a0a5751ce4546f9f3acd55d95c3c1fc257066759409e83c3d0807cbe",
+        "ilya-sutskever-perspective": "1c7328eceb45f40484c1e1c8eed48167e8d75ddff85ffc57ac4188472f968f90",
+        "naval-perspective": "c95411f4fbb49b92ea0f600a571706568016221540647f50064b801461c06e6f",
+        "paul-graham-perspective": "9ddcb90ca0a94b2d508a8de9a67c0badaa20c9ee53bc620e0f6a5106c469dce8",
+        "steve-jobs-perspective": "221a64d842f3bd1598895fdd6d5858e96953f6a8809e8bb50250f9bb5d1018fa",
+        "taleb-perspective": "24c216c03bcd54e4319e8300331677d4a6124aa0a8846dee9204a03738609333",
+        "zhang-yiming-perspective": "71d90e1732edfdcd6f4a77847cf143f8306ec2d7171bb9981cdaebc75e058d07",
+        "zhangxuefeng-perspective": "a132d68a89c61121cc44e980f985f1fbea62c706b3fb6995262f28448cde650b"
+      },
+      "source": "agents-global",
+      "source_dir": "huashu-nuwa/examples"
+    },
+    "yunqiao-investing-perspectives": {
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "generated-investing-perspectives",
+      "source": "agents-home",
+      "source_dir": "skills",
+      "skills": {
+        "master-bacarella-perspective": "8126978f3f8a6625bb24238dbeb40ba9901c33d54d75f691e1490111514c5291",
+        "master-bailey-perspective": "9b34919aeaf07511c0a1d91c042d05cfae1e5dc29e3cd381d96e1762bd4a77b4",
+        "master-bolen-perspective": "fb9b62bd22b320093c2e8c0c0fe8af4588893dad8cfb77063d9b5cc4b078d3f0",
+        "master-dreman-perspective": "8e7af45b579e23497c159bb328a12af97e2141e827aec251ae9a84658e3710d8",
+        "master-dutton-perspective": "386caa786452d58e77752d061b227f5479a66058af9d2e8cb214c9236ee1c768",
+        "master-friess-perspective": "ec3b099b3662323c280023bef44ff6a4d861843c2034759097b8eb36894b0c7b",
+        "master-greenblatt-perspective": "f997e204f27e4ba48eacdc04aea7eda670ab9da318b633b1c7b4df0219624778",
+        "master-henderson-perspective": "1ad193f5dbf613f84dbe66051df1fe141d7c55f9a1a226ba74aa00e3ab7c758f",
+        "master-hesser-perspective": "20ddf396a684f984953314d06c491a7100e4c2f289cb83ede5bbdc9f65f0a2ad",
+        "master-laure-perspective": "edaf796e88d3b0bb67234e6c0dd7ab9d66d3d8bb9a020a75b4b7c2212d26a05c",
+        "master-leuthold-perspective": "f4893e1f77bbf91a0bb95b2a35158deb3557451f7fca4b9062f9d2dda52b8ff6",
+        "master-lynch-perspective": "531f07d34bc3fe7e18cbd07a0333cbbbe64792b159678448d79d5982c43b223f",
+        "master-malkiel-perspective": "5cfecc6dcd9ab0941a7719124c3a39cc06b620d20cf643f61ade2f458c2e6c66",
+        "master-marvin-perspective": "f44f35bfc4c597eb0bf0bf7404d6fddd8f9b2bf508562bb796846e0e390f6eba",
+        "master-mclean-perspective": "73e984eacd5fe2d75556ac7ca20d42c335a8a72077bb30f75daf27c14573f229",
+        "master-miller-perspective": "8fa7bacb7c4257b995d2a15f525e930f2554f5044b45cb9a94882a2ec156d7af",
+        "master-oelschlager-perspective": "ed87b3652b410dd7664ebc9e129f140cc34fcd5b82770425aaafa1ecb78251ed",
+        "master-okumus-perspective": "d1d5cc63023e27f470c4a0225523a509d1933b10ced56f980dc4b57ed15f5354",
+        "master-oshaughnessy-perspective": "464284be11086ac08614d7f39045f13c5fd3017098dcdc31e382d1224cce221d",
+        "master-rogers-perspective": "aed799489ed632f9fd7ce20832e1ce6f23019ab742c398b11869205698cac925",
+        "master-rossman-perspective": "0025e7c3f29743d72b5d2490bdba59271cb28c4edde72df2b912e4b9784bc6a0",
+        "master-sanborn-perspective": "5c884d71e1d5ea866474ed378df03013ad4e2ab724f11d5c4d9a86d7ecdb0ca9",
+        "master-sivy-perspective": "730d14f01cbed70c38344bbe3d630e6a225c3eea2003cb2c20c5c3444c938db5",
+        "master-whitney-george-perspective": "f347c37d9e0d9e8aa4eb5fd53a3b80fa82932902cbaf2025f6273445025946f9",
+        "master-whitridge-perspective": "a1c373b1554eabf34c12233cf049502c431536ab08cd5abee6d93a136e386178",
+        "master-yacktman-perspective": "6d6930d4bc32018d1150eacb657b03615c295bf2a79e9643407e6d77cf7346a2"
+      }
+    },
+    "yunqiao-domain-perspectives-core": {
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "generated-domain-perspectives",
+      "source": "cursor-project",
+      "source_dir": ".",
+      "skills": {
+        "bill-buxton-perspective": "478b4f1b1a75def580dcc5b26c833639b02e17eeeb928a9f6e3df922c286c589",
+        "brigid-schulte-perspective": "64f7fa9beb94ccde44c9d1e6fb54bb1134a03eb685d5870d221ef908c7583544",
+        "bruce-feiler-perspective": "542f60dff47bf9a2b5218dd86178773ffc9195b1a4577cb53d8f73883cb0a1d3",
+        "david-buss-perspective": "ac4bb369183d844d91a74176c8ebe176ef43fe5dc5cd727f179022c9c75f44f9",
+        "dichter-perspective": "220802b00b21ca116c0aaf22418016adb338dee2cd6f5157e025fa557a53f4d6",
+        "edward-tufte-perspective": "5bf1d0aca2cc5a1f3bb1203fdf7cd609a9370e2efae2b11d20e351ebd9419267",
+        "elinor-ochs-celf-perspective": "3f779248e714be72f63c5d0b1d9263c2d55e22543765c558b3aeada3bd420dc4",
+        "emily-oster-perspective": "6f435f18acf699bf83c1c90c491fec1cd5938c4316083f2e507e9a36c297a2c4",
+        "eric-evans-perspective": "4a78a22aacd4d37c12a13c4fef4764ca578428bdfa6ecc81aaf734bde412a0dd",
+        "eve-rodsky-perspective": "ee1c6d89a0a4af3b743b264ca90c1946c8320ea528fd4d2f91615c290b9ccf01",
+        "george-polya-perspective": "72c009e5ffca599bbbbc659b728d53608a72bbb616af5293565ac51bef42342c",
+        "howard-marks-perspective": "5f4cf1eecfe424291b2c6e61cd5a3f73a53ed233b90e4686065fadfaeb42b5c3",
+        "james-bach-perspective": "00561ee0334c59762e756c823fe192f28259b2d0fbf2319efddaa570e7811733",
+        "john-gottman-perspective": "1ccbcb2bba993b0efe6ad67e2b897e0fdd42ba371eebe3b270baa06c6a44a59d",
+        "luhmann-perspective": "95cc42cb43e2319fb2188dbae3d40123086d88d274325b43cba0c2642b7c2006",
+        "munger-perspective": "554a37a5c04f22838918be3616c913f5b801a6b72391679e9521b6214eb5dc21",
+        "teresa-torres-perspective": "007b7327f6c002ef8e6cbfe97dbb329f1e8da1bc6524b5afc07bf4302882f728",
+        "tooby-cosmides-perspective": "5b3e5cdce4d01cbbfed31a0d7d7dd0269afd18eaabb3129eab928f93c9e7edc2"
+      }
+    },
+    "yunqiao-domain-perspectives-additional": {
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "generated-domain-perspectives",
+      "source": "cursor-project",
+      "source_dir": ".",
+      "skills": {
+        "april-dunford-perspective": "a2ec0d7b3e538b6475a05a578883f5d406fa3b0401623410a7805edf6805b49b",
+        "lidan-reframe": "7e2c8fd6b59716f5c90ddfd59049841432eacead53776bfff24965a27ac42e8a",
+        "marty-cagan-perspective": "7c03a28d031587e10ba24d8ce8d6e3f0aa637a67d574cbdc00ac185e12e31476"
+      }
+    },
+    "yunqiao-gautama-buddha-perspective": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "a081f11f7d6fbdae155661ce37d46af3f1010404a6bde0303d4aaed117ed1680"
+        },
+        {
+          "path": "references/routing.md",
+          "sha256": "325310f30fdc7715b5f0468d4cf172aff41dfd1e25a6aa1cdb35c97d39eb5efa"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "generated-domain-perspectives",
+      "source": "cursor-project",
+      "source_dir": "gautama-buddha-perspective",
+      "skill": "gautama-buddha-perspective"
+    },
+    "yunqiao-heidegger-perspective": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "94a28a09a6451a5fb96b306a3fdadb1b6c172df2e77be347bb80ed15ace491fd"
+        },
+        {
+          "path": "references/routing.md",
+          "sha256": "2c00a9c2fa360713df442d39ed084c961a9ef46cc976fbfe33895820675cc95d"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "generated-domain-perspectives",
+      "source": "cursor-project",
+      "source_dir": "heidegger-perspective",
+      "skill": "heidegger-perspective"
+    },
+    "yunqiao-jobs-perspective": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "d5ede11dc745a314ff1aeae199fd388a220e337fe9fdb280748a5d5e0467dab9"
+        },
+        {
+          "path": "references/routing.md",
+          "sha256": "145a2a9c1a1e46ad1ddde9d8e2c8da646b4c6b1e1b2ba81b917ff9c42f5c3eae"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "generated-domain-perspectives",
+      "source": "cursor-project",
+      "source_dir": "jobs-perspective",
+      "skill": "jobs-perspective"
+    },
+    "yunqiao-xu-shunying-perspective": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "5c2ced1f58fd90c599a2c2731d836972645dd44e41f9d3bb5e22255a2a6e4f37"
+        },
+        {
+          "path": "references/evals.md",
+          "sha256": "991e36cb94298f4db86350222d6739f4508a7b8503f95d8441dea0aaf3c8974e"
+        },
+        {
+          "path": "references/phase2-extraction.md",
+          "sha256": "aaab9025cc0808033f5c1be3c9d53fb3284875cec1a52888b2f0fd87c835fca6"
+        },
+        {
+          "path": "references/phase4-verification.md",
+          "sha256": "92c9484a0cae7fb18440f8ee8b4677804420807abebda0643359581a23f2abfb"
+        },
+        {
+          "path": "references/profile-and-boundaries.md",
+          "sha256": "14c3c5867f9bb52556d02aa0db386dd0571b935be4f11821fbd2bc50e31f89cf"
+        },
+        {
+          "path": "references/research/03-expression-dna.md",
+          "sha256": "2f1188b13f5ed0d3b6c81776212a9bbc692427b2f1ccf1e6621e2977bb942ba1"
+        },
+        {
+          "path": "references/research/06-timeline.md",
+          "sha256": "206c692f8c764d17849f7cf0959cd8354aa67beb9c47e8120d9dd04dc5febf4f"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "generated-domain-perspectives",
+      "source": "cursor-project",
+      "source_dir": "xu-shunying-perspective",
+      "skill": "xu-shunying-perspective"
+    },
+    "yunqiao-original-workflows-core": {
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "original-workflows",
+      "source": "cursor-project",
+      "source_dir": ".",
+      "skills": {
+        "active-conversationalist": "ad8f82ba6d787b6ce91eac616125b1a9a994d183334c79359b3d6a22859a2bed",
+        "ceo-deck": "66440137e8500fde086a93263c48bdc1ad74fc1cbbdb18ba959dbba34110d8fd",
+        "claude-runtime-diagnostics": "475b2c6d7ec03d53f8fcacf1e8561ce7452a07e80be2382a70584d63c28a17eb",
+        "digital-marketing": "a68f0c597e1856afe050d3e30c5349b112e029c3646605d6bc7429ffeb0825d2",
+        "plan-reviewer": "6fe7454dcdc7384f53d1a386fba5d886ee7fc0484becdbcedd6811ebed5d80a2",
+        "test-case-design-framework": "e696a6d46dedf1df55c806a825be27b283aaab5a0b010fcca46a35381c9dd541",
+        "text-humanize": "accb63fc609ea9a301159e694cdfd2953b0816aeae50c7f5711f0ef4a5092ad3"
+      }
+    },
+    "yunqiao-ai-native-founder": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "58cd6edd2ad136f436eafe445f9732b474875f5d35b0a7184d66922b1d62b4de"
+        },
+        {
+          "path": "references/evidence-gates.md",
+          "sha256": "92355d555a433cdbc26d975c7426f23961070cf5d856e58cc5cad203d3535e40"
+        },
+        {
+          "path": "references/output-templates.md",
+          "sha256": "0d4a7b7f7d6b7ac2b65e5fb2817cb5b9c718a2b5188d5d6b7f8e3fbb7d0efb35"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "original-workflows",
+      "source": "cursor-project",
+      "source_dir": "ai-native-founder",
+      "skill": "ai-native-founder"
+    },
+    "yunqiao-brand-naming": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "d33d5ca022c78ff12c682747494630c0648e51f9c4ca054eaa77d63acceccbba"
+        },
+        {
+          "path": "references/principles.md",
+          "sha256": "e06562b744db4748c8929a00156f5479bd6d59e6f6bfd90debcfa0ca9919115f"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "original-workflows",
+      "source": "cursor-project",
+      "source_dir": "brand-naming",
+      "skill": "brand-naming"
+    },
+    "yunqiao-database-helper": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "3cefaa52a6cbaec87d9677fef662d04cc2c8d4829568c2f23f87c977d26cf5da"
+        },
+        {
+          "path": "resources/migration-guide.md",
+          "sha256": "2dc2b6e687c7d8ce18297e7cdaec0fd1466cf365bff5989d2caccc45fd35b2cb"
+        },
+        {
+          "path": "resources/schema.md",
+          "sha256": "ce97ee6ab50c09eed3bcfa35093452283af5c9732cfb0293e307b72b1b88937e"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "original-workflows",
+      "source": "cursor-project",
+      "source_dir": "database-helper",
+      "skill": "database-helper"
+    },
+    "planning-with-files-portable": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "cffcf17bf317692e51321640ccdcc7f65e2d3e9881c276026ac2bb2f528ebe9a"
+        },
+        {
+          "path": "examples.md",
+          "sha256": "c71999f2838c8355092c360998253b461e9f7a334805414a0b0a1d604a2308b8"
+        },
+        {
+          "path": "references/manus-principles.md",
+          "sha256": "43ecf894cbf6016cc6ecc6cf329916a79a5c97a89c9ab7de84f3883424dfa253"
+        },
+        {
+          "path": "scripts/check-complete.ps1",
+          "sha256": "55582370ddf396a6306e1454d69310bfc663b2508999c8e2ee27f78922eb6d08"
+        },
+        {
+          "path": "scripts/check-complete.sh",
+          "sha256": "8cac13a594852bc00ab2c64db79d346ae651048178055b1afb49878c0faf883e"
+        },
+        {
+          "path": "scripts/init-session.ps1",
+          "sha256": "474db481a8eb8e9f56779e54595f55051a904158feca88ca5702619b9ec5dbeb"
+        },
+        {
+          "path": "scripts/init-session.sh",
+          "sha256": "1be722d7471cc1dd58ffd136af2f2e91136559a5acd10929ec507c20a10fc895"
+        },
+        {
+          "path": "templates/findings.md",
+          "sha256": "b5e64d73704daefa8492356d2c2c67ffeb78d79d448b316c0a0debc9226ad785"
+        },
+        {
+          "path": "templates/progress.md",
+          "sha256": "a2366167ed178bc4a3c1d72ec6c5f6ea9e38aed67c6f3dd2c1a8cbdb4cde76b6"
+        },
+        {
+          "path": "templates/task_plan.md",
+          "sha256": "03ab63b35434c8cf2375000762bb1f360db2e9b3a825810d0aee311bad5f49aa"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "4f2e5ecfaa4e0833621cfe54c0bdc2f60f086c0925540d7bdc713517eafb3c84",
+      "license_source": "planning-upstream",
+      "origin": "https://github.com/OthmanAdi/planning-with-files",
+      "pack": "planning-workflows",
+      "source": "cursor-project",
+      "source_dir": "planning-with-files",
+      "skill": "planning-with-files"
+    },
+    "yunqiao-prompt-design": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "94815db10d3178846549886192a3bc5e7bce96ec0e9c1550fe42e8ea8b419b47"
+        },
+        {
+          "path": "references/source-synthesis.md",
+          "sha256": "2d5b1097ea1b1643aff0fab34bedbc0e2fef994fb501ac83b2ecf17cbf8b9ff1"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "original-workflows",
+      "source": "cursor-project",
+      "source_dir": "prompt-design",
+      "skill": "prompt-design"
+    },
+    "yunqiao-self-evolve": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "7862924100074196c7a2f2ad0747db581c7db3f773a8c59aae5f9f1c604a8d67"
+        },
+        {
+          "path": "assets/evolution-report-template.md",
+          "sha256": "dcee7127330dede1788be43b65c692360d8b4c9a338dec8a0097a5d3b55a8893"
+        },
+        {
+          "path": "references/constraints-and-rules.md",
+          "sha256": "4f52e68393ab60ff6816f07a9768fc6ed55e06b6517e0ed38ac6ce438a8c1be0"
+        },
+        {
+          "path": "references/execution-protocol.md",
+          "sha256": "ea268136c1874122194006025db8514f331a6c7f855460373d6c3a8b7b39f98c"
+        },
+        {
+          "path": "references/quality-checklist.md",
+          "sha256": "6d55e6063f6ae36edb4150ba8f298bdc8d892abad4e404820aff51de3ef8666c"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "experimental-self-improvement",
+      "source": "cursor-project",
+      "source_dir": "self-evolve",
+      "skill": "self-evolve"
+    },
+    "refoundai-defining-product-vision-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "59b6a1cdb73925b8a0bd892f09ffdb7733bf777e2e93ca83d481ad0200345c56"
+        },
+        {
+          "path": "references/guest-insights.md",
+          "sha256": "3bcf4b1d08dd30ee9dabbab4294d547d6773477fb856e45a4ef3fde7c6854238"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "e282fa0e40644e932d13e2d77e8c91e9599c516deea52f22563e3a9e8389a416",
+      "license_source": "lenny-upstream",
+      "origin": "https://github.com/RefoundAI/lenny-skills",
+      "pack": "lenny-product-workflows",
+      "source": "cursor-project",
+      "source_dir": "defining-product-vision",
+      "skill": "defining-product-vision"
+    },
+    "refoundai-measuring-product-market-fit-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "b70004e03b4daddaa4f4176763ee3808d02353a732ca6c20b2f057d1a8c9e985"
+        },
+        {
+          "path": "references/guest-insights.md",
+          "sha256": "a8836bbc61d43ed278b3a93bbb9ba95d5cc9e0b648b75120e77ab2792e167cd5"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "e282fa0e40644e932d13e2d77e8c91e9599c516deea52f22563e3a9e8389a416",
+      "license_source": "lenny-upstream",
+      "origin": "https://github.com/RefoundAI/lenny-skills",
+      "pack": "lenny-product-workflows",
+      "source": "cursor-project",
+      "source_dir": "measuring-product-market-fit",
+      "skill": "measuring-product-market-fit"
+    },
+    "alirezarezvani-marketing-strategy-pmm-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "efd5445ad47efc2815fef37da49b401966d50c82238894ef1f9326c0d5a5995f"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "a20126646f93d32a8989c3cf4772d59194f405034f7babe7daebeac22b8ab151",
+      "license_source": "alireza-upstream",
+      "origin": "https://github.com/alirezarezvani/claude-skills",
+      "pack": "marketing",
+      "source": "cursor-project",
+      "source_dir": "marketing-strategy-pmm",
+      "skill": "marketing-strategy-pmm"
+    },
+    "noahnan-chanlun-trading-local": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "2e456cdd7fe64ece45fcdca256739b6dd252f7ec9ea0fc7045ca46067aba2962"
+        },
+        {
+          "path": "references/backtest-proxies.md",
+          "sha256": "0ff45833101bf6ed04446705eefab4bb97d25e3263628b96ae84f059037e7415"
+        },
+        {
+          "path": "references/buy-sell-playbooks.md",
+          "sha256": "65a6e89e5212b901cad50d7aa559f95e40bd89f240e918f31163cadf568902ee"
+        },
+        {
+          "path": "references/concepts.md",
+          "sha256": "fe63d4984a5ef01d42a8f100fc13cc52ac59349f01764f50ec05062ed7946f2e"
+        },
+        {
+          "path": "references/filters.md",
+          "sha256": "83edde6ae196b9c405005582cdd4025429f0e57b4dcc5487ce878fddaf0df68f"
+        },
+        {
+          "path": "references/full-general-ai.md",
+          "sha256": "799ada4a8a7cec16e4d1c3591330384504d0faa77b9d3222f02deefd1684c87f"
+        },
+        {
+          "path": "references/invalidation-risk.md",
+          "sha256": "8f9bb38bd06345153aee5741554fa7b291967adda1075836679ec6c5730ff030"
+        },
+        {
+          "path": "references/multi-level-recursion.md",
+          "sha256": "24e1180142feac5a7e47af566ae650ef55d3f5aba97aeeb8faf8f67bd7de10b8"
+        },
+        {
+          "path": "references/original-quickstart.md",
+          "sha256": "c7329e66f0698d8cedaa1915ed72b153198ea79536886a6c1cf9b282bc960b27"
+        },
+        {
+          "path": "references/original-readme.md",
+          "sha256": "2592c74f69c4b9e5780f94f8fc5b29d76d2d4ce9b26b7b5f2e84b04557ea583e"
+        },
+        {
+          "path": "references/original-skill.md",
+          "sha256": "7669db06cd0dac8421c49eedf4e733f1615f1322cae849b3e281911a55898d76"
+        },
+        {
+          "path": "references/self-test-cases.md",
+          "sha256": "40de2c4f25368ed426193e69c4d1f1b056d6250778fc47d9be32026246733a51"
+        },
+        {
+          "path": "references/strict-original-system.md",
+          "sha256": "349aef3e8249fce8a8d23b56178c9816413cdecb0108b61b663b6e29ec4d54cc"
+        },
+        {
+          "path": "references/structure-engine.md",
+          "sha256": "d25e0a432bed10ebc46b9be756469f8ac07f8b3a52a68e48f732e7b9ac650da2"
+        },
+        {
+          "path": "references/visual-reading.md",
+          "sha256": "cfe4a06ffb52c0d089ebadf4427d85d517c0df0979be32207dc2b6ceb74ca50d"
+        },
+        {
+          "path": "references/volume-turnover-money.md",
+          "sha256": "c6e8ad04939c06252abedeca4166f5ad91dac75478d26ff544e95b174fee513a"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "3375abff338528838d2833e03776138f25d3e5703ef48ce39da85cd5a15f94db",
+      "license_source": "chanlun-upstream",
+      "origin": "https://github.com/noahnan-max/chanlun-trading-system",
+      "pack": "financial-research",
+      "source": "cursor-project",
+      "source_dir": "chanlun-trading",
+      "skill": "chanlun-trading"
+    },
+    "yunqiao-maintainer-advanced-core": {
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "maintainer-advanced-workflows",
+      "source": "cursor-project",
+      "source_dir": ".",
+      "skills": {
+        "competitive-profile-builder": "03959e8b49a8a43b27b8172665694fabfd6cdaec2ae253994528289589277f6e",
+        "product-brief": "1bbc7cc61cee751a1c5c2e5a99841d0d99768bdc414b67d1ab80e8dda98bab7f",
+        "strategic-planning": "7c92190e7b812125ba1a898bca27e3d006125ddd98be7330aea1f9c62fb7e9ba",
+        "training-deck-refiner": "ba6b96e4462b832190aacc5ea02d6f8cfcc4197c9c7954344978484901a70ee9"
+      }
+    },
+    "yunqiao-industry-research-os": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "02f002f393e6a9d432a786fedcd21ee5537a211757bd6c14e76c82c610be241e"
+        },
+        {
+          "path": "references/article-framework.md",
+          "sha256": "e99a838d7f8e92dd30581aa8090f22edab0e5454f9ca8b265fa6f99f8899f49d"
+        },
+        {
+          "path": "references/expert-routing.md",
+          "sha256": "97da07b923a88636b5c24c708ef1bb549672469dc665fb3fbcf78822cb211724"
+        },
+        {
+          "path": "references/output-templates.md",
+          "sha256": "f5e0181e4f6865af121e1f756fd46520431bacfd4e012c562c93e4da53a7c6ff"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "maintainer-advanced-workflows",
+      "source": "cursor-project",
+      "source_dir": "industry-research-os",
+      "skill": "industry-research-os"
+    },
+    "yunqiao-truth-source-governance": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "74a7c85e725e221d944bcf2ac262502de5f410707f285dbeb35b10ef7a25cf78"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "081d800ab7f57d1ac0a6d8130546347562324e7b4838741fecbcb2acbb39ccd9"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "maintainer-advanced-workflows",
+      "source": "cursor-project",
+      "source_dir": "truth-source-governance",
+      "skill": "truth-source-governance"
+    },
+    "yunqiao-verify-output": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "75096b155ea68864a829d0cc6f40b0641bbde94a96b1a2d95aa093eba2cf33f3"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "maintainer-advanced-workflows",
+      "source": "cursor-project",
+      "source_dir": "verify-output",
+      "skill": "verify-output"
+    },
+    "yunqiao-workflow-audit": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "23d2be207cd77da867291fcda5b0d770d7c7718ecabb2c068d4974b1b4a65c96"
+        },
+        {
+          "path": "references/audit_report_template.md",
+          "sha256": "5e10f433629a992c253fd4eeb6b1797e51357e318d8a7175e54b2d50f44f512a"
+        },
+        {
+          "path": "references/expert_personas.md",
+          "sha256": "c96bcafdf39831843a335b4ed9d894301d96a63e69ccbaaaa40d21e603ad4a19"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "maintainer-advanced-workflows",
+      "source": "cursor-project",
+      "source_dir": "workflow-audit",
+      "skill": "workflow-audit"
+    },
+    "yunqiao-worktree-handoff": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "917c4d3122ff09da5e2ee57f2a92104dc89fb30f8f9c9836a8e7ec3de9386c7b"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "ebf87b4c32ceeea0910f3956107077d6943b4cb3034ec5be939f740e11ab9291"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "maintainer-advanced-workflows",
+      "source": "cursor-project",
+      "source_dir": "worktree-handoff",
+      "skill": "worktree-handoff"
+    },
+    "yunqiao-maintainer-advanced-core-2": {
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "maintainer-advanced-workflows",
+      "source": "cursor-project",
+      "source_dir": ".",
+      "skills": {
+        "strategic-advisor": "dcb9b3a10b78c0fad7c6bf53d93172b4e55ce33ec8ed314bcbdd83ac7a2e9880",
+        "task-routing": "28b611a7c17d395b45f2ec2c92ce3536dbcb1038eca1862e3fd9efe42f8689df"
+      }
+    },
+    "yunqiao-ai-product-radar": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "5ef8c435cf0b4653d1424ba11c1f1a84831d88ff3928b026bac1e3a09ff1c734"
+        },
+        {
+          "path": "assets/radar-chart-template.html",
+          "sha256": "a40cf036c6bc7e43eb3291c63b739d989aef4f63972814fd71d27b481cd7d7e1"
+        },
+        {
+          "path": "assets/report-template.md",
+          "sha256": "ca41f166407eb7c0f1ed27a1eeee2a95433ded7ba5b2f9813b710d1ddab0254b"
+        },
+        {
+          "path": "assets/signal-doc-template.md",
+          "sha256": "02e98fe75d06f0430501e1a2ee5f759a8f53e1b1ad41046445f8ad9ee09be82a"
+        },
+        {
+          "path": "references/report-guide.md",
+          "sha256": "76ca96e765375cccd9ec9db18f9bce73f70b0f43cae8b7330c8aa4f3dfd36b48"
+        },
+        {
+          "path": "references/scoring-rubric.md",
+          "sha256": "0b750343f60fabe65c5a58f1be95319a4c5568aa4c740c6a26697063385dfff7"
+        },
+        {
+          "path": "references/signal-sources.md",
+          "sha256": "10a5e05eb104fb41ccc6c8454cdcf7fd95cd10226f929c4e0ac10be90887d1a8"
+        },
+        {
+          "path": "scripts/build_radar.py",
+          "sha256": "a56a9176ee02781baffbacee4f50e236679a0098f78e27dea7052697f518ca4f"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "maintainer-advanced-workflows",
+      "source": "cursor-project",
+      "source_dir": "ai-product-radar",
+      "skill": "ai-product-radar"
+    },
+    "yunqiao-amazon-listing-optimizer": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "b9ca84ba491205d76f7a91f2d683150c07acbbf4eb83704d6ac67bffbea34ae1"
+        },
+        {
+          "path": "references/input-contract.md",
+          "sha256": "718fe4302eb948c8fe9424d12f6faea43637c777e78c569070e14d98e638ba4a"
+        },
+        {
+          "path": "references/output-templates.md",
+          "sha256": "9fba60900aad1748f6a18c0a2bae975c30d2c9ee54d6cd48664101cb056334ea"
+        },
+        {
+          "path": "references/policy-and-evidence.md",
+          "sha256": "3c81ae9a59df87a04364b4409cdc7f5bdff0e8f7ed4af9e41ba70f637ac4fe69"
+        },
+        {
+          "path": "scripts/listing_lint.py",
+          "sha256": "174f6d125cec9009cd118eb7b0beb47cbd561ff06f7545444612fc301ed749b6"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "maintainer-advanced-workflows",
+      "source": "cursor-project",
+      "source_dir": "amazon-listing-optimizer",
+      "skill": "amazon-listing-optimizer"
+    },
+    "yunqiao-learning-deepening": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "575282c836c578e4bb4ee28c56ad346484a1830082917ddcec7a1a0ca00ea3b8"
+        },
+        {
+          "path": "references/output-template.md",
+          "sha256": "15dd7c821735ef262331db8b3e294b63787174e7d56f531a29f41498f3db2423"
+        },
+        {
+          "path": "references/question-templates.md",
+          "sha256": "d369787297544e74f4d48cad1bdf4dcf74b1bf1f2961a3aee52c040b369fa664"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "maintainer-advanced-workflows",
+      "source": "cursor-project",
+      "source_dir": "learning-deepening",
+      "skill": "learning-deepening"
+    },
+    "yunqiao-skill-readme-generator": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "f46e0dd8dbd7fcea03ead9226c9d7a94c280380651c9a558fe3a2442845a7040"
+        },
+        {
+          "path": "references/best-practices.md",
+          "sha256": "250fe439b6481f11e899b4e850edc232549b9e44bc722edf860be8f0fbf01461"
+        },
+        {
+          "path": "references/developer-driven-pattern.md",
+          "sha256": "2e19f310ae088cc0e12aa2b95bd116db0c64a8aae61dcce290fe64eff48762d8"
+        },
+        {
+          "path": "references/intent-driven-pattern.md",
+          "sha256": "2937792c51ffc82cf24553ba9c285ac34ab883b0e4231f38df15066b94b21e3f"
+        },
+        {
+          "path": "references/task-driven-pattern.md",
+          "sha256": "6ad666f3d97d56804668b49620e2b91a9af5c553f692451b90b79ea378c008eb"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "maintainer-advanced-workflows",
+      "source": "cursor-project",
+      "source_dir": "skill-readme-generator",
+      "skill": "skill-readme-generator"
+    },
+    "yunqiao-frontend-guidelines": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "9367f2cdc1c2bf6c5af5f154d74ce8283538fa2e94bd6264dbf7f3abf94a56a5"
+        },
+        {
+          "path": "resources/awesome-design-md.md",
+          "sha256": "848ae7cefe50f5a9e566882262bb523645c64d8ab6ad7040bb3c3fe67b1964ff"
+        },
+        {
+          "path": "resources/react-patterns.md",
+          "sha256": "3033ddc1fa7e874abb402dcfccfb2de8a2018e257bc74476ba8f659083335f99"
+        },
+        {
+          "path": "resources/styling-guide.md",
+          "sha256": "add06febbd9f4ce2768285819fc550e7b0b109062d793e75cdf4eafcc195ef6a"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "maintainer-advanced-workflows",
+      "source": "cursor-vault",
+      "source_dir": "frontend-guidelines",
+      "skill": "frontend-guidelines"
+    },
+    "yunqiao-jtbd-amazon-research": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "5863eb96ce95d4d3f7f004cae572113ec0eae6ee400a5c2504e38e9976483b70"
+        },
+        {
+          "path": "scripts/clean_amz_reviews.py",
+          "sha256": "e51a3c1f1b1fc53ac78cf10834ec630f5a730f3fe7f79053971f029d40de8692"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "research-workflows",
+      "source": "cursor-vault",
+      "source_dir": "jtbd-amazon-research",
+      "skill": "jtbd-amazon-research"
+    },
+    "yunqiao-jtbd-result-audit": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "3882122a1b138da21acc295c41e8ce08d7884f15f0c6a7a5818ca0fec5cc31ba"
+        },
+        {
+          "path": "references/job_statement_quality_gate.md",
+          "sha256": "269f32504675243253a0b96aa927a3c4a105cd2e0789c3d2491683d24b21697e"
+        },
+        {
+          "path": "scripts/audit_jtbd_results.py",
+          "sha256": "36a732580ae86f34e90442648ce0521b95b24452e959abd346396209a4bfc0d3"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "research-workflows",
+      "source": "cursor-vault",
+      "source_dir": "jtbd-result-audit",
+      "skill": "jtbd-result-audit"
+    },
+    "yunqiao-jtbd-review-runner": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "aeabe968195ce3b7bd77e93bb34bcf5f1c7d41ca0ec1e884fbf8553a89d10f76"
+        },
+        {
+          "path": "scripts/review_runner_lib.py",
+          "sha256": "7e4619a1dd3f6a7be5f0d8ee9b41b24c82cdaebaf6600167635eb9a74942713d"
+        },
+        {
+          "path": "scripts/run_review_batch.py",
+          "sha256": "993215e724adeb4edfa5df92d8cd23da69c16eab3ba6d486f22fde538b14484d"
+        },
+        {
+          "path": "scripts/run_review_batch_from_file.py",
+          "sha256": "f2908da0e5cb657eb6b5fea84f40f045d5bb264ef2c78f812cd3524e564236e9"
+        },
+        {
+          "path": "scripts/run_single_review.py",
+          "sha256": "f8016f017b17c6c7819584bc1863c0783d32e71fef61eafecc8055eeb1239a39"
+        },
+        {
+          "path": "scripts/select_review_batch.py",
+          "sha256": "cef71e01e29b4ecf9ca4bcf2e50145a78084d8d0b80642716846968aebdef053"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "research-workflows",
+      "source": "cursor-vault",
+      "source_dir": "jtbd-review-runner",
+      "skill": "jtbd-review-runner"
+    },
+    "yunqiao-link-proposer": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "fbc4c46005110187e38d1f2b2d3631033b9b95eb9fc380963f958ac7f81dc703"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "knowledge-vault",
+      "source": "cursor-vault",
+      "source_dir": "link-proposer",
+      "skill": "link-proposer"
+    },
+    "yunqiao-methodology-to-vault": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "a8176c1d0deeda0767cc867db888a03e800d0e3cf4eae9900510208b70beb2c0"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "a30e0b37fc14d4d0b8d2f1184079bd6c391cb1eb4fe032db4c97be053d4784e5"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "knowledge-vault",
+      "source": "cursor-vault",
+      "source_dir": "methodology-to-vault",
+      "skill": "methodology-to-vault"
+    },
+    "yunqiao-structure-note": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "eec47be4ebcd87ed50f12dd1cf25880406299740ef136562e0332a1d4f154386"
+        },
+        {
+          "path": "references/结构化流程.md",
+          "sha256": "58e992373a907e4b9b7c0be267a694aff7cb9ffe22975c6f80da7048e3c5ed02"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "knowledge-vault",
+      "source": "cursor-vault",
+      "source_dir": "structure-note",
+      "skill": "structure-note"
+    },
+    "yunqiao-zk-index-refactor": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "6a2481cbcb4c34fa6f91a0ff5d3eb117c070e095c9cbe36834b5a535f270e525"
+        },
+        {
+          "path": "references/checklist.md",
+          "sha256": "6b3e8cf40c5f49a276205d39f5656c238d4ade8c4f130dfa7d320ca2efcb18aa"
+        },
+        {
+          "path": "references/output-templates.md",
+          "sha256": "b72683c46852f52623d4f4cc493aa811dfec9d187888d610fc1573229b7b26d7"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "knowledge-vault",
+      "source": "cursor-vault",
+      "source_dir": "zk-index-refactor",
+      "skill": "zk-index-refactor"
+    },
+    "yunqiao-short-video": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "6d2bc541ff85b3e2bf6f65a9b535aec779f8a0ba4aa4bbd75ae5c839b3e4dc96"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "media",
+      "source": "cursor-vault",
+      "source_dir": "short-video",
+      "skill": "short-video"
+    },
+    "yunqiao-reddit-geo": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "09a3e6e3ed85aa30ab21a292ec1db9df467d20b83fe132e978162dd59b368db2"
+        },
+        {
+          "path": "references/ai-answer-baseline.md",
+          "sha256": "6ffe78f51c6684e0b38b49b315518c0e811a756847584ed9fa789187773938e2"
+        },
+        {
+          "path": "references/evidence-os-schema.md",
+          "sha256": "67a0e6dc154bd332982481871068430e065ccaa2e13f67ce2dd06fb8827fec88"
+        },
+        {
+          "path": "references/output-templates.md",
+          "sha256": "76e59d4294d83695d379800b27025028fd3fec01167283cfbca40652a8ff959e"
+        },
+        {
+          "path": "references/sources/README.md",
+          "sha256": "ab264499ca8cd0024a44a11f3f569e9f934a64ef557e63b6e90e2da919f03da4"
+        },
+        {
+          "path": "references/research/01-article-framework.md",
+          "sha256": "72458cf45acae3fc0fb75214b83e443bb505817f692941c1a78651d3dea56919"
+        },
+        {
+          "path": "references/research/02-reddit-mechanics.md",
+          "sha256": "07d4820409bda20baf7e7455d6f3e11aff457767a89f0917b61babcbd23f8dca"
+        },
+        {
+          "path": "references/research/03-geo-ai-search.md",
+          "sha256": "e2fba86248569aaec38224038e3613962918d435f7de67b85fcb003a18aeec6e"
+        },
+        {
+          "path": "references/research/04-cases-antipatterns.md",
+          "sha256": "f95ad078dee195707fb20af2db5f8c05af8468355278cf4c598ab5993e8a096a"
+        },
+        {
+          "path": "references/research/05-risks-timeline.md",
+          "sha256": "587ffbfd2555d92a133f7935a8ac54883c9ab4d600f4a1a72c1c64c0d8cf02f6"
+        },
+        {
+          "path": "references/research/06-synthesis-framework.md",
+          "sha256": "39010032a928040b66f3a997a5d31821524164797e3d81a6d13ede52d2055840"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "marketing",
+      "source": "cursor-vault",
+      "source_dir": "reddit-geo",
+      "skill": "reddit-geo"
+    },
+    "yunqiao-youtube-video-radar": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "ee914c00d89a785e28b21bb6129928ea5c317822d8d82562608c664adca93e60"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "ad284e5c700e251ded10fef07efe4e8b8225162542e029df7435f74a97d19835"
+        },
+        {
+          "path": "references/report-template.md",
+          "sha256": "380db6512e58e326999045f9615be49a506007240329fe523b73bec3caf24213"
+        },
+        {
+          "path": "scripts/youtube_radar.py",
+          "sha256": "c06ed2410633c8ae5d9f14536dce688b844535aa9f43f27f3369c9c53fe71b0e"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "media",
+      "source": "cursor-vault",
+      "source_dir": "youtube-video-radar",
+      "skill": "youtube-video-radar"
+    },
+    "yunqiao-rednote-caption-to-screenshots": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "700795cffabdbf1ead76951f9bec7ce94926ee525e9dd0f312a6462862c6f247"
+        },
+        {
+          "path": "references/20260126_小红书图文轮播_工程化出图工作流.md",
+          "sha256": "f0b8518a87d7b719f89d00560b0d7ebcf092f4568e0a5d6b9bcb9adadd2d94bc"
+        },
+        {
+          "path": "references/20260128_参考答案阅览室_图文风格要点.md",
+          "sha256": "a4e3e7d5ef721b95607370d40941137a30a4bf71f31e0b01a62e271ef5cf6882"
+        },
+        {
+          "path": "scripts/render_deck_playwright.js",
+          "sha256": "8a7c7bcd04fbf3fd53068f2a60b56b4c01daf8244c34cf3756633fd4584fcc31"
+        },
+        {
+          "path": "scripts/validate_output.py",
+          "sha256": "3cb942bae599bb7259178c7e0fb22b543f1f1df3765856b88076dcbef00f58ad"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "media",
+      "source": "cursor-vault",
+      "source_dir": "rednote-caption-to-screenshots",
+      "skill": "rednote-caption-to-screenshots"
+    },
+    "yunqiao-rednote-reader": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "977e2d29637f4100c0ed693c152c7a75b40ef6e0d868abfbffbeeca44ad72d24"
+        },
+        {
+          "path": "scripts/download_note_images.py",
+          "sha256": "9cb8fbeb9a57455f8ce9507fa961fd07b8bdc18789c881a45299b7dba9805f88"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "web-extraction",
+      "source": "cursor-vault",
+      "source_dir": "rednote-reader",
+      "skill": "rednote-reader"
+    },
+    "yunqiao-claude-system-prompt-anatomy": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "8fcbe243d7d919770c21ad81fce3a781d15eeab644632f3f20e3e3c914c7a9b9"
+        },
+        {
+          "path": "references/sources/README.md",
+          "sha256": "445952e7ca4b6823223b1445e18db7959249e17f37515bec5826f95ca382fe9f"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "research-workflows",
+      "source": "cursor-vault",
+      "source_dir": "claude-system-prompt-anatomy",
+      "skill": "claude-system-prompt-anatomy"
+    },
+    "yunqiao-liuyao": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "c1e8cfff3eff7958957532390a7ca0a5dcfb236ca7818f102a986fc35be7f9aa"
+        },
+        {
+          "path": "scripts/coin_hexagram.py",
+          "sha256": "e5822d0e0bbce1e00caff8b39c3a5d9cff7ffb3f16b03566908e55a9040a65b3"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "c6f4c3fe41116e978307d9dc6d68513aa49af40c310befb36aef3a3e61998df1",
+      "license_source": "repository",
+      "origin": "this-repository",
+      "pack": "cultural-practices",
+      "source": "cursor-vault",
+      "source_dir": "liuyao",
+      "skill": "liuyao"
+    },
+    "openclaw-gh-issues-portable": {
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "e7a64973e186211725e18a45d076803abc07915e348fd94691e7acaea367d54a"
+        }
+      ],
+      "license_path": "LICENSE",
+      "license_sha256": "73571b25326281d369087f469842c02444fe39faaecebda4d82ed21ff3a1c29d",
+      "license_source": "openclaw-upstream",
+      "origin": "https://github.com/openclaw/openclaw",
+      "pack": "github-automation",
+      "source": "cursor-project",
+      "source_dir": "gh-issues",
+      "skill": "gh-issues"
+    }
+  }
+}

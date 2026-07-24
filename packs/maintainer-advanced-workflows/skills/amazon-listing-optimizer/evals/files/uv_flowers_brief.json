@@ -1,0 +1,17 @@
+{
+  "scope": {
+    "marketplace": "US",
+    "locale": "en-US",
+    "product_type": "ARTIFICIAL_PLANT",
+    "child_asin": "B0UVFLOWER1"
+  },
+  "product_facts": [
+    {"claim_id": "CL-001", "fact": "12 bundles", "grade": "E2", "source": "packing-spec-v3.pdf"},
+    {"claim_id": "CL-002", "fact": "polyethylene material with supplier-declared UV treatment", "grade": "E1", "source": "supplier-spec-2026-07.pdf"},
+    {"claim_id": "CL-003", "fact": "13.8 inch measured bundle length", "grade": "E2", "source": "dimension-qc-2026-07.csv"}
+  ],
+  "missing_evidence": ["No fade-duration/full-sun test", "No waterproof/weatherproof test"],
+  "competitor_signal": "Several competitor reviews say their products never fade; this is not our product evidence.",
+  "requested_words": ["best", "perfect", "never fades"],
+  "publish_request": true
+}

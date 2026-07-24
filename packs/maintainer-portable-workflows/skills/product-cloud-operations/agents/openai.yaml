@@ -1,0 +1,4 @@
+display_name: product Cloud
+short_description: Debug and operate product Cloud through product-cli.
+default_prompt: Check product Cloud health, login state, family routing, calendar sync, or external artifact status using product-cli.
+

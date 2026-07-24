@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "skills": {
+    "release-skills": {
+      "commit": "6b7a2e417500561a5ecdd0b168332f4142584617",
+      "group": "jimliu-baoyu-release-skills",
+      "license": "MIT",
+      "origin": "https://github.com/JimLiu/baoyu-skills",
+      "pack": "release-management"
+    }
+  }
+}

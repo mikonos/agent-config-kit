@@ -1,0 +1,549 @@
+{
+  "description": "Exact pins are emitted only when a runtime lock tree SHA matches the repository default branch. Repository licenses are not Skill-level redistribution approvals.",
+  "repositories": {
+    "Xiangyu-CAS/xiaohongshu-ops-skill": {
+      "current_commit": "5b0b80b7261396955de0494df18182f2401cabc4",
+      "default_branch": "main",
+      "license_scope": "repository_only_requires_skill_level_review",
+      "repository_license_spdx": null
+    },
+    "alchaincyf/nuwa-skill": {
+      "current_commit": "72857dc720f4d1dd3e68a40a544341dfc65ea33e",
+      "default_branch": "main",
+      "license_scope": "repository_only_requires_skill_level_review",
+      "repository_license_spdx": "MIT"
+    },
+    "anthropics/skills": {
+      "current_commit": "1f630fdf9259cec4a14913127dfd7c3b69ef72eb",
+      "default_branch": "main",
+      "license_scope": "repository_only_requires_skill_level_review",
+      "repository_license_spdx": null
+    },
+    "besoeasy/open-skills": {
+      "current_commit": "3bc011321c9054238d207936dbb577aa4b7e0e4d",
+      "default_branch": "main",
+      "license_scope": "repository_only_requires_skill_level_review",
+      "repository_license_spdx": "MIT"
+    },
+    "coreyhaines31/marketingskills": {
+      "current_commit": "c21a984a56da10fb6085e6334f6f60929220a4da",
+      "default_branch": "main",
+      "license_scope": "repository_only_requires_skill_level_review",
+      "repository_license_spdx": "MIT"
+    },
+    "deanpeters/Product-Manager-Skills": {
+      "current_commit": "99710188c134acf590a02c0e4ee1f431e60004cf",
+      "default_branch": "main",
+      "license_scope": "repository_only_requires_skill_level_review",
+      "repository_license_spdx": "NOASSERTION"
+    },
+    "freestylefly/wechat-article-extractor-skill": {
+      "current_commit": "d8f74b8946065e64537f1ad39f962dbed86da3c7",
+      "default_branch": "master",
+      "license_scope": "repository_only_requires_skill_level_review",
+      "repository_license_spdx": null
+    },
+    "geekjourneyx/claude-design-card": {
+      "current_commit": "887cb42a7041829afe1ec4ad2fee6f981e6d0473",
+      "default_branch": "main",
+      "license_scope": "repository_only_requires_skill_level_review",
+      "repository_license_spdx": null
+    },
+    "github/awesome-copilot": {
+      "current_commit": "786bdcfc65b669faee10803db460a7218858ad21",
+      "default_branch": "main",
+      "license_scope": "repository_only_requires_skill_level_review",
+      "repository_license_spdx": "MIT"
+    },
+    "mattpocock/skills": {
+      "current_commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "default_branch": "main",
+      "license_scope": "repository_only_requires_skill_level_review",
+      "repository_license_spdx": "MIT"
+    },
+    "mikonos/interview-analysis": {
+      "current_commit": "b9ca2d32eadb7d506a7bb86c1269f192cb3ae4e0",
+      "default_branch": "main",
+      "license_scope": "repository_only_requires_skill_level_review",
+      "repository_license_spdx": null
+    },
+    "mikonos/interview-designer": {
+      "current_commit": "e08bee79f59c7ba13ed3c1db51d7106fa201e96a",
+      "default_branch": "main",
+      "license_scope": "repository_only_requires_skill_level_review",
+      "repository_license_spdx": null
+    },
+    "mvanhorn/last30days-skill": {
+      "current_commit": "01aef34ca49db1ccc9caaee72913760f4468f6c1",
+      "default_branch": "main",
+      "license_scope": "repository_only_requires_skill_level_review",
+      "repository_license_spdx": "MIT"
+    },
+    "nanmicoder/newscrawler": {
+      "current_commit": "e04c52870e579b5432e8991cd7d342e4fbdd7063",
+      "default_branch": "main",
+      "license_scope": "repository_only_requires_skill_level_review",
+      "repository_license_spdx": "GPL-3.0"
+    },
+    "nextlevelbuilder/ui-ux-pro-max-skill": {
+      "current_commit": "1307d97a72e6c1cda572cb65471ae5ce82995218",
+      "default_branch": "main",
+      "license_scope": "repository_only_requires_skill_level_review",
+      "repository_license_spdx": "MIT"
+    },
+    "obra/superpowers": {
+      "error": "HTTPError",
+      "license_scope": "unresolved"
+    },
+    "openclaw/openclaw": {
+      "current_commit": "1781e2e8f7ca9a446dec21916b762a062157a360",
+      "default_branch": "main",
+      "license_scope": "repository_only_requires_skill_level_review",
+      "repository_license_spdx": "MIT"
+    },
+    "vercel-labs/skills": {
+      "error": "HTTPError",
+      "license_scope": "unresolved"
+    }
+  },
+  "schema_version": 1,
+  "skills": [
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "ask-matt",
+      "status": "exact_current"
+    },
+    {
+      "commit": null,
+      "name": "brainstorming",
+      "status": "lookup_failed"
+    },
+    {
+      "commit": null,
+      "name": "claude-design-card",
+      "status": "current_tree_mismatch"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "claude-handoff",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "code-review",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "codebase-design",
+      "status": "exact_current"
+    },
+    {
+      "commit": null,
+      "name": "copywriting",
+      "status": "current_tree_mismatch"
+    },
+    {
+      "commit": null,
+      "name": "defuddle",
+      "status": "missing_tree_sha"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "design-an-interface",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "diagnosing-bugs",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "domain-modeling",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "edit-article",
+      "status": "exact_current"
+    },
+    {
+      "commit": null,
+      "name": "find-skills",
+      "status": "lookup_failed"
+    },
+    {
+      "commit": null,
+      "name": "frontend-design",
+      "status": "current_tree_mismatch"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "grill-me",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "grill-with-docs",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "grilling",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "handoff",
+      "status": "exact_current"
+    },
+    {
+      "commit": "72857dc720f4d1dd3e68a40a544341dfc65ea33e",
+      "name": "huashu-nuwa",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "implement",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "improve-codebase-architecture",
+      "status": "exact_current"
+    },
+    {
+      "commit": "b9ca2d32eadb7d506a7bb86c1269f192cb3ae4e0",
+      "name": "interview-analysis",
+      "status": "exact_current"
+    },
+    {
+      "commit": "e08bee79f59c7ba13ed3c1db51d7106fa201e96a",
+      "name": "interview-designer",
+      "status": "exact_current"
+    },
+    {
+      "commit": null,
+      "name": "json-canvas",
+      "status": "missing_tree_sha"
+    },
+    {
+      "commit": null,
+      "name": "lark-approval",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-apps",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-attendance",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-base",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-calendar",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-contact",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-doc",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-drive",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-event",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-im",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-mail",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-markdown",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-minutes",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-note",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-okr",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-openapi-explorer",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-shared",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-sheets",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-skill-maker",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-slides",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-task",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-vc",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-vc-agent",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-whiteboard",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-wiki",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-workflow-meeting-summary",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "lark-workflow-standup-report",
+      "status": "live_origin_unpinned"
+    },
+    {
+      "commit": null,
+      "name": "last30days",
+      "status": "current_tree_mismatch"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "loop-me",
+      "status": "exact_current"
+    },
+    {
+      "commit": null,
+      "name": "news-extractor",
+      "status": "current_tree_mismatch"
+    },
+    {
+      "commit": null,
+      "name": "obsidian-bases",
+      "status": "missing_tree_sha"
+    },
+    {
+      "commit": null,
+      "name": "obsidian-cli",
+      "status": "missing_tree_sha"
+    },
+    {
+      "commit": null,
+      "name": "obsidian-markdown",
+      "status": "missing_tree_sha"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "obsidian-vault",
+      "status": "exact_current"
+    },
+    {
+      "commit": "786bdcfc65b669faee10803db460a7218858ad21",
+      "name": "prd",
+      "status": "exact_current"
+    },
+    {
+      "commit": "3bc011321c9054238d207936dbb577aa4b7e0e4d",
+      "name": "presenton",
+      "status": "exact_current"
+    },
+    {
+      "commit": "99710188c134acf590a02c0e4ee1f431e60004cf",
+      "name": "prioritization-advisor",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "prototype",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "qa",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "request-refactor-plan",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "research",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "resolving-merge-conflicts",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "setup-matt-pocock-skills",
+      "status": "exact_current"
+    },
+    {
+      "commit": "1f630fdf9259cec4a14913127dfd7c3b69ef72eb",
+      "name": "skill-creator",
+      "status": "exact_current"
+    },
+    {
+      "commit": "1781e2e8f7ca9a446dec21916b762a062157a360",
+      "name": "summarize",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "tdd",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "teach",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "to-spec",
+      "status": "exact_current"
+    },
+    {
+      "commit": null,
+      "name": "to-tickets",
+      "status": "current_tree_mismatch"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "triage",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "ubiquitous-language",
+      "status": "exact_current"
+    },
+    {
+      "commit": "1307d97a72e6c1cda572cb65471ae5ce82995218",
+      "name": "ui-ux-pro-max",
+      "status": "exact_current"
+    },
+    {
+      "commit": "99710188c134acf590a02c0e4ee1f431e60004cf",
+      "name": "user-story",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "wayfinder",
+      "status": "exact_current"
+    },
+    {
+      "commit": "d8f74b8946065e64537f1ad39f962dbed86da3c7",
+      "name": "wechat-article-extractor",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "wizard",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "writing-beats",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "writing-fragments",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "writing-great-skills",
+      "status": "exact_current"
+    },
+    {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "name": "writing-shape",
+      "status": "exact_current"
+    },
+    {
+      "commit": null,
+      "name": "xiaohongshu-ops",
+      "status": "current_tree_mismatch"
+    },
+    {
+      "commit": null,
+      "name": "xlsx",
+      "status": "current_tree_mismatch"
+    }
+  ],
+  "summary": {
+    "current_tree_mismatch": 11,
+    "exact_current": 39,
+    "live_origin_unpinned": 27,
+    "lookup_failed": 4,
+    "missing_tree_sha": 5
+  }
+}

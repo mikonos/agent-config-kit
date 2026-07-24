@@ -1,0 +1,5 @@
+{
+  "description": "Semantic privacy checks require a maintainer-only ledger under the Git-ignored workbench. No private term matcher or digest is published.",
+  "schema_version": 1,
+  "private_ledger_required": true
+}

@@ -1,0 +1,16 @@
+{
+  "asin": "B0CONF001",
+  "marketplace": "US",
+  "window_days": 7,
+  "sessions_per_week": 120,
+  "changed": {
+    "title": true,
+    "main_image": true,
+    "price": "decreased 8%",
+    "ads": "budget increased 40%"
+  },
+  "reported_cvr_change": "+20%",
+  "alexa_observation": "One account received one recommendation once",
+  "mye_eligible": false,
+  "requested_conclusion": "prove success and rank field weights"
+}
