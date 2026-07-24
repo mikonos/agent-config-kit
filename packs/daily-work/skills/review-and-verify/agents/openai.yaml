@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review and Verify"
+  short_description: "Review work against evidence and concrete completion criteria"
+  default_prompt: "Use $review-and-verify to inspect this work and verify whether it is actually complete."

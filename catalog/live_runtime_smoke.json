@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "constraints": {
+    "file_writes": false,
+    "network_beyond_model_call": false,
+    "session_persistence": false,
+    "tools": "read_only_skill_inspection"
+  },
+  "cases": [
+    {
+      "id": "beginner",
+      "scenario_zh": "用户不知道怎样开始一个普通 AI 任务，希望你选出最小可用工作流并开始。",
+      "expected_skill": "start-here",
+      "source_anchors": [
+        "Choose the smallest workflow",
+        "Restate the concrete outcome"
+      ]
+    },
+    {
+      "id": "article",
+      "scenario_zh": "用户提供一篇文章，希望理解中心论点、证据、推断和限制。",
+      "expected_skill": "deep-read",
+      "source_anchors": [
+        "Identify the central question and thesis",
+        "source evidence"
+      ]
+    },
+    {
+      "id": "verification",
+      "scenario_zh": "用户要求判断一个交付物是否满足原始要求，并给出证据边界和准出结论。",
+      "expected_skill": "review-and-verify",
+      "source_anchors": [
+        "requirement-to-evidence map",
+        "proved, contradicted, incomplete, or unverified"
+      ]
+    },
+    {
+      "id": "large_catalog",
+      "scenario_zh": "用户给出多个 YouTube 频道，希望生成近期视频雷达、按字幕证据排序，并决定最值得看的内容。",
+      "expected_skill": "youtube-video-radar",
+      "source_anchors": [
+        "make the user's attention allocation explicit",
+        "rank by subtitle-confirmed signal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Opaque hashes of reviewed private terms that must not appear in the public tree. Plaintext values remain outside the repository.",
+  "schema_version": 1,
+  "terms": [
+    {
+      "id": "private_term_001",
+      "length": 2,
+      "matcher": "cjk_substring",
+      "sha256": "1eb036a784db172355067bfcf9952abe3bce25ea380a186781390b3e987421ff"
+    },
+    {
+      "id": "private_term_002",
+      "length": 4,
+      "matcher": "cjk_substring",
+      "sha256": "f01678ee6b5135486d0be04924ff93ba72a46675d67d4450756c96c883beb891"
+    },
+    {
+      "id": "private_term_003",
+      "length": 8,
+      "matcher": "ascii_token",
+      "sha256": "956176df8ba67c84dce4fa987fc6c2f1bc4f788aef92090d5216f7a9e1e5c1f2"
+    },
+    {
+      "id": "private_term_004",
+      "length": 6,
+      "matcher": "ascii_token",
+      "sha256": "1063854bbf5155bcf9fe8cf9b578d0e33f20823f6703aee5463bc88a41f8f9a4"
+    },
+    {
+      "id": "private_term_005",
+      "length": 6,
+      "matcher": "ascii_token",
+      "sha256": "9530d2d696006254d552d4164dfee79eb573da4643a2f9aeb63363376b8350fe"
+    }
+  ]
+}

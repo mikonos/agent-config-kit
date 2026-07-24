@@ -1,0 +1,5 @@
+interface:
+  display_name: "Install Agent Config Kit"
+  short_description: "Safely install and maintain this configuration kit"
+  default_prompt: "Use $install to inspect this project and show a dry-run installation plan."
+

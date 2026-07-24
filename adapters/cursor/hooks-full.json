@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "python3 -c \"import base64; print(base64.b64decode('eyJjb250aW51ZSI6IHRydWUsICJhZGRpdGlvbmFsX2NvbnRleHQiOiAiQWdlbnQgQ29uZmlnIEtpdCBpcyBhY3RpdmUuIFVzZSB0aGUgc3RhcnQtaGVyZSBza2lsbCB3aGVuIHRoZSB1c2VyIGlzIHVuc3VyZSBob3cgdG8gYmVnaW4uIEZvbGxvdyBleGlzdGluZyBwcm9qZWN0IGluc3RydWN0aW9ucyBmaXJzdC4gRG8gbm90IHBlcmZvcm0gZGVsZXRpb24sIGV4dGVybmFsIHdyaXRlcywgZGVwbG95bWVudCwgcGF5bWVudCwgb3Igb3RoZXIgaXJyZXZlcnNpYmxlIGFjdGlvbnMgd2l0aG91dCBjbGVhciBhdXRob3JpemF0aW9uLlxuRnVsbCBwcm9maWxlIGlzIGFjdGl2ZS4gVXNlIGFsbC1za2lsbHMtcm91dGVyIHdoZW4gdGhlIHJpZ2h0IFNraWxsIGlzIG5vdCBhbHJlYWR5IG9idmlvdXMsIGluc3BlY3QgdGhlIHNlbGVjdGVkIFNraWxsJ3MgZGVwZW5kZW5jeSByZXBvcnQgYmVmb3JlIHVzZSwgYW5kIGRvIG5vdCB0cmVhdCBhbiBpbnN0YWxsZWQgZmlsZSBhcyBwcm9vZiB0aGF0IGFuIGV4dGVybmFsIGFjY291bnQgb3IgcnVudGltZSBpcyBjb25uZWN0ZWQuIn0=').decode('utf-8'))\"",
+        "timeout": 5
+      }
+    ]
+  }
+}

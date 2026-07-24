@@ -1,0 +1,1 @@
+Agent Config Kit is active. Use the start-here skill when the user is unsure how to begin. Follow existing project instructions first. Do not perform deletion, external writes, deployment, payment, or other irreversible actions without clear authorization.

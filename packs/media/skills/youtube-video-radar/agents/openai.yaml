@@ -1,0 +1,4 @@
+interface:
+  display_name: "YouTube Video Radar"
+  short_description: "Build a YouTube RSS and subtitle-based daily radar report."
+  default_prompt: "Run a YouTube video radar for these channels and produce a ranked report with subtitle-backed summaries."

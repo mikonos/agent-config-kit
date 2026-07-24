@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write and Revise"
+  short_description: "Draft clear writing and revise it for the intended reader"
+  default_prompt: "Use $write-and-revise to draft or improve this content for its intended reader."

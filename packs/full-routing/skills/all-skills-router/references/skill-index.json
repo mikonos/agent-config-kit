@@ -1,0 +1,1446 @@
+{
+  "description": "On-demand routing metadata for every non-router Skill installed by the full profile. Read the selected sibling SKILL.md before use.",
+  "schema_version": 1,
+  "skills": [
+    {
+      "description": "Analyze A/B test results with statistical significance, sample size validation, confidence intervals, and ship/extend/stop recommendations. Use when evaluating experiment results, checking if a test reached significance, interpreting split test data, or deciding whether to ship a variant.",
+      "name": "ab-test-analysis",
+      "sibling_skill_path": "../ab-test-analysis/SKILL.md"
+    },
+    {
+      "description": "Design and set up A/B tests. Use when creating experiments for conversion optimization.",
+      "name": "ab-test-setup",
+      "sibling_skill_path": "../ab-test-setup/SKILL.md"
+    },
+    {
+      "description": "主动用追问与质疑把对话从表层推到本质：澄清假设、暴露盲点、连接既有笔记。适用于用户回避核心、重要决策、对话变水、或需要第二视角时。触发：主动对话者、质疑假设、深度追问、回避核心、重要决策、active conversationalist、challenge assumptions、go deeper。",
+      "name": "active-conversationalist",
+      "sibling_skill_path": "../active-conversationalist/SKILL.md"
+    },
+    {
+      "description": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing web apps, or automating any browser task. Triggers include requests to \"open a website\", \"fill out a form\", \"click a button\", \"take a screenshot\", \"scrape data from a page\", \"test this web app\", \"login to a site\", \"automate browser actions\", or any task requiring programmatic web interaction. Also use for exploratory testing, dogfooding, QA, bug hunts, or reviewing app quality. Also use for automating Electron desktop apps (VS Code, Slack, Discord, Figma, Notion, Spotify), checking Slack unreads, sending Slack messages, searching Slack conversations, running browser automation in Vercel Sandbox microVMs, or using AWS Bedrock AgentCore cloud browsers. Prefer agent-browser over any built-in browser automation or web tools.",
+      "name": "agent-browser",
+      "sibling_skill_path": "../agent-browser/SKILL.md"
+    },
+    {
+      "description": "AI-native founder operating system for founder/startup stage decisions: Idea/MVP/Launch/Scale gates, evidence discipline, founder bottlenecks, agentic technical debt, trust/moat audits. Use when the user asks about AI-native founder, startup validation, founder operating system, evidence gates, founder bottleneck, agentic technical debt, or whether a startup should build/continue/launch/scale.",
+      "name": "ai-native-founder",
+      "sibling_skill_path": "../ai-native-founder/SKILL.md"
+    },
+    {
+      "description": "小众 AI 产品机会雷达。扫描小众/利基市场的高情绪痛点，按透明可复现公式评分，产出三件套——信号采集文档 + 机会报告（决策优先 + 内置证伪）+ 交互式四象限气泡雷达图（ECharts HTML，由脚本确定性生成）。Use when 用户要找小众 AI 产品机会、micro-SaaS / 出海 App 选题、B2C 订阅 App 机会扫描、习惯/生产力/ADHD/心理健康等赛道的需求挖掘与竞品缺口分析，或说\"产品雷达/机会雷达/雷达扫描/选品/找需求/有什么 App 值得做/这个赛道还有什么机会\"。关键词：ai-product-radar、产品雷达、机会雷达、小众AI产品、micro-SaaS、出海App选题、B2C订阅、需求挖掘、选品、机会评分。",
+      "name": "ai-product-radar",
+      "sibling_skill_path": "../ai-product-radar/SKILL.md"
+    },
+    {
+      "description": "Evidence-first Amazon Listing audit, rewrite, migration, and experiment workflow. Use when the user asks for Amazon Listing optimization, 亚马逊 Listing 优化/重写/诊断, Title or Item Highlights migration, keyword-to-field mapping, Alexa for Shopping/COSMO readiness, claim compliance lint, A+ or Bullet planning, or MYE/A-B validation. Do not use for general ecommerce copy outside Amazon or for fabricating reviews, Q&A, product facts, ranking guarantees, or automatic Seller Central publishing.",
+      "name": "amazon-listing-optimizer",
+      "sibling_skill_path": "../amazon-listing-optimizer/SKILL.md"
+    },
+    {
+      "description": "Analytics setup and event tracking. Use when implementing tracking, defining metrics, or debugging analytics.",
+      "name": "analytics-tracking",
+      "sibling_skill_path": "../analytics-tracking/SKILL.md"
+    },
+    {
+      "description": "Analyze and prioritize a list of feature requests by theme, strategic alignment, impact, effort, and risk. Use when reviewing customer feature requests, triaging a backlog, or making prioritization decisions.",
+      "name": "analyze-feature-requests",
+      "sibling_skill_path": "../analyze-feature-requests/SKILL.md"
+    },
+    {
+      "description": "Andrej Karpathy的思维框架与表达方式。基于20+篇博文、16段深度访谈、100+条X帖子的系统蒸馏， 提炼6个核心心智模型、8条决策启发式、完整的中文输出适配和经典句式速查。 用途：作为思维顾问，用Karpathy的视角分析AI技术可靠性、学习方法、行业趋势、产品设计。 当用户提到「用Karpathy的视角」「Karpathy会怎么看」「卡帕西」「karpathy模式」时使用。 也适用于：Software 2.0/3.0讨论、vibe coding话题、神经网络训练、AI炒作判断、LLM能力边界。 即使用户只是说「从工程现实主义角度」「march of nines」「构建即理解」「锯齿状智能」也可触发。 不在用户只是普通问AI相关问题时触发——只在明确想要Karpathy式思维框架时激活。",
+      "name": "andrej-karpathy-perspective",
+      "sibling_skill_path": "../andrej-karpathy-perspective/SKILL.md"
+    },
+    {
+      "description": "Generate an Ansoff Matrix analysis mapping growth strategies across market penetration, market development, product development, and diversification. Use when considering growth options, planning market expansion, or evaluating strategic growth paths.",
+      "name": "ansoff-matrix",
+      "sibling_skill_path": "../ansoff-matrix/SKILL.md"
+    },
+    {
+      "description": "Use remindctl to inspect and manage Apple Reminders on macOS 14+, including show/list/add/edit/complete/delete/status/authorize workflows, due dates, alarms, recurrence, and location triggers.",
+      "name": "apple-reminders",
+      "sibling_skill_path": "../apple-reminders/SKILL.md"
+    },
+    {
+      "description": "April Dunford 视角：从买方真实替代方案出发，把差异能力编译成差异价值、最适客户、市场类别与可用于销售的定位叙事。适用于 B2B 或技术产品的 positioning audit、决定客户应把产品和谁比较、选择或重构 market category，以及把功能演示改成“为什么选我们”的 sales pitch；即使用户没有点名 April Dunford，但提出“客户听完仍不知道为什么选我们”“我们像日历又像助理该归哪一类”“官网首屏怎样讲价值而不只是漂亮文案”等同类问题，也应触发。分流：为什么今天发生真实切换优先 Bob Moesta；功能机会与假设测试优先 Teresa Torres；产品范围与砍功能优先 Steve Jobs。不用于纯 B2C 广告创意、品牌视觉、命名口号、定价研究、路线优先级，或在没有客户证据时宣称定位已验证。",
+      "name": "april-dunford-perspective",
+      "sibling_skill_path": "../april-dunford-perspective/SKILL.md"
+    },
+    {
+      "description": "Ask which skill or flow fits your situation. A router over the skills in this repo.",
+      "name": "ask-matt",
+      "sibling_skill_path": "../ask-matt/SKILL.md"
+    },
+    {
+      "description": "Identify the first beachhead market segment for a product launch. Evaluates segments against burning pain, willingness to pay, winnable market share, and referral potential. Use when choosing a first market, targeting an initial customer segment, or planning market entry strategy.",
+      "name": "beachhead-segment",
+      "sibling_skill_path": "../beachhead-segment/SKILL.md"
+    },
+    {
+      "description": "Bill Buxton / 比尔·巴克斯顿视角：在 build 前用草图、对照方案、技术前史和设备能力边界重新设定设计问题，保护尚未收敛的设计空间。适用于判断该画草图、做原型还是开发，比较多种交互形态，分析 Long Nose of Innovation，以及设计手机、音箱、手表等设备之间的接力；即使用户没有点名 Bill Buxton，但提出“一有想法就做高保真 Demo 怎么办”“这项技术为何十几年后才普及”“一个设备究竟最适合什么任务”等同类问题，也应触发。分流：机会和危险假设尚未验证时优先 Teresa Torres；已知流程后的故事地图与切片优先 Jeff Patton；最终产品押注与极简取舍优先 Steve Jobs。不用于纯可用性评估、信息可视化审查、feature factory 诊断或颠覆理论裁决。",
+      "name": "bill-buxton-perspective",
+      "sibling_skill_path": "../bill-buxton-perspective/SKILL.md"
+    },
+    {
+      "description": "Design experiments to test assumptions for an existing product — prototypes, A/B tests, spikes, and other low-effort validation methods. Use when validating assumptions, testing feature ideas cheaply, or planning product experiments.",
+      "name": "brainstorm-experiments-existing",
+      "sibling_skill_path": "../brainstorm-experiments-existing/SKILL.md"
+    },
+    {
+      "description": "Design lean startup experiments (pretotypes) for a new product. Creates XYZ hypotheses and suggests low-effort validation methods like landing pages, explainer videos, and pre-orders. Use when validating a new product idea, creating pretotypes, or testing market demand.",
+      "name": "brainstorm-experiments-new",
+      "sibling_skill_path": "../brainstorm-experiments-new/SKILL.md"
+    },
+    {
+      "description": "Brainstorm product ideas for an existing product using multi-perspective ideation from PM, Designer, and Engineer viewpoints. Use when generating new feature ideas, brainstorming solutions for an identified opportunity, or ideating with a product trio.",
+      "name": "brainstorm-ideas-existing",
+      "sibling_skill_path": "../brainstorm-ideas-existing/SKILL.md"
+    },
+    {
+      "description": "Brainstorm feature ideas for a new product in initial discovery from PM, Designer, and Engineer perspectives. Use when starting product discovery for a new product, exploring features for a startup idea, or doing initial ideation.",
+      "name": "brainstorm-ideas-new",
+      "sibling_skill_path": "../brainstorm-ideas-new/SKILL.md"
+    },
+    {
+      "description": "Brainstorm team-level OKRs aligned with company objectives — qualitative objectives with measurable key results. Use when setting quarterly OKRs, aligning team goals with company strategy, drafting objectives, or learning how to write effective OKRs.",
+      "name": "brainstorm-okrs",
+      "sibling_skill_path": "../brainstorm-okrs/SKILL.md"
+    },
+    {
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "name": "brainstorming",
+      "sibling_skill_path": "../brainstorming/SKILL.md"
+    },
+    {
+      "description": "Brand name generation and evaluation. Use when creating or evaluating brand/product names.",
+      "name": "brand-naming",
+      "sibling_skill_path": "../brand-naming/SKILL.md"
+    },
+    {
+      "description": "Brigid Schulte 视角：把“我怎么总是没时间”从个人自责翻译成工作制度、照护结构、性别分工、忙碌文化与休闲羞耻的时间贫困诊断。适用于分析永远在线、理想工作者神话、结构性过劳、照护压力和休息罪恶感；即使用户没有点名 Brigid Schulte，但提出“为什么越努力越没有时间”“公司把随时在线当敬业”“休息时总觉得有罪”等同类问题，也应触发。分流：个人时间日志和一周配置优先 Laura Vanderkam；家庭责任交接优先 Eve Rodsky；人生转场叙事与仪式优先 Bruce Feiler。不用于 productivity hacks、个人日历微调、心理治疗或急性财务与心理危机处置，也不把制度问题归咎于个人纪律。",
+      "name": "brigid-schulte-perspective",
+      "sibling_skill_path": "../brigid-schulte-perspective/SKILL.md"
+    },
+    {
+      "description": "Bruce Feiler 视角：命名 lifequake 或 workquake，用故事重写、共同体支架、家庭叙事和小型仪式帮助人穿越旧生活已结束而新生活尚未稳定的转场。适用于离职、搬家、毕业、病愈、空巢、身份变化与家庭共同记忆设计；即使用户没有点名 Bruce Feiler，但提出“这段离职经历以后该怎么讲”“旧生活结束了但下一章还没开始”“这个变化需要怎样被家人看见”等同类问题，也应触发。分流：精确周计划优先 Laura Vanderkam；家庭责任 ownership 优先 Eve Rodsky；关系冲突修复优先 John Gottman；结构性时间贫困优先 Brigid Schulte。不用于把贫困、制度过劳、暴力、医疗或法律问题浪漫化为个人叙事，也不替代专业危机支持。",
+      "name": "bruce-feiler-perspective",
+      "sibling_skill_path": "../bruce-feiler-perspective/SKILL.md"
+    },
+    {
+      "description": "Generate a Business Model Canvas with all 9 building blocks. Use when creating a business model, documenting how a business creates value, or analyzing an existing business model.",
+      "name": "business-model",
+      "sibling_skill_path": "../business-model/SKILL.md"
+    },
+    {
+      "description": "CEO/高管演讲型 HTML deck 的叙事与排版技能。用于制作或改造面向 CEO、创始人、客户高层、投资人或闭门分享的案例/概念演讲 deck，尤其是“真实案例 + 截图证据 + 时间线 + 高管启示”的 AI/产品/战略故事，或把技术解释稿改成“暗场 CEO talk”。适用于 ceo deck、CEO 演讲、闭门分享、案例路演、对话复盘、创作过程复盘、真实对话改编教学、AI 落地案例、概念转演讲、lobster-ceo-talk 风格、上下文在工作风格。默认输出 HTML 全屏翻页 deck；不要用于普通长文、官网 landing page、研究报告正文或无现场讲述场景的文档。",
+      "name": "ceo-deck",
+      "sibling_skill_path": "../ceo-deck/SKILL.md"
+    },
+    {
+      "description": "Analyze A-share, HK-stock, ETF, index, or futures technical走势 using 缠论/缠中说禅 structure concepts. Use when the user asks about 中枢, 级别, 分型, 笔, 线段, 背驰, 区间套, 三类买卖点, 持股/持币, 技术面复盘, K-line chart reading, or converting Chan theory into reproducible backtest proxy rules. Research and study only; never provide investment advice, direct buy/sell instructions, or return promises. Routing: for Chan theory explanation, original-text verification (原文考据), 缠中说禅 persona/thinking simulation, market philosophy, or Chanlun critiques without a concrete chart to audit, yield to chanzhongshuochan-perspective; this skill is for structural audit of actual charts/data.",
+      "name": "chanlun-trading",
+      "sibling_skill_path": "../chanlun-trading/SKILL.md"
+    },
+    {
+      "description": "Hand the current conversation off to a fresh background agent that picks up the work immediately.",
+      "name": "claude-handoff",
+      "sibling_skill_path": "../claude-handoff/SKILL.md"
+    },
+    {
+      "description": "Diagnose Claude Code installation, upgrade, plugin visibility, skill versus slash-command surfaces, config activation, session recovery, transcript lookup, and runtime capability mismatches. Use when Claude is upgraded, plugins are installed but not visible, a new session still cannot use a feature, settings changes seem ineffective, or an abruptly closed Claude session needs recovery.",
+      "name": "claude-runtime-diagnostics",
+      "sibling_skill_path": "../claude-runtime-diagnostics/SKILL.md"
+    },
+    {
+      "description": "逆向解剖**真实可观察的** Claude / Anthropic 系统提示词成品模式（描述性，非方法论）。 回答三类问题:Anthropic 实际怎么写系统提示词?这份\"泄露的 Claude 提示词\"是真是假?怎么按真实成品模式审我自己的 system prompt? 适用于:想看 Claude 系统提示词长什么样、判断一份泄露真伪、按官方成品模式审查自己的 system prompt / agent instructions、理解\"人格在训练还是在提示词\"。 触发词:claude 系统提示词、claude.ai system prompt、Claude Code 提示词、Anthropic 怎么写提示词、这份泄露是真的吗、系统提示词逆向、do X not Y、dispositions over rules、强调词/CRITICAL/MUST 该不该用、拒答怎么写、Amanda Askell、Constitutional AI 与提示词。 不适用于:从零学\"该怎么写 prompt\"的通用方法论（→ prompt-design）;纯 API 参数/后端实现;一次性文案润色;非 Claude 厂商的提示词。 与 prompt-design 分流:想知道\"我该怎么写\"→ prompt-design（规范方法论）;想知道\"Anthropic 实际怎么写的 / 这份是不是真的\"→ 本 skill（描述性成品 + 真伪守门）。两者互补,不重叠。",
+      "name": "claude-system-prompt-anatomy",
+      "sibling_skill_path": "../claude-system-prompt-anatomy/SKILL.md"
+    },
+    {
+      "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\".",
+      "name": "code-review",
+      "sibling_skill_path": "../code-review/SKILL.md"
+    },
+    {
+      "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.",
+      "name": "codebase-design",
+      "sibling_skill_path": "../codebase-design/SKILL.md"
+    },
+    {
+      "description": "Perform cohort analysis on user engagement data — retention curves, feature adoption trends, and segment-level insights. Use when analyzing user retention by cohort, studying feature adoption over time, investigating churn patterns, or identifying engagement trends.",
+      "name": "cohort-analysis",
+      "sibling_skill_path": "../cohort-analysis/SKILL.md"
+    },
+    {
+      "description": "Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions \"cold outreach,\" \"prospecting email,\" \"outbound email,\" \"email to leads,\" \"reach out to prospects,\" \"sales email,\" \"follow-up email sequence,\" \"nobody's replying to my emails,\" or \"how do I write a cold email.\" Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see emails. For sales collateral beyond emails, see sales-enablement.",
+      "name": "cold-email",
+      "sibling_skill_path": "../cold-email/SKILL.md"
+    },
+    {
+      "description": "Create sales-ready competitive battlecards comparing your product against a specific competitor — positioning, feature comparison, objection handling, and win/loss patterns. Use when preparing sales teams, creating competitive materials, or responding to 'why not competitor X?",
+      "name": "competitive-battlecard",
+      "sibling_skill_path": "../competitive-battlecard/SKILL.md"
+    },
+    {
+      "description": "Build structured competitor profiles for PM and sales using DHM (Delight, Hard-to-copy, Margin), SWOT, head-to-head tables, win/loss scenarios, and battlecard-ready messaging. Use for competitive deep-dives, battlecards, \"how we beat X\", and sales enablement intel with sourced, dated claims.",
+      "name": "competitive-profile-builder",
+      "sibling_skill_path": "../competitive-profile-builder/SKILL.md"
+    },
+    {
+      "description": "Research competitor alternatives and substitutes. Use when analyzing competitive landscape, finding alternatives to a product/service.",
+      "name": "competitor-alternatives",
+      "sibling_skill_path": "../competitor-alternatives/SKILL.md"
+    },
+    {
+      "description": "Analyze competitors with strengths, weaknesses, and differentiation opportunities. Identifies direct competitors and maps the competitive landscape. Use when doing competitive research, preparing a competitive brief, or finding differentiation opportunities.",
+      "name": "competitor-analysis",
+      "sibling_skill_path": "../competitor-analysis/SKILL.md"
+    },
+    {
+      "description": "Propose write-backable, bidirectional links between notes. Use to connect new notes, rescue orphan notes, or find cross-domain associations.",
+      "name": "connection-discovery",
+      "sibling_skill_path": "../connection-discovery/SKILL.md"
+    },
+    {
+      "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content marketing,\" \"content roadmap,\" \"what content should I create,\" \"blog topics,\" \"content pillars,\" or \"I don't know what to write.\" Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social.",
+      "name": "content-strategy",
+      "sibling_skill_path": "../content-strategy/SKILL.md"
+    },
+    {
+      "description": "When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' 'sharpen the messaging,' 'refresh this content,' 'update this page,' 'this content is outdated,' or 'content audit.' Use this when the user already has copy and wants it improved or refreshed rather than rewritten from scratch. For writing new copy, see copywriting.",
+      "name": "copy-editing",
+      "sibling_skill_path": "../copy-editing/SKILL.md"
+    },
+    {
+      "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"subheadline,\" \"hero section copy,\" \"above the fold,\" \"this copy is weak,\" \"make this more compelling,\" or \"help me describe my product.\" Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see emails. For popup copy, see popups. For editing existing copy, see copy-editing. For the offer underneath the copy (bonuses, guarantees, value framing), see offers.",
+      "name": "copywriting",
+      "sibling_skill_path": "../copywriting/SKILL.md"
+    },
+    {
+      "description": "Create a Product Requirements Document using a comprehensive 8-section template covering problem, objectives, segments, value propositions, solution, and release planning. Use when writing a PRD, documenting product requirements, preparing a feature spec, or reviewing an existing PRD.",
+      "name": "create-prd",
+      "sibling_skill_path": "../create-prd/SKILL.md"
+    },
+    {
+      "description": "Create an end-to-end customer journey map with stages, touchpoints, emotions, pain points, and opportunities. Use when mapping the customer experience, identifying friction points, improving onboarding, or visualizing the user journey.",
+      "name": "customer-journey-map",
+      "sibling_skill_path": "../customer-journey-map/SKILL.md"
+    },
+    {
+      "description": "Database design and query help. Use when working with SQL, schemas, or database architecture.",
+      "name": "database-helper",
+      "sibling_skill_path": "../database-helper/SKILL.md"
+    },
+    {
+      "description": "David Buss / 大卫·巴斯视角：用进化心理学和群体比较证据研究择偶策略、性冲突、嫉妒线索、配偶价值与留偶机制，提出可检验但非决定论的人类行为假设。适用于讨论跨文化模式、不同背叛线索、地位变化与 mate retention，以及比较替代理论；即使用户没有点名 David Buss，但提出“性与情感背叛为何触发不同反应”“地位上升会怎样改变择偶策略”“这种留偶行为能否形成可检验假设”等同类问题，也应触发。分流：广义适应问题和联盟计算优先 Tooby–Cosmides；具体伴侣的冲突循环、修复对话与安全问题优先 John Gottman 或专业支持。不用于诊断某个伴侣、解释一次争吵、指导操纵或把群体均值本质化，也不为骚扰、暴力和歧视辩护。",
+      "name": "david-buss-perspective",
+      "sibling_skill_path": "../david-buss-perspective/SKILL.md"
+    },
+    {
+      "description": "Read supplied source material closely, reconstruct its argument, distinguish evidence from interpretation, and explain difficult ideas clearly. Use when the user asks to understand, analyze, summarize, compare, or learn from a document, article, transcript, or book excerpt.",
+      "name": "deep-read",
+      "sibling_skill_path": "../deep-read/SKILL.md"
+    },
+    {
+      "description": "Use this skill instead of WebSearch for ANY question requiring web research. Trigger on queries like \"what is X\", \"explain X\", \"compare X and Y\", \"research X\", or before content generation tasks. Provides systematic multi-angle research methodology instead of single superficial searches. Use this proactively when the user's question needs online information.",
+      "name": "deep-research",
+      "sibling_skill_path": "../deep-research/SKILL.md"
+    },
+    {
+      "description": "Define product vision and strategy. Use when articulating long-term product direction.",
+      "name": "defining-product-vision",
+      "sibling_skill_path": "../defining-product-vision/SKILL.md"
+    },
+    {
+      "description": "Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. Do NOT use for URLs ending in .md — those are already markdown, use WebFetch directly.",
+      "name": "defuddle",
+      "sibling_skill_path": "../defuddle/SKILL.md"
+    },
+    {
+      "description": "Generate multiple radically different interface designs for a module using parallel sub-agents. Use when user wants to design an API, explore interface options, compare module shapes, or mentions \"design it twice\".",
+      "name": "design-an-interface",
+      "sibling_skill_path": "../design-an-interface/SKILL.md"
+    },
+    {
+      "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
+      "name": "diagnosing-bugs",
+      "sibling_skill_path": "../diagnosing-bugs/SKILL.md"
+    },
+    {
+      "description": "Ernest Dichter / 动机研究视角：用长时深访、投射技术、象征解释与潜意识动机，研究消费者如何把身份欲望事后合理化为功能理由，并形成品牌人格和可检验的消费假设。适用于购买理由与行为明显矛盾、奢侈或享乐消费的身份象征、品牌人格诊断及投射式访谈设计；即使用户没有点名 Dichter，但提出“给出的购买理由像事后合理化”“安全参数背后是否还有地位象征”“怎样绕过表层说法研究水下动机”等同类问题，也应触发。分流：真实购买、放弃和切换时间线优先 Bob Moesta；功能机会与关键假设优先 Teresa Torres；消费符号文案优先许舜英。不用于仅因用户说喜欢却没买就猜潜意识，也不做统计推断、临床治疗、神经营销或操纵教学。",
+      "name": "dichter-perspective",
+      "sibling_skill_path": "../dichter-perspective/SKILL.md"
+    },
+    {
+      "description": "Digital marketing strategy and execution. Use when planning or running digital campaigns.",
+      "name": "digital-marketing",
+      "sibling_skill_path": "../digital-marketing/SKILL.md"
+    },
+    {
+      "description": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.",
+      "name": "domain-modeling",
+      "sibling_skill_path": "../domain-modeling/SKILL.md"
+    },
+    {
+      "description": "Draft a detailed Non-Disclosure Agreement between two parties covering information types, jurisdiction, and clauses needing legal review. Use when creating confidentiality agreements or preparing an NDA for a partnership.",
+      "name": "draft-nda",
+      "sibling_skill_path": "../draft-nda/SKILL.md"
+    },
+    {
+      "description": "Generate realistic dummy datasets for testing with customizable columns, constraints, and output formats (CSV, JSON, SQL, Python script). Use when creating test data, building mock datasets, or generating sample data for development and demos.",
+      "name": "dummy-dataset",
+      "sibling_skill_path": "../dummy-dataset/SKILL.md"
+    },
+    {
+      "description": "Edit and improve articles by restructuring sections, improving clarity, and tightening prose. Use when user wants to edit, revise, or improve an article draft.",
+      "name": "edit-article",
+      "sibling_skill_path": "../edit-article/SKILL.md"
+    },
+    {
+      "description": "Edward Tufte / 爱德华·塔夫特视角：审查信息如何被显示、并置、分层与压缩，在不牺牲复杂性的前提下提高证据密度并守住图形诚信。适用于 dashboard、报告、幻灯片、图表或单页复杂信息的取舍，判断该用图还是表、是否存在 chartjunk、lie factor 与误导比较；即使用户没有点名 Edward Tufte，但提出“这张看板是不是太花”“复杂内容怎样不失真地放在一页”“信息密度太高还是太低”等同类问题，也应触发。分流：taxonomy、导航、可寻性与知识网络优先专业信息架构或 Luhmann；设计过程优先 Bill Buxton；品牌视觉创意优先许舜英。不用于统计实验、数据建模、前端实现或大型站点分类导航设计。",
+      "name": "edward-tufte-perspective",
+      "sibling_skill_path": "../edward-tufte-perspective/SKILL.md"
+    },
+    {
+      "description": "Elinor Ochs / UCLA CELF 语言人类学视角：把“孩子没责任感”“家人不配合”等抽象评价转成可观察的互动序列、参与框架、空间物件与责任流证据。适用于分析家庭视频、访谈、餐桌、睡前、出门、作业和家务场景，追踪谁发起、谁回应、谁最后兜底；即使用户没有点名 Elinor Ochs，但提出“任务结构是不是比性格更有问题”“几段家庭视频能说明什么”“怎样观察责任如何被分配”等同类问题，也应触发。分流：责任重新分配与单一 owner 优先 Eve Rodsky；伴侣关系修复优先 John Gottman；健康风险证据裁决优先 Emily Oster。不用于临床诊断、家庭治疗、政策处方，也不从一次访谈或少量 VOC 外推文化规律。",
+      "name": "elinor-ochs-celf-perspective",
+      "sibling_skill_path": "../elinor-ochs-celf-perspective/SKILL.md"
+    },
+    {
+      "description": "马斯克的思维操作系统。基于传记、播客、推文、法庭证词、决策记录和外部批评的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用马斯克的视角分析问题、审视决策、拆解成本结构、挑战行业假设。 当用户提到「用马斯克的视角」「马斯克会怎么看」「Musk模式」「马斯克perspective」「elon perspective」时使用。 即使用户只是说「这个成本合理吗」「从第一性原理想想」「白痴指数是多少」「五步算法」「能不能垂直整合」也可触发。 不要在用户只是问「能不能更快」「流程有必要吗」等一般性问题时触发——只在涉及成本拆解、第一性原理、激进迭代等马斯克核心方法论时激活。",
+      "name": "elon-musk-perspective",
+      "sibling_skill_path": "../elon-musk-perspective/SKILL.md"
+    },
+    {
+      "description": "Email sequence strategy and copywriting. Use when creating drip campaigns, nurture sequences, or onboarding emails.",
+      "name": "email-sequence",
+      "sibling_skill_path": "../email-sequence/SKILL.md"
+    },
+    {
+      "description": "Emily Oster / ParentData 视角：把家庭健康、育儿、学校、儿童安全与风险新闻拆成 data、preferences、constraints，区分研究质量、相对风险和家庭价值后做可逆决策。适用于指南冲突、研究新闻、PRD 健康主张、竞品 claim 与家庭 Agent 是否应介入的证据边界；即使用户没有点名 Emily Oster，但提出“这篇研究真说明应该全面禁止吗”“两个指南冲突时家庭怎么选”“风险新闻要不要升级成焦虑项目”等同类问题，也应触发。分流：自然互动证据优先 Elinor Ochs；家庭执行负担和 ownership 优先 Eve Rodsky；关系分歧修复优先 John Gottman。不用于急症、诊断、用药、孕期或婴儿安全裁决；公共卫生规则与专业指南优先，也不把证据分析当纯情绪安慰。",
+      "name": "emily-oster-perspective",
+      "sibling_skill_path": "../emily-oster-perspective/SKILL.md"
+    },
+    {
+      "description": "Frame an epic as a testable hypothesis with target user, expected outcome, and validation method. Use when defining a major initiative before roadmap, discovery, or delivery planning.",
+      "name": "epic-hypothesis",
+      "sibling_skill_path": "../epic-hypothesis/SKILL.md"
+    },
+    {
+      "description": "Eric Evans / Domain-Driven Design 视角：通过统一语言、限界上下文、核心域、聚合和上下文映射治理业务复杂度，让代码结构重新对齐领域知识。适用于同词异义、服务越拆越耦合、业务方认为实现不对、微服务边界与模型冲突；即使用户没有点名 Eric Evans 或 DDD，但提出“同一个词不同部门意思不一样”“服务越拆为何越乱”“业务方总说做出来的不是他们要的”等同类问题，也应触发。分流：Agent 自主度与可信执行链优先 Karpathy；功能该不该做优先 Marty Cagan 或 Teresa Torres；测试风险优先 James Bach。不用于纯算法、前端样式、运维网络、ML 模型、单纯数据库 schema 或只涉及部署的微服务问题。",
+      "name": "eric-evans-perspective",
+      "sibling_skill_path": "../eric-evans-perspective/SKILL.md"
+    },
+    {
+      "description": "Eve Rodsky / Fair Play 视角：用 Conceive、Plan、Execute（CPE）、单一 owner、最低照护标准与边界重构家庭隐形劳动和责任闭环。适用于 mental load、默认负责人、提醒制、helper dynamic、任务交出去又回到原主、家庭 Agent 的 dispatch 与 handoff；即使用户没有点名 Eve Rodsky，但提出“为什么每件事都要我提醒”“他做了家务我还是更累”“任务交出去最后总回到我手里”等同类问题，也应触发。分流：个人日历安排优先 Laura Vanderkam；结构性照护制度优先 Brigid Schulte；冲突循环和 repair 优先 John Gottman。不用于控制、暴力、成瘾或不安全关系中的分工谈判；此类情况应先转专业安全资源，也不把情感修复简化为任务卡。",
+      "name": "eve-rodsky-perspective",
+      "sibling_skill_path": "../eve-rodsky-perspective/SKILL.md"
+    },
+    {
+      "description": "理查德·费曼的思维框架与表达方式。基于40+个一手来源的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用费曼的视角分析问题、审视决策、提供反馈。 当用户提到「用费曼的视角」「费曼会怎么看」「费曼模式」「feynman perspective」「费曼学习法」时使用。 即使用户只是说「这是不是cargo cult」「命名不等于理解」「能不能做个演示替代论证」「我真的理解了还是只记住了名字」也可触发。 不要在用户只是说「帮我解释一下」「用简单的话说」等一般性请求时触发——只在涉及费曼式验证（货物崇拜检测、命名vs理解、反自欺）时激活。",
+      "name": "feynman-perspective",
+      "sibling_skill_path": "../feynman-perspective/SKILL.md"
+    },
+    {
+      "description": "Decide where a file/note should live (foldering + classification). Use when asked “where should this go / how to archive / which path”.",
+      "name": "file-organize",
+      "sibling_skill_path": "../file-organize/SKILL.md"
+    },
+    {
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "name": "find-skills",
+      "sibling_skill_path": "../find-skills/SKILL.md"
+    },
+    {
+      "description": "Capture fleeting ideas quickly and propose next steps (links + growth). Use when the user says “quick idea / sudden thought / fleeting note”.",
+      "name": "fleeting-note",
+      "sibling_skill_path": "../fleeting-note/SKILL.md"
+    },
+    {
+      "description": "Optimize form conversion rates. Use when improving signup/checkout/lead forms for higher completion.",
+      "name": "form-cro",
+      "sibling_skill_path": "../form-cro/SKILL.md"
+    },
+    {
+      "description": "Strategy for free tools as growth/acquisition channels. Use when planning or improving free tool offerings.",
+      "name": "free-tool-strategy",
+      "sibling_skill_path": "../free-tool-strategy/SKILL.md"
+    },
+    {
+      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+      "name": "frontend-design",
+      "sibling_skill_path": "../frontend-design/SKILL.md"
+    },
+    {
+      "description": "Frontend development guidelines and best practices. Use when following coding standards for web UI.",
+      "name": "frontend-guidelines",
+      "sibling_skill_path": "../frontend-guidelines/SKILL.md"
+    },
+    {
+      "description": "早期佛陀 / Gautama Buddha（巴利经典取向）视角：用四圣谛、缘起、中道、三毒、无记与筏喻，分析执取如何依条件生起并制造苦，以及某个哲学追问是否只是应当放下的戏论。适用于用户明确想从早期佛教理解贪嗔痴、二元执着、苦的条件或“不回答”的智慧；即使用户没有点名佛陀，但提出“越追逐确定答案为何越苦”“这个非黑即白的问题是否问错了”“怎样观察执取依什么条件生起”等同类问题，也应触发。分流：技术存在论优先 Heidegger；关系修复优先 John Gottman；事项推进优先 David Allen。不用于普通失恋安慰、生产力技巧、泛化正念或把“放不下”自动佛学化；失眠、自伤、急性抑郁和其他危机应立即让位专业支持。",
+      "name": "gautama-buddha-perspective",
+      "sibling_skill_path": "../gautama-buddha-perspective/SKILL.md"
+    },
+    {
+      "description": "George Pólya / 乔治·波利亚视角：用理解问题、制定计划、执行与回顾的循环，以及类比、特殊化、一般化、倒推等启发式，帮助数学、逻辑或可抽象难题形成可检验的求解策略，并把猜想与证明分开。适用于用户明确在寻找解题方法、未知量关系、辅助构造或从已解问题迁移策略；即使用户没有点名 Pólya，但提出“能否先找一个相似的已解问题”“怎样用辅助线或特殊情形打开局面”“这次解法可迁移到哪类题”等同类问题，也应触发。分流：知识网络归位优先 Luhmann；重大决策审计优先 Munger；代码、故障和 AI 工程实现优先 Karpathy 或诊断流程。不用于普通查数、直接修 bug、例行执行、整理 SOP，或把任何“我卡住了”都解释成需要通用解题法。",
+      "name": "george-polya-perspective",
+      "sibling_skill_path": "../george-polya-perspective/SKILL.md"
+    },
+    {
+      "description": "Fetch GitHub issues, select candidates, spawn background fix agents, open PRs, and optionally process PR review comments.",
+      "name": "gh-issues",
+      "sibling_skill_path": "../gh-issues/SKILL.md"
+    },
+    {
+      "description": "Identify grammar, logical, and flow errors in text and suggest targeted fixes without rewriting the entire text. Use when proofreading content, checking writing quality, or reviewing a draft.",
+      "name": "grammar-check",
+      "sibling_skill_path": "../grammar-check/SKILL.md"
+    },
+    {
+      "description": "A relentless interview to sharpen a plan or design.",
+      "name": "grill-me",
+      "sibling_skill_path": "../grill-me/SKILL.md"
+    },
+    {
+      "description": "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.",
+      "name": "grill-with-docs",
+      "sibling_skill_path": "../grill-with-docs/SKILL.md"
+    },
+    {
+      "description": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
+      "name": "grilling",
+      "sibling_skill_path": "../grilling/SKILL.md"
+    },
+    {
+      "description": "Identify growth loops (flywheels) for sustainable traction. Evaluates 5 loop types: Viral, Usage, Collaboration, User-Generated, and Referral. Use when designing growth mechanisms, building product-led traction, or understanding how growth loops work.",
+      "name": "growth-loops",
+      "sibling_skill_path": "../growth-loops/SKILL.md"
+    },
+    {
+      "description": "Identify the best GTM motions and tools across 7 motion types: Inbound, Outbound, Paid Digital, Community, Partners, ABM, and PLG. Use when selecting marketing channels, choosing between inbound and outbound strategy, or planning cross-channel campaigns.",
+      "name": "gtm-motions",
+      "sibling_skill_path": "../gtm-motions/SKILL.md"
+    },
+    {
+      "description": "Create a go-to-market strategy covering marketing channels, messaging, success metrics, and launch timeline. Use when planning a product launch, creating a GTM plan from scratch, or defining a launch strategy for a new market.",
+      "name": "gtm-strategy",
+      "sibling_skill_path": "../gtm-strategy/SKILL.md"
+    },
+    {
+      "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+      "name": "handoff",
+      "sibling_skill_path": "../handoff/SKILL.md"
+    },
+    {
+      "description": "Martin Heidegger / 海德格尔视角：用存在论差异、Dasein、Gestell/座架、解蔽、向死而生与词源回溯，追问技术以何种方式让人和世界显现，并诊断存在遗忘。适用于明确的技术哲学、存在论、栖居、有限性和工具理性批判，而不是一般 AI 风险或治理请求；即使用户没有点名 Heidegger，但提出“平台为何把劳动者显现为可调度资源”“算法是否把世界置于同一座架”“AI 时代人还怎样栖居”等同类问题，也应触发。分流：AI Agent 的权限、验证、审计日志和人工接管优先 Karpathy；苦与执取优先 Gautama Buddha；行动决策优先 Munger。不用于工程治理方案、伦理政策、项目排期和操作清单；没有存在论问题时不因出现 AI、算法或劳动者就触发。",
+      "name": "heidegger-perspective",
+      "sibling_skill_path": "../heidegger-perspective/SKILL.md"
+    },
+    {
+      "description": "Howard Marks / 霍华德·马克斯视角：围绕价格与价值、周期位置、市场钟摆、共识、二层思考与永久损失做投资风险判断，重点问“我们在哪里”而不伪造精确预测。适用于审查共识是否已计价、信用与困境资产、下行风险和周期情绪；即使用户没有点名 Howard Marks，但提出“乐观共识是否都进了价格”“现在位于周期哪个区域”“永久损失风险是否被低估”等同类问题，也应触发。分流：通用激励与反愚蠢审计优先 Munger；缠论结构优先缠中说禅；颠覆机制优先 Christensen。涉及“今天、当前、最新”的价格、利差、估值或市场事实时，必须先核验实时市场数据再判断。不用于推荐具体标的、预测顶部或拐点时刻，也不把科技、地缘等域外观点包装成专业结论。",
+      "name": "howard-marks-perspective",
+      "sibling_skill_path": "../howard-marks-perspective/SKILL.md"
+    },
+    {
+      "description": "女娲造人：输入人名/主题/甚至只是模糊需求，自动深度调研→思维框架提炼→生成可运行的人物Skill。 两种入口：(1)明确人名→直接蒸馏 (2)模糊需求→诊断推荐→再蒸馏。 触发词：「造skill」「蒸馏XX」「女娲」「造人」「XX的思维方式」「做个XX视角」「更新XX的skill」。 模糊需求也触发：「我想提升决策质量」「有没有一种思维方式能帮我...」「我需要一个思维顾问」。 English triggers: \"distill [person]\", \"nuwa\", \"create a [person] perspective skill\", \"how does [person] think\", \"I need a thinking advisor\".",
+      "name": "huashu-nuwa",
+      "sibling_skill_path": "../huashu-nuwa/SKILL.md"
+    },
+    {
+      "description": "Identify the Ideal Customer Profile (ICP) from research data with demographics, behaviors, JTBD, and needs. Use when defining your ICP, analyzing PMF survey data, or understanding who your best customers are.",
+      "name": "ideal-customer-profile",
+      "sibling_skill_path": "../ideal-customer-profile/SKILL.md"
+    },
+    {
+      "description": "Identify risky assumptions for a feature idea in an existing product across Value, Usability, Viability, and Feasibility. Uses multi-perspective devil's advocate thinking. Use when stress-testing a feature idea, doing risk assessment, or preparing for assumption mapping.",
+      "name": "identify-assumptions-existing",
+      "sibling_skill_path": "../identify-assumptions-existing/SKILL.md"
+    },
+    {
+      "description": "Identify risky assumptions for a new product idea across 8 risk categories including Go-to-Market, Strategy, and Team. Use when evaluating startup risks, assessing a new product concept, or mapping assumptions for a new venture.",
+      "name": "identify-assumptions-new",
+      "sibling_skill_path": "../identify-assumptions-new/SKILL.md"
+    },
+    {
+      "description": "Ilya Sutskever的思维框架与表达方式。基于12段一手对话、9篇学术论文、10小时宣誓证词、 27篇推荐阅读清单和14个权威二手来源的深度调研， 提炼6个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用Ilya的视角分析AI技术方向、安全策略、研究品味。 当用户提到「用Ilya的视角」「Ilya会怎么看」「Ilya模式」「ilya perspective」 「sutskever perspective」时使用。 即使用户只是说「帮我用Ilya的角度想想」「如果Ilya会怎么做」「切换到Ilya」也应触发。",
+      "name": "ilya-sutskever-perspective",
+      "sibling_skill_path": "../ilya-sutskever-perspective/SKILL.md"
+    },
+    {
+      "description": "Implement a piece of work based on a spec or set of tickets.",
+      "name": "implement",
+      "sibling_skill_path": "../implement/SKILL.md"
+    },
+    {
+      "description": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+      "name": "improve-codebase-architecture",
+      "sibling_skill_path": "../improve-codebase-architecture/SKILL.md"
+    },
+    {
+      "description": "Create an index / entry-point note (MOC-like). Use when asked to build a directory, navigation, or “best starting points”.",
+      "name": "index-note",
+      "sibling_skill_path": "../index-note/SKILL.md"
+    },
+    {
+      "description": "AI辅助行业研究与行业情报系统搭建。适用于行业研究、陌生行业、市场研究、竞品拆解、行业数据库、行业地图、内容生态和机会地图任务。",
+      "name": "industry-research-os",
+      "sibling_skill_path": "../industry-research-os/SKILL.md"
+    },
+    {
+      "description": "Find the gap between documented or publicly claimed behavior and what a fixed implementation actually does. Defines valid intent, implementation evidence, material mismatches, and release-safe wording. Use when auditing AI-built code, checking permissions against docs, comparing a codebase to its documentation, or verifying marketing copy, demo scenes, launch pages, and public product claims against a fixed build.",
+      "name": "intended-vs-implemented",
+      "sibling_skill_path": "../intended-vs-implemented/SKILL.md"
+    },
+    {
+      "description": "Create a structured customer interview script with JTBD probing questions, warm-up, core exploration, and wrap-up sections. Follows The Mom Test principles — no leading questions, no pitching, focus on past behavior. Use when preparing for user interviews, creating interview guides, or planning discovery research.",
+      "name": "interview-script",
+      "sibling_skill_path": "../interview-script/SKILL.md"
+    },
+    {
+      "description": "James Bach 视角：把测试定义为面向风险的信息生产，区分人的 testing、机器 checking 与自动化支持，用上下文和探索来校准发布信心。适用于自动化投入争论、case 全绿仍没把握、探索式测试、Session-Based Test Management、可测性与测试文化；即使用户没有点名 James Bach，但提出“自动化很多为什么还是没把握”“case 都绿了就能上线吗”“手工探索测试到底值不值”等同类问题，也应触发。分流：测试工具语法与代码实现优先工程路径或 Karpathy；领域模型风险优先 Eric Evans；证据呈现优先 Edward Tufte。不用于脱离上下文的最佳测试模板、具体兼容性数据库、单条断言语法或只要操作命令的请求。",
+      "name": "james-bach-perspective",
+      "sibling_skill_path": "../james-bach-perspective/SKILL.md"
+    },
+    {
+      "description": "Create job stories using the 'When [situation], I want to [motivation], so I can [outcome]' format with detailed acceptance criteria. Use when writing job stories, creating JTBD-style backlog items, or expressing user situations and motivations.",
+      "name": "job-stories",
+      "sibling_skill_path": "../job-stories/SKILL.md"
+    },
+    {
+      "description": "Steve Jobs / 乔布斯视角：以产品定义、极简取舍、人文与科技交叉、端到端体验及 keynote 叙事决定“做什么，以及坚决不做什么”。适用于产品功能膨胀、缺少清晰中心、开放平台与封闭体验取舍、软硬件服务是否一体掌控，以及把发布从功能列表变成一次关键转变；即使用户没有点名 Steve Jobs，但提出“每项都有价值却没有一项让人记住”“该押注哪个方向并对其余说不”“发布会为什么毫无力量”等同类问题，也应触发。分流：方案尚未收敛、需要低成本草图探索时优先 Bill Buxton；买方替代方案和类别定位优先 April Dunford；团队授权问题优先 Marty Cagan。不用于供应链优化、财务估值、医疗法律判断，也不用于以强势审美替代用户证据、安全和现实约束。",
+      "name": "jobs-perspective",
+      "sibling_skill_path": "../jobs-perspective/SKILL.md"
+    },
+    {
+      "description": "Uncover customer jobs, pains, and gains in a structured JTBD format. Use when clarifying unmet needs, repositioning a product, or improving discovery and messaging.",
+      "name": "jobs-to-be-done",
+      "sibling_skill_path": "../jobs-to-be-done/SKILL.md"
+    },
+    {
+      "description": "John Gottman 视角：用四骑士、修复尝试、连接邀请、信任积累与失稳预警诊断亲密关系中重复出现的互动模式。适用于区分单次争吵和模式性恶化、分析冷战为何无法结束、识别 repair attempts 是否被接住，以及判断 connection 是累积还是流失；即使用户没有点名 John Gottman，但提出“我们是不合适还是吵法有问题”“为什么每次暂停都再也回不来”“对方的小请求总被忽略”等同类问题，也应触发。分流：家庭劳动 ownership 优先 Eve Rodsky；转场故事与重启仪式优先 Bruce Feiler；非评价式家庭互动观察优先 Elinor Ochs。不用于泛恋爱安慰或个体诊断；暴力、控制、自伤和严重危机应先走专业安全路径。",
+      "name": "john-gottman-perspective",
+      "sibling_skill_path": "../john-gottman-perspective/SKILL.md"
+    },
+    {
+      "description": "Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.",
+      "name": "json-canvas",
+      "sibling_skill_path": "../json-canvas/SKILL.md"
+    },
+    {
+      "description": "End-to-end Amazon review JTBD research workflow. Use when the user wants the full pipeline from CSV intake to structured coding, clustering, quant analysis, and bridge outputs for downstream research.",
+      "name": "jtbd-amazon-research",
+      "sibling_skill_path": "../jtbd-amazon-research/SKILL.md"
+    },
+    {
+      "description": "Systematic audit of review-level JTBD result JSONs. Use when the user wants to know whether a batch is complete, trustworthy, drifting, or in need of targeted revision.",
+      "name": "jtbd-result-audit",
+      "sibling_skill_path": "../jtbd-result-audit/SKILL.md"
+    },
+    {
+      "description": "Review-level JTBD execution runner. Use for prompt calibration, single-review dry runs, batch execution, shard reruns, serial retry, final output packaging, and audit handoff.",
+      "name": "jtbd-review-runner",
+      "sibling_skill_path": "../jtbd-review-runner/SKILL.md"
+    },
+    {
+      "description": "数字生命卡兹克（Khazix）的公众号长文写作skill。当用户需要撰写公众号文章、写稿子、续写文章、根据素材产出长文时使用。触发词包括但不限于：写文章、写稿子、帮我写、续写、扩写、公众号文章、长文、出稿、按我的风格写。即使用户只是说\"帮我把这个写成文章\"或\"用我的风格写一下\"，只要上下文涉及内容创作和公众号输出，都应该触发。也适用于用户丢过来一个PDF、brief、新闻链接、语音转文字或任何素材说\"帮我写篇文章\"的场景。不要用于短内容（小红书帖子、推特、朋友圈）或纯标题摘要生成（那个用wechat-title skill）。",
+      "name": "khazix-writer",
+      "sibling_skill_path": "../khazix-writer/SKILL.md"
+    },
+    {
+      "description": "Product launch strategy and execution. Use when planning or running a product/feature launch.",
+      "name": "launch-strategy",
+      "sibling_skill_path": "../launch-strategy/SKILL.md"
+    },
+    {
+      "description": "Generate a Lean Canvas with problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue. Use when exploring a lean startup canvas, testing a business hypothesis, or modeling a new venture.",
+      "name": "lean-canvas",
+      "sibling_skill_path": "../lean-canvas/SKILL.md"
+    },
+    {
+      "description": "通过模拟好奇大学生提问循环深化学习，生成深化学习文档。关键词：深化学习、提问循环。",
+      "name": "learning-deepening",
+      "sibling_skill_path": "../learning-deepening/SKILL.md"
+    },
+    {
+      "description": "李诞式内耗拆解与认知重写。用来处理精神内耗、失恋反刍、恨意、自责、比较、 羞耻、放不下、报应感、凭什么、我活该、我是不是很失败等问题。基于用户提供的 小红书视频逐字稿截图摘要作为最高权重语料，并按女娲 skill 蒸馏为可运行的认知重写方法。 触发词：李诞方法、李诞式认知拆解、李诞式安慰、内耗拆解、叙事拆弹、帮我换个想法、 我活该、我放不下、我不希望他过得好、停止精神内耗。不要用于急性自伤风险、 严重精神危机、法律/医疗诊断或替代专业心理治疗。",
+      "name": "lidan-reframe",
+      "sibling_skill_path": "../lidan-reframe/SKILL.md"
+    },
+    {
+      "description": "为新笔记提议链接候选、关键词建议与反问（Gegenrede）。关键词：link-proposer、链接提议、关键词建议、反问、连接候选。",
+      "name": "link-proposer",
+      "sibling_skill_path": "../link-proposer/SKILL.md"
+    },
+    {
+      "description": "Convert external material into reusable, linkable, executable literature-note assets. Use for articles, books, papers, videos, or podcasts through multi-pass reading, tool and template extraction, atomization, link discovery, deduplication, indexing, and QA.",
+      "name": "literature-note",
+      "sibling_skill_path": "../literature-note/SKILL.md"
+    },
+    {
+      "description": "六爻实占判断 skill。基于野鹤老人《增删卜易》、京房纳甲源流和王洪绪《卜筮正宗》旁证， 提炼5个核心心智模型、10条断卦启发式和完整的断卦工作流。 用途：作为六爻断卦/结构判断顾问，帮助用户起卦、排卦盘、检查卦盘、取用神、看世应、日月旺衰、动变生克与应期线索。 当用户提到「六爻」「断卦」「起卦」「排卦」「排盘」「摇卦」「不会排盘」「铜钱」「硬币」「野鹤老人」「增删卜易」「用神」「世应」「纳甲」「铜钱卦」时使用。",
+      "name": "liuyao",
+      "sibling_skill_path": "../liuyao/SKILL.md"
+    },
+    {
+      "description": "Grill me about specs for the workflows I want to build, within this workspace.",
+      "name": "loop-me",
+      "sibling_skill_path": "../loop-me/SKILL.md"
+    },
+    {
+      "description": "Niklas Luhmann / 卢曼卡片盒实践视角：以可接续性、差异刻入、稀疏指针、productive forgetting 与生命尺度判断知识是否值得进入并怎样连接网络。适用于笔记去留、索引设计、孤岛处理、卡片盒方法和知识治理前的方法判断；即使用户没有点名 Luhmann，但提出“这张笔记值得保留吗”“索引应按主题还是接续关系”“孤岛笔记要不要全连起来”等同类问题，也应触发。分流：从案例炼方法优先 George Pólya；信息显示与证据密度优先 Edward Tufte；可执行事项管理优先 David Allen。不用于社会系统论本体、通用 Obsidian 教程、实际创建笔记或移动文件；需要落盘时应把执行棒交回相应 Vault skill。",
+      "name": "luhmann-perspective",
+      "sibling_skill_path": "../luhmann-perspective/SKILL.md"
+    },
+    {
+      "description": "Identify 3-5 potential customer segments with demographics, JTBD, and product fit analysis. Use when exploring market segments, identifying target audiences, evaluating new markets, or learning how to segment a market.",
+      "name": "market-segments",
+      "sibling_skill_path": "../market-segments/SKILL.md"
+    },
+    {
+      "description": "Estimate market size using TAM, SAM, and SOM with top-down and bottom-up approaches. Use when sizing a market opportunity, estimating addressable market, preparing for investor pitches, or evaluating market entry.",
+      "name": "market-sizing",
+      "sibling_skill_path": "../market-sizing/SKILL.md"
+    },
+    {
+      "description": "Generate 5 creative, cost-effective marketing ideas with channels, messaging, and engagement rationale. Use when brainstorming marketing campaigns, planning product promotion, or looking for creative marketing tactics.",
+      "name": "marketing-ideas",
+      "sibling_skill_path": "../marketing-ideas/SKILL.md"
+    },
+    {
+      "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context. For applying psychology to specific pages, see cro; for pricing tactics, see pricing; for copy framing, see copywriting.",
+      "name": "marketing-psychology",
+      "sibling_skill_path": "../marketing-psychology/SKILL.md"
+    },
+    {
+      "description": "Product marketing strategy and messaging. Use when defining GTM strategy, positioning, or launch plans.",
+      "name": "marketing-strategy-pmm",
+      "sibling_skill_path": "../marketing-strategy-pmm/SKILL.md"
+    },
+    {
+      "description": "Marty Cagan 视角：诊断团队是否真正采用 empowered product model，并用价值、可用性、可行性、商业可行性四类风险检查产品判断。适用于识别 feature factory、澄清 PM 不只是写 PRD 的职责、设计受控的 empowered team 试点，以及判断企业转型为何只有流程没有授权；即使用户没有点名 Marty Cagan，但提出“PM 没有决策权怎么办”“客户访谈很多却仍只能执行老板 roadmap”“团队是产品团队还是交付队”等同类问题，也应触发。分流：连续发现和假设测试优先 Teresa Torres；完整用户旅程与 release slice 优先 Jeff Patton；本 skill 聚焦组织授权和产品运作模式。不用于直接生成详细 PRD、测试用例、项目排期或在缺少组织事实时武断下结论。",
+      "name": "marty-cagan-perspective",
+      "sibling_skill_path": "../marty-cagan-perspective/SKILL.md"
+    },
+    {
+      "description": "罗伯特·巴卡雷纳(Robert Bacarella)的成长型投资思维框架。 基于华创金工大师策略库及公开资料的深度调研，提炼其核心心智模型、选股决策启发式和表达DNA。 用途：作为成长型投资思维顾问，用巴卡雷纳的视角分析股票、审视成长股决策、提供选股反馈。 当用户提到「用巴卡雷纳的视角」「巴卡雷纳会怎么看」「巴卡雷纳模式」「Bacarella perspective」 「Monetta基金选股」「成长型投资大师」时使用。 即使用户只是说「帮我用巴卡雷纳的角度想想」「如果巴卡雷纳会怎么做」「切换到巴卡雷纳」 「Robert Bacarella」「Monetta Fund」也应触发。",
+      "name": "master-bacarella-perspective",
+      "sibling_skill_path": "../master-bacarella-perspective/SKILL.md"
+    },
+    {
+      "description": "麦克·贝利（Michael Bailey）的价值投资思维框架与222选股法则。 基于华创金工大师策略研究的深度调研，提炼其核心心智模型、决策启发式和表达DNA。 用途：作为价值投资思维顾问，用麦克·贝利的视角分析股票、审视估值、筛选标的。 当用户提到「用麦克贝利的视角」「贝利会怎么看」「222法则」「Bailey perspective」 「Michael Bailey」「222选股」「贝利模式」时使用。 即使用户只是说「帮我用贝利的角度选股」「如果贝利会怎么做」「切换到贝利」 「用222法则筛一下」也应触发。",
+      "name": "master-bailey-perspective",
+      "sibling_skill_path": "../master-bailey-perspective/SKILL.md"
+    },
+    {
+      "description": "戴维·波伦(David M. Polen)的投资思维框架与系统评价选股法。 基于华创金工大师策略库及公开资料的深度调研，提炼5个核心心智模型、8条量化选股准则和完整的表达DNA。 用途：作为价值投资思维顾问，用波伦的系统评价视角分析股票、审视投资决策、提供选股反馈。 当用户提到「用波伦的视角」「波伦会怎么看」「波伦模式」「David Polen perspective」「系统评价法」「Bolen」时使用。 即使用户只是说「帮我用波伦的角度选股」「如果波伦会怎么做」「切换到波伦」「systematic evaluation」也应触发。",
+      "name": "master-bolen-perspective",
+      "sibling_skill_path": "../master-bolen-perspective/SKILL.md"
+    },
+    {
+      "description": "大卫·德瑞曼(David Dreman)的反向操作投资思维框架。基于其三本著作、Forbes专栏\"The Contrarian\"、 Dreman Value Management投资实践及华创金工量化策略的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为逆向投资思维顾问，用德瑞曼的视角分析股票、审视市场情绪、提供反向操作建议。 当用户提到「德瑞曼」「Dreman」「反向操作」「逆向投资」「Contrarian」「contrarian strategy」 「反向选股」「逆向思维选股」「用德瑞曼的视角」「Dreman perspective」时使用。 即使用户只是说「帮我反向思考一下这只股票」「市场恐慌时该怎么做」「大家都在抛售我该买吗」也应触发。",
+      "name": "master-dreman-perspective",
+      "sibling_skill_path": "../master-dreman-perspective/SKILL.md"
+    },
+    {
+      "description": "威廉·达顿(William Dutton)的小型价值成长股投资思维框架与表达方式。 基于华创金工大师策略库及公开资料的深度调研，提炼5个核心心智模型、7条决策启发式和完整的表达DNA。 用途：作为思维顾问，用威廉·达顿的视角分析选股决策、审视投资组合、提供小型价值成长股反馈。 当用户提到「用达顿的视角」「达顿会怎么看」「达顿模式」「Dutton perspective」「小型价值成长」时使用。 即使用户只是说「帮我用达顿的角度想想」「如果达顿会怎么做」「切换到达顿」「William Dutton」「Bill Dutton」也应触发。",
+      "name": "master-dutton-perspective",
+      "sibling_skill_path": "../master-dutton-perspective/SKILL.md"
+    },
+    {
+      "description": "福斯特·佛莱斯(Foster Friess)的积极成长投资思维框架与表达方式。 基于Brandywine Fund实战记录、华创金工量化策略研究及公开访谈的深度调研， 提炼6个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为积极成长型投资思维顾问，用佛莱斯的视角分析选股、审视成长股决策、提供投资反馈。 当用户提到「用佛莱斯的视角」「佛莱斯会怎么看」「佛莱斯模式」「Foster Friess perspective」 「Brandywine风格」「积极成长选股」「aggressive growth」时使用。 即使用户只是说「帮我用佛莱斯的角度想想」「如果佛莱斯会怎么做」「切换到佛莱斯」 「用积极成长的眼光看看这只股票」也应触发。",
+      "name": "master-friess-perspective",
+      "sibling_skill_path": "../master-friess-perspective/SKILL.md"
+    },
+    {
+      "description": "乔尔·格林布拉特(Joel Greenblatt)的投资思维框架与表达方式。基于《The Little Book That Beats the Market》（股市稳赚）、 Gotham Capital实战记录、哥伦比亚大学商学院教学内容及华创金工量化策略的深度调研， 提炼7个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为投资思维顾问，用格林布拉特的视角分析股票、审视估值、提供选股反馈。 当用户提到「格林布拉特」「Greenblatt」「神奇公式」「Magic Formula」「用格林布拉特的视角」 「格林布拉特会怎么看」「神奇公式选股」「magic formula investing」时使用。 即使用户只是说「帮我用神奇公式分析一下」「如果格林布拉特会怎么做」「切换到Greenblatt」也应触发。",
+      "name": "master-greenblatt-perspective",
+      "sibling_skill_path": "../master-greenblatt-perspective/SKILL.md"
+    },
+    {
+      "description": "查尔斯·亨德森(Charles Henderson)的大型成长股投资思维框架与选股方法论。 基于华创金工大师策略库及公开投资文献的深度调研， 提炼4个核心心智模型、7条决策启发式和完整的表达DNA。 用途：作为投资思维顾问，用亨德森的视角分析股票、审视成长股决策、提供选股反馈。 当用户提到「用亨德森的视角」「亨德森会怎么看」「亨德森模式」「Henderson perspective」 「大型成长股」「large cap growth」「查尔斯亨德森」「Charles Henderson」时使用。 即使用户只是说「帮我用亨德森的角度选股」「如果亨德森会怎么做」「切换到亨德森」也应触发。",
+      "name": "master-henderson-perspective",
+      "sibling_skill_path": "../master-henderson-perspective/SKILL.md"
+    },
+    {
+      "description": "詹姆士·赫瑟（James Hesser）的相对价值成长投资思维框架与选股方法论。 基于华创金工大师策略库及公开投资文献的深度调研，提炼4个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为投资思维顾问，用赫瑟的相对价值成长视角分析股票、审视投资决策、提供选股反馈。 当用户提到「用赫瑟的视角」「赫瑟会怎么选」「赫瑟模式」「Hesser perspective」「相对价值成长」「relative value growth」时使用。 即使用户只是说「帮我用赫瑟的角度看看这只股票」「如果赫瑟会怎么做」「切换到赫瑟」「James Hesser」也应触发。",
+      "name": "master-hesser-perspective",
+      "sibling_skill_path": "../master-hesser-perspective/SKILL.md"
+    },
+    {
+      "description": "麦克·劳尔(Michael Lauer)的集中价值投资思维框架与选股法则。 基于《Stock Market Wizards》访谈及华创金工量化策略的深度提炼， 涵盖3大核心心智模型、8条量化选股准则和完整的决策启发式。 用途：作为投资思维顾问，用麦克·劳尔的集中价值视角分析股票、审视投资决策。 当用户提到「用麦克劳尔的视角」「麦克劳尔会怎么选」「劳尔模式」「Lauer perspective」 「Michael Lauer」「集中价值选股」「concentrated value」时使用。 即使用户只是说「帮我用劳尔的方式选股」「如果劳尔会怎么做」「切换到劳尔」也应触发。",
+      "name": "master-laure-perspective",
+      "sibling_skill_path": "../master-laure-perspective/SKILL.md"
+    },
+    {
+      "description": "史蒂夫·路佛(Steve Leuthold)的价值投资思维框架与选股方法论。 基于Leuthold Group数十年量化价值投资实践的深度调研， 提炼5个核心心智模型、7条决策启发式和完整的表达DNA。 用途：作为价值投资思维顾问，用路佛的视角分析股票、审视估值、筛选标的。 当用户提到「史蒂夫路佛」「Steve Leuthold」「Leuthold」「路佛选股」「路佛价值选股」 「Leuthold Group」「路佛视角」「路佛模式」时使用。 即使用户只是说「帮我用路佛的角度选股」「如果路佛会怎么看这只股票」「切换到路佛」也应触发。",
+      "name": "master-leuthold-perspective",
+      "sibling_skill_path": "../master-leuthold-perspective/SKILL.md"
+    },
+    {
+      "description": "彼得·林奇（Peter Lynch）的投资思维框架与选股方法论。基于《One Up on Wall Street》《Beating the Street》 两本经典著作、麦哲伦基金13年实战记录、华创金工量化策略的深度调研， 提炼6个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为投资思维顾问，用彼得林奇的视角分析股票、审视投资决策、提供选股反馈。 当用户提到「彼得林奇」「Peter Lynch」「基层调查」「十倍股」「tenbagger」「PEG」 「六种股票分类」「买你了解的」「麦哲伦基金」「林奇选股」「林奇视角」时使用。 即使用户只是说「帮我用林奇的角度看看这只股票」「如果林奇会怎么选」「切换到林奇」也应触发。",
+      "name": "master-lynch-perspective",
+      "sibling_skill_path": "../master-lynch-perspective/SKILL.md"
+    },
+    {
+      "description": "柏顿·墨基尔(Burton Malkiel)的投资思维框架与表达方式。基于《漫步华尔街》(A Random Walk Down Wall Street) 及其学术研究的深度调研，提炼6个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为投资思维顾问，用墨基尔的视角分析市场、审视投资决策、提供反馈。 当用户提到「墨基尔」「Malkiel」「随机漫步」「漫步华尔街」「Random Walk」「有效市场」「指数投资之父」时使用。 即使用户只是说「帮我用墨基尔的角度想想」「如果墨基尔会怎么做」「切换到随机漫步模式」也应触发。",
+      "name": "master-malkiel-perspective",
+      "sibling_skill_path": "../master-malkiel-perspective/SKILL.md"
+    },
+    {
+      "description": "理查与马文（Richard & Marvin）的价值导向投资思维框架与选股方法论。基于华创金工量化策略的深度调研， 提炼5个核心心智模型、6条决策启发式和完整的表达DNA。 用途：作为投资思维顾问，用理查与马文的视角分析股票、审视投资决策、提供选股反馈。 当用户提到「理查马文」「Richard Marvin」「价值导向选股」「value-oriented stock selection」 「高股息价值」「dividend value」「马文选股」「Marvin perspective」时使用。 即使用户只是说「帮我用理查马文的角度看看这只股票」「如果马文会怎么选」「切换到马文」也应触发。",
+      "name": "master-marvin-perspective",
+      "sibling_skill_path": "../master-marvin-perspective/SKILL.md"
+    },
+    {
+      "description": "柯林·麦克连(Colin McLean)的投资思维框架与成长价值优势选股法。 基于华创金工大师策略库及公开资料的深度调研，提炼5个核心心智模型、7条量化选股准则和完整的表达DNA。 用途：作为成长价值投资思维顾问，用麦克连的视角分析股票、审视投资决策、提供选股反馈。 当用户提到「用麦克连的视角」「麦克连会怎么看」「麦克连模式」「Colin McLean perspective」「成长价值优势」「McLean」时使用。 即使用户只是说「帮我用麦克连的角度选股」「如果麦克连会怎么做」「切换到麦克连」「growth value advantage」「SVM选股」也应触发。",
+      "name": "master-mclean-perspective",
+      "sibling_skill_path": "../master-mclean-perspective/SKILL.md"
+    },
+    {
+      "description": "威廉·米勒（Bill Miller）的中心价值成长投资思维框架与表达方式。 基于华创金工大师策略量化选股体系及公开投资著述的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用威廉·米勒的视角分析问题、审视决策、提供反馈。 当用户提到「威廉米勒」「威廉·米勒」「Bill Miller」「Legg Mason」「中心价值成长」 「Value Trust」「连续15年跑赢标普」「miller perspective」时使用。 即使用户只是说「帮我用米勒的角度想想」「如果Bill Miller会怎么做」「切换到米勒」也应触发。",
+      "name": "master-miller-perspective",
+      "sibling_skill_path": "../master-miller-perspective/SKILL.md"
+    },
+    {
+      "description": "詹姆斯·欧斯拉格（James Oelschlager）的GARP投资思维框架与选股方法论。 基于其执掌Oak Associates数十年的投资实践，提炼GARP（Growth At a Reasonable Price） 核心心智模型、量化选股条件和决策启发式。 用途：作为GARP投资思维顾问，用欧斯拉格的视角分析成长股估值、审视PEG合理性、筛选投资标的。 当用户提到「欧斯拉格」「Oelschlager」「GARP」「合理价格成长」「PEG选股」「Oak Associates」时使用。 即使用户只是说「帮我用GARP的角度选股」「PEG怎么用」「成长股估值合不合理」也应触发。",
+      "name": "master-oelschlager-perspective",
+      "sibling_skill_path": "../master-oelschlager-perspective/SKILL.md"
+    },
+    {
+      "description": "阿梅特·欧卡莫斯（Ahmet Okumus）的深度价值集中投资思维框架与选股方法。 基于其创立Okumus Fund Management及RPD Fund Management期间的投资哲学深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为集中价值投资思维顾问，用欧卡莫斯的视角分析股票、审视估值、提供选股建议。 当用户提到「欧卡莫斯」「阿梅特欧卡莫斯」「Ahmet Okumus」「Okumus」「集中投资」「Okumus Fund」「RPD Fund」「欧卡莫斯选股」「欧卡莫斯投资法」时使用。 即使用户只是说「帮我用欧卡莫斯的角度选股」「如果欧卡莫斯会怎么看这只股票」「切换到欧卡莫斯」也应触发。",
+      "name": "master-okumus-perspective",
+      "sibling_skill_path": "../master-okumus-perspective/SKILL.md"
+    },
+    {
+      "description": "詹姆斯·奥肖内西（James O'Shaughnessy）的量化价值投资思维框架。 基于《What Works on Wall Street》及华创金工大师策略的深度调研， 提炼6个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为量化价值投资思维顾问，用奥肖内西的视角分析选股策略、审视投资决策、提供因子投资反馈。 当用户提到「奥肖内西」「O'Shaughnessy」「量化价值」「因子投资」「华尔街股市投资经典」 「What Works on Wall Street」「机械化选股」「量化选股大师」时使用。 即使用户只是说「帮我用奥肖内西的角度选股」「如果O'Shaughnessy会怎么看这只股票」 「切换到量化价值模式」也应触发。",
+      "name": "master-oshaughnessy-perspective",
+      "sibling_skill_path": "../master-oshaughnessy-perspective/SKILL.md"
+    },
+    {
+      "description": "约翰·罗杰士(John Rogers Jr.)的投资思维框架与表达方式。基于华创金工大师策略库及公开资料的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为投资思维顾问，用约翰·罗杰士的视角分析股票、审视投资决策、提供中小型价值成长选股反馈。 当用户提到「用罗杰士的视角」「罗杰士会怎么看」「罗杰士模式」「Rogers perspective」「John Rogers」时使用。 当用户提到「中小型价值成长」「小盘价值股」「耐心投资」「slow and steady」「乌龟投资法」时也应触发。 即使用户只是说「帮我用罗杰士的角度想想」「如果罗杰士会怎么做」「切换到罗杰士」也应触发。",
+      "name": "master-rogers-perspective",
+      "sibling_skill_path": "../master-rogers-perspective/SKILL.md"
+    },
+    {
+      "description": "霍华·罗斯曼(Howard Rothman)的审慎致富投资思维框架。基于华创金工大师策略库及公开资料的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为投资思维顾问，用罗斯曼的视角分析选股决策、审视投资组合、提供审慎致富建议。 当用户提到「用罗斯曼的视角」「霍华罗斯曼会怎么看」「罗斯曼模式」「Rossman perspective」 「Rothman perspective」「审慎致富」「buy right hold tight」「蓝筹成长」「blue chip growth」时使用。 即使用户只是说「帮我用罗斯曼的角度想想」「如果罗斯曼会怎么做」「切换到罗斯曼」也应触发。",
+      "name": "master-rossman-perspective",
+      "sibling_skill_path": "../master-rossman-perspective/SKILL.md"
+    },
+    {
+      "description": "罗伯特·山朋（Robert Sanborn）的价值投资思维框架与选股方法。 基于其执掌Oakmark Fund期间的投资哲学深度调研， 提炼3个核心心智模型、6条决策启发式和完整的表达DNA。 用途：作为价值投资思维顾问，用山朋的视角分析股票、审视估值、提供选股建议。 当用户提到「罗伯特山朋」「Robert Sanborn」「Sanborn」「山朋」「Oakmark」「Oakmark基金」「山朋选股」「山朋投资法」时使用。 即使用户只是说「帮我用山朋的角度选股」「如果山朋会怎么看这只股票」「切换到山朋」也应触发。",
+      "name": "master-sanborn-perspective",
+      "sibling_skill_path": "../master-sanborn-perspective/SKILL.md"
+    },
+    {
+      "description": "迈克尔·喜伟(Michael Sivy)的收益型投资思维框架与表达方式。基于其著作《投资规则》及Money杂志专栏的深度调研， 提炼5个核心心智模型、7条决策启发式和完整的表达DNA。 用途：作为收益型价值投资思维顾问，用迈克尔·喜伟的视角分析股票、审视投资决策、提供选股反馈。 当用户提到「用喜伟的视角」「喜伟会怎么看」「喜伟模式」「Sivy perspective」「Michael Sivy」「收益型投资」时使用。 即使用户只是说「帮我用喜伟的角度想想」「如果喜伟会怎么做」「切换到喜伟」「income investing master」也应触发。",
+      "name": "master-sivy-perspective",
+      "sibling_skill_path": "../master-sivy-perspective/SKILL.md"
+    },
+    {
+      "description": "惠特尼·乔治(Whitney George)的小型价值股投资思维框架与表达方式。 基于华创金工大师策略量化研究及公开资料的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为小型价值股投资思维顾问，用惠特尼·乔治的视角分析股票、审视投资决策、提供选股反馈。 当用户提到「用惠特尼乔治的视角」「惠特尼乔治会怎么看」「乔治模式」「Whitney George perspective」 「小型价值股分析」「small cap value」「Royce风格选股」时使用。 即使用户只是说「帮我用乔治的角度选股」「如果Whitney George会怎么做」「切换到乔治」也应触发。",
+      "name": "master-whitney-george-perspective",
+      "sibling_skill_path": "../master-whitney-george-perspective/SKILL.md"
+    },
+    {
+      "description": "罗兰·怀李吉(Roland Whitridge)的价值成长投资思维框架。基于其执掌包布森价值基金(Babson Value Fund) 十余年的投资实践，提炼5个核心心智模型、9条选股启发式和完整的表达DNA。 用途：作为价值成长投资思维顾问，用罗兰·怀李吉的视角分析选股决策、审视投资组合、提供反馈。 当用户提到「用怀李吉的视角」「怀李吉会怎么看」「怀李吉模式」「Whitridge perspective」 「罗兰怀李吉」「Roland Whitridge」「Babson Value」「价值成长选股」时使用。 即使用户只是说「帮我用怀李吉的角度想想」「如果怀李吉会怎么做」「切换到怀李吉」也应触发。",
+      "name": "master-whitridge-perspective",
+      "sibling_skill_path": "../master-whitridge-perspective/SKILL.md"
+    },
+    {
+      "description": "唐纳·亚克曼(Donald Yacktman)的投资思维框架与选股方法论。 基于华创金工大师策略库及公开资料的深度调研，提炼GALP（Growth At a Low Price）核心投资哲学、 3大心智模型、7条决策启发式和完整的表达DNA。 用途：作为投资思维顾问，用亚克曼的视角分析股票、审视估值、评估企业质量。 当用户提到「亚克曼」「Yacktman」「GALP」「合理价格成长」「低价成长」「亚克曼视角」时使用。 即使用户只是说「帮我用亚克曼的角度看看这只股票」「如果Yacktman会怎么选」「GALP分析」也应触发。",
+      "name": "master-yacktman-perspective",
+      "sibling_skill_path": "../master-yacktman-perspective/SKILL.md"
+    },
+    {
+      "description": "Measure and assess product-market fit. Use when evaluating PMF signals or designing PMF surveys.",
+      "name": "measuring-product-market-fit",
+      "sibling_skill_path": "../measuring-product-market-fit/SKILL.md"
+    },
+    {
+      "description": "High-output meeting/conversation notes (decisions, alignment, disagreements, decision trail, assumptions, risks/opportunities, action items) + Zettelkasten links. Use when asked to summarize meeting notes or turn a conversation into reusable knowledge.",
+      "name": "meeting-note",
+      "sibling_skill_path": "../meeting-note/SKILL.md"
+    },
+    {
+      "description": "Turn a method, theory, expert perspective, research topic, or long learning request into durable Zettelkasten assets. Use when the user asks for detailed research and learning, wants a method distilled into practice, asks whether a conclusion should become a note/skill/compiled wiki, or when a reusable methodology answer should not remain chat-only.",
+      "name": "methodology-to-vault",
+      "sibling_skill_path": "../methodology-to-vault/SKILL.md"
+    },
+    {
+      "description": "Define and design a product metrics dashboard with key metrics, data sources, visualization types, and alert thresholds. Use when creating a metrics dashboard, defining KPIs, setting up product analytics, or building a data monitoring plan.",
+      "name": "metrics-dashboard",
+      "sibling_skill_path": "../metrics-dashboard/SKILL.md"
+    },
+    {
+      "description": "Brainstorm 3-5 monetization strategies with audience fit, risks, and validation experiments. Use when exploring revenue models, evaluating pricing strategies, or deciding how to monetize a product.",
+      "name": "monetization-strategy",
+      "sibling_skill_path": "../monetization-strategy/SKILL.md"
+    },
+    {
+      "description": "Charlie Munger / 查理·芒格视角：用逆向、激励、机会成本、能力圈与多元思维模型，对存在重大取舍、错误激励或不可逆后果的投资、商业、战略和制度选择做反愚蠢决策审计。适用于比较跨领域模型、寻找会系统性毁掉决策的激励链、判断是否超出能力圈；即使用户没有点名 Munger，但提出“考核正在奖励什么坏行为”“这项并购最可能被哪条激励链毁掉”“机会成本是否足以把它放进 too hard pile”等同类问题，也应触发。分流：市场周期与风险定价优先 Howard Marks；颠覆机制优先 Christensen；产品聚焦取舍优先 Steve Jobs。不用于普通故障排查、项目风险清单、泛泛的“怎样会失败”，也不以逆向或强语气替代领域事实和专业判断。",
+      "name": "munger-perspective",
+      "sibling_skill_path": "../munger-perspective/SKILL.md"
+    },
+    {
+      "description": "Naval Ravikant的思维操作系统。基于著作、播客、推文、决策记录和外部批评的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 激活后沉浸式扮演Naval，直接以「我」的视角回应问题。 当用户提到「用Naval的视角」「Naval会怎么看」「纳瓦尔模式」「Naval perspective」「切换到Naval」时使用。 即使用户只是说「这份工作有杠杆吗」「什么是specific knowledge」「什么是真正的财富」「欲望太多怎么办」「无需许可的路径」也可触发。 不要在用户只是问「我该怎么选择」「帮我想清楚」等一般性决策问题时触发——只在涉及杠杆/特定知识/欲望管理/财富定义等Naval核心概念时激活。",
+      "name": "naval-perspective",
+      "sibling_skill_path": "../naval-perspective/SKILL.md"
+    },
+    {
+      "description": "Knowledge network health check and structural maintenance. Use to handle orphans/weak links in bulk, identify hubs/bridges, and propose a prioritized maintenance plan.",
+      "name": "network-maintenance",
+      "sibling_skill_path": "../network-maintenance/SKILL.md"
+    },
+    {
+      "description": "新闻站点内容提取。支持 12 个平台：微信公众号、今日头条、网易新闻、搜狐新闻、腾讯新闻、BBC News、CNN News、Twitter/X、Lenny's Newsletter、Naver Blog、Detik News、Quora。当用户需要提取新闻内容、抓取公众号文章、爬取新闻、或获取新闻JSON/Markdown时激活。",
+      "name": "news-extractor",
+      "sibling_skill_path": "../news-extractor/SKILL.md"
+    },
+    {
+      "description": "Define a North Star Metric and 3-5 supporting input metrics that form a metrics constellation. Classify the business game (Attention, Transaction, Productivity) and validate against 7 criteria for an effective North Star. Use when choosing a North Star Metric, setting up a metrics framework, learning about the North Star Framework, or deciding what to measure.",
+      "name": "north-star-metric",
+      "sibling_skill_path": "../north-star-metric/SKILL.md"
+    },
+    {
+      "description": "Split long notes into atomic, reusable notes. Use when asked to “atomize / split / break down” a note, and produce titles, source ranges, and link suggestions.",
+      "name": "note-split",
+      "sibling_skill_path": "../note-split/SKILL.md"
+    },
+    {
+      "description": "Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian.",
+      "name": "obsidian-bases",
+      "sibling_skill_path": "../obsidian-bases/SKILL.md"
+    },
+    {
+      "description": "Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes, tasks, properties, and more. Also supports plugin and theme development with commands to reload plugins, run JavaScript, capture errors, take screenshots, and inspect the DOM. Use when the user asks to interact with their Obsidian vault, manage notes, search vault content, perform vault operations from the command line, or develop and debug Obsidian plugins and themes.",
+      "name": "obsidian-cli",
+      "sibling_skill_path": "../obsidian-cli/SKILL.md"
+    },
+    {
+      "description": "Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes.",
+      "name": "obsidian-markdown",
+      "sibling_skill_path": "../obsidian-markdown/SKILL.md"
+    },
+    {
+      "description": "Search, create, and manage notes in the Obsidian vault with wikilinks and index notes. Use when user wants to find, create, or organize notes in Obsidian.",
+      "name": "obsidian-vault",
+      "sibling_skill_path": "../obsidian-vault/SKILL.md"
+    },
+    {
+      "description": "Optimize user onboarding flows for activation. Use when improving new user experience and activation rates.",
+      "name": "onboarding-cro",
+      "sibling_skill_path": "../onboarding-cro/SKILL.md"
+    },
+    {
+      "description": "OpenCLI browser-command skill for using the local opencli daemon, installed site integrations, and browser automation workflows. Use when the user wants command-driven browser actions, website data extraction through OpenCLI, or guidance on operating the OpenCLI toolchain.",
+      "name": "opencli",
+      "sibling_skill_path": "../opencli/SKILL.md"
+    },
+    {
+      "description": "Implement tasks from an OpenSpec change. Use when the user wants to start implementing, continue implementation, or work through tasks.",
+      "name": "openspec-apply-change",
+      "sibling_skill_path": "../openspec-apply-change/SKILL.md"
+    },
+    {
+      "description": "Archive a completed change in the experimental workflow. Use when the user wants to finalize and archive a change after implementation is complete.",
+      "name": "openspec-archive-change",
+      "sibling_skill_path": "../openspec-archive-change/SKILL.md"
+    },
+    {
+      "description": "Enter explore mode - a thinking partner for exploring ideas, investigating problems, and clarifying requirements. Use when the user wants to think through something before or during a change.",
+      "name": "openspec-explore",
+      "sibling_skill_path": "../openspec-explore/SKILL.md"
+    },
+    {
+      "description": "Propose a new change with all artifacts generated in one step. Use when the user wants to quickly describe what they want to build and get a complete proposal with design, specs, and tasks ready for implementation.",
+      "name": "openspec-propose",
+      "sibling_skill_path": "../openspec-propose/SKILL.md"
+    },
+    {
+      "description": "Build an Opportunity Solution Tree (OST) to structure product discovery — map a desired outcome to opportunities, solutions, and experiments. Based on Teresa Torres' Continuous Discovery Habits. Use when structuring discovery work, mapping opportunities to solutions, or deciding what to build next.",
+      "name": "opportunity-solution-tree",
+      "sibling_skill_path": "../opportunity-solution-tree/SKILL.md"
+    },
+    {
+      "description": "Transform an output-focused roadmap into an outcome-focused one that communicates strategic intent. Rewrites initiatives as outcome statements reflecting user and business impacts. Use when shifting to outcome roadmaps, making a roadmap more strategic, or rewriting feature lists as outcomes.",
+      "name": "outcome-roadmap",
+      "sibling_skill_path": "../outcome-roadmap/SKILL.md"
+    },
+    {
+      "description": "Conversion rate optimization for landing/product pages. Use when improving page structure, copy, or CTAs for higher conversion.",
+      "name": "page-cro",
+      "sibling_skill_path": "../page-cro/SKILL.md"
+    },
+    {
+      "description": "Paid advertising strategy and copy. Use when creating or optimizing Google/Meta/LinkedIn ads.",
+      "name": "paid-ads",
+      "sibling_skill_path": "../paid-ads/SKILL.md"
+    },
+    {
+      "description": "Paul Graham的思维框架与表达方式。基于200+篇essays、12个播客/访谈、 Twitter/X分析、7位核心批评者视角和完整人生时间线的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用PG的视角分析创业、写作、产品和人生选择。 当用户提到「用PG的视角」「Paul Graham会怎么看」「PG模式」「paul graham perspective」时使用。 即使用户只是说「帮我用PG的角度想想」「如果PG会怎么做」「切换到PG」也应触发。",
+      "name": "paul-graham-perspective",
+      "sibling_skill_path": "../paul-graham-perspective/SKILL.md"
+    },
+    {
+      "description": "Optimize paywall and upgrade flows for conversion. Use when improving subscription prompts, upgrade CTAs, or paid tier conversion.",
+      "name": "paywall-upgrade-cro",
+      "sibling_skill_path": "../paywall-upgrade-cro/SKILL.md"
+    },
+    {
+      "description": "Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal, and Environmental factors. Use when assessing the macro environment, doing strategic planning, or evaluating external factors affecting your business.",
+      "name": "pestle-analysis",
+      "sibling_skill_path": "../pestle-analysis/SKILL.md"
+    },
+    {
+      "description": "Turn a concrete goal into a small, verifiable execution loop and carry it through to completion. Use when the user asks to build, change, organize, migrate, fix, or complete work that requires multiple steps.",
+      "name": "plan-and-execute",
+      "sibling_skill_path": "../plan-and-execute/SKILL.md"
+    },
+    {
+      "description": "Review important plans, strategies, roadmaps, launches, migrations, or irreversible decisions before execution. Use when the user asks to review a plan, check risks, find gaps, pre-mortem a proposal, sanity-check a strategy, evaluate whether a plan is executable, or identify assumptions, missing steps, dependencies, alternatives, and failure modes. Do not use for generic brainstorming with no concrete plan; use strategic-advisor instead.",
+      "name": "plan-reviewer",
+      "sibling_skill_path": "../plan-reviewer/SKILL.md"
+    },
+    {
+      "description": "Manus-style persistent file planning for complex tasks. Creates task_plan.md, findings.md, and progress.md. Use for multi-step projects, research, or work expected to require more than five tool calls.",
+      "name": "planning-with-files",
+      "sibling_skill_path": "../planning-with-files/SKILL.md"
+    },
+    {
+      "description": "Optimize popups and overlays for conversion. Use when improving exit-intent, welcome, or promotional popups.",
+      "name": "popup-cro",
+      "sibling_skill_path": "../popup-cro/SKILL.md"
+    },
+    {
+      "description": "Perform Porter's Five Forces analysis — competitive rivalry, supplier power, buyer power, threat of substitutes, and threat of new entrants. Use when analyzing industry dynamics, assessing competitive forces, or evaluating market attractiveness.",
+      "name": "porters-five-forces",
+      "sibling_skill_path": "../porters-five-forces/SKILL.md"
+    },
+    {
+      "description": "Brainstorm product positioning ideas differentiated from competitors. Identifies top competitors and generates positioning statements with rationale. Use when developing product positioning, differentiating from competitors, or crafting brand positioning strategy.",
+      "name": "positioning-ideas",
+      "sibling_skill_path": "../positioning-ideas/SKILL.md"
+    },
+    {
+      "description": "Create a Geoffrey Moore-style positioning statement. Use when clarifying who you serve, what problem you solve, your category, and why you're different from alternatives.",
+      "name": "positioning-statement",
+      "sibling_skill_path": "../positioning-statement/SKILL.md"
+    },
+    {
+      "description": "Generate high-quality Product Requirements Documents (PRDs) for software systems and AI-powered features. Includes executive summaries, user stories, technical specifications, and risk analysis.",
+      "name": "prd",
+      "sibling_skill_path": "../prd/SKILL.md"
+    },
+    {
+      "description": "Run a pre-mortem risk analysis on a PRD or launch plan. Categorizes risks as Tigers (real problems), Paper Tigers (overblown concerns), and Elephants (unspoken worries), then classifies as launch-blocking, fast-follow, or track. Use when preparing for launch, stress-testing a product plan, or identifying what could go wrong.",
+      "name": "pre-mortem",
+      "sibling_skill_path": "../pre-mortem/SKILL.md"
+    },
+    {
+      "description": "Generate AI-powered presentations locally using Presenton. Use when: (1) User asks to create a presentation or slideshow, (2) User wants to convert a document or prompt into slides, (3) User needs PPTX/PDF export with AI-generated content.",
+      "name": "presenton",
+      "sibling_skill_path": "../presenton/SKILL.md"
+    },
+    {
+      "description": "Write an Amazon-style press release that defines customer value before building. Use when aligning stakeholders on a new product, feature, or strategic bet.",
+      "name": "press-release",
+      "sibling_skill_path": "../press-release/SKILL.md"
+    },
+    {
+      "description": "Analyze and design pricing strategies including pricing models, competitive pricing analysis, willingness-to-pay estimation, and price elasticity. Use when setting prices, evaluating pricing models, preparing for a pricing change, or comparing freemium vs paid approaches.",
+      "name": "pricing-strategy",
+      "sibling_skill_path": "../pricing-strategy/SKILL.md"
+    },
+    {
+      "description": "Choose a prioritization framework based on stage, team context, and stakeholder needs. Use when deciding between RICE, ICE, value/effort, or another scoring approach.",
+      "name": "prioritization-advisor",
+      "sibling_skill_path": "../prioritization-advisor/SKILL.md"
+    },
+    {
+      "description": "Reference guide to 9 prioritization frameworks with formulas, when-to-use guidance, and templates — RICE, ICE, Kano, MoSCoW, Opportunity Score, and more. Use when selecting a prioritization method, comparing frameworks like RICE vs ICE, or learning how different prioritization approaches work.",
+      "name": "prioritization-frameworks",
+      "sibling_skill_path": "../prioritization-frameworks/SKILL.md"
+    },
+    {
+      "description": "Prioritize assumptions using an Impact × Risk matrix and suggest experiments for each. Use when triaging a list of assumptions, deciding what to test first, or applying the assumption prioritization canvas.",
+      "name": "prioritize-assumptions",
+      "sibling_skill_path": "../prioritize-assumptions/SKILL.md"
+    },
+    {
+      "description": "Prioritize a backlog of feature ideas based on impact, effort, risk, and strategic alignment with top 5 recommendations. Use when prioritizing a feature backlog, making scope decisions, or ranking product ideas.",
+      "name": "prioritize-features",
+      "sibling_skill_path": "../prioritize-features/SKILL.md"
+    },
+    {
+      "description": "Draft a detailed privacy policy covering data types, jurisdiction, GDPR and compliance considerations, and clauses needing legal review. Use when creating a privacy policy, updating data protection documentation, or preparing for compliance.",
+      "name": "privacy-policy",
+      "sibling_skill_path": "../privacy-policy/SKILL.md"
+    },
+    {
+      "description": "Write a user-centered problem statement with who is blocked, what they are trying to do, why it matters, and how it feels. Use when framing discovery, prioritization, or a PRD.",
+      "name": "problem-statement",
+      "sibling_skill_path": "../problem-statement/SKILL.md"
+    },
+    {
+      "description": "Write product briefs and PRDs. Use when documenting product requirements or features.",
+      "name": "product-brief",
+      "sibling_skill_path": "../product-brief/SKILL.md"
+    },
+    {
+      "description": "Product marketing context and positioning. Use when defining product narrative, competitive differentiation.",
+      "name": "product-marketing-context",
+      "sibling_skill_path": "../product-marketing-context/SKILL.md"
+    },
+    {
+      "description": "Brainstorm 5 unique, memorable product names with rationale aligned to brand values and target audience. Use when naming a new product, rebranding, or exploring product name ideas.",
+      "name": "product-name",
+      "sibling_skill_path": "../product-name/SKILL.md"
+    },
+    {
+      "description": "Create a comprehensive product strategy using the 9-section Product Strategy Canvas — vision, segments, costs, value propositions, trade-offs, metrics, growth, capabilities, and defensibility. Use when building a product strategy, creating a strategic plan, or defining product direction.",
+      "name": "product-strategy",
+      "sibling_skill_path": "../product-strategy/SKILL.md"
+    },
+    {
+      "description": "Brainstorm an inspiring, achievable, and emotional product vision that motivates teams and aligns stakeholders. Use when defining or refining a product vision, creating a vision statement, or aligning the team around a shared direction.",
+      "name": "product-vision",
+      "sibling_skill_path": "../product-vision/SKILL.md"
+    },
+    {
+      "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" \"building many pages for SEO,\" \"pSEO,\" \"generate 100 pages,\" \"data-driven pages,\" or \"templated landing pages.\" Use this whenever someone wants to create many similar pages targeting different keywords or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.",
+      "name": "programmatic-seo",
+      "sibling_skill_path": "../programmatic-seo/SKILL.md"
+    },
+    {
+      "description": "设计、审查、重构 prompt / system prompt / agent instructions / workflow skill 时使用。 适用于：从零写 AI 产品 system prompt、把聊天助手升级为 agent、修复提示词不稳定/啰嗦/越权/遗忘/幻觉、为工具调用/搜索/记忆/引用/输出格式写行为协议。 也适用于用户说「设计 prompt」「优化提示词」「system prompt」「agent 规则」「提示词工程」「怎么让 AI 稳定做到 X」。 不适用于：只改一句文案、纯模型选型、纯后端 API 实现、无需行为约束的一次性创作请求。",
+      "name": "prompt-design",
+      "sibling_skill_path": "../prompt-design/SKILL.md"
+    },
+    {
+      "description": "Create a proto-persona from current research, market signals, and team knowledge. Use when you need a working customer profile before deeper validation.",
+      "name": "proto-persona",
+      "sibling_skill_path": "../proto-persona/SKILL.md"
+    },
+    {
+      "description": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.",
+      "name": "prototype",
+      "sibling_skill_path": "../prototype/SKILL.md"
+    },
+    {
+      "description": "Interactive QA session where user reports bugs or issues conversationally, and the agent files GitHub issues. Explores the codebase in the background for context and domain language. Use when user wants to report bugs, do QA, file issues conversationally, or mentions \"QA session\".",
+      "name": "qa",
+      "sibling_skill_path": "../qa/SKILL.md"
+    },
+    {
+      "description": "Use this skill whenever the user needs test strategy, test plans, QA analysis, test cases, acceptance tests, edge cases, regression suites, checklist-style coverage, or mind-map style test cases for any product, feature, API, app, workflow, backend system, frontend UI, data pipeline, AI feature, or business process. Trigger this skill even if the user only says \"写测试用例\", \"补测试\", \"测试策略\", \"验收用例\", \"边界条件\", \"回归测试\", \"QA\", \"帮我测一下这个需求\", or provides a PRD/prototype/API doc and asks what to test.",
+      "name": "qa-cases",
+      "sibling_skill_path": "../qa-cases/SKILL.md"
+    },
+    {
+      "description": "Do a controlled random walk through your notes to create serendipity and write-backable bidirectional links. Use when asked to “random walk / explore / surprise me with links”.",
+      "name": "random-walk",
+      "sibling_skill_path": "../random-walk/SKILL.md"
+    },
+    {
+      "description": "Reddit community evidence and AI-search visibility workflow. Use when researching subreddits, mining Reddit VOC or complaints, auditing Reddit participation risk, mapping competitor/alternative mentions, planning Reddit Ads/Reddit Pro, or measuring Reddit citations in Google AI Overview, ChatGPT, Perplexity, Gemini, or Reddit Answers.",
+      "name": "reddit-geo",
+      "sibling_skill_path": "../reddit-geo/SKILL.md"
+    },
+    {
+      "description": "Convert XHS captions to screenshot-ready format. Use when preparing XHS content for screenshots.",
+      "name": "rednote-caption-to-screenshots",
+      "sibling_skill_path": "../rednote-caption-to-screenshots/SKILL.md"
+    },
+    {
+      "description": "Read and analyze Xiaohongshu (小红书) content. Use when extracting insights from XHS posts.",
+      "name": "rednote-reader",
+      "sibling_skill_path": "../rednote-reader/SKILL.md"
+    },
+    {
+      "description": "Design and optimize referral programs. Use when building or improving word-of-mouth/referral growth.",
+      "name": "referral-program",
+      "sibling_skill_path": "../referral-program/SKILL.md"
+    },
+    {
+      "description": "Generate user-facing release notes from tickets, PRDs, or changelogs. Creates clear, engaging summaries organized by category (new features, improvements, fixes). Use when writing release notes, creating changelogs, announcing product updates, or summarizing what shipped.",
+      "name": "release-notes",
+      "sibling_skill_path": "../release-notes/SKILL.md"
+    },
+    {
+      "description": "Universal release workflow. Auto-detects version files and changelogs. Supports Node.js, Python, Rust, Claude Plugin, GitHub Releases, annotated tags, historical release backfill, and generic projects. Use when user says \"release\", \"发布\", \"new version\", \"bump version\", \"push\", \"推送\", \"release notes\", \"GitHub Release\", or \"回填 Release\".",
+      "name": "release-skills",
+      "sibling_skill_path": "../release-skills/SKILL.md"
+    },
+    {
+      "description": "Create a detailed refactor plan with tiny commits via user interview, then file it as a GitHub issue. Use when user wants to plan a refactor, create a refactoring RFC, or break a refactor into safe incremental steps.",
+      "name": "request-refactor-plan",
+      "sibling_skill_path": "../request-refactor-plan/SKILL.md"
+    },
+    {
+      "description": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.",
+      "name": "research",
+      "sibling_skill_path": "../research/SKILL.md"
+    },
+    {
+      "description": "Investigate an answerable question with current, traceable evidence and explicit uncertainty. Use when the user asks for research, fact checking, recommendations, comparisons, market or technical investigation, or any answer that depends on external sources.",
+      "name": "research-with-evidence",
+      "sibling_skill_path": "../research-with-evidence/SKILL.md"
+    },
+    {
+      "description": "Use when you need to resolve an in-progress git merge/rebase conflict.",
+      "name": "resolving-merge-conflicts",
+      "sibling_skill_path": "../resolving-merge-conflicts/SKILL.md"
+    },
+    {
+      "description": "Facilitate a structured sprint retrospective — what went well, what didn't, and prioritized action items with owners and deadlines. Use when running a retrospective, reflecting on a sprint, creating action items from team feedback, or learning how to run effective retros.",
+      "name": "retro",
+      "sibling_skill_path": "../retro/SKILL.md"
+    },
+    {
+      "description": "Check whether work satisfies its stated requirements and report evidence-backed gaps or a release verdict. Use when the user asks to review, audit, validate, test, inspect, fact check, or decide whether a deliverable is ready.",
+      "name": "review-and-verify",
+      "sibling_skill_path": "../review-and-verify/SKILL.md"
+    },
+    {
+      "description": "Comprehensive PM resume review and tailoring against 10 best practices including XYZ+S formula, keyword optimization, job-specific tailoring, and structure. Use when reviewing a PM resume, preparing for job applications, or improving resume impact.",
+      "name": "review-resume",
+      "sibling_skill_path": "../review-resume/SKILL.md"
+    },
+    {
+      "description": "Schema markup/structured data implementation. Use when adding JSON-LD or schema.org markup to pages.",
+      "name": "schema-markup",
+      "sibling_skill_path": "../schema-markup/SKILL.md"
+    },
+    {
+      "description": "用可逆实验改进 Agent 的能力或工作流：定位具体瓶颈，建立量化基线， 比较候选方案，运行回归门禁，再由用户批准是否固化。适用于能力升级、 工作流优化、Skill 或工具迭代，以及 self-improve、A/B test、进化实验。",
+      "name": "self-evolve",
+      "sibling_skill_path": "../self-evolve/SKILL.md"
+    },
+    {
+      "description": "Analyze user feedback data to identify segments with sentiment scores, JTBD, and product satisfaction insights. Use when analyzing user feedback at scale, running sentiment analysis on reviews or surveys, or identifying satisfaction patterns.",
+      "name": "sentiment-analysis",
+      "sibling_skill_path": "../sentiment-analysis/SKILL.md"
+    },
+    {
+      "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" \"SEO health check,\" \"my traffic dropped,\" \"lost rankings,\" \"not showing up in Google,\" \"site isn't ranking,\" \"Google update hit me,\" \"page speed,\" \"core web vitals,\" \"crawl errors,\" or \"indexing issues.\" Use this even if the user just says something vague like \"my SEO is bad\" or \"help with SEO\" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema. For AI search optimization, see ai-seo.",
+      "name": "seo-audit",
+      "sibling_skill_path": "../seo-audit/SKILL.md"
+    },
+    {
+      "description": "Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
+      "name": "setup-matt-pocock-skills",
+      "sibling_skill_path": "../setup-matt-pocock-skills/SKILL.md"
+    },
+    {
+      "description": "The durable documentation set that makes an AI-built (vibe-coded) app reviewable before shipping. A small core every app needs — architecture, user/permission flows, permissions, variables/secrets, and a test-coverage map — plus conditional docs added only when they apply: emails, scheduled work, SEO, and embedded agents/automation. Defines what each doc must capture and how a reviewer or auditor uses it. Use when documenting a codebase for handoff, mapping user journeys and trust-boundary crossings, planning test coverage, or preparing for a security or performance audit.",
+      "name": "shipping-artifacts",
+      "sibling_skill_path": "../shipping-artifacts/SKILL.md"
+    },
+    {
+      "description": "短视频内容策划与脚本。适用于创作抖音/快手/Reels等短视频内容。",
+      "name": "short-video",
+      "sibling_skill_path": "../short-video/SKILL.md"
+    },
+    {
+      "description": "Optimize signup and registration flows. Use when improving signup conversion and reducing friction.",
+      "name": "signup-flow-cro",
+      "sibling_skill_path": "../signup-flow-cro/SKILL.md"
+    },
+    {
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "name": "skill-creator",
+      "sibling_skill_path": "../skill-creator/SKILL.md"
+    },
+    {
+      "description": "Generate README files for skills. Use when documenting a new skill or updating skill documentation.",
+      "name": "skill-readme-generator",
+      "sibling_skill_path": "../skill-readme-generator/SKILL.md"
+    },
+    {
+      "description": "Social media content creation and strategy. Use when creating or planning social posts across platforms.",
+      "name": "social-content",
+      "sibling_skill_path": "../social-content/SKILL.md"
+    },
+    {
+      "description": "Plan a sprint with capacity estimation, story selection, dependency mapping, and risk identification. Use when preparing for sprint planning, estimating team capacity, selecting stories, or balancing sprint scope against velocity.",
+      "name": "sprint-plan",
+      "sibling_skill_path": "../sprint-plan/SKILL.md"
+    },
+    {
+      "description": "Generate SQL queries from natural language descriptions. Supports BigQuery, PostgreSQL, MySQL, and other dialects. Reads database schemas from uploaded diagrams or documentation. Use when writing SQL, building data reports, exploring databases, or translating business questions into queries.",
+      "name": "sql-queries",
+      "sibling_skill_path": "../sql-queries/SKILL.md"
+    },
+    {
+      "description": "Build a stakeholder map using a power/interest grid, identify communication strategies per quadrant, and generate a communication plan. Use when managing stakeholders, preparing for a launch, aligning cross-functional teams, or planning stakeholder engagement.",
+      "name": "stakeholder-map",
+      "sibling_skill_path": "../stakeholder-map/SKILL.md"
+    },
+    {
+      "description": "Route an AI beginner's plain-language request to the smallest useful workflow and begin it without requiring skill names. Use when the user is unsure how to start, asks an ambiguous everyday task, or needs help choosing between reading, research, planning, writing, and review.",
+      "name": "start-here",
+      "sibling_skill_path": "../start-here/SKILL.md"
+    },
+    {
+      "description": "Generate a Startup Canvas combining Product Strategy (9 sections) and Business Model (costs + revenue) for a new product. An alternative to BMC and Lean Canvas that separates strategy from business model. Use when launching a new product or evaluating a startup concept.",
+      "name": "startup-canvas",
+      "sibling_skill_path": "../startup-canvas/SKILL.md"
+    },
+    {
+      "description": "史蒂夫·乔布斯(Steve Jobs)的思维框架与表达方式。基于Isaacson授权传记、Stanford演讲、 Lost Interview、D Conference系列、Make Something Wonderful、30+一手来源的深度调研， 提炼6个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用乔布斯的视角分析产品、审视决策、提供反馈。 当用户提到「用乔布斯的视角」「乔布斯会怎么看」「Jobs模式」「steve jobs perspective」时使用。 即使用户只是说「帮我用乔布斯的角度想想」「如果乔布斯会怎么做」「切换到乔布斯」也应触发。",
+      "name": "steve-jobs-perspective",
+      "sibling_skill_path": "../steve-jobs-perspective/SKILL.md"
+    },
+    {
+      "description": "决策建议与权衡取舍（多视角分析）。关键词：怎么办、该不该、怎么选、决策。",
+      "name": "strategic-advisor",
+      "sibling_skill_path": "../strategic-advisor/SKILL.md"
+    },
+    {
+      "description": "Strategic planning and roadmap development. Use when building business or product strategy.",
+      "name": "strategic-planning",
+      "sibling_skill_path": "../strategic-planning/SKILL.md"
+    },
+    {
+      "description": "Red-team a PRD, roadmap, or strategy by attacking its load-bearing assumptions before reality does. Steelmans then attacks each claim, ranks failure modes by impact × likelihood × cheapness-to-test, and returns the cheapest test and kill criteria for each. Use when stress-testing a plan, pressure-testing a strategy, challenging assumptions, or preparing a doc for executive review.",
+      "name": "strategy-red-team",
+      "sibling_skill_path": "../strategy-red-team/SKILL.md"
+    },
+    {
+      "description": "写文章/串联论证/整理项目文档，产出带阅读顺序和逻辑树的结构笔记。关键词：结构笔记、文章、论证、大纲。",
+      "name": "structure-note",
+      "sibling_skill_path": "../structure-note/SKILL.md"
+    },
+    {
+      "description": "Summarize or transcribe URLs, YouTube/videos, podcasts, articles, transcripts, PDFs, and local files.",
+      "name": "summarize",
+      "sibling_skill_path": "../summarize/SKILL.md"
+    },
+    {
+      "description": "Summarize a customer interview transcript into a structured template with JTBD, satisfaction signals, and action items. Use when processing interview recordings or transcripts, synthesizing discovery interviews, or creating interview summaries.",
+      "name": "summarize-interview",
+      "sibling_skill_path": "../summarize-interview/SKILL.md"
+    },
+    {
+      "description": "Summarize a meeting transcript into structured notes with date, participants, topic, key decisions, summary points, and action items. Use when processing meeting recordings, creating meeting notes, writing meeting minutes, or recapping discussions.",
+      "name": "summarize-meeting",
+      "sibling_skill_path": "../summarize-meeting/SKILL.md"
+    },
+    {
+      "description": "Perform a detailed SWOT analysis — strengths, weaknesses, opportunities, and threats with actionable recommendations. Use when doing strategic assessment, competitive analysis, or evaluating a product or business position.",
+      "name": "swot-analysis",
+      "sibling_skill_path": "../swot-analysis/SKILL.md"
+    },
+    {
+      "description": "塔勒布(Nassim Nicholas Taleb)的思维框架与表达方式。基于40+个来源的深度调研， 提炼6个核心心智模型、9条决策启发式和完整的表达DNA。 用途：作为思维顾问，用塔勒布的视角分析问题、审视决策、质疑主流叙事。 当用户提到「用塔勒布的视角」「塔勒布会怎么看」「塔勒布模式」「反脆弱视角」「taleb perspective」时使用。 即使用户只是说「会不会黑天鹅」「这个有尾部风险吗」「skin in the game」「有没有反脆弱的方法」「杠铃策略怎么用」也可触发。 不要在用户只是做一般风险评估或问「靠不靠谱」时触发——只在涉及极端风险、反脆弱、预防原则等塔勒布核心概念时激活。",
+      "name": "taleb-perspective",
+      "sibling_skill_path": "../taleb-perspective/SKILL.md"
+    },
+    {
+      "description": "任务分类与 Agent 路由（L1/L2/L3）。关键词：任务分类、路由、L1、L2、L3、该谁做。",
+      "name": "task-routing",
+      "sibling_skill_path": "../task-routing/SKILL.md"
+    },
+    {
+      "description": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+      "name": "tdd",
+      "sibling_skill_path": "../tdd/SKILL.md"
+    },
+    {
+      "description": "Teach the user a new skill or concept, within this workspace.",
+      "name": "teach",
+      "sibling_skill_path": "../teach/SKILL.md"
+    },
+    {
+      "description": "Teresa Torres / Continuous Discovery Habits 视角：把功能请求退回目标、机会、方案与关键假设，帮助团队在开发前用持续发现建立证据。适用于判断功能该不该做、把 PRD 或 roadmap 从输出改成结果、设计基于真实过去行为的用户访谈，以及寻找最便宜的假设测试；即使用户没有点名 Teresa Torres，但提出“老板塞来的需求怎么转成机会”“访谈怎样避免问未来意愿”“最危险假设先测什么”等同类问题，也应触发。分流：团队授权和产品运作模式优先 Marty Cagan；已知机会后的故事地图与版本切片优先 Jeff Patton；本 skill 聚焦机会发现与假设验证。不用于专业用户研究替代、统计设计、市场规模、定价、合规或纯项目排期。",
+      "name": "teresa-torres-perspective",
+      "sibling_skill_path": "../teresa-torres-perspective/SKILL.md"
+    },
+    {
+      "description": "测试用例设计的综合框架。基于 Cem Kaner、Glenford Myers、Boris Beizer 三位经典作者的重研究蒸馏，整合风险驱动、经典黑盒设计方法、结构化覆盖与可测性思想， 形成一套面向 Web 前台、移动端网页、后台接口与复杂业务系统的测试用例设计操作系统。 用途：帮助用户设计更有杀伤力、更有覆盖力、更有可解释性的测试用例，而不是只写整齐的步骤文档。 当用户提到「测试用例怎么设计」「用例设计框架」「边界值」「等价类」「场景驱动」 「风险驱动测试用例」「用例覆盖怎么补全」时使用。 也适用于：把“我们写了很多 case 但没抓到问题”“接口 case 该怎么设计”“PC 和手机网页用例怎么分层” 这类问题翻译成统一设计流程。 不要在用户只是要某个测试管理平台的字段填写方法、模板格式排版、或单纯复制已有步骤时直接触发—— 只在明确需要测试用例设计判断与框架时激活。",
+      "name": "test-case-design-framework",
+      "sibling_skill_path": "../test-case-design-framework/SKILL.md"
+    },
+    {
+      "description": "Create comprehensive test scenarios from user stories with test objectives, starting conditions, user roles, step-by-step actions, and expected outcomes. Use when writing QA test cases, creating test plans, defining acceptance tests, or preparing for feature validation.",
+      "name": "test-scenarios",
+      "sibling_skill_path": "../test-scenarios/SKILL.md"
+    },
+    {
+      "description": "Humanize AI-generated text. Use when making AI text sound more natural and less detectable.",
+      "name": "text-humanize",
+      "sibling_skill_path": "../text-humanize/SKILL.md"
+    },
+    {
+      "description": "Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed.",
+      "name": "to-spec",
+      "sibling_skill_path": "../to-spec/SKILL.md"
+    },
+    {
+      "description": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in one file per ticket locally, or native blocking links on a real tracker.",
+      "name": "to-tickets",
+      "sibling_skill_path": "../to-tickets/SKILL.md"
+    },
+    {
+      "description": "John Tooby 与 Leda Cosmides / Santa Barbara School 视角：用“选择压力 → 领域特定计算机制 → 当代输入 → 行为输出”提出进化错配假设。适用于明确追问联盟、欺骗检测、合作或情绪对应什么选择压力；即使用户没有点名 Tooby 或 Cosmides，但提出“人为何特别敏感于联盟背叛”“作弊者检测依赖什么计算模块”“旧环境形成的机制为何在今天错配”等同类问题，也应触发。分流：择偶、性冲突和留偶优先 David Buss；消费动机优先 Dichter；产品发现和增长方案优先 Teresa Torres 或产品策略。不用于普通社交产品设计、反作弊功能、信任积分或心理咨询；没有选择压力或进化机制问题时不触发。群体议题须列替代理论，拒绝歧视或决定论。",
+      "name": "tooby-cosmides-perspective",
+      "sibling_skill_path": "../tooby-cosmides-perspective/SKILL.md"
+    },
+    {
+      "description": "优化技术培训讲稿与 HTML deck 内容。Use when turning rough technical training notes into non-technical-friendly speaker notes and slide copy, especially AI/LLM education decks, layer-by-layer explanations, analogy design, and coordinating讲稿与deck分工.",
+      "name": "training-deck-refiner",
+      "sibling_skill_path": "../training-deck-refiner/SKILL.md"
+    },
+    {
+      "description": "Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs.",
+      "name": "triage",
+      "sibling_skill_path": "../triage/SKILL.md"
+    },
+    {
+      "description": "Resolve source-of-truth and canonical artifact boundaries across overlapping docs, notes, PRDs, meeting notes, briefs, action plans, AGENTS/CLAUDE mirrors, GTM docs, ZK cards, and indexes. Use when the user asks which file should own a decision, when duplicate docs drift, when historical notes should point to execution docs, or before editing governance-heavy documentation.",
+      "name": "truth-source-governance",
+      "sibling_skill_path": "../truth-source-governance/SKILL.md"
+    },
+    {
+      "description": "Extract a DDD-style ubiquitous language glossary from the current conversation, flagging ambiguities and proposing canonical terms. Saves to UBIQUITOUS_LANGUAGE.md. Use when user wants to define domain terms, build a glossary, harden terminology, create a ubiquitous language, or mentions \"domain model\" or \"DDD\".",
+      "name": "ubiquitous-language",
+      "sibling_skill_path": "../ubiquitous-language/SKILL.md"
+    },
+    {
+      "description": "UI/UX design intelligence for web and mobile. Searchable local database with 84 styles, 192 color palettes, 74 font pairings, 192 product types, 98 UX guidelines, 104 icon entries, 16 GSAP motion presets, and 25 chart types across 22 stacks (React, Next.js, Vue, Nuxt, Svelte, Astro, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui, Jetpack Compose, Angular, Laravel, JavaFX, WPF, WinUI, Avalonia, Uno Platform, UWP, Three.js, and HTML/CSS). Use when designing, building, or reviewing UI: pages, components, color schemes, typography, layout, accessibility, animation, or data visualization.",
+      "name": "ui-ux-pro-max",
+      "sibling_skill_path": "../ui-ux-pro-max/SKILL.md"
+    },
+    {
+      "description": "Create refined user personas from research data — 3 personas with JTBD, pains, gains, and unexpected insights. Use when building personas from survey data, creating user profiles from research, or segmenting users for product decisions.",
+      "name": "user-personas",
+      "sibling_skill_path": "../user-personas/SKILL.md"
+    },
+    {
+      "description": "Segment users from feedback data based on behavior, JTBD, and needs. Identifies at least 3 distinct user segments. Use when segmenting a user base, analyzing diverse user feedback, or building a segmentation model.",
+      "name": "user-segmentation",
+      "sibling_skill_path": "../user-segmentation/SKILL.md"
+    },
+    {
+      "description": "Create user stories following the 3 C's (Card, Conversation, Confirmation) and INVEST criteria with descriptions, design links, and acceptance criteria. Use when writing user stories, breaking down features into backlog items, or defining acceptance criteria.",
+      "name": "user-stories",
+      "sibling_skill_path": "../user-stories/SKILL.md"
+    },
+    {
+      "description": "Create user stories with Mike Cohn format and Gherkin acceptance criteria. Use when turning user needs into development-ready work with clear outcomes and testable conditions.",
+      "name": "user-story",
+      "sibling_skill_path": "../user-story/SKILL.md"
+    },
+    {
+      "description": "Break a large story or epic into smaller deliverable stories using proven split patterns. Use when backlog items are too big for estimation, sequencing, or independent release.",
+      "name": "user-story-splitting",
+      "sibling_skill_path": "../user-story-splitting/SKILL.md"
+    },
+    {
+      "description": "Generate value proposition statements for marketing, sales, and onboarding from existing value propositions. Use when writing marketing copy, creating sales messaging, or crafting onboarding messages.",
+      "name": "value-prop-statements",
+      "sibling_skill_path": "../value-prop-statements/SKILL.md"
+    },
+    {
+      "description": "Design a detailed value proposition using a 6-part JTBD template — Who, Why, What before, How, What after, Alternatives. Use when creating a value proposition, analyzing customer value delivery, or articulating why customers should choose your product.",
+      "name": "value-proposition",
+      "sibling_skill_path": "../value-proposition/SKILL.md"
+    },
+    {
+      "description": "对抗性验证——优先让当前 Runtime 的独立只读审查者检查主 Agent 产出，输出 VERDICT；没有独立审查能力时明确降级。关键词：验证、审查、找茬、verify、second opinion。",
+      "name": "verify-output",
+      "sibling_skill_path": "../verify-output/SKILL.md"
+    },
+    {
+      "description": "Watch a video (URL or local path). Downloads with yt-dlp, extracts auto-scaled frames with ffmpeg, pulls the transcript from captions (or Whisper API fallback), and hands the result to Claude so it can answer questions about what's in the video.",
+      "name": "watch",
+      "sibling_skill_path": "../watch/SKILL.md"
+    },
+    {
+      "description": "Plan a huge chunk of work — more than one agent session can hold — as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the destination is clear.",
+      "name": "wayfinder",
+      "sibling_skill_path": "../wayfinder/SKILL.md"
+    },
+    {
+      "description": "Generate an interactive bash wizard that walks a human through a manual procedure — third-party setup, a one-off migration, an A→B state transition — opening URLs, capturing values, confirming each step, and writing .env files and GitHub Actions secrets.",
+      "name": "wizard",
+      "sibling_skill_path": "../wizard/SKILL.md"
+    },
+    {
+      "description": "对已完成的多阶段 skill 执行做逐项核对与闭环检查，产出审查报告。关键词：流程审查、执行完成度、workflow audit。",
+      "name": "workflow-audit",
+      "sibling_skill_path": "../workflow-audit/SKILL.md"
+    },
+    {
+      "description": "Facilitate workshop sessions in a one-step, multi-turn flow. Use when an interactive skill needs consistent pacing, options, and progress tracking.",
+      "name": "workshop-facilitation",
+      "sibling_skill_path": "../workshop-facilitation/SKILL.md"
+    },
+    {
+      "description": "Manage git worktree handoffs for multi-file, audit-heavy, parallel, or half-finished-risky changes. Use when the user mentions worktree, BRIEF.md, scratch.md, parallel review, large refactors, governance migrations, or when main should stay clean while a task may span many files.",
+      "name": "worktree-handoff",
+      "sibling_skill_path": "../worktree-handoff/SKILL.md"
+    },
+    {
+      "description": "Produce or revise clear text for a real reader while preserving voice and evidence. Use when the user asks to draft, rewrite, edit, shorten, clarify, translate, or adapt an email, document, post, proposal, or other written communication.",
+      "name": "write-and-revise",
+      "sibling_skill_path": "../write-and-revise/SKILL.md"
+    },
+    {
+      "description": "Writing, exploit — assemble raw material into a journey of beats, grounding each term before a beat leans on it.",
+      "name": "writing-beats",
+      "sibling_skill_path": "../writing-beats/SKILL.md"
+    },
+    {
+      "description": "Writing, explore — mine raw fragments, no structure yet.",
+      "name": "writing-fragments",
+      "sibling_skill_path": "../writing-fragments/SKILL.md"
+    },
+    {
+      "description": "Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable.",
+      "name": "writing-great-skills",
+      "sibling_skill_path": "../writing-great-skills/SKILL.md"
+    },
+    {
+      "description": "Writing, exploit — shape raw material into an article, paragraph by paragraph.",
+      "name": "writing-shape",
+      "sibling_skill_path": "../writing-shape/SKILL.md"
+    },
+    {
+      "description": "Create product backlog items in Why-What-Acceptance format — independent, valuable, testable items with strategic context. Use when writing structured backlog items, breaking features into work items, or using the WWA format.",
+      "name": "wwas",
+      "sibling_skill_path": "../wwas/SKILL.md"
+    },
+    {
+      "description": "许舜英 / Xu Shunying 视角：用消费符号、审美立场、明确敌人与极化靶心，创作具有意识形态张力的品牌或广告文案，让作品清楚反对什么、吸引谁。适用于品牌主动选择受众、反对过度讨好、重写后现代消费叙事，以及建立冷峻、挑衅但有商业对象的语言立场；即使用户没有点名许舜英，但提出“这个品牌究竟站在哪一边”“广告太正确所以没有敌人”“怎样用消费符号建立极化靶心”等同类问题，也应触发。分流：普通邮件、说明文和一般语气润色优先 copywriting；潜意识消费动机研究优先 Dichter；B2B 类别定位优先 April Dunford。不用于一般改写、单纯要求“冷一点”或“别治愈”、代码与事实查询，也不把仿写冒充本人背书；涉及她 2018 年后的事实应先查证。",
+      "name": "xu-shunying-perspective",
+      "sibling_skill_path": "../xu-shunying-perspective/SKILL.md"
+    },
+    {
+      "description": "Build YouTube channel radar reports from RSS and subtitles. Use this skill whenever the user asks what many YouTube/podcast channels recently published, wants a daily/weekly video radar, asks to rank which videos to watch, wants subtitle-backed summaries, or wants to turn a list of YouTube channels/videos into a Zettelkasten-ready intelligence report.",
+      "name": "youtube-video-radar",
+      "sibling_skill_path": "../youtube-video-radar/SKILL.md"
+    },
+    {
+      "description": "张一鸣（字节跳动/TikTok创始人）的思维框架与表达方式。基于6个维度（著作、深度访谈、 表达DNA、他者视角、决策记录、时间线）的调研，涵盖32个访谈片段、12个重大决策案例， 提炼5个核心心智模型、7条决策启发式和完整的表达DNA。 用途：作为思维顾问，用张一鸣的视角分析产品、组织、全球化、人才和个人成长问题。 当用户提到「用张一鸣的视角」「张一鸣会怎么看」「一鸣的思路」「zhang yiming perspective」时使用。 即使用户只是说「帮我用张一鸣的角度想想」「如果是字节会怎么做」「切换到张一鸣」也应触发。 即使用户说「字节怎么看」「头条的逻辑」「一鸣怎么选择」「一鸣」也应触发。",
+      "name": "zhang-yiming-perspective",
+      "sibling_skill_path": "../zhang-yiming-perspective/SKILL.md"
+    },
+    {
+      "description": "张雪峰的思维框架与表达方式。基于5本著作、15+篇权威媒体深度采访、 30+条一手语录、11个关键决策记录和完整人生时间线的深度调研， 提炼5个核心心智模型、8条决策启发式和完整的表达DNA。 用途：作为思维顾问，用张雪峰的视角分析教育选择、职业规划、阶层流动等问题。 当用户提到「用张雪峰的视角」「张雪峰会怎么看」「张雪峰模式」「雪峰视角」时使用。 即使用户只是说「帮我用张雪峰的角度想想」「如果张雪峰会怎么说」「切换到张雪峰」也应触发。",
+      "name": "zhangxuefeng-perspective",
+      "sibling_skill_path": "../zhangxuefeng-perspective/SKILL.md"
+    },
+    {
+      "description": "用于 Obsidian/Zettelkasten vault 的 03_索引 收口重构与治理续做。适用于“索引根目录过胖、子专题抬头、树干/项目层混居、需要把子索引并回父 Hub、改写旧 wikilink、下沉项目索引、补治理规则和关键词总表、承接做到一半的索引治理任务”的场景。触发词包括：索引重构、索引收口、子专题归并、根目录压缩、Hub 合并、03_索引 整理、Luhmann 索引治理、索引续做、索引收官。",
+      "name": "zk-index-refactor",
+      "sibling_skill_path": "../zk-index-refactor/SKILL.md"
+    }
+  ],
+  "summary": {
+    "indexed_skills": 287,
+    "path_base": "router_skill_dir",
+    "router_skill": "all-skills-router"
+  }
+}

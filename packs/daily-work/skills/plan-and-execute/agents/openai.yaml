@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan and Execute"
+  short_description: "Turn a goal into safe steps, execution, and verification"
+  default_prompt: "Use $plan-and-execute to turn this goal into verified, minimally scoped execution."

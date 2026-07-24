@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "description": "Reviewed low-confidence secret-shape matches retained without reproducing the matched text.",
+  "reviews": [
+    {
+      "decision": "false_positive",
+      "line": 29,
+      "line_sha256": "0debb7e8eba83ba7292a04ee0bde5f434931d9336a7c1f37454cfb5d748f6c58",
+      "path": "packs/design-intelligence/skills/ui-ux-pro-max/data/stacks/winui.csv",
+      "pattern": "openai_style_secret_candidate",
+      "reason": "The match is an sk- substring inside an official Microsoft Learn URL path, not a token boundary."
+    },
+    {
+      "decision": "false_positive",
+      "line": 40,
+      "line_sha256": "5a3af8bbb4e8a57ec1243c46c32255181dea2d42d30ac3a301c15a8da20d9ad4",
+      "path": "packs/design-intelligence/skills/ui-ux-pro-max/data/stacks/wpf.csv",
+      "pattern": "openai_style_secret_candidate",
+      "reason": "The match is an sk- substring inside an official Microsoft Learn URL path, not a token boundary."
+    }
+  ]
+}

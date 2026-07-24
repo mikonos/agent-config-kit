@@ -1,0 +1,4 @@
+interface:
+  display_name: "Worktree Handoff"
+  short_description: "Run risky multi-file work in a worktree."
+  default_prompt: "Set up a worktree handoff for this multi-file task."

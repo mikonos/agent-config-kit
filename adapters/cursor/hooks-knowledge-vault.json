@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "python3 -c \"import base64; print(base64.b64decode('eyJjb250aW51ZSI6IHRydWUsICJhZGRpdGlvbmFsX2NvbnRleHQiOiAiQWdlbnQgQ29uZmlnIEtpdCBpcyBhY3RpdmUuIFVzZSB0aGUgc3RhcnQtaGVyZSBza2lsbCB3aGVuIHRoZSB1c2VyIGlzIHVuc3VyZSBob3cgdG8gYmVnaW4uIEZvbGxvdyBleGlzdGluZyBwcm9qZWN0IGluc3RydWN0aW9ucyBmaXJzdC4gRG8gbm90IHBlcmZvcm0gZGVsZXRpb24sIGV4dGVybmFsIHdyaXRlcywgZGVwbG95bWVudCwgcGF5bWVudCwgb3Igb3RoZXIgaXJyZXZlcnNpYmxlIGFjdGlvbnMgd2l0aG91dCBjbGVhciBhdXRob3JpemF0aW9uLlxuS25vd2xlZGdlIFZhdWx0IHByb2ZpbGUgaXMgYWN0aXZlLiBQcmVmZXIgc21hbGwgbGlua2VkIG5vdGVzLCBwcmVzZXJ2ZSB0aGUgdXNlcidzIGV4aXN0aW5nIHZhdWx0IHN0cnVjdHVyZSwgYW5kIHZlcmlmeSBsaW5rcyBhbmQgcGF0aHMgYmVmb3JlIHdyaXRpbmcuIn0=').decode('utf-8'))\"",
+        "timeout": 5
+      }
+    ]
+  }
+}

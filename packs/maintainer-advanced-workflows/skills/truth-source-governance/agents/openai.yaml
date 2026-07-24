@@ -1,0 +1,4 @@
+interface:
+  display_name: "Truth Source Governance"
+  short_description: "Resolve overlapping docs and source-of-truth boundaries."
+  default_prompt: "Resolve the canonical source of truth for these overlapping artifacts."

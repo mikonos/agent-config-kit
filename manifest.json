@@ -1,0 +1,1031 @@
+{
+  "schema_version": 1,
+  "release": "0.1.0",
+  "profiles": {
+    "daily-work": {
+      "skill_packs": ["daily-work"],
+      "include_hooks": true,
+      "hook_messages": ["packs/safe-hooks/message.txt"]
+    },
+    "full": {
+      "skill_packs": [
+        "full-routing",
+        "browser-automation",
+        "browser-control",
+        "cultural-practices",
+        "daily-work",
+        "design",
+        "design-intelligence",
+        "engineering-workflows",
+        "experimental-self-improvement",
+        "experimental-workflows",
+        "financial-research",
+        "generated-domain-perspectives",
+        "generated-investing-perspectives",
+        "github-automation",
+        "knowledge-vault",
+        "legacy-workflows",
+        "lenny-product-workflows",
+        "macos-integrations",
+        "maintainer-advanced-workflows",
+        "marketing",
+        "media",
+        "obsidian",
+        "original-workflows",
+        "perspectives",
+        "persona-authoring",
+        "personal-productivity",
+        "planning-workflows",
+        "presentations",
+        "product-management",
+        "product-management-noncommercial",
+        "product-writing",
+        "productivity-workflows",
+        "quality-assurance",
+        "release-management",
+        "research-workflows",
+        "skill-authoring",
+        "skill-discovery",
+        "spec-driven-development",
+        "summarization",
+        "web-extraction",
+        "writing"
+      ],
+      "include_hooks": true,
+      "hook_messages": [
+        "packs/safe-hooks/message.txt",
+        "packs/safe-hooks/full.txt"
+      ],
+      "notices": [
+        "The product-management-noncommercial pack is CC BY-NC-SA 4.0 and may be used or shared only for noncommercial purposes with attribution and ShareAlike.",
+        "The generated-domain-perspectives pack contains AI-generated simulations based on public sources. It is not affiliated with the named people, and current or high-stakes claims still require independent verification.",
+        "The generated-investing-perspectives pack contains AI-generated simulations based on public sources. It is not affiliated with the named people and is not financial or investment advice.",
+        "The financial-research pack is for research and study only. It does not provide investment advice, direct buy or sell instructions, or return promises; independently verify market data and decisions.",
+        "The browser control packs can reuse logged-in browser sessions. Confirm the exact account, target, and content before any external write, send, delete, purchase, or publication.",
+        "The experimental-self-improvement pack keeps experiment state inside the selected project and cannot install dependencies or Skills, modify Agent configuration, Hooks, or schedules, run non-read-only commands, or write externally without explicit user approval. It installs no background automation.",
+        "The amazon-listing-optimizer Skill produces evidence maps, drafts, lint reports, and human-review packets only. Seller Central, ads, reviews, Q&A, or production catalog writes require separate explicit authorization and human approval.",
+        "The JTBD review research Skills do not include customer-review datasets or private prompts. Use only data you have the right to process; the optional automated runner requires Cursor Agent's agent CLI.",
+        "The knowledge-vault governance Skills default to proposals. File moves, bulk link rewrites, and every exact deletion list require explicit user confirmation before application.",
+        "The reddit-geo Skill permits listening, transparent engagement, and paid amplification only. It rejects spam, hidden affiliation, vote manipulation, and terms avoidance; current platform and API rules must be rechecked before automation.",
+        "The rednote-caption-to-screenshots Skill does not install Playwright automatically. Missing Node dependencies require a separate preview and explicit user approval; manual browser screenshots remain available.",
+        "The rednote-reader Skill uses only user-authorized connectors, browser sessions, or exports and does not bypass login or access controls. Image downloads are restricted to public HTTPS Rednote CDN hosts and a user-authorized output directory.",
+        "The claude-system-prompt-anatomy Skill is a dated public-research snapshot, not a current product specification. Recheck Anthropic's official documentation for current claims and do not extract or disclose hidden prompts.",
+        "The cultural-practices pack is for traditional cultural reflection only. It is not an evidence-based prediction tool and must not guide medical, legal, financial, safety, mental-health, or other high-risk decisions.",
+        "The github-automation pack can create branches, commits, pushes, pull requests, and review replies only after the user selects the exact issues or pull requests.",
+        "The release-management pack can create commits and tags and can push or publish only after explicit user confirmation."
+      ]
+    },
+    "knowledge-vault": {
+      "skill_packs": ["daily-work", "knowledge-vault", "obsidian"],
+      "include_hooks": true,
+      "hook_messages": [
+        "packs/safe-hooks/message.txt",
+        "packs/safe-hooks/knowledge-vault.txt"
+      ],
+      "notices": [
+        "The knowledge-vault governance Skills default to proposals. File moves, bulk link rewrites, and every exact deletion list require explicit user confirmation before application."
+      ]
+    }
+  },
+  "skill_packs": {
+    "browser-automation": [
+      "opencli"
+    ],
+    "browser-control": [
+      "agent-browser"
+    ],
+    "cultural-practices": [
+      "liuyao"
+    ],
+    "daily-work": [
+      "deep-read",
+      "plan-and-execute",
+      "research-with-evidence",
+      "review-and-verify",
+      "start-here",
+      "write-and-revise"
+    ],
+    "design": [
+      "frontend-design"
+    ],
+    "design-intelligence": [
+      "ui-ux-pro-max"
+    ],
+    "engineering-workflows": [
+      "ask-matt",
+      "code-review",
+      "codebase-design",
+      "diagnosing-bugs",
+      "domain-modeling",
+      "grill-with-docs",
+      "implement",
+      "improve-codebase-architecture",
+      "prototype",
+      "research",
+      "resolving-merge-conflicts",
+      "setup-matt-pocock-skills",
+      "tdd",
+      "to-spec",
+      "to-tickets",
+      "triage",
+      "wayfinder"
+    ],
+    "experimental-workflows": [
+      "claude-handoff",
+      "loop-me",
+      "wizard",
+      "writing-beats",
+      "writing-fragments",
+      "writing-shape"
+    ],
+    "experimental-self-improvement": [
+      "self-evolve"
+    ],
+    "financial-research": [
+      "chanlun-trading"
+    ],
+    "full-routing": [
+      "all-skills-router"
+    ],
+    "generated-domain-perspectives": [
+      "april-dunford-perspective",
+      "bill-buxton-perspective",
+      "brigid-schulte-perspective",
+      "bruce-feiler-perspective",
+      "david-buss-perspective",
+      "dichter-perspective",
+      "edward-tufte-perspective",
+      "elinor-ochs-celf-perspective",
+      "emily-oster-perspective",
+      "eric-evans-perspective",
+      "eve-rodsky-perspective",
+      "gautama-buddha-perspective",
+      "george-polya-perspective",
+      "heidegger-perspective",
+      "howard-marks-perspective",
+      "james-bach-perspective",
+      "jobs-perspective",
+      "john-gottman-perspective",
+      "lidan-reframe",
+      "luhmann-perspective",
+      "marty-cagan-perspective",
+      "munger-perspective",
+      "teresa-torres-perspective",
+      "tooby-cosmides-perspective",
+      "xu-shunying-perspective"
+    ],
+    "generated-investing-perspectives": [
+      "master-bacarella-perspective",
+      "master-bailey-perspective",
+      "master-bolen-perspective",
+      "master-dreman-perspective",
+      "master-dutton-perspective",
+      "master-friess-perspective",
+      "master-greenblatt-perspective",
+      "master-henderson-perspective",
+      "master-hesser-perspective",
+      "master-laure-perspective",
+      "master-leuthold-perspective",
+      "master-lynch-perspective",
+      "master-malkiel-perspective",
+      "master-marvin-perspective",
+      "master-mclean-perspective",
+      "master-miller-perspective",
+      "master-oelschlager-perspective",
+      "master-okumus-perspective",
+      "master-oshaughnessy-perspective",
+      "master-rogers-perspective",
+      "master-rossman-perspective",
+      "master-sanborn-perspective",
+      "master-sivy-perspective",
+      "master-whitney-george-perspective",
+      "master-whitridge-perspective",
+      "master-yacktman-perspective"
+    ],
+    "github-automation": [
+      "gh-issues"
+    ],
+    "knowledge-vault": [
+      "connection-discovery",
+      "file-organize",
+      "fleeting-note",
+      "index-note",
+      "link-proposer",
+      "literature-note",
+      "meeting-note",
+      "methodology-to-vault",
+      "network-maintenance",
+      "note-split",
+      "random-walk",
+      "structure-note",
+      "zk-index-refactor"
+    ],
+    "legacy-workflows": [
+      "design-an-interface",
+      "qa",
+      "request-refactor-plan",
+      "ubiquitous-language"
+    ],
+    "lenny-product-workflows": [
+      "defining-product-vision",
+      "measuring-product-market-fit"
+    ],
+    "macos-integrations": [
+      "apple-reminders"
+    ],
+    "maintainer-advanced-workflows": [
+      "ai-product-radar",
+      "amazon-listing-optimizer",
+      "competitive-profile-builder",
+      "frontend-guidelines",
+      "industry-research-os",
+      "learning-deepening",
+      "product-brief",
+      "skill-readme-generator",
+      "strategic-advisor",
+      "strategic-planning",
+      "task-routing",
+      "training-deck-refiner",
+      "truth-source-governance",
+      "verify-output",
+      "workflow-audit",
+      "worktree-handoff"
+    ],
+    "marketing": [
+      "ab-test-setup",
+      "analytics-tracking",
+      "cold-email",
+      "competitor-alternatives",
+      "content-strategy",
+      "copy-editing",
+      "copywriting",
+      "email-sequence",
+      "form-cro",
+      "free-tool-strategy",
+      "launch-strategy",
+      "marketing-psychology",
+      "onboarding-cro",
+      "page-cro",
+      "paid-ads",
+      "paywall-upgrade-cro",
+      "popup-cro",
+      "product-marketing-context",
+      "programmatic-seo",
+      "referral-program",
+      "reddit-geo",
+      "schema-markup",
+      "seo-audit",
+      "signup-flow-cro",
+      "social-content",
+      "marketing-strategy-pmm"
+    ],
+    "media": [
+      "rednote-caption-to-screenshots",
+      "short-video",
+      "watch",
+      "youtube-video-radar"
+    ],
+    "obsidian": [
+      "defuddle",
+      "json-canvas",
+      "obsidian-bases",
+      "obsidian-cli",
+      "obsidian-markdown"
+    ],
+    "original-workflows": [
+      "active-conversationalist",
+      "ai-native-founder",
+      "brand-naming",
+      "ceo-deck",
+      "claude-runtime-diagnostics",
+      "database-helper",
+      "digital-marketing",
+      "plan-reviewer",
+      "prompt-design",
+      "test-case-design-framework",
+      "text-humanize"
+    ],
+    "perspectives": [
+      "andrej-karpathy-perspective",
+      "elon-musk-perspective",
+      "feynman-perspective",
+      "ilya-sutskever-perspective",
+      "naval-perspective",
+      "paul-graham-perspective",
+      "steve-jobs-perspective",
+      "taleb-perspective",
+      "zhang-yiming-perspective",
+      "zhangxuefeng-perspective"
+    ],
+    "persona-authoring": [
+      "huashu-nuwa"
+    ],
+    "personal-productivity": [
+      "edit-article",
+      "obsidian-vault"
+    ],
+    "planning-workflows": [
+      "brainstorming",
+      "planning-with-files"
+    ],
+    "presentations": [
+      "presenton"
+    ],
+    "product-management": [
+      "ab-test-analysis",
+      "analyze-feature-requests",
+      "ansoff-matrix",
+      "beachhead-segment",
+      "brainstorm-experiments-existing",
+      "brainstorm-experiments-new",
+      "brainstorm-ideas-existing",
+      "brainstorm-ideas-new",
+      "brainstorm-okrs",
+      "business-model",
+      "cohort-analysis",
+      "competitive-battlecard",
+      "competitor-analysis",
+      "create-prd",
+      "customer-journey-map",
+      "draft-nda",
+      "dummy-dataset",
+      "grammar-check",
+      "growth-loops",
+      "gtm-motions",
+      "gtm-strategy",
+      "ideal-customer-profile",
+      "identify-assumptions-existing",
+      "identify-assumptions-new",
+      "intended-vs-implemented",
+      "interview-script",
+      "job-stories",
+      "lean-canvas",
+      "market-segments",
+      "market-sizing",
+      "marketing-ideas",
+      "metrics-dashboard",
+      "monetization-strategy",
+      "north-star-metric",
+      "opportunity-solution-tree",
+      "outcome-roadmap",
+      "pestle-analysis",
+      "porters-five-forces",
+      "positioning-ideas",
+      "pre-mortem",
+      "pricing-strategy",
+      "prioritization-frameworks",
+      "prioritize-assumptions",
+      "prioritize-features",
+      "privacy-policy",
+      "product-name",
+      "product-strategy",
+      "product-vision",
+      "release-notes",
+      "retro",
+      "review-resume",
+      "sentiment-analysis",
+      "shipping-artifacts",
+      "sprint-plan",
+      "sql-queries",
+      "stakeholder-map",
+      "startup-canvas",
+      "strategy-red-team",
+      "summarize-interview",
+      "summarize-meeting",
+      "swot-analysis",
+      "test-scenarios",
+      "user-personas",
+      "user-segmentation",
+      "user-stories",
+      "value-prop-statements",
+      "value-proposition",
+      "wwas"
+    ],
+    "product-management-noncommercial": [
+      "epic-hypothesis",
+      "jobs-to-be-done",
+      "positioning-statement",
+      "press-release",
+      "prioritization-advisor",
+      "problem-statement",
+      "proto-persona",
+      "user-story",
+      "user-story-splitting",
+      "workshop-facilitation"
+    ],
+    "product-writing": [
+      "prd"
+    ],
+    "productivity-workflows": [
+      "grill-me",
+      "grilling",
+      "handoff",
+      "teach",
+      "writing-great-skills"
+    ],
+    "quality-assurance": [
+      "qa-cases"
+    ],
+    "release-management": [
+      "release-skills"
+    ],
+    "research-workflows": [
+      "claude-system-prompt-anatomy",
+      "deep-research",
+      "jtbd-amazon-research",
+      "jtbd-result-audit",
+      "jtbd-review-runner"
+    ],
+    "skill-authoring": [
+      "skill-creator"
+    ],
+    "skill-discovery": [
+      "find-skills"
+    ],
+    "spec-driven-development": [
+      "openspec-apply-change",
+      "openspec-archive-change",
+      "openspec-explore",
+      "openspec-propose"
+    ],
+    "summarization": [
+      "summarize"
+    ],
+    "web-extraction": [
+      "news-extractor",
+      "rednote-reader"
+    ],
+    "writing": [
+      "khazix-writer"
+    ]
+  },
+  "capability_requirements": {
+    "browser-automation": [
+      {
+        "command": "opencli",
+        "required": false,
+        "used_by": ["opencli"]
+      },
+      {
+        "connection": "opencli-target-account",
+        "label": "Account for the service selected through OpenCLI",
+        "required": false,
+        "used_by": ["opencli"]
+      }
+    ],
+    "browser-control": [
+      {
+        "command": "agent-browser",
+        "required": false,
+        "used_by": ["agent-browser"]
+      },
+      {
+        "environment": "AGENT_BROWSER_ENCRYPTION_KEY",
+        "required": false,
+        "used_by": ["agent-browser"]
+      },
+      {
+        "connection": "logged-in-browser-session",
+        "label": "User-authorized browser session for authenticated sites",
+        "required": false,
+        "used_by": ["agent-browser"]
+      }
+    ],
+    "cultural-practices": [
+      {
+        "commands": ["python3", "python", "py"],
+        "required": true,
+        "used_by": ["liuyao"]
+      }
+    ],
+    "daily-work": [],
+    "design": [],
+    "design-intelligence": [
+      {
+        "commands": ["python3", "python", "py"],
+        "required": true,
+        "used_by": ["ui-ux-pro-max"]
+      }
+    ],
+    "engineering-workflows": [
+      {
+        "command": "bash",
+        "required": false,
+        "used_by": ["diagnosing-bugs"]
+      },
+      {
+        "command": "gh",
+        "required": false,
+        "used_by": ["setup-matt-pocock-skills", "triage"]
+      },
+      {
+        "command": "git",
+        "required": false,
+        "used_by": [
+          "code-review",
+          "diagnosing-bugs",
+          "improve-codebase-architecture",
+          "resolving-merge-conflicts",
+          "setup-matt-pocock-skills"
+        ]
+      },
+      {
+        "command": "npm",
+        "required": false,
+        "used_by": ["improve-codebase-architecture"]
+      },
+      {
+        "command": "python",
+        "required": false,
+        "used_by": ["prototype"]
+      }
+    ],
+    "experimental-workflows": [
+      {
+        "command": "bash",
+        "required": false,
+        "used_by": ["wizard"]
+      },
+      {
+        "command": "gh",
+        "required": false,
+        "used_by": ["wizard"]
+      }
+    ],
+    "experimental-self-improvement": [],
+    "financial-research": [],
+    "full-routing": [],
+    "generated-domain-perspectives": [],
+    "generated-investing-perspectives": [],
+    "github-automation": [
+      {
+        "command": "gh",
+        "required": true,
+        "used_by": ["gh-issues"]
+      },
+      {
+        "command": "git",
+        "required": true,
+        "used_by": ["gh-issues"]
+      },
+      {
+        "environment": "GH_TOKEN",
+        "required": false,
+        "used_by": ["gh-issues"]
+      },
+      {
+        "connection": "github-account",
+        "label": "Authenticated GitHub account with target-repository access",
+        "required": false,
+        "used_by": ["gh-issues"]
+      }
+    ],
+    "knowledge-vault": [
+      {
+        "command": "python3",
+        "required": false,
+        "used_by": ["file-organize"]
+      }
+    ],
+    "legacy-workflows": [
+      {
+        "command": "docker",
+        "required": false,
+        "used_by": ["qa", "ubiquitous-language"]
+      },
+      {
+        "command": "gh",
+        "required": false,
+        "used_by": ["qa"]
+      }
+    ],
+    "lenny-product-workflows": [],
+    "macos-integrations": [
+      {
+        "command": "remindctl",
+        "required": false,
+        "used_by": ["apple-reminders"]
+      },
+      {
+        "connection": "apple-reminders-permission",
+        "label": "macOS permission to access the user's Reminders data",
+        "required": false,
+        "used_by": ["apple-reminders"]
+      }
+    ],
+    "maintainer-advanced-workflows": [
+      {
+        "command": "git",
+        "required": true,
+        "used_by": ["frontend-guidelines", "worktree-handoff"]
+      },
+      {
+        "commands": ["python3", "python", "py"],
+        "required": true,
+        "used_by": ["ai-product-radar", "amazon-listing-optimizer"]
+      }
+    ],
+    "marketing": [],
+    "media": [
+      {
+        "command": "node",
+        "required": true,
+        "used_by": ["rednote-caption-to-screenshots"]
+      },
+      {
+        "command": "npm",
+        "required": false,
+        "used_by": ["rednote-caption-to-screenshots"]
+      },
+      {
+        "command": "ffmpeg",
+        "required": false,
+        "used_by": ["watch"]
+      },
+      {
+        "command": "ffprobe",
+        "required": false,
+        "used_by": ["watch"]
+      },
+      {
+        "commands": ["python3", "python", "py"],
+        "required": true,
+        "used_by": ["rednote-caption-to-screenshots", "watch", "youtube-video-radar"]
+      },
+      {
+        "command": "yt-dlp",
+        "required": false,
+        "used_by": ["watch", "youtube-video-radar"]
+      }
+    ],
+    "obsidian": [
+      {
+        "command": "defuddle",
+        "required": false,
+        "used_by": ["defuddle"]
+      },
+      {
+        "command": "obsidian",
+        "required": false,
+        "used_by": ["obsidian-cli"]
+      },
+      {
+        "connection": "obsidian-vault",
+        "label": "User-selected Obsidian vault or desktop application",
+        "required": false,
+        "used_by": [
+          "defuddle",
+          "json-canvas",
+          "obsidian-bases",
+          "obsidian-cli",
+          "obsidian-markdown"
+        ]
+      }
+    ],
+    "original-workflows": [
+      {
+        "command": "claude",
+        "required": false,
+        "used_by": ["claude-runtime-diagnostics"]
+      }
+    ],
+    "perspectives": [],
+    "persona-authoring": [
+      {
+        "command": "bash",
+        "required": false,
+        "used_by": ["huashu-nuwa"]
+      },
+      {
+        "command": "python3",
+        "required": false,
+        "used_by": ["huashu-nuwa"]
+      },
+      {
+        "command": "yt-dlp",
+        "required": false,
+        "used_by": ["huashu-nuwa"]
+      }
+    ],
+    "personal-productivity": [
+      {
+        "command": "bash",
+        "required": false,
+        "used_by": ["obsidian-vault"]
+      },
+      {
+        "command": "obsidian",
+        "required": false,
+        "used_by": ["obsidian-vault"]
+      }
+    ],
+    "planning-workflows": [
+      {
+        "command": "bash",
+        "required": false,
+        "used_by": ["brainstorming"]
+      },
+      {
+        "command": "git",
+        "required": false,
+        "used_by": ["brainstorming"]
+      },
+      {
+        "command": "node",
+        "required": false,
+        "used_by": ["brainstorming"]
+      },
+      {
+        "commands": ["bash", "pwsh", "powershell"],
+        "required": false,
+        "used_by": ["planning-with-files"]
+      }
+    ],
+    "presentations": [
+      {
+        "command": "bash",
+        "required": false,
+        "used_by": ["presenton"]
+      },
+      {
+        "command": "docker",
+        "required": false,
+        "used_by": ["presenton"]
+      },
+      {
+        "command": "python",
+        "required": false,
+        "used_by": ["presenton"]
+      },
+      {
+        "command": "uv",
+        "required": false,
+        "used_by": ["presenton"]
+      },
+      {
+        "connection": "presenton-service",
+        "label": "Running Presenton API or MCP service when that mode is used",
+        "required": false,
+        "used_by": ["presenton"]
+      }
+    ],
+    "product-management": [
+      {
+        "command": "git",
+        "required": false,
+        "used_by": ["release-notes"]
+      },
+      {
+        "command": "python3",
+        "required": false,
+        "used_by": ["ab-test-analysis", "cohort-analysis"]
+      }
+    ],
+    "product-management-noncommercial": [
+      {
+        "command": "python3",
+        "required": false,
+        "used_by": ["user-story"]
+      }
+    ],
+    "product-writing": [],
+    "productivity-workflows": [],
+    "quality-assurance": [],
+    "release-management": [
+      {
+        "command": "git",
+        "required": true,
+        "used_by": ["release-skills"]
+      },
+      {
+        "command": "gh",
+        "required": false,
+        "used_by": ["release-skills"]
+      },
+      {
+        "connection": "github-account",
+        "label": "Authenticated GitHub account for remote release operations",
+        "required": false,
+        "used_by": ["release-skills"]
+      }
+    ],
+    "research-workflows": [
+      {
+        "commands": ["python3", "python", "py"],
+        "required": true,
+        "used_by": ["jtbd-amazon-research", "jtbd-result-audit", "jtbd-review-runner"]
+      },
+      {
+        "command": "agent",
+        "required": false,
+        "used_by": ["jtbd-review-runner"]
+      }
+    ],
+    "skill-authoring": [
+      {
+        "command": "bash",
+        "required": false,
+        "used_by": ["skill-creator"]
+      },
+      {
+        "command": "npm",
+        "required": false,
+        "used_by": ["skill-creator"]
+      },
+      {
+        "command": "python",
+        "required": false,
+        "used_by": ["skill-creator"]
+      },
+      {
+        "command": "python3",
+        "required": false,
+        "used_by": ["skill-creator"]
+      }
+    ],
+    "skill-discovery": [
+      {
+        "command": "bash",
+        "required": false,
+        "used_by": ["find-skills"]
+      },
+      {
+        "command": "docker",
+        "required": false,
+        "used_by": ["find-skills"]
+      },
+      {
+        "command": "git",
+        "required": false,
+        "used_by": ["find-skills"]
+      },
+      {
+        "command": "npx",
+        "required": false,
+        "used_by": ["find-skills"]
+      }
+    ],
+    "spec-driven-development": [
+      {
+        "command": "openspec",
+        "required": false,
+        "used_by": [
+          "openspec-apply-change",
+          "openspec-archive-change",
+          "openspec-explore",
+          "openspec-propose"
+        ]
+      }
+    ],
+    "summarization": [
+      {
+        "command": "summarize",
+        "required": true,
+        "used_by": ["summarize"]
+      },
+      {
+        "environment": "ANTHROPIC_API_KEY",
+        "required": false,
+        "used_by": ["summarize"]
+      },
+      {
+        "environment": "GEMINI_API_KEY",
+        "required": false,
+        "used_by": ["summarize"]
+      },
+      {
+        "environment": "OPENAI_API_KEY",
+        "required": false,
+        "used_by": ["summarize"]
+      },
+      {
+        "environment": "XAI_API_KEY",
+        "required": false,
+        "used_by": ["summarize"]
+      }
+    ],
+    "web-extraction": [
+      {
+        "commands": ["python3", "python", "py"],
+        "required": true,
+        "used_by": ["news-extractor", "rednote-reader"]
+      },
+      {
+        "command": "uv",
+        "required": true,
+        "used_by": ["news-extractor"]
+      },
+      {
+        "environment": "TWITTER_AUTH_TOKEN",
+        "required": false,
+        "used_by": ["news-extractor"]
+      },
+      {
+        "environment": "TWITTER_COOKIE",
+        "required": false,
+        "used_by": ["news-extractor"]
+      },
+      {
+        "environment": "TWITTER_CT0",
+        "required": false,
+        "used_by": ["news-extractor"]
+      },
+      {
+        "connection": "rednote-authorized-session",
+        "label": "User-authorized Rednote connector, browser session, or export",
+        "required": false,
+        "used_by": ["rednote-reader"]
+      }
+    ],
+    "writing": []
+  },
+  "runtimes": {
+    "codex": {
+      "rule": {
+        "source": "adapters/codex/AGENTS.md",
+        "target": "AGENTS.md"
+      },
+      "skills_root": ".agents/skills",
+      "hooks_by_profile": {
+        "daily-work": [
+          {
+            "source": "adapters/codex/hooks.json",
+            "target": ".codex/hooks.json"
+          }
+        ],
+        "full": [
+          {
+            "source": "adapters/codex/hooks-full.json",
+            "target": ".codex/hooks.json"
+          }
+        ],
+        "knowledge-vault": [
+          {
+            "source": "adapters/codex/hooks-knowledge-vault.json",
+            "target": ".codex/hooks.json"
+          }
+        ]
+      }
+    },
+    "cursor": {
+      "rule": {
+        "source": "adapters/cursor/agent-config-kit.mdc",
+        "target": ".cursor/rules/agent-config-kit.mdc"
+      },
+      "skills_root": ".cursor/skills",
+      "hooks_by_profile": {
+        "daily-work": [
+          {
+            "source": "adapters/cursor/hooks.json",
+            "target": ".cursor/hooks.json"
+          }
+        ],
+        "full": [
+          {
+            "source": "adapters/cursor/hooks-full.json",
+            "target": ".cursor/hooks.json"
+          }
+        ],
+        "knowledge-vault": [
+          {
+            "source": "adapters/cursor/hooks-knowledge-vault.json",
+            "target": ".cursor/hooks.json"
+          }
+        ]
+      }
+    },
+    "claude-code": {
+      "rule": {
+        "source": "adapters/claude-code/CLAUDE.md",
+        "target": "CLAUDE.md"
+      },
+      "skills_root": ".claude/skills",
+      "hooks_by_profile": {
+        "daily-work": [
+          {
+            "source": "adapters/claude-code/settings.json",
+            "target": ".claude/settings.json"
+          }
+        ],
+        "full": [
+          {
+            "source": "adapters/claude-code/settings-full.json",
+            "target": ".claude/settings.json"
+          }
+        ],
+        "knowledge-vault": [
+          {
+            "source": "adapters/claude-code/settings-knowledge-vault.json",
+            "target": ".claude/settings.json"
+          }
+        ]
+      }
+    }
+  },
+  "common_files": [
+    {
+      "source": "packs/core/START-HERE.md",
+      "target": "START-HERE.md"
+    }
+  ]
+}

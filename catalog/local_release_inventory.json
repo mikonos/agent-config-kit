@@ -1,0 +1,2148 @@
+{
+  "catalog_only_bundled_skills": [
+    "all-skills-router",
+    "connection-discovery",
+    "deep-read",
+    "epic-hypothesis",
+    "jobs-to-be-done",
+    "literature-note",
+    "network-maintenance",
+    "plan-and-execute",
+    "positioning-statement",
+    "press-release",
+    "problem-statement",
+    "proto-persona",
+    "research-with-evidence",
+    "review-and-verify",
+    "start-here",
+    "user-story-splitting",
+    "workshop-facilitation",
+    "write-and-revise"
+  ],
+  "catalog_only_external_skills": [],
+  "description": "Path-free release disposition for every unique Skill found in the maintainer's three local source trees. Private-project names are replaced by anonymous entries. No entry remains pending review.",
+  "schema_version": 1,
+  "skills": {
+    "ab-test-analysis": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "ab-test-setup": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "active-conversationalist": {
+      "delivery": "bundled",
+      "pack": "original-workflows",
+      "scope": "top_level"
+    },
+    "advisory-board": {
+      "delivery": "not_distributed",
+      "origin": "https://github.com/Backtthefuture/huangshu",
+      "reason": "The verified upstream repository states MIT in its README but does not include the complete license text. Redistribution waits for a LICENSE file or explicit permission.",
+      "scope": "top_level",
+      "status": "license_blocked"
+    },
+    "agent-browser": {
+      "delivery": "bundled",
+      "pack": "browser-control",
+      "scope": "top_level"
+    },
+    "ai-native-founder": {
+      "delivery": "bundled",
+      "pack": "original-workflows",
+      "scope": "top_level"
+    },
+    "ai-product-radar": {
+      "delivery": "bundled",
+      "pack": "maintainer-advanced-workflows",
+      "scope": "top_level"
+    },
+    "amazon-listing-optimizer": {
+      "delivery": "bundled",
+      "pack": "maintainer-advanced-workflows",
+      "scope": "top_level"
+    },
+    "analytics-tracking": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "analyze-feature-requests": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "andrej-karpathy-perspective": {
+      "delivery": "bundled",
+      "pack": "perspectives",
+      "scope": "nested_promoted"
+    },
+    "ansoff-matrix": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "apple-reminders": {
+      "delivery": "bundled",
+      "pack": "macos-integrations",
+      "scope": "top_level"
+    },
+    "april-dunford-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "ask-matt": {
+      "delivery": "bundled",
+      "pack": "engineering-workflows",
+      "scope": "top_level"
+    },
+    "beachhead-segment": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "bill-buxton-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "bob-moesta-perspective": {
+      "delivery": "not_distributed",
+      "reason": "The local entry is a duplicate, recovery artifact, mismatched folder, or other non-canonical copy.",
+      "scope": "top_level",
+      "status": "legacy_or_duplicate"
+    },
+    "brainstorm-experiments-existing": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "brainstorm-experiments-new": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "brainstorm-ideas-existing": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "brainstorm-ideas-new": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "brainstorm-okrs": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "brainstorming": {
+      "delivery": "bundled",
+      "pack": "planning-workflows",
+      "scope": "top_level"
+    },
+    "brand-naming": {
+      "delivery": "bundled",
+      "pack": "original-workflows",
+      "scope": "top_level"
+    },
+    "brigid-schulte-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "bruce-feiler-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "buffett-perspective": {
+      "delivery": "not_distributed",
+      "reason": "The local entry is a duplicate, recovery artifact, mismatched folder, or other non-canonical copy.",
+      "scope": "top_level",
+      "status": "legacy_or_duplicate"
+    },
+    "business-model": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "cc-shield": {
+      "delivery": "not_distributed",
+      "reason": "Contains post-ban identity-link evasion, device-identifier reset, credential or cache deletion, and unverified platform claims. It is not safe for a beginner bundle.",
+      "scope": "top_level",
+      "status": "safety_blocked"
+    },
+    "ceo-deck": {
+      "delivery": "bundled",
+      "pack": "original-workflows",
+      "scope": "top_level"
+    },
+    "chanlun-trading": {
+      "delivery": "bundled",
+      "pack": "financial-research",
+      "scope": "top_level"
+    },
+    "chanzhongshuochan-perspective": {
+      "delivery": "not_distributed",
+      "reason": "The local entry is a duplicate, recovery artifact, mismatched folder, or other non-canonical copy.",
+      "scope": "top_level",
+      "status": "legacy_or_duplicate"
+    },
+    "christensen-perspective": {
+      "delivery": "not_distributed",
+      "reason": "Contains oversized or binary artifacts that are not suitable for the portable source bundle.",
+      "scope": "top_level",
+      "status": "nonportable_artifact"
+    },
+    "claude-handoff": {
+      "delivery": "bundled",
+      "pack": "experimental-workflows",
+      "scope": "top_level"
+    },
+    "claude-runtime-diagnostics": {
+      "delivery": "bundled",
+      "pack": "original-workflows",
+      "scope": "top_level"
+    },
+    "claude-system-prompt-anatomy": {
+      "delivery": "bundled",
+      "pack": "research-workflows",
+      "scope": "top_level"
+    },
+    "code-review": {
+      "delivery": "bundled",
+      "pack": "engineering-workflows",
+      "scope": "top_level"
+    },
+    "codebase-design": {
+      "delivery": "bundled",
+      "pack": "engineering-workflows",
+      "scope": "top_level"
+    },
+    "cohort-analysis": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "cold-email": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "competitive-battlecard": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "competitive-profile-builder": {
+      "delivery": "bundled",
+      "pack": "maintainer-advanced-workflows",
+      "scope": "top_level"
+    },
+    "competitor-alternatives": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "competitor-analysis": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "content-strategy": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "copy-editing": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "copywriting": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "create-prd": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "cursor-jtbd-review": {
+      "delivery": "not_distributed",
+      "reason": "Replaced by the portable JTBD review workflow.",
+      "replacement": "jtbd-review-runner",
+      "scope": "top_level",
+      "status": "superseded"
+    },
+    "customer-journey-map": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "darwin-skill": {
+      "delivery": "not_distributed",
+      "origin": "https://github.com/alchaincyf/darwin-skill",
+      "reason": "The verified upstream repository states MIT in its README but does not include the complete license text. Redistribution waits for a LICENSE file or explicit permission.",
+      "scope": "top_level",
+      "status": "license_blocked"
+    },
+    "database-helper": {
+      "delivery": "bundled",
+      "pack": "original-workflows",
+      "scope": "top_level"
+    },
+    "david-buss-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "deep-learning-legacy": {
+      "delivery": "not_distributed",
+      "reason": "The local entry is a duplicate, recovery artifact, mismatched folder, or other non-canonical copy.",
+      "scope": "top_level",
+      "status": "legacy_or_duplicate"
+    },
+    "deep-research": {
+      "delivery": "bundled",
+      "pack": "research-workflows",
+      "scope": "top_level"
+    },
+    "defining-product-vision": {
+      "delivery": "bundled",
+      "pack": "lenny-product-workflows",
+      "scope": "top_level"
+    },
+    "defuddle": {
+      "delivery": "bundled",
+      "pack": "obsidian",
+      "scope": "top_level"
+    },
+    "design-an-interface": {
+      "delivery": "bundled",
+      "pack": "legacy-workflows",
+      "scope": "top_level"
+    },
+    "diagnosing-bugs": {
+      "delivery": "bundled",
+      "pack": "engineering-workflows",
+      "scope": "top_level"
+    },
+    "dichter-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "digital-marketing": {
+      "delivery": "bundled",
+      "pack": "original-workflows",
+      "scope": "top_level"
+    },
+    "domain-modeling": {
+      "delivery": "bundled",
+      "pack": "engineering-workflows",
+      "scope": "top_level"
+    },
+    "draft-nda": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "dummy-dataset": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "edit-article": {
+      "delivery": "bundled",
+      "pack": "personal-productivity",
+      "scope": "top_level"
+    },
+    "edward-tufte-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "elinor-ochs-celf-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "elon-musk-perspective": {
+      "delivery": "bundled",
+      "pack": "perspectives",
+      "scope": "nested_promoted"
+    },
+    "email-sequence": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "emily-oster-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "enterprise-ai-scenario-map": {
+      "delivery": "not_distributed",
+      "reason": "The local entry is a duplicate, recovery artifact, mismatched folder, or other non-canonical copy.",
+      "scope": "top_level",
+      "status": "legacy_or_duplicate"
+    },
+    "eric-evans-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "eve-rodsky-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "feishu-bitable": {
+      "delivery": "not_distributed",
+      "reason": "Use the official Lark Base Skill fetched from its origin.",
+      "replacement": "lark-base",
+      "scope": "top_level",
+      "status": "superseded"
+    },
+    "feishu-calendar": {
+      "delivery": "not_distributed",
+      "reason": "Use the official Lark Calendar Skill fetched from its origin.",
+      "replacement": "lark-calendar",
+      "scope": "top_level",
+      "status": "superseded"
+    },
+    "feishu-channel-rules": {
+      "delivery": "not_distributed",
+      "reason": "Use the official shared Lark conventions fetched from its origin.",
+      "replacement": "lark-shared",
+      "scope": "top_level",
+      "status": "superseded"
+    },
+    "feishu-create-doc": {
+      "delivery": "not_distributed",
+      "reason": "Use the official Lark document Skill fetched from its origin.",
+      "replacement": "lark-doc",
+      "scope": "top_level",
+      "status": "superseded"
+    },
+    "feishu-fetch-doc": {
+      "delivery": "not_distributed",
+      "reason": "Use the official Lark document Skill fetched from its origin.",
+      "replacement": "lark-doc",
+      "scope": "top_level",
+      "status": "superseded"
+    },
+    "feishu-im-read": {
+      "delivery": "not_distributed",
+      "reason": "Use the official Lark messaging Skill fetched from its origin.",
+      "replacement": "lark-im",
+      "scope": "top_level",
+      "status": "superseded"
+    },
+    "feishu-task": {
+      "delivery": "not_distributed",
+      "reason": "Use the official Lark task Skill fetched from its origin.",
+      "replacement": "lark-task",
+      "scope": "top_level",
+      "status": "superseded"
+    },
+    "feishu-troubleshoot": {
+      "delivery": "not_distributed",
+      "reason": "Use the official Lark API explorer fetched from its origin.",
+      "replacement": "lark-openapi-explorer",
+      "scope": "top_level",
+      "status": "superseded"
+    },
+    "feishu-update-doc": {
+      "delivery": "not_distributed",
+      "reason": "Use the official Lark document Skill fetched from its origin.",
+      "replacement": "lark-doc",
+      "scope": "top_level",
+      "status": "superseded"
+    },
+    "feynman-perspective": {
+      "delivery": "bundled",
+      "pack": "perspectives",
+      "scope": "nested_promoted"
+    },
+    "file-organize": {
+      "delivery": "bundled",
+      "pack": "knowledge-vault",
+      "scope": "top_level"
+    },
+    "find-skills": {
+      "delivery": "bundled",
+      "pack": "skill-discovery",
+      "scope": "top_level"
+    },
+    "fleeting-note": {
+      "delivery": "bundled",
+      "pack": "knowledge-vault",
+      "scope": "top_level"
+    },
+    "form-cro": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "free-tool-strategy": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "frontend-design": {
+      "delivery": "bundled",
+      "pack": "design",
+      "scope": "top_level"
+    },
+    "frontend-guidelines": {
+      "delivery": "bundled",
+      "pack": "maintainer-advanced-workflows",
+      "scope": "top_level"
+    },
+    "gautama-buddha-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "gemini-agent-deep-research": {
+      "delivery": "not_distributed",
+      "reason": "The local entry is a duplicate, recovery artifact, mismatched folder, or other non-canonical copy.",
+      "scope": "top_level",
+      "status": "legacy_or_duplicate"
+    },
+    "george-polya-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "gh-issues": {
+      "delivery": "bundled",
+      "pack": "github-automation",
+      "scope": "top_level"
+    },
+    "graham-perspective": {
+      "delivery": "not_distributed",
+      "reason": "The local entry is a duplicate, recovery artifact, mismatched folder, or other non-canonical copy.",
+      "scope": "top_level",
+      "status": "legacy_or_duplicate"
+    },
+    "grammar-check": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "grill-me": {
+      "delivery": "bundled",
+      "pack": "productivity-workflows",
+      "scope": "top_level"
+    },
+    "grill-with-docs": {
+      "delivery": "bundled",
+      "pack": "engineering-workflows",
+      "scope": "top_level"
+    },
+    "grilling": {
+      "delivery": "bundled",
+      "pack": "productivity-workflows",
+      "scope": "top_level"
+    },
+    "growth-loops": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "gtd-capture": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "gtd-clarify": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "gtd-dashboard": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "gtd-engage": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "gtd-init": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "gtd-organize": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "gtd-plan-today": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "gtd-prepare-tomorrow": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "gtd-review": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "gtd-update": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "gtm-motions": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "gtm-strategy": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "handoff": {
+      "delivery": "bundled",
+      "pack": "productivity-workflows",
+      "scope": "top_level"
+    },
+    "heidegger-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "howard-marks-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "huashu-nuwa": {
+      "delivery": "bundled",
+      "pack": "persona-authoring",
+      "scope": "top_level"
+    },
+    "ideal-customer-profile": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "identify-assumptions-existing": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "identify-assumptions-new": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "ilya-sutskever-perspective": {
+      "delivery": "bundled",
+      "pack": "perspectives",
+      "scope": "nested_promoted"
+    },
+    "imagegen": {
+      "delivery": "not_distributed",
+      "reason": "Provided by the local AI platform runtime. The kit does not copy or claim ownership of platform-built-in Skills.",
+      "scope": "platform_builtin",
+      "status": "platform_builtin"
+    },
+    "implement": {
+      "delivery": "bundled",
+      "pack": "engineering-workflows",
+      "scope": "top_level"
+    },
+    "improve-codebase-architecture": {
+      "delivery": "bundled",
+      "pack": "engineering-workflows",
+      "scope": "top_level"
+    },
+    "index-note": {
+      "delivery": "bundled",
+      "pack": "knowledge-vault",
+      "scope": "top_level"
+    },
+    "industry-research-os": {
+      "delivery": "bundled",
+      "pack": "maintainer-advanced-workflows",
+      "scope": "top_level"
+    },
+    "intended-vs-implemented": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "interview": {
+      "delivery": "not_distributed",
+      "reason": "The local entry is a duplicate, recovery artifact, mismatched folder, or other non-canonical copy.",
+      "scope": "top_level",
+      "status": "legacy_or_duplicate"
+    },
+    "interview-designer": {
+      "delivery": "not_distributed",
+      "reason": "The source repository does not include a redistribution license. Publish only after the owner adds a license or grants permission.",
+      "scope": "top_level",
+      "status": "license_blocked"
+    },
+    "interview-script": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "james-bach-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "job-stories": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "jobs-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "john-gottman-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "json-canvas": {
+      "delivery": "bundled",
+      "pack": "obsidian",
+      "scope": "top_level"
+    },
+    "jtbd-amazon-corpus": {
+      "delivery": "not_distributed",
+      "reason": "Replaced by the portable, source-agnostic JTBD research workflow.",
+      "replacement": "jtbd-amazon-research",
+      "scope": "top_level",
+      "status": "superseded"
+    },
+    "jtbd-amazon-research": {
+      "delivery": "bundled",
+      "pack": "research-workflows",
+      "scope": "top_level"
+    },
+    "jtbd-result-audit": {
+      "delivery": "bundled",
+      "pack": "research-workflows",
+      "scope": "top_level"
+    },
+    "jtbd-review-runner": {
+      "delivery": "bundled",
+      "pack": "research-workflows",
+      "scope": "top_level"
+    },
+    "khazix-writer": {
+      "delivery": "bundled",
+      "pack": "writing",
+      "scope": "nested_promoted"
+    },
+    "lark-approval": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-apps": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-attendance": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-base": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-calendar": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-contact": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-doc": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-drive": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-event": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-im": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-mail": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-markdown": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-minutes": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-note": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-okr": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-openapi-explorer": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-shared": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-sheets": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-skill-maker": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-slides": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-task": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-vc": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-vc-agent": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-whiteboard": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-wiki": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-workflow-meeting-summary": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "lark-workflow-standup-report": {
+      "delivery": "fetch_from_origin",
+      "pack": "lark-official",
+      "scope": "top_level"
+    },
+    "launch-strategy": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "lean-canvas": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "learning-deepening": {
+      "delivery": "bundled",
+      "pack": "maintainer-advanced-workflows",
+      "scope": "top_level"
+    },
+    "lidan-reframe": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "link-proposer": {
+      "delivery": "bundled",
+      "pack": "knowledge-vault",
+      "scope": "top_level"
+    },
+    "liuyao": {
+      "delivery": "bundled",
+      "pack": "cultural-practices",
+      "scope": "top_level"
+    },
+    "loop-me": {
+      "delivery": "bundled",
+      "pack": "experimental-workflows",
+      "scope": "top_level"
+    },
+    "luhmann-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "market-segments": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "market-sizing": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "marketing-ideas": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "marketing-psychology": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "marketing-strategy-pmm": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "marty-cagan-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "master-bacarella-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-bailey-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-bolen-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-dreman-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-dutton-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-friess-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-greenblatt-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-henderson-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-hesser-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-laure-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-leuthold-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-lynch-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-malkiel-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-marvin-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-mclean-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-miller-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-oelschlager-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-okumus-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-oshaughnessy-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-rogers-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-rossman-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-sanborn-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-sivy-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-whitney-george-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-whitridge-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "master-yacktman-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-investing-perspectives",
+      "scope": "top_level"
+    },
+    "md2wechat": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "measuring-product-market-fit": {
+      "delivery": "bundled",
+      "pack": "lenny-product-workflows",
+      "scope": "top_level"
+    },
+    "meeting-note": {
+      "delivery": "bundled",
+      "pack": "knowledge-vault",
+      "scope": "top_level"
+    },
+    "methodology-to-vault": {
+      "delivery": "bundled",
+      "pack": "knowledge-vault",
+      "scope": "top_level"
+    },
+    "metrics-dashboard": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "michael-price-perspective": {
+      "delivery": "not_distributed",
+      "reason": "The local entry is a duplicate, recovery artifact, mismatched folder, or other non-canonical copy.",
+      "scope": "top_level",
+      "status": "legacy_or_duplicate"
+    },
+    "monetization-strategy": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "mrbeast-perspective": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "munger-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "naval-perspective": {
+      "delivery": "bundled",
+      "pack": "perspectives",
+      "scope": "nested_promoted"
+    },
+    "news-extractor": {
+      "delivery": "bundled",
+      "pack": "web-extraction",
+      "scope": "top_level"
+    },
+    "north-star-metric": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "note-split": {
+      "delivery": "bundled",
+      "pack": "knowledge-vault",
+      "scope": "top_level"
+    },
+    "notebooklm": {
+      "delivery": "not_distributed",
+      "reason": "The local entry is a duplicate, recovery artifact, mismatched folder, or other non-canonical copy.",
+      "scope": "top_level",
+      "status": "legacy_or_duplicate"
+    },
+    "obsidian-bases": {
+      "delivery": "bundled",
+      "pack": "obsidian",
+      "scope": "top_level"
+    },
+    "obsidian-cli": {
+      "delivery": "bundled",
+      "pack": "obsidian",
+      "scope": "top_level"
+    },
+    "obsidian-markdown": {
+      "delivery": "bundled",
+      "pack": "obsidian",
+      "scope": "top_level"
+    },
+    "obsidian-vault": {
+      "delivery": "bundled",
+      "pack": "personal-productivity",
+      "scope": "top_level"
+    },
+    "onboarding-cro": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "openai-docs": {
+      "delivery": "not_distributed",
+      "reason": "Provided by the local AI platform runtime. The kit does not copy or claim ownership of platform-built-in Skills.",
+      "scope": "platform_builtin",
+      "status": "platform_builtin"
+    },
+    "opencli": {
+      "delivery": "bundled",
+      "pack": "browser-automation",
+      "scope": "top_level"
+    },
+    "openspec-apply-change": {
+      "delivery": "bundled",
+      "pack": "spec-driven-development",
+      "scope": "top_level"
+    },
+    "openspec-archive-change": {
+      "delivery": "bundled",
+      "pack": "spec-driven-development",
+      "scope": "top_level"
+    },
+    "openspec-explore": {
+      "delivery": "bundled",
+      "pack": "spec-driven-development",
+      "scope": "top_level"
+    },
+    "openspec-propose": {
+      "delivery": "bundled",
+      "pack": "spec-driven-development",
+      "scope": "top_level"
+    },
+    "opportunity-solution-tree": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "outcome-roadmap": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "page-cro": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "paid-ads": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "paul-graham-perspective": {
+      "delivery": "bundled",
+      "pack": "perspectives",
+      "scope": "nested_promoted"
+    },
+    "paywall-upgrade-cro": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "pestle-analysis": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "plan-reviewer": {
+      "delivery": "bundled",
+      "pack": "original-workflows",
+      "scope": "top_level"
+    },
+    "planning-with-files": {
+      "delivery": "bundled",
+      "pack": "planning-workflows",
+      "scope": "top_level"
+    },
+    "plugin-creator": {
+      "delivery": "not_distributed",
+      "reason": "Provided by the local AI platform runtime. The kit does not copy or claim ownership of platform-built-in Skills.",
+      "scope": "platform_builtin",
+      "status": "platform_builtin"
+    },
+    "popup-cro": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "porters-five-forces": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "positioning-ideas": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "prd": {
+      "delivery": "bundled",
+      "pack": "product-writing",
+      "scope": "top_level"
+    },
+    "pre-mortem": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "presenton": {
+      "delivery": "bundled",
+      "pack": "presentations",
+      "scope": "top_level"
+    },
+    "pricing-strategy": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "prioritization-advisor": {
+      "delivery": "bundled",
+      "pack": "product-management-noncommercial",
+      "scope": "top_level"
+    },
+    "prioritization-frameworks": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "prioritize-assumptions": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "prioritize-features": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "privacy-policy": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "product-brief": {
+      "delivery": "bundled",
+      "pack": "maintainer-advanced-workflows",
+      "scope": "top_level"
+    },
+    "product-marketing-context": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "product-name": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "product-strategy": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "product-vision": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "programmatic-seo": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "prompt-design": {
+      "delivery": "bundled",
+      "pack": "original-workflows",
+      "scope": "top_level"
+    },
+    "prototype": {
+      "delivery": "bundled",
+      "pack": "engineering-workflows",
+      "scope": "top_level"
+    },
+    "qa": {
+      "delivery": "bundled",
+      "pack": "legacy-workflows",
+      "scope": "top_level"
+    },
+    "qa-cases": {
+      "delivery": "bundled",
+      "pack": "quality-assurance",
+      "scope": "top_level"
+    },
+    "random-walk": {
+      "delivery": "bundled",
+      "pack": "knowledge-vault",
+      "scope": "top_level"
+    },
+    "redacted-private-project-001": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-002": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-003": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-004": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-005": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-006": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-007": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-008": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-009": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-010": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-011": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-012": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-013": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-014": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-015": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-016": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-017": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-018": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-019": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-020": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-021": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-022": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-023": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-024": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-025": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-026": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-027": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-028": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-029": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-030": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-031": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-032": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-033": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-034": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-035": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-036": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-037": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-038": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-039": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-040": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-041": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "redacted-private-project-042": {
+      "delivery": "not_distributed",
+      "reason": "Contains private-project names, local paths, or secret-like material and is not part of the public kit.",
+      "scope": "top_level",
+      "status": "private_project"
+    },
+    "reddit-geo": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "rednote-caption-to-screenshots": {
+      "delivery": "bundled",
+      "pack": "media",
+      "scope": "top_level"
+    },
+    "rednote-reader": {
+      "delivery": "bundled",
+      "pack": "web-extraction",
+      "scope": "top_level"
+    },
+    "referral-program": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "release-notes": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "release-skills": {
+      "delivery": "bundled",
+      "pack": "release-management",
+      "scope": "top_level"
+    },
+    "request-refactor-plan": {
+      "delivery": "bundled",
+      "pack": "legacy-workflows",
+      "scope": "top_level"
+    },
+    "rerick-perspective": {
+      "delivery": "not_distributed",
+      "reason": "The local entry is a duplicate, recovery artifact, mismatched folder, or other non-canonical copy.",
+      "scope": "top_level",
+      "status": "legacy_or_duplicate"
+    },
+    "research": {
+      "delivery": "bundled",
+      "pack": "engineering-workflows",
+      "scope": "top_level"
+    },
+    "resolving-merge-conflicts": {
+      "delivery": "bundled",
+      "pack": "engineering-workflows",
+      "scope": "top_level"
+    },
+    "retro": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "review-agent": {
+      "delivery": "not_distributed",
+      "reason": "Provided by the local AI platform runtime. The kit does not copy or claim ownership of platform-built-in Skills.",
+      "scope": "platform_builtin",
+      "status": "platform_builtin"
+    },
+    "review-resume": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "schema-markup": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "self-evolve": {
+      "delivery": "bundled",
+      "pack": "experimental-self-improvement",
+      "scope": "top_level"
+    },
+    "self-improvement": {
+      "delivery": "not_distributed",
+      "reason": "The local entry is a duplicate, recovery artifact, mismatched folder, or other non-canonical copy.",
+      "scope": "top_level",
+      "status": "legacy_or_duplicate"
+    },
+    "sentiment-analysis": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "seo-audit": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "setup-matt-pocock-skills": {
+      "delivery": "bundled",
+      "pack": "engineering-workflows",
+      "scope": "top_level"
+    },
+    "shipping-artifacts": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "short-video": {
+      "delivery": "bundled",
+      "pack": "media",
+      "scope": "top_level"
+    },
+    "signup-flow-cro": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "skill-creator": {
+      "delivery": "bundled",
+      "pack": "skill-authoring",
+      "scope": "top_level"
+    },
+    "skill-installer": {
+      "delivery": "not_distributed",
+      "reason": "Provided by the local AI platform runtime. The kit does not copy or claim ownership of platform-built-in Skills.",
+      "scope": "platform_builtin",
+      "status": "platform_builtin"
+    },
+    "skill-readme-generator": {
+      "delivery": "bundled",
+      "pack": "maintainer-advanced-workflows",
+      "scope": "top_level"
+    },
+    "social-content": {
+      "delivery": "bundled",
+      "pack": "marketing",
+      "scope": "top_level"
+    },
+    "source-command-gsd-join-discord": {
+      "delivery": "not_distributed",
+      "reason": "This is a platform-internal command adapter rather than an independent redistributable Skill.",
+      "scope": "top_level",
+      "status": "platform_internal"
+    },
+    "sprint-plan": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "sql-queries": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "stakeholder-map": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "startup-canvas": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "steve-jobs-perspective": {
+      "delivery": "bundled",
+      "pack": "perspectives",
+      "scope": "nested_promoted"
+    },
+    "strategic-advisor": {
+      "delivery": "bundled",
+      "pack": "maintainer-advanced-workflows",
+      "scope": "top_level"
+    },
+    "strategic-planning": {
+      "delivery": "bundled",
+      "pack": "maintainer-advanced-workflows",
+      "scope": "top_level"
+    },
+    "strategy-red-team": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "structure-note": {
+      "delivery": "bundled",
+      "pack": "knowledge-vault",
+      "scope": "top_level"
+    },
+    "summarize": {
+      "delivery": "bundled",
+      "pack": "summarization",
+      "scope": "top_level"
+    },
+    "summarize-interview": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "summarize-meeting": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "sun-yuchen-perspective": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "swot-analysis": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "taleb-perspective": {
+      "delivery": "bundled",
+      "pack": "perspectives",
+      "scope": "nested_promoted"
+    },
+    "task-routing": {
+      "delivery": "bundled",
+      "pack": "maintainer-advanced-workflows",
+      "scope": "top_level"
+    },
+    "tdd": {
+      "delivery": "bundled",
+      "pack": "engineering-workflows",
+      "scope": "top_level"
+    },
+    "teach": {
+      "delivery": "bundled",
+      "pack": "productivity-workflows",
+      "scope": "top_level"
+    },
+    "teresa-torres-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "test-case-design-framework": {
+      "delivery": "bundled",
+      "pack": "original-workflows",
+      "scope": "top_level"
+    },
+    "test-scenarios": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "testcase-generator": {
+      "delivery": "not_distributed",
+      "reason": "The local entry is a duplicate, recovery artifact, mismatched folder, or other non-canonical copy.",
+      "scope": "top_level",
+      "status": "legacy_or_duplicate"
+    },
+    "text-humanize": {
+      "delivery": "bundled",
+      "pack": "original-workflows",
+      "scope": "top_level"
+    },
+    "to-spec": {
+      "delivery": "bundled",
+      "pack": "engineering-workflows",
+      "scope": "top_level"
+    },
+    "to-tickets": {
+      "delivery": "bundled",
+      "pack": "engineering-workflows",
+      "scope": "top_level"
+    },
+    "tooby-cosmides-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "training-deck-refiner": {
+      "delivery": "bundled",
+      "pack": "maintainer-advanced-workflows",
+      "scope": "top_level"
+    },
+    "triage": {
+      "delivery": "bundled",
+      "pack": "engineering-workflows",
+      "scope": "top_level"
+    },
+    "trump-perspective": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "truth-source-governance": {
+      "delivery": "bundled",
+      "pack": "maintainer-advanced-workflows",
+      "scope": "top_level"
+    },
+    "ubiquitous-language": {
+      "delivery": "bundled",
+      "pack": "legacy-workflows",
+      "scope": "top_level"
+    },
+    "ui-ux-pro-max": {
+      "delivery": "bundled",
+      "pack": "design-intelligence",
+      "scope": "top_level"
+    },
+    "user-personas": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "user-segmentation": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "user-stories": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "user-story": {
+      "delivery": "bundled",
+      "pack": "product-management-noncommercial",
+      "scope": "top_level"
+    },
+    "value-prop-statements": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "value-proposition": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "verify-output": {
+      "delivery": "bundled",
+      "pack": "maintainer-advanced-workflows",
+      "scope": "top_level"
+    },
+    "watch": {
+      "delivery": "bundled",
+      "pack": "media",
+      "scope": "top_level"
+    },
+    "wayfinder": {
+      "delivery": "bundled",
+      "pack": "engineering-workflows",
+      "scope": "top_level"
+    },
+    "wechat-scraper": {
+      "delivery": "not_distributed",
+      "reason": "The local entry is a duplicate, recovery artifact, mismatched folder, or other non-canonical copy.",
+      "scope": "top_level",
+      "status": "legacy_or_duplicate"
+    },
+    "wizard": {
+      "delivery": "bundled",
+      "pack": "experimental-workflows",
+      "scope": "top_level"
+    },
+    "workflow-audit": {
+      "delivery": "bundled",
+      "pack": "maintainer-advanced-workflows",
+      "scope": "top_level"
+    },
+    "worktree-handoff": {
+      "delivery": "bundled",
+      "pack": "maintainer-advanced-workflows",
+      "scope": "top_level"
+    },
+    "writing-beats": {
+      "delivery": "bundled",
+      "pack": "experimental-workflows",
+      "scope": "top_level"
+    },
+    "writing-fragments": {
+      "delivery": "bundled",
+      "pack": "experimental-workflows",
+      "scope": "top_level"
+    },
+    "writing-great-skills": {
+      "delivery": "bundled",
+      "pack": "productivity-workflows",
+      "scope": "top_level"
+    },
+    "writing-shape": {
+      "delivery": "bundled",
+      "pack": "experimental-workflows",
+      "scope": "top_level"
+    },
+    "writing-x-posts": {
+      "delivery": "not_distributed",
+      "origin": "https://github.com/jamesgray007/hoai-course",
+      "reason": "The upstream course repository does not provide an open-source redistribution license.",
+      "scope": "top_level",
+      "status": "license_blocked"
+    },
+    "wwas": {
+      "delivery": "bundled",
+      "pack": "product-management",
+      "scope": "top_level"
+    },
+    "x-mastery-mentor": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "xiaohongshu-ops": {
+      "delivery": "not_distributed",
+      "reason": "Contains oversized or binary artifacts that are not suitable for the portable source bundle.",
+      "scope": "top_level",
+      "status": "nonportable_artifact"
+    },
+    "xlsx": {
+      "delivery": "not_distributed",
+      "reason": "The source license explicitly prohibits third-party redistribution.",
+      "scope": "top_level",
+      "status": "license_restricted"
+    },
+    "xu-shunying-perspective": {
+      "delivery": "bundled",
+      "pack": "generated-domain-perspectives",
+      "scope": "top_level"
+    },
+    "xuziping-mingli": {
+      "delivery": "not_distributed",
+      "reason": "The local entry is a duplicate, recovery artifact, mismatched folder, or other non-canonical copy.",
+      "scope": "top_level",
+      "status": "legacy_or_duplicate"
+    },
+    "youtube-video-radar": {
+      "delivery": "bundled",
+      "pack": "media",
+      "scope": "top_level"
+    },
+    "zhang-yiming-perspective": {
+      "delivery": "bundled",
+      "pack": "perspectives",
+      "scope": "nested_promoted"
+    },
+    "zhangxuefeng-perspective": {
+      "delivery": "bundled",
+      "pack": "perspectives",
+      "scope": "nested_promoted"
+    },
+    "zk-classify": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "zk-index-refactor": {
+      "delivery": "bundled",
+      "pack": "knowledge-vault",
+      "scope": "top_level"
+    },
+    "zk-ingest": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "zk-pulse": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    },
+    "zk-write": {
+      "delivery": "not_distributed",
+      "reason": "Discovered only inside another Skill package as an example or sub-workflow, not as an independent top-level release source.",
+      "scope": "nested_component",
+      "status": "nested_component"
+    }
+  },
+  "summary": {
+    "bundled_from_source_scope": 270,
+    "catalog_only_bundled": 18,
+    "catalog_only_external": 0,
+    "external_fetch_total": 27,
+    "fetch_from_origin": 27,
+    "nested_only_unique_count": 30,
+    "not_distributed": 101,
+    "platform_builtin_only_unique_count": 5,
+    "public_bundled_total": 288,
+    "raw_duplicate_names": 43,
+    "raw_source_entry_count": 443,
+    "raw_source_unique_count": 398,
+    "redacted_private_projects": 42,
+    "top_level_unique_count": 363
+  }
+}

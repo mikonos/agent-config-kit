@@ -1,0 +1,680 @@
+{
+  "schema_version": 1,
+  "patches": [
+    {
+      "description": "Replace Claude Code plugin-root command examples with a runtime-neutral installed Skill directory placeholder.",
+      "packaged_path": "packs/design-intelligence/skills/ui-ux-pro-max/SKILL.md",
+      "packaged_sha256": "88e621913459141e3468e3c72936493042d034ffe67a6f06741ff82f3b53ac8f",
+      "source_path": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "source_sha256": "305a7527fcb2f5b6e4129ab22cd839b5172d26df7f14d3324bfdec8fc1763560",
+      "upstream_commit": "1307d97a72e6c1cda572cb65471ae5ce82995218",
+      "upstream_origin": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    {
+      "description": "Keep the hardcoded-path anti-pattern while removing the example Windows home directory.",
+      "packaged_path": "packs/design-intelligence/skills/ui-ux-pro-max/data/stacks/avalonia.csv",
+      "packaged_sha256": "172380fe6e13553dc478f764ba880b0e100563a820eacbc3a22eeb07e7a87c17",
+      "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/avalonia.csv",
+      "source_sha256": "6bfa40ec6609fcb59e52a38281edcc3a3e5b5e56341304fe5628b32cb9b1f875",
+      "upstream_commit": "1307d97a72e6c1cda572cb65471ae5ce82995218",
+      "upstream_origin": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    {
+      "description": "Keep the absolute-path anti-pattern while removing the example macOS home directory.",
+      "packaged_path": "packs/design-intelligence/skills/ui-ux-pro-max/data/stacks/javafx.csv",
+      "packaged_sha256": "bd232f25735a4755fdcfc96138cce6e9fc0e35f0cf8e37203274cc75249193e5",
+      "source_path": ".claude/skills/ui-ux-pro-max/data/stacks/javafx.csv",
+      "source_sha256": "5545e331b2479eb431ca45203799ce1b0ab1e369045ab7735d5a9f85ec78f956",
+      "upstream_commit": "1307d97a72e6c1cda572cb65471ae5ce82995218",
+      "upstream_origin": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    {
+      "description": "Resolve generated Skills from the active Runtime's project Skill root and replace pirate-book sources with lawful source options.",
+      "packaged_path": "packs/persona-authoring/skills/huashu-nuwa/SKILL.md",
+      "packaged_sha256": "848e91ce20a365fa9105782d08e2b22246f3db97b6d2e4432888a184f4ba5351",
+      "source_path": "SKILL.md",
+      "source_sha256": "f6783dfa91ae1ac6eed4e765ebe808a70c46c369a8e38f4b37a0227d31185ed9",
+      "upstream_commit": "72857dc720f4d1dd3e68a40a544341dfc65ea33e",
+      "upstream_origin": "https://github.com/alchaincyf/nuwa-skill"
+    },
+    {
+      "description": "Use a runtime-neutral project Skill root in the quality-check usage example.",
+      "packaged_path": "packs/persona-authoring/skills/huashu-nuwa/scripts/quality_check.py",
+      "packaged_sha256": "69d86d6a0125917696ed78615912466aabca2fe9c228062550bfe1b9f8d2848c",
+      "source_path": "scripts/quality_check.py",
+      "source_sha256": "1f34ded1f0d161db82c4ce789088e772f5670ebbdd632f17d90f9896ee4e978e",
+      "upstream_commit": "72857dc720f4d1dd3e68a40a544341dfc65ea33e",
+      "upstream_origin": "https://github.com/alchaincyf/nuwa-skill"
+    },
+    {
+      "description": "Use a runtime-neutral project Skill root in the research-merge usage example.",
+      "packaged_path": "packs/persona-authoring/skills/huashu-nuwa/scripts/merge_research.py",
+      "packaged_sha256": "013a9cbe4b2b9e80b6c25fe253b9442717e0d3a9880b7dac21ab36d90eea628c",
+      "source_path": "scripts/merge_research.py",
+      "source_sha256": "bd371814fb32cf10ab171b0f5d20d5a0ca2e9f83570bdf763729d0ab3187c6a6",
+      "upstream_commit": "72857dc720f4d1dd3e68a40a544341dfc65ea33e",
+      "upstream_origin": "https://github.com/alchaincyf/nuwa-skill"
+    },
+    {
+      "description": "Remove maintainer-machine status and paths, fix a command example, and require confirmation before external account mutations.",
+      "packaged_path": "packs/browser-automation/skills/opencli/SKILL.md",
+      "packaged_sha256": "4174619858fd57d812521f4e7f1425110d743d9c2f5b7d99e1f96cd6f8543563",
+      "source_path": "skills/opencli/SKILL.md",
+      "source_sha256": "b527d8556da96090ef8afdeaa976ebc85334a455b5467bfd47277e76a17fc4e3",
+      "upstream_commit": "5256711a25458e537c5a63d2a6f9c7fd36d0d1eb",
+      "upstream_origin": "https://github.com/jackwener/opencli"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/ab-test-setup/SKILL.md",
+      "packaged_sha256": "36431a0869ccbc5608e1e547c6615116b9bf04425231af343dceabeb13e64eea",
+      "source_path": "ab-test-setup/SKILL.md",
+      "source_sha256": "8d0bc9befef73edd90aaa4d03e376a1a7a4a11c6cebe1c46ba3002a4e8c0a405",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/analytics-tracking/SKILL.md",
+      "packaged_sha256": "1afbfa54e2f26304ac587d73b94041c4a682db8e48d6ee433bb8f47b7a3d69a9",
+      "source_path": "analytics-tracking/SKILL.md",
+      "source_sha256": "2c3185a9bf861fe0a8e9c84409f78f304bf9d5ec5cef349d1c3794cf77574fae",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/competitor-alternatives/SKILL.md",
+      "packaged_sha256": "02ad1b7c136c2926fe3f521ba0095f97b7ee645887cefbbc05a65f46879f7ee5",
+      "source_path": "competitor-alternatives/SKILL.md",
+      "source_sha256": "b44eded661f3efde11065a85df1f5118428c9d7235215946c3f5ac9cd7db09c2",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/email-sequence/SKILL.md",
+      "packaged_sha256": "4c00291dd6dad482f08e042ad77a3194e18f539b2e873ec409b4796533e3912c",
+      "source_path": "email-sequence/SKILL.md",
+      "source_sha256": "7f587db063bc347390b1209cb105fea4b8385a2835de50a55893faac44fc5128",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/form-cro/SKILL.md",
+      "packaged_sha256": "580d3ae586534564262d8beb74580d7103c105bc5b1b6db2ae67d96bd29a806b",
+      "source_path": "form-cro/SKILL.md",
+      "source_sha256": "acb959d42c01008d250722d20c4797d05c910a1cec305559c1652682338d3507",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/free-tool-strategy/SKILL.md",
+      "packaged_sha256": "87480452345c483b252606ce64d8b19a963d0a7e1b1127b9be9690ca37fc8a83",
+      "source_path": "free-tool-strategy/SKILL.md",
+      "source_sha256": "142b527301233653a906da73c6c75956e539f22fbc57ab623f3b90da320b3ef8",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/launch-strategy/SKILL.md",
+      "packaged_sha256": "e86f4d6b6e779247233315991a1b33fa287294d9d8b9542b3a45111f9df970cc",
+      "source_path": "launch-strategy/SKILL.md",
+      "source_sha256": "4f8485bc4ccd4e4882629c557993de74c79f8fb6fd4caba89a63363f717d1497",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/onboarding-cro/SKILL.md",
+      "packaged_sha256": "db78196a0f62016e5c7deba78221dd21e52835864842a489a2436da768eb3ec6",
+      "source_path": "onboarding-cro/SKILL.md",
+      "source_sha256": "1181d6e44b10eb0cefa83a319ec9d422b40e080455f9a76f206ff3a69578cdfd",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/page-cro/SKILL.md",
+      "packaged_sha256": "7fc086d4f972d5788766ff45d3712d349c82cab11bdff66b699e2ff184de00eb",
+      "source_path": "page-cro/SKILL.md",
+      "source_sha256": "e53a43b805713941732a1a3a8439af58219cf539b3b5525e64d9ae216ba29891",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/paid-ads/SKILL.md",
+      "packaged_sha256": "eaa4684f3003112a8abd2eca071d3b3c4ed54fea8ffb78847bc43107c738bd2d",
+      "source_path": "paid-ads/SKILL.md",
+      "source_sha256": "82307271ea81218ef505b82cabe83c6c1d02aae0e95d3c2869906aa429be5487",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/paywall-upgrade-cro/SKILL.md",
+      "packaged_sha256": "e02953c825b76e837d79aa3988126830ac6517fce64552361062cd8e88474ee6",
+      "source_path": "paywall-upgrade-cro/SKILL.md",
+      "source_sha256": "871eed7c9f1f09adf05047b22993a777180b34078365c786491da6a39cca5b80",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/popup-cro/SKILL.md",
+      "packaged_sha256": "43d8fef96536bb89cd327d6b305fb7a13c7f473a63904e5b37d606e2b3c9facd",
+      "source_path": "popup-cro/SKILL.md",
+      "source_sha256": "a4c57a95fad970522401c976d10b857fc48fc9cd37c3dc481b2b5ff932b09322",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Store product marketing context in the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/product-marketing-context/SKILL.md",
+      "packaged_sha256": "735ad26fd9acbb7b7d9e48706a888f32559dd9ab095ecdbfd28d1b763395edeb",
+      "source_path": "product-marketing-context/SKILL.md",
+      "source_sha256": "8e86514b56870f1205b978acc8d7fa9e49b40f9d28a3d0eb667fa7c1bceba9ca",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/referral-program/SKILL.md",
+      "packaged_sha256": "30a0e91771082585cdc7bfc3624d92b3af4c3b3d24f292d5318e898d733d2ab6",
+      "source_path": "referral-program/SKILL.md",
+      "source_sha256": "f4e2b95e6b42bfe46a46fc0593112ae1e2a8674faa0ffcb1d7b2dcf4c3403ece",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/schema-markup/SKILL.md",
+      "packaged_sha256": "24056f0f027933f5d6252a9adb8da40cfad514e9319d674b6056c40c7b548d3a",
+      "source_path": "schema-markup/SKILL.md",
+      "source_sha256": "02642e31c45d994e7f15a6c418649cfc10914e37302517f942514927878dcb0e",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/signup-flow-cro/SKILL.md",
+      "packaged_sha256": "2f468a3a211b85f32317c7476489d371ca53a6c9297e3fdf5c5b1436d854439e",
+      "source_path": "signup-flow-cro/SKILL.md",
+      "source_sha256": "2cd950db24b69cd3ba6511557942f2eb381e9714c9a7881154b3071c14749468",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Resolve product marketing context from the active Codex, Cursor, or Claude Code project directory.",
+      "packaged_path": "packs/marketing/skills/social-content/SKILL.md",
+      "packaged_sha256": "b797c152769ecffb7fb01fca71208a7a416c03439e2deddfa9eab45cd49d4696",
+      "source_path": "social-content/SKILL.md",
+      "source_sha256": "cab8b1dc1e1b607fd2322fc3f9dc552a23b128bf46e65ea6bd297318ed7752fc",
+      "upstream_commit": "a857eb683aab1134f6c367b6d325e80d3a944de2",
+      "upstream_origin": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Describe installation through the active Agent Runtime instead of a Cursor-only source directory.",
+      "packaged_path": "packs/generated-domain-perspectives/skills/tooby-cosmides-perspective/SKILL.md",
+      "packaged_sha256": "c1cfcb75b093331366f0e8857d0dabe4e2da25eff77ff61136f9962f25d446eb",
+      "source_path": "tooby-cosmides-perspective/SKILL.md",
+      "source_sha256": "5b3e5cdce4d01cbbfed31a0d7d7dd0269afd18eaabb3129eab928f93c9e7edc2",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Resolve the primary Skill file from the installed Skill directory instead of a Cursor-only path.",
+      "packaged_path": "packs/generated-domain-perspectives/skills/xu-shunying-perspective/references/evals.md",
+      "packaged_sha256": "09f1db6547604114d24e0d0a30e229b00f70d58499e20ea1f7c3cac1fb2c3dd2",
+      "source_path": "xu-shunying-perspective/references/evals.md",
+      "source_sha256": "991e36cb94298f4db86350222d6739f4508a7b8503f95d8441dea0aaf3c8974e",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove Cursor-only hook claims and use runtime-neutral Skill-relative scripts and references.",
+      "packaged_path": "packs/planning-workflows/skills/planning-with-files/SKILL.md",
+      "packaged_sha256": "be8d1e24851981c23f512716c56672ca72ea27f153d2cf462f690e57ef965594",
+      "source_path": "planning-with-files/SKILL.md",
+      "source_sha256": "cffcf17bf317692e51321640ccdcc7f65e2d3e9881c276026ac2bb2f528ebe9a",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "https://github.com/OthmanAdi/planning-with-files"
+    },
+    {
+      "description": "Remove OpenClaw credential, notification, cron, and no-confirmation coupling; use current Runtime subagents and project-local claim state.",
+      "packaged_path": "packs/github-automation/skills/gh-issues/SKILL.md",
+      "packaged_sha256": "aa4d9287867d97b473ebb07744c2fa68930004ad85095609aa6c13b8f67f13b5",
+      "source_path": "gh-issues/SKILL.md",
+      "source_sha256": "e7a64973e186211725e18a45d076803abc07915e348fd94691e7acaea367d54a",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "https://github.com/openclaw/openclaw"
+    },
+    {
+      "description": "Use valid portable metadata, explicit foreground invocation, project-local state, and approval before configuration, command, dependency, or external changes.",
+      "packaged_path": "packs/experimental-self-improvement/skills/self-evolve/SKILL.md",
+      "packaged_sha256": "55313d91988c0a495014609105a409d538cb0aa45e361792b2242ed3c0a3e198",
+      "source_path": "self-evolve/SKILL.md",
+      "source_sha256": "7862924100074196c7a2f2ad0747db581c7db3f773a8c59aae5f9f1c604a8d67",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Store reports under the selected project's state directory and mark proposed physical changes as separately approval-gated.",
+      "packaged_path": "packs/experimental-self-improvement/skills/self-evolve/assets/evolution-report-template.md",
+      "packaged_sha256": "b3e1284e0d4e87fc9734f53b7d8143b95087324df607f10f6b1f9b7da641bc4d",
+      "source_path": "self-evolve/assets/evolution-report-template.md",
+      "source_sha256": "dcee7127330dede1788be43b65c692360d8b4c9a338dec8a0097a5d3b55a8893",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace autonomous installation and schedule edits with explicit approval gates and forbid unattended background loops.",
+      "packaged_path": "packs/experimental-self-improvement/skills/self-evolve/references/constraints-and-rules.md",
+      "packaged_sha256": "29b9620ea8eb0c951bae5e69efefe5d6616391a6ffe59e04c42f9c0eba19f830",
+      "source_path": "self-evolve/references/constraints-and-rules.md",
+      "source_sha256": "4f52e68393ab60ff6816f07a9768fc6ed55e06b6517e0ed38ac6ce438a8c1be0",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Use selected-project state, foreground ticks, read-only telemetry by default, isolated stress tests, and user-approved solidification.",
+      "packaged_path": "packs/experimental-self-improvement/skills/self-evolve/references/execution-protocol.md",
+      "packaged_sha256": "ab17e7c130c720c9388f93ffec03c5b5d20b0110a33fc83309c6644ca629299e",
+      "source_path": "self-evolve/references/execution-protocol.md",
+      "source_sha256": "ea268136c1874122194006025db8514f331a6c7f855460373d6c3a8b7b39f98c",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove duplicate checks and add explicit authorization and runtime-neutral regression gates.",
+      "packaged_path": "packs/experimental-self-improvement/skills/self-evolve/references/quality-checklist.md",
+      "packaged_sha256": "d49fbf0440fc2e889e37e044559870d0bbf43fc201b7fed11ea311e4bccb09ff",
+      "source_path": "self-evolve/references/quality-checklist.md",
+      "source_sha256": "6d55e6063f6ae36edb4150ba8f298bdc8d892abad4e404820aff51de3ef8666c",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Retain the maintainer's evidence gate while resolving the optional JTBD quality reference through the installed Skill instead of a Cursor-only path.",
+      "packaged_path": "packs/lenny-product-workflows/skills/defining-product-vision/SKILL.md",
+      "packaged_sha256": "955392eefb82f9391c9998a2ad5f64766665778c63da69f34343b2ede70ad1d4",
+      "source_path": "skills/defining-product-vision/SKILL.md",
+      "source_sha256": "ada923dab1fa2c778a3585d9191aeba0e4c497085fc8ab80d80e248f7bf907ef",
+      "upstream_commit": "0123453c617e1114d3097380feffb09761ce824a",
+      "upstream_origin": "https://github.com/RefoundAI/lenny-skills"
+    },
+    {
+      "description": "Retain the maintainer's shorter routing description while preserving the upstream product-market-fit workflow and source material.",
+      "packaged_path": "packs/lenny-product-workflows/skills/measuring-product-market-fit/SKILL.md",
+      "packaged_sha256": "b70004e03b4daddaa4f4176763ee3808d02353a732ca6c20b2f057d1a8c9e985",
+      "source_path": "skills/measuring-product-market-fit/SKILL.md",
+      "source_sha256": "27e9eb992068c208ed8c6330843983ab489980e1ac25fc64d8ff11173343a356",
+      "upstream_commit": "0123453c617e1114d3097380feffb09761ce824a",
+      "upstream_origin": "https://github.com/RefoundAI/lenny-skills"
+    },
+    {
+      "description": "Replace a Claude-home installation command in the retained legacy README with runtime-neutral project installation guidance.",
+      "packaged_path": "packs/financial-research/skills/chanlun-trading/references/original-readme.md",
+      "packaged_sha256": "c18a3f0d9ae6ebf7c6c172464bf8b0e6168979c6fe1d6d34a75bb99c2b937a61",
+      "source_path": "chanlun-trading/references/original-readme.md",
+      "source_sha256": "2592c74f69c4b9e5780f94f8fc5b29d76d2d4ce9b26b7b5f2e84b04557ea583e",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "https://github.com/noahnan-max/chanlun-trading-system"
+    },
+    {
+      "description": "Replace a Claude Code home-path instruction with runtime-neutral project Skill discovery guidance.",
+      "packaged_path": "packs/financial-research/skills/chanlun-trading/references/original-skill.md",
+      "packaged_sha256": "dac5f2c042686a971e6a7424356b99b5ac1b1a34653f9927ce50ca988e5fd512",
+      "source_path": "chanlun-trading/references/original-skill.md",
+      "source_sha256": "7669db06cd0dac8421c49eedf4e733f1615f1322cae849b3e281911a55898d76",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "https://github.com/noahnan-max/chanlun-trading-system"
+    },
+    {
+      "description": "Replace the Claude-home quick-start path with the active Runtime's project-level Skill installation.",
+      "packaged_path": "packs/financial-research/skills/chanlun-trading/references/original-quickstart.md",
+      "packaged_sha256": "95a7d4afa5d57b6efd9b14269b0a329a291a9731398360261e9a086d1272c0e5",
+      "source_path": "chanlun-trading/references/original-quickstart.md",
+      "source_sha256": "c7329e66f0698d8cedaa1915ed72b153198ea79536886a6c1cf9b282bc960b27",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "https://github.com/noahnan-max/chanlun-trading-system"
+    },
+    {
+      "description": "Use the target project's active rules and naming conventions instead of a Cursor Vault preamble and file-organize dependency.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/competitive-profile-builder/SKILL.md",
+      "packaged_sha256": "ac5d9230d02de116a2923cf9851c33d5bd00d521e12dd10614b7752a96096e71",
+      "source_path": "competitive-profile-builder/SKILL.md",
+      "source_sha256": "03959e8b49a8a43b27b8172665694fabfd6cdaec2ae253994528289589277f6e",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove Vault and Cursor assumptions, require a user-selected project path, and make knowledge-network Skills optional.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/industry-research-os/SKILL.md",
+      "packaged_sha256": "766bfaa0640e039a7805dfa63e1a68587e5f998165c4866c549c36f648d25fe9",
+      "source_path": "industry-research-os/SKILL.md",
+      "source_sha256": "02f002f393e6a9d432a786fedcd21ee5537a211757bd6c14e76c82c610be241e",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace a private research-note path with a self-contained public provenance statement.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/industry-research-os/references/article-framework.md",
+      "packaged_sha256": "ba56e277cfb098d107307cb832321b232e52ddecaf0fd6ec360187e132b944a5",
+      "source_path": "industry-research-os/references/article-framework.md",
+      "source_sha256": "e99a838d7f8e92dd30581aa8090f22edab0e5454f9ca8b265fa6f99f8899f49d",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Resolve the optional Job Statement gate through an installed Skill or inline checks instead of a Cursor-only path.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/product-brief/SKILL.md",
+      "packaged_sha256": "359255df15e6f21258d5fb6fb928bdb83a634d08cef63c679aeedb5d4e7d3ca3",
+      "source_path": "product-brief/SKILL.md",
+      "source_sha256": "1bbc7cc61cee751a1c5c2e5a99841d0d99768bdc414b67d1ab80e8dda98bab7f",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove a mandatory private personalization file and make knowledge-network links conditional on the target project.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/strategic-planning/SKILL.md",
+      "packaged_sha256": "3cc86b6c531a226d0e7eb00c04967d3f34ffd21990328dda30e23921e117ba6e",
+      "source_path": "strategic-planning/SKILL.md",
+      "source_sha256": "7c92190e7b812125ba1a898bca27e3d006125ddd98be7330aea1f9c62fb7e9ba",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Describe runtime mirrors generically instead of naming a Cursor-only rules directory.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/truth-source-governance/SKILL.md",
+      "packaged_sha256": "4031b95fd2cdae5bb4511c1822f40f54c48c1cffa4a72270d2aee63d70bc6aa2",
+      "source_path": "truth-source-governance/SKILL.md",
+      "source_sha256": "74a7c85e725e221d944bcf2ac262502de5f410707f285dbeb35b10ef7a25cf78",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Use the active Runtime's independent read-only review surface and label any self-review fallback instead of assuming Cursor's Task tool.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/verify-output/SKILL.md",
+      "packaged_sha256": "4cb18040d288064107991fc66202994fb1deacb9e9e51ba2ba0bb1b1b58e2763",
+      "source_path": "verify-output/SKILL.md",
+      "source_sha256": "75096b155ea68864a829d0cc6f40b0641bbde94a96b1a2d95aa093eba2cf33f3",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Use runtime-neutral independent review, conversational output by default, and explicit authorization before remediation.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/workflow-audit/SKILL.md",
+      "packaged_sha256": "8c16fe8801512bdf967c18d9cbf7480deddb02a2f27556efc5d6bc22dd8439db",
+      "source_path": "workflow-audit/SKILL.md",
+      "source_sha256": "23d2be207cd77da867291fcda5b0d770d7c7718ecabb2c068d4974b1b4a65c96",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove private project and sync-service coupling and require approval of the exact branch and worktree path before creation.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/worktree-handoff/SKILL.md",
+      "packaged_sha256": "0ade3acdb423088f0763e6e39e9e3bcebe74ee7961ca192e03cdc9e90ae023d9",
+      "source_path": "worktree-handoff/SKILL.md",
+      "source_sha256": "917c4d3122ff09da5e2ee57f2a92104dc89fb30f8f9c9836a8e7ec3de9386c7b",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Resolve the deterministic chart builder from the installed Skill and require a user-selected output path instead of a private daily-note directory.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/ai-product-radar/SKILL.md",
+      "packaged_sha256": "df6991a93eb04227a7aaa705fa786327a45506c6f3a86cbedf275c399bd4ee62",
+      "source_path": "ai-product-radar/SKILL.md",
+      "source_sha256": "5ef8c435cf0b4653d1424ba11c1f1a84831d88ff3928b026bac1e3a09ff1c734",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Resolve deterministic Listing lint from the installed Skill rather than a Cursor-only path and RTK wrapper.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/amazon-listing-optimizer/SKILL.md",
+      "packaged_sha256": "793e7371220038f7bfda0df0ea9ebc8fb83b0e1e575ac9f58cfae7333a36d55a",
+      "source_path": "amazon-listing-optimizer/SKILL.md",
+      "source_sha256": "b9ca84ba491205d76f7a91f2d683150c07acbbf4eb83704d6ac67bffbea34ae1",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace automatic Vault writes and mandatory backlink edits with explicit invocation, conversational output, and user-authorized project writes.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/learning-deepening/SKILL.md",
+      "packaged_sha256": "b16e579695fb8ad9dd510af7dbfe57ac7ba98f1a5c493ca9c3eaa6af4107f4c5",
+      "source_path": "learning-deepening/SKILL.md",
+      "source_sha256": "575282c836c578e4bb4ee28c56ad346484a1830082917ddcec7a1a0ca00ea3b8",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove private preamble, personalization, history, archive, and knowledge-network assumptions while preserving decision frameworks.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/strategic-advisor/SKILL.md",
+      "packaged_sha256": "7e7aa329514838d5843252a7b4cfd43f66809a92f3e39db0764da6b6d2cb454d",
+      "source_path": "strategic-advisor/SKILL.md",
+      "source_sha256": "dcb9b3a10b78c0fad7c6bf53d93172b4e55ce33ec8ed314bcbdd83ac7a2e9880",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace maintainer-specific Agent nicknames and Cursor routing with the active Runtime's actual main and specialist Agent surfaces.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/task-routing/SKILL.md",
+      "packaged_sha256": "64a70a27d90163ff6f0986e9d77ad12e524016e7fb5dc98e160d87fa3734a83b",
+      "source_path": "task-routing/SKILL.md",
+      "source_sha256": "28b611a7c17d395b45f2ec2c92ce3536dbcb1038eca1862e3fd9efe42f8689df",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace private Vault and product references with runtime-neutral project design sources.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/frontend-guidelines/SKILL.md",
+      "packaged_sha256": "70f594f69daaded2e2acc39b8ab608115a314ae30c20814159cf9d67a6c90da9",
+      "source_path": "frontend-guidelines/SKILL.md",
+      "source_sha256": "9367f2cdc1c2bf6c5af5f154d74ce8283538fa2e94bd6264dbf7f3abf94a56a5",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove maintainer-machine paths and private product tokens while retaining the public design-system reference.",
+      "packaged_path": "packs/maintainer-advanced-workflows/skills/frontend-guidelines/resources/awesome-design-md.md",
+      "packaged_sha256": "b8c654453233ac98baedbf7eb6a420db3f4e59f944af6840c9f372b66d2ff0d5",
+      "source_path": "frontend-guidelines/resources/awesome-design-md.md",
+      "source_sha256": "848ae7cefe50f5a9e566882262bb523645c64d8ab6ad7040bb3c3fe67b1964ff",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Resolve companion Skills from the installed catalog, replace private examples with a data-rights boundary, and use a runtime-neutral independent reviewer.",
+      "packaged_path": "packs/research-workflows/skills/jtbd-amazon-research/SKILL.md",
+      "packaged_sha256": "3f19fac8b8a579ae62ebfe93c0965723ecf5e60cffcd5e69c133ba256806836e",
+      "source_path": "jtbd-amazon-research/SKILL.md",
+      "source_sha256": "5863eb96ce95d4d3f7f004cae572113ec0eae6ee400a5c2504e38e9976483b70",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove private examples and Cursor-only install paths while preserving the deterministic audit workflow.",
+      "packaged_path": "packs/research-workflows/skills/jtbd-result-audit/SKILL.md",
+      "packaged_sha256": "813cea491fa558c6a3b5ed5c3a32e672b7f7a8ed269e05c20f6bd859c6290cdb",
+      "source_path": "jtbd-result-audit/SKILL.md",
+      "source_sha256": "3882122a1b138da21acc295c41e8ce08d7884f15f0c6a7a5818ca0fec5cc31ba",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Disclose the optional Cursor Agent backend, remove private examples, and resolve companion files from installed Skill directories.",
+      "packaged_path": "packs/research-workflows/skills/jtbd-review-runner/SKILL.md",
+      "packaged_sha256": "e1ff2ff7da6ac89911e2f8c38914b30b2f9bcb059a1e03628bb327131642beab",
+      "source_path": "jtbd-review-runner/SKILL.md",
+      "source_sha256": "aeabe968195ce3b7bd77e93bb34bcf5f1c7d41ca0ec1e884fbf8553a89d10f76",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace private Vault conventions and autonomous writes with project discovery, proposal-first behavior, and explicit write authorization.",
+      "packaged_path": "packs/knowledge-vault/skills/link-proposer/SKILL.md",
+      "packaged_sha256": "0655eaf1a5655dea714e67557c0726d542cc5952a6e05980895516dc95d59e5a",
+      "source_path": "link-proposer/SKILL.md",
+      "source_sha256": "fbc4c46005110187e38d1f2b2d3631033b9b95eb9fc380963f958ac7f81dc703",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Default to a conversational artifact proposal and discover the target Vault conventions before authorized writes.",
+      "packaged_path": "packs/knowledge-vault/skills/methodology-to-vault/SKILL.md",
+      "packaged_sha256": "3d7560a8ccf52f04fe57067c6f893de62b363962a2dd62b8e411be050e1057a9",
+      "source_path": "methodology-to-vault/SKILL.md",
+      "source_sha256": "a8176c1d0deeda0767cc867db888a03e800d0e3cf4eae9900510208b70beb2c0",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace Cursor-only preamble and private index references with current-project rules and proposal-first writes.",
+      "packaged_path": "packs/knowledge-vault/skills/structure-note/SKILL.md",
+      "packaged_sha256": "eebb10e0ca1b2275f5a7870a7b28fc4a4b5adef2deb8a6d4be1c346f315ea810",
+      "source_path": "structure-note/SKILL.md",
+      "source_sha256": "eec47be4ebcd87ed50f12dd1cf25880406299740ef136562e0332a1d4f154386",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace the maintainer name with a generic future reader.",
+      "packaged_path": "packs/knowledge-vault/skills/structure-note/references/结构化流程.md",
+      "packaged_sha256": "d62320b0bcad7911d4fff9f669ad282911251ad3c28b3028695908420ac99426",
+      "source_path": "structure-note/references/结构化流程.md",
+      "source_sha256": "58e992373a907e4b9b7c0be267a694aff7cb9ffe22975c6f80da7048e3c5ed02",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Treat the index root as a project convention and require an exact preview plus separate confirmation before moving, bulk relinking, or deleting files.",
+      "packaged_path": "packs/knowledge-vault/skills/zk-index-refactor/SKILL.md",
+      "packaged_sha256": "daf54cc6730d49b481d87178d941717cf9bf5d89d95257ecca2f7f8136b78e3c",
+      "source_path": "zk-index-refactor/SKILL.md",
+      "source_sha256": "6a2481cbcb4c34fa6f91a0ff5d3eb117c070e095c9cbe36834b5a535f270e525",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Require explicit confirmation of the exact deletion list.",
+      "packaged_path": "packs/knowledge-vault/skills/zk-index-refactor/references/checklist.md",
+      "packaged_sha256": "b3a624eae19799bef4511a55e83571453b1be10e2e88f4711d2fac4231492fc0",
+      "source_path": "zk-index-refactor/references/checklist.md",
+      "source_sha256": "6b3e8cf40c5f49a276205d39f5656c238d4ade8c4f130dfa7d320ca2efcb18aa",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace private workspace references with the cited public article and installed companion Skill.",
+      "packaged_path": "packs/marketing/skills/reddit-geo/SKILL.md",
+      "packaged_sha256": "60ae3b3f96c304f02e85a6b3c4c5d0aa2a5c46527e3700741f900592b992c1dc",
+      "source_path": "reddit-geo/SKILL.md",
+      "source_sha256": "09a3e6e3ed85aa30ab21a292ec1db9df467d20b83fe132e978162dd59b368db2",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove the private local article path and resolve companion research files from the installed Skill.",
+      "packaged_path": "packs/marketing/skills/reddit-geo/references/research/01-article-framework.md",
+      "packaged_sha256": "fb0b1554f88bdf69b8b651b8830eec17df99417f03f5f9bcd11e90f7d6f1e8a4",
+      "source_path": "reddit-geo/references/research/01-article-framework.md",
+      "source_sha256": "72458cf45acae3fc0fb75214b83e443bb505817f692941c1a78651d3dea56919",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Use the installed Skill script directly and require a user-authorized project output path instead of a private daily-note location.",
+      "packaged_path": "packs/media/skills/youtube-video-radar/SKILL.md",
+      "packaged_sha256": "c85a9ec444213335bd8ef0eeb31c66ca387882802e1a98455a54a29376065737",
+      "source_path": "youtube-video-radar/SKILL.md",
+      "source_sha256": "ee914c00d89a785e28b21bb6129928ea5c317822d8d82562608c664adca93e60",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Invoke yt-dlp directly instead of relying on the maintainer's RTK shell wrapper.",
+      "packaged_path": "packs/media/skills/youtube-video-radar/scripts/youtube_radar.py",
+      "packaged_sha256": "b5a8a17056805f86e4b220cc880532fba81b9d35608ab48e18c247356df5f086",
+      "source_path": "youtube-video-radar/scripts/youtube_radar.py",
+      "source_sha256": "c06ed2410633c8ae5d9f14536dce688b844535aa9f43f27f3369c9c53fe71b0e",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove maintainer-specific Vault index links from the report template.",
+      "packaged_path": "packs/media/skills/youtube-video-radar/references/report-template.md",
+      "packaged_sha256": "dbe9122c64f8656f14e2739ae5b83b8d926368d4c6ba0be3570c5dc8125043d2",
+      "source_path": "youtube-video-radar/references/report-template.md",
+      "source_sha256": "380db6512e58e326999045f9615be49a506007240329fe523b73bec3caf24213",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Use only the independently authored deck renderer and validator, remove private examples, and require approval before installing Playwright.",
+      "packaged_path": "packs/media/skills/rednote-caption-to-screenshots/SKILL.md",
+      "packaged_sha256": "4121fc8a9e3fbe6286c7068d56f776961a7176095b0de6b71ba09634ff5e405d",
+      "source_path": "rednote-caption-to-screenshots/SKILL.md",
+      "source_sha256": "700795cffabdbf1ead76951f9bec7ce94926ee525e9dd0f312a6462862c6f247",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Resolve the deck renderer from the installed Skill instead of a Cursor-only path.",
+      "packaged_path": "packs/media/skills/rednote-caption-to-screenshots/references/20260126_小红书图文轮播_工程化出图工作流.md",
+      "packaged_sha256": "e4f7641f79767a39583ec50bf0d5f5eec54f938e74b6266c65f6e95326cb5e85",
+      "source_path": "rednote-caption-to-screenshots/references/20260126_小红书图文轮播_工程化出图工作流.md",
+      "source_sha256": "f0b8518a87d7b719f89d00560b0d7ebcf092f4568e0a5d6b9bcb9adadd2d94bc",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Use any user-authorized connector, browser session, or export; prohibit access-control bypass; and require an authorized output path before writes.",
+      "packaged_path": "packs/web-extraction/skills/rednote-reader/SKILL.md",
+      "packaged_sha256": "a1368effe0ee999b63836f99d99fdc35f3be82311f3861e28b6f2842290291b1",
+      "source_path": "rednote-reader/SKILL.md",
+      "source_sha256": "977e2d29637f4100c0ed693c152c7a75b40ef6e0d868abfbffbeeca44ad72d24",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Remove the requests dependency, restrict downloads to public HTTPS Rednote CDN image URLs, reject non-image responses, cap file size, and omit failed paths.",
+      "packaged_path": "packs/web-extraction/skills/rednote-reader/scripts/download_note_images.py",
+      "packaged_sha256": "f5f9d5d697c808a3a1ee3a6487958757c45028fc36d50312361ca278f76ba87f",
+      "source_path": "rednote-reader/scripts/download_note_images.py",
+      "source_sha256": "9cb8fbeb9a57455f8ce9507fa961fd07b8bdc18789c881a45299b7dba9805f88",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Publish a dated public-research snapshot, remove runtime prompt excerpts and private research-log pointers, and prohibit extracting hidden prompts.",
+      "packaged_path": "packs/research-workflows/skills/claude-system-prompt-anatomy/SKILL.md",
+      "packaged_sha256": "56f01e8e02ba9934fb37fc6fd7f3795e9fcfa02a95a528b7dc7f06c2a22c4abe",
+      "source_path": "claude-system-prompt-anatomy/SKILL.md",
+      "source_sha256": "8fcbe243d7d919770c21ad81fce3a781d15eeab644632f3f20e3e3c914c7a9b9",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Replace private runtime-sample provenance with a compact official public-source map and authenticity boundary.",
+      "packaged_path": "packs/research-workflows/skills/claude-system-prompt-anatomy/references/sources/README.md",
+      "packaged_sha256": "39e11bab939d09eb43575bb0b3fc6a9e39ffb5c254043631f3782cc88ac7f459",
+      "source_path": "claude-system-prompt-anatomy/references/sources/README.md",
+      "source_sha256": "445952e7ca4b6823223b1445e18db7959249e17f37515bec5826f95ca382fe9f",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    },
+    {
+      "description": "Frame Liuyao as a traditional cultural exercise, prohibit high-risk predictions, use the installed deterministic script, and remove private research-log references.",
+      "packaged_path": "packs/cultural-practices/skills/liuyao/SKILL.md",
+      "packaged_sha256": "840e9fbe4b9dd3b6dc0cf95a8a2edf653fc6e7392ca5a4f7df8b6b12ea1871c6",
+      "source_path": "liuyao/SKILL.md",
+      "source_sha256": "c1e8cfff3eff7958957532390a7ca0a5dcfb236ca7818f102a986fc35be7f9aa",
+      "source_snapshot": "catalog/snapshot_imports.json",
+      "upstream_origin": "this-repository"
+    }
+  ]
+}

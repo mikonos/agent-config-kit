@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "groups": {
+    "alchaincyf-nuwa-portable": {
+      "commit": "72857dc720f4d1dd3e68a40a544341dfc65ea33e",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "d0952e801d7484cc5344f41cc0378567d20a3c996b784eb97460287adde9ab37",
+      "origin": "https://github.com/alchaincyf/nuwa-skill",
+      "pack": "persona-authoring",
+      "skills": {
+        "huashu-nuwa": {
+          "source_dir": ".",
+          "tree_sha": "65b826ceab6316169ac64935197bf88a93ed7907",
+          "include_files": [
+            "SKILL.md",
+            "references/extraction-framework.md",
+            "references/fidelity-scorecard.md",
+            "references/skill-template.md",
+            "scripts/download_subtitles.sh",
+            "scripts/merge_research.py",
+            "scripts/quality_check.py",
+            "scripts/srt_to_transcript.py"
+          ]
+        }
+      }
+    },
+    "anthropic-skill-creator": {
+      "allow_skills": [
+        "skill-creator"
+      ],
+      "commit": "1f630fdf9259cec4a14913127dfd7c3b69ef72eb",
+      "license": "Apache-2.0",
+      "license_path": "skills/skill-creator/LICENSE.txt",
+      "license_sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "origin": "https://github.com/anthropics/skills",
+      "pack": "skill-authoring"
+    },
+    "anthropic-frontend-design": {
+      "commit": "1f630fdf9259cec4a14913127dfd7c3b69ef72eb",
+      "license": "Apache-2.0",
+      "license_path": "skills/frontend-design/LICENSE.txt",
+      "license_sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "origin": "https://github.com/anthropics/skills",
+      "pack": "design",
+      "skills": {
+        "frontend-design": {
+          "source_dir": "skills/frontend-design",
+          "tree_sha": "0d5b74a14bdf3ebcd64f352d06376a2ef05ed296"
+        }
+      }
+    },
+    "vercel-labs-agent-browser": {
+      "commit": "b48700c36351aad959d05c5c9bba2fb2fc3f9705",
+      "license": "Apache-2.0",
+      "license_path": "LICENSE",
+      "license_sha256": "014bb31e83d5c2e76aea1cc6e82217346ab41362f32cb355ad0f5c10aa0aeaff",
+      "origin": "https://github.com/vercel-labs/agent-browser",
+      "pack": "browser-control",
+      "skills": {
+        "agent-browser": {
+          "source_dir": "skills/agent-browser",
+          "tree_sha": "037e8078db4b20b4aa25c04f21c6de7d335ec449"
+        }
+      }
+    },
+    "coreyhaines31-marketingskills": {
+      "commit": "c21a984a56da10fb6085e6334f6f60929220a4da",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "skills": {
+        "copywriting": {
+          "source_dir": "skills/copywriting",
+          "tree_sha": "13d216690bbbcb88e2fee9f3e2d8f5a5bbc4b338"
+        }
+      }
+    },
+    "coreyhaines31-marketingskills-extra": {
+      "commit": "c21a984a56da10fb6085e6334f6f60929220a4da",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "origin": "https://github.com/coreyhaines31/marketingskills",
+      "pack": "marketing",
+      "skills": {
+        "cold-email": {
+          "source_dir": "skills/cold-email",
+          "tree_sha": "81cf1e5ce680c38f84a8661baccd2b1bb0082999"
+        },
+        "content-strategy": {
+          "source_dir": "skills/content-strategy",
+          "tree_sha": "8a2387b41d046b1b5a72a346103120b3c28e8bf5"
+        },
+        "copy-editing": {
+          "source_dir": "skills/copy-editing",
+          "tree_sha": "4d29a5bcbbf92f159f713c17db9d3d0bf6217b48"
+        },
+        "marketing-psychology": {
+          "source_dir": "skills/marketing-psychology",
+          "tree_sha": "0a527bd6cff5ab2fe2b5a60b97d86013a385326a"
+        },
+        "programmatic-seo": {
+          "source_dir": "skills/programmatic-seo",
+          "tree_sha": "afbffddf471de4fc36f31fb0e502be1d79a3cf1d"
+        },
+        "seo-audit": {
+          "source_dir": "skills/seo-audit",
+          "tree_sha": "0f1f5e31ce921513828ac8f440f358df6fa0751a"
+        }
+      }
+    },
+    "fission-ai-openspec": {
+      "commit": "81d5109b86f16537deb99f84a772a83235dc9e09",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "c3c7235bea1214ab62df643473975c2e8b8848f528901a976693f7d069713e64",
+      "origin": "https://github.com/Fission-AI/OpenSpec",
+      "pack": "spec-driven-development",
+      "skills": {
+        "openspec-apply-change": {
+          "source_dir": "skills/openspec-apply-change",
+          "tree_sha": "53b1b324774f1b3b3edeaafc22e6c78225ea23d1"
+        },
+        "openspec-archive-change": {
+          "source_dir": "skills/openspec-archive-change",
+          "tree_sha": "934f1d85a5b907e0975f5e32ac1f84bd23a1fe6f"
+        },
+        "openspec-explore": {
+          "source_dir": "skills/openspec-explore",
+          "tree_sha": "b44a87af67cdd73d67d6d23e5cc16c57e094feab"
+        },
+        "openspec-propose": {
+          "source_dir": "skills/openspec-propose",
+          "tree_sha": "56605d2c1abe0111a55b24deae13bd2d1235f646"
+        }
+      }
+    },
+    "jimliu-baoyu-release-skills": {
+      "commit": "6b7a2e417500561a5ecdd0b168332f4142584617",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "601839401f6ce68b7a8aec0f7ba247ab8ef0848113378220bec4b2615cc84ee7",
+      "origin": "https://github.com/JimLiu/baoyu-skills",
+      "pack": "release-management",
+      "skills": {
+        "release-skills": {
+          "source_dir": ".claude/skills/release-skills",
+          "tree_sha": "97438b3170eb850ba3a92de132d6866616cf338e"
+        }
+      }
+    },
+    "deanpeters-pm-noncommercial": {
+      "commit": "99710188c134acf590a02c0e4ee1f431e60004cf",
+      "license": "CC-BY-NC-SA-4.0",
+      "license_path": "LICENSE",
+      "license_sha256": "e66c269d4819aaab34b49ef5220c4ddab6756f21bb5180761a4eb8561f2b7bbd",
+      "origin": "https://github.com/deanpeters/Product-Manager-Skills",
+      "pack": "product-management-noncommercial",
+      "skills": {
+        "epic-hypothesis": {
+          "source_dir": "skills/epic-hypothesis",
+          "tree_sha": "a69ff3fa94f286bc88661f995b31ad4d99e8282c"
+        },
+        "jobs-to-be-done": {
+          "source_dir": "skills/jobs-to-be-done",
+          "tree_sha": "e0057a683dceb4eeb7883569817fa9434584bc00"
+        },
+        "positioning-statement": {
+          "source_dir": "skills/positioning-statement",
+          "tree_sha": "e5ecd32f10d7740cd34d2281c4f878da45f75ff0"
+        },
+        "press-release": {
+          "source_dir": "skills/press-release",
+          "tree_sha": "ffc7ff3273e79d852241b236cd1b16c217416e30"
+        },
+        "prioritization-advisor": {
+          "source_dir": "skills/prioritization-advisor",
+          "tree_sha": "dac3575eb97382b6d5110d8d5dcf3d10f46dbb2d"
+        },
+        "problem-statement": {
+          "source_dir": "skills/problem-statement",
+          "tree_sha": "b18f921596340d282c85fef840361996534de3a2"
+        },
+        "proto-persona": {
+          "source_dir": "skills/proto-persona",
+          "tree_sha": "33336b230273ce9e1626d9d7ebaf03b9b1fcdb1e"
+        },
+        "user-story": {
+          "source_dir": "skills/user-story",
+          "tree_sha": "eaf0ad4fb2ad0f27102eaaa35b632d2c417aec95"
+        },
+        "user-story-splitting": {
+          "source_dir": "skills/user-story-splitting",
+          "tree_sha": "802726bd6aef3a84fc8ae21c60a4bc7469568e71"
+        },
+        "workshop-facilitation": {
+          "source_dir": "skills/workshop-facilitation",
+          "tree_sha": "c0ec4b6c2b902f6661d8d1f5cfed06851a82658c"
+        }
+      }
+    },
+    "bytedance-deer-flow-deep-research": {
+      "commit": "d4fdc2758e9b23c79b1c148351700b52725a4644",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "b23dff4d4bac8d17b6efaaa7e88c2b730149c4dda45699ce676b719cfdffe7e1",
+      "origin": "https://github.com/bytedance/deer-flow",
+      "pack": "research-workflows",
+      "skills": {
+        "deep-research": {
+          "source_dir": "skills/public/deep-research",
+          "tree_sha": "88e19d09ce8b8b1a5d20a80e82891e89fda4adad"
+        }
+      }
+    },
+    "mattpocock-skills": {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "origin": "https://github.com/mattpocock/skills",
+      "pack_by_source_prefix": {
+        "skills/deprecated/": "legacy-workflows",
+        "skills/engineering/": "engineering-workflows",
+        "skills/in-progress/": "experimental-workflows",
+        "skills/personal/": "personal-productivity",
+        "skills/productivity/": "productivity-workflows"
+      }
+    },
+    "mattpocock-to-tickets": {
+      "commit": "ed37663cc5fbef691ddfecd080dff42f7e7e350d",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "origin": "https://github.com/mattpocock/skills",
+      "pack": "engineering-workflows",
+      "skills": {
+        "to-tickets": {
+          "source_dir": "skills/engineering/to-tickets",
+          "tree_sha": "80c1bedbdaa72a4abd524055013accb4fe0ea8c4"
+        }
+      }
+    },
+    "nanmicoder-newscrawler": {
+      "commit": "e04c52870e579b5432e8991cd7d342e4fbdd7063",
+      "license": "GPL-3.0-only",
+      "license_path": "LICENSE",
+      "license_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "origin": "https://github.com/nanmicoder/newscrawler",
+      "pack": "web-extraction",
+      "skills": {
+        "news-extractor": {
+          "source_dir": ".claude/skills/news-extractor",
+          "tree_sha": "dab4c321488b050136029cb45ac1cc4699565aef"
+        }
+      }
+    },
+    "nextlevelbuilder-ui-ux-pro-max": {
+      "commit": "1307d97a72e6c1cda572cb65471ae5ce82995218",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014",
+      "origin": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "pack": "design-intelligence",
+      "skills": {
+        "ui-ux-pro-max": {
+          "source_dir": ".claude/skills/ui-ux-pro-max",
+          "tree_sha": "e36b015761c3bd5e2b6977323db9b105b4cd8d5f"
+        }
+      }
+    },
+    "obsidian-skills": {
+      "commit": "a1dc48e68138490d522c04cbf5822214c6eb1202",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "64c64d48361edfe8610016441bf593256ea9b67f133b00f47c55aa29ee878567",
+      "origin": "https://github.com/kepano/obsidian-skills",
+      "pack": "obsidian",
+      "skills": {
+        "defuddle": {
+          "source_dir": "skills/defuddle",
+          "tree_sha": "db0b775af7e7d603f59fa2b67bdef615baf1a48f"
+        },
+        "json-canvas": {
+          "source_dir": "skills/json-canvas",
+          "tree_sha": "9df7971db7ffebf96f2a207840b9f4765aa11b04"
+        },
+        "obsidian-bases": {
+          "source_dir": "skills/obsidian-bases",
+          "tree_sha": "f3330f27de4d7907ead57d0f48672f4d3280bb77"
+        },
+        "obsidian-cli": {
+          "source_dir": "skills/obsidian-cli",
+          "tree_sha": "96254a554e480359de7b685571876f2e7f9ba57d"
+        },
+        "obsidian-markdown": {
+          "source_dir": "skills/obsidian-markdown",
+          "tree_sha": "4723197c6dc59abc29819da87863b1ac20b96095"
+        }
+      }
+    },
+    "obra-superpowers-brainstorming": {
+      "commit": "d884ae04edebef577e82ff7c4e143debd0bbec99",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+      "origin": "https://github.com/obra/superpowers",
+      "pack": "planning-workflows",
+      "skills": {
+        "brainstorming": {
+          "source_dir": "skills/brainstorming",
+          "tree_sha": "b14f49a55a8387cfa12ac89794ab79698d7fddbb"
+        }
+      }
+    },
+    "open-skills-presenton": {
+      "allow_skills": [
+        "presenton"
+      ],
+      "commit": "3bc011321c9054238d207936dbb577aa4b7e0e4d",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "514ec0d008cc2b3acf18c5515c6f2214c427467d32e115989c16ccf3a225b061",
+      "origin": "https://github.com/besoeasy/open-skills",
+      "pack": "presentations"
+    },
+    "steipete-remindctl": {
+      "commit": "ac09a1ca0c61b1eefa12a92ee20f38a98cc897d3",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "14293556b79940745123d0160c71d27ed0e9fe9b8a848093f3ed78f4853caafe",
+      "origin": "https://github.com/steipete/remindctl",
+      "pack": "macos-integrations",
+      "skills": {
+        "apple-reminders": {
+          "source_dir": ".",
+          "tree_sha": "28ff022d6d15ce481f9a22b1ae11a26b040f220c",
+          "include_files": [
+            "SKILL.md"
+          ]
+        }
+      }
+    },
+    "steipete-openclaw-summarize": {
+      "commit": "1781e2e8f7ca9a446dec21916b762a062157a360",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "73571b25326281d369087f469842c02444fe39faaecebda4d82ed21ff3a1c29d",
+      "origin": "https://github.com/openclaw/openclaw",
+      "pack": "summarization",
+      "skills": {
+        "summarize": {
+          "source_dir": "skills/summarize",
+          "tree_sha": "1fbc6f703b852072d57496300bd2a078309e9c7d"
+        }
+      }
+    },
+    "vercel-labs-find-skills": {
+      "commit": "e173b8c88f2581cfdaa1b6767c6519a08155790e",
+      "license": "MIT",
+      "license_path": "LICENSE",
+      "license_sha256": "661142e53c313d2bb5e1b055f5c0a39001450ff1b5e27b89dc4bc7de9a6352ca",
+      "origin": "https://github.com/vercel-labs/skills",
+      "pack": "skill-discovery",
+      "skills": {
+        "find-skills": {
+          "source_dir": "skills/find-skills",
+          "tree_sha": "76a98a285cb0434f3d39e1a873823556330e398b"
+        }
+      }
+    }
+  }
+}

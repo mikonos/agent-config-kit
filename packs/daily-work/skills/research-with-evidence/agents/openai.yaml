@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research with Evidence"
+  short_description: "Research questions with sources, uncertainty, and decisions"
+  default_prompt: "Use $research-with-evidence to research this question and separate facts, inferences, and recommendations."

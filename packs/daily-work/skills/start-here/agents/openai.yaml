@@ -1,0 +1,4 @@
+interface:
+  display_name: "Start Here"
+  short_description: "Route plain-language requests to the right workflow"
+  default_prompt: "Use $start-here to help me choose and begin the right workflow for this task."
