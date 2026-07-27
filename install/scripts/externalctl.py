@@ -62,6 +62,15 @@ class ExternalSkill:
     data: bytes
 
 
+@dataclass(frozen=True)
+class ExternalUpdate:
+    name: str
+    url: str
+    approved_sha256: str
+    observed_sha256: str
+    status: str
+
+
 def load_json(path: Path) -> dict[str, Any]:
     if configctl.is_link_or_reparse(path) or not path.is_file():
         raise configctl.ConfigError(f"catalog is missing or unsafe: {path.name}")
@@ -177,7 +186,7 @@ def parse_skill_name(data: bytes) -> str:
     return match.group(1)
 
 
-def fetch_entry(entry: dict[str, str], expected_host: str) -> bytes:
+def fetch_live_entry(entry: dict[str, str], expected_host: str) -> bytes:
     request = urllib.request.Request(
         entry["url"],
         headers={"User-Agent": "agent-config-kit-externalctl/0.1"},
@@ -205,15 +214,21 @@ def fetch_entry(entry: dict[str, str], expected_host: str) -> bytes:
         data = response.read(MAX_SKILL_BYTES + 1)
     if len(data) > MAX_SKILL_BYTES:
         raise configctl.ConfigError(f"external Skill exceeds size limit: {entry['name']}")
-    digest = hashlib.sha256(data).hexdigest()
-    if digest != entry["sha256"]:
-        raise configctl.ConfigError(
-            f"external Skill changed upstream; review and repin before installing: {entry['name']}"
-        )
     declared = parse_skill_name(data)
     if declared != entry["name"]:
         raise configctl.ConfigError(
             f"external Skill name differs: {entry['name']!r} != {declared!r}"
+        )
+    return data
+
+
+def fetch_entry(entry: dict[str, str], expected_host: str) -> bytes:
+    data = fetch_live_entry(entry, expected_host)
+    digest = hashlib.sha256(data).hexdigest()
+    if digest != entry["sha256"]:
+        raise configctl.ConfigError(
+            f"external Skill changed upstream; run check-updates and review "
+            f"the new lock before installing: {entry['name']}"
         )
     return data
 
@@ -234,6 +249,35 @@ def selected_entries(
             for entry in packs[pack_name]["skills"]
         )
     return selected
+
+
+def check_update_plan(
+    catalog: dict[str, Any],
+    pack_names: list[str],
+    fetcher: Callable[[dict[str, str], str], bytes] | None = None,
+) -> list[ExternalUpdate]:
+    active_fetcher = fetch_live_entry if fetcher is None else fetcher
+    updates: list[ExternalUpdate] = []
+    for host, entry in selected_entries(catalog, pack_names):
+        data = active_fetcher(entry, host)
+        observed = hashlib.sha256(data).hexdigest()
+        approved = entry["sha256"]
+        if observed == approved:
+            status = "current"
+        elif observed in entry.get("previous_sha256", []):
+            status = "rollback_detected"
+        else:
+            status = "update_available"
+        updates.append(
+            ExternalUpdate(
+                name=entry["name"],
+                url=entry["url"],
+                approved_sha256=approved,
+                observed_sha256=observed,
+                status=status,
+            )
+        )
+    return sorted(updates, key=lambda item: item.name)
 
 
 def fetch_plan(
@@ -498,6 +542,67 @@ def command_install(args: argparse.Namespace, manifest: dict[str, Any], catalog:
     return 0
 
 
+def command_check_updates(
+    args: argparse.Namespace,
+    catalog: dict[str, Any],
+) -> int:
+    packs = sorted(validate_catalog(catalog))
+    selected_packs = args.pack or packs
+    updates = check_update_plan(catalog, selected_packs)
+    rollback = [item for item in updates if item.status == "rollback_detected"]
+    if rollback:
+        names = ", ".join(item.name for item in rollback)
+        raise configctl.ConfigError(
+            "external source returned a previously approved version; "
+            f"manual rollback review required: {names}"
+        )
+    if args.json:
+        print(
+            json.dumps(
+                {
+                    "schema_version": 1,
+                    "packs": selected_packs,
+                    "skills": [
+                        {
+                            "name": item.name,
+                            "url": item.url,
+                            "approved_sha256": item.approved_sha256,
+                            "observed_sha256": item.observed_sha256,
+                            "status": item.status,
+                        }
+                        for item in updates
+                    ],
+                    "summary": {
+                        "current": sum(
+                            item.status == "current" for item in updates
+                        ),
+                        "update_available": sum(
+                            item.status == "update_available" for item in updates
+                        ),
+                    },
+                },
+                indent=2,
+                sort_keys=True,
+            )
+        )
+    else:
+        configctl.print_plan(
+            "External Skill update check",
+            [
+                (item.status, item.name)
+                for item in updates
+            ],
+            False,
+        )
+        print(
+            "Bundled Kit status: unaffected "
+            "(external updates use a separate lock and lifecycle)"
+        )
+    return 1 if any(
+        item.status == "update_available" for item in updates
+    ) else 0
+
+
 def command_doctor(
     args: argparse.Namespace,
     manifest: dict[str, Any],
@@ -678,6 +783,13 @@ def build_parser(catalog: dict[str, Any]) -> argparse.ArgumentParser:
     subparsers = parser.add_subparsers(dest="command", required=True)
     subparsers.add_parser("verify-catalog", help="validate official Skill pins")
 
+    check_updates = subparsers.add_parser(
+        "check-updates",
+        help="compare approved pins with current official Skill files",
+    )
+    check_updates.add_argument("--pack", action="append", choices=packs)
+    check_updates.add_argument("--json", action="store_true")
+
     install = subparsers.add_parser("install", help="preview or apply official Skill fetch")
     install.add_argument("--runtime", required=True, choices=("codex", "cursor", "claude-code"))
     install.add_argument("--pack", action="append", choices=packs, required=True)
@@ -709,6 +821,8 @@ def main(argv: list[str] | None = None) -> int:
             skill_count = sum(len(pack["skills"]) for pack in packs.values())
             print(f"External catalog OK: packs={len(packs)} skills={skill_count}")
             return 0
+        if args.command == "check-updates":
+            return command_check_updates(args, catalog)
         if args.command == "install":
             return command_install(args, manifest, catalog)
         if args.command == "doctor":

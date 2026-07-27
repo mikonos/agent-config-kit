@@ -4,6 +4,7 @@ import argparse
 import copy
 import hashlib
 import json
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -123,6 +124,150 @@ class ExternalControllerTests(unittest.TestCase):
             ".cursor/skills/official-demo/SKILL.md",
         )
         self.assertEqual(plan[0].sha256, hashlib.sha256(SKILL_DATA).hexdigest())
+
+    def test_fetch_entry_rejects_changed_live_bytes(self) -> None:
+        catalog = fixture_catalog()
+        pack = catalog["packs"]["official"]
+        entry = pack["skills"][0]
+        changed = (
+            b"---\nname: official-demo\ndescription: Changed upstream.\n---\n"
+        )
+
+        with mock.patch.object(
+            externalctl,
+            "fetch_live_entry",
+            return_value=changed,
+        ):
+            with self.assertRaisesRegex(
+                externalctl.configctl.ConfigError,
+                "review the new lock before installing",
+            ):
+                externalctl.fetch_entry(entry, pack["source_host"])
+
+    def test_update_check_distinguishes_current_new_and_rollback(self) -> None:
+        catalog = fixture_catalog()
+        current = externalctl.check_update_plan(
+            catalog,
+            ["official"],
+            fetcher=lambda entry, host: SKILL_DATA,
+        )
+        self.assertEqual(current[0].status, "current")
+
+        new_data = (
+            b"---\nname: official-demo\ndescription: Updated demo.\n---\n"
+        )
+        available = externalctl.check_update_plan(
+            catalog,
+            ["official"],
+            fetcher=lambda entry, host: new_data,
+        )
+        self.assertEqual(available[0].status, "update_available")
+        self.assertEqual(
+            available[0].observed_sha256,
+            hashlib.sha256(new_data).hexdigest(),
+        )
+
+        previous_data = (
+            b"---\nname: official-demo\ndescription: Previous demo.\n---\n"
+        )
+        catalog["packs"]["official"]["skills"][0]["previous_sha256"] = [
+            hashlib.sha256(previous_data).hexdigest()
+        ]
+        rollback = externalctl.check_update_plan(
+            catalog,
+            ["official"],
+            fetcher=lambda entry, host: previous_data,
+        )
+        self.assertEqual(rollback[0].status, "rollback_detected")
+
+    def test_check_updates_does_not_change_catalog_or_bundled_state(self) -> None:
+        catalog = fixture_catalog()
+        original = copy.deepcopy(catalog)
+        new_data = (
+            b"---\nname: official-demo\ndescription: Updated demo.\n---\n"
+        )
+        with mock.patch.object(
+            externalctl,
+            "check_update_plan",
+            return_value=[
+                externalctl.ExternalUpdate(
+                    name="official-demo",
+                    url=catalog["packs"]["official"]["skills"][0]["url"],
+                    approved_sha256=hashlib.sha256(SKILL_DATA).hexdigest(),
+                    observed_sha256=hashlib.sha256(new_data).hexdigest(),
+                    status="update_available",
+                )
+            ],
+        ):
+            result = externalctl.command_check_updates(
+                argparse.Namespace(pack=["official"], json=False),
+                catalog,
+            )
+
+        self.assertEqual(result, 1)
+        self.assertEqual(catalog, original)
+
+    def test_bundled_package_verify_passes_after_external_update_is_found(
+        self,
+    ) -> None:
+        catalog = fixture_catalog()
+        changed = (
+            b"---\nname: official-demo\ndescription: Changed upstream.\n---\n"
+        )
+        with mock.patch.object(
+            externalctl,
+            "check_update_plan",
+            return_value=[
+                externalctl.ExternalUpdate(
+                    name="official-demo",
+                    url=catalog["packs"]["official"]["skills"][0]["url"],
+                    approved_sha256=hashlib.sha256(SKILL_DATA).hexdigest(),
+                    observed_sha256=hashlib.sha256(changed).hexdigest(),
+                    status="update_available",
+                )
+            ],
+        ):
+            self.assertEqual(
+                externalctl.command_check_updates(
+                    argparse.Namespace(pack=["official"], json=False),
+                    catalog,
+                ),
+                1,
+            )
+
+        verified = subprocess.run(
+            [sys.executable, "scripts/verify.py"],
+            cwd=REPO,
+            check=False,
+            capture_output=True,
+            text=True,
+        )
+        self.assertEqual(verified.returncode, 0, verified.stderr)
+        self.assertIn("PACKAGE VERIFY OK", verified.stdout)
+
+    def test_check_updates_fails_closed_on_upstream_rollback(self) -> None:
+        catalog = fixture_catalog()
+        with mock.patch.object(
+            externalctl,
+            "check_update_plan",
+            return_value=[
+                externalctl.ExternalUpdate(
+                    name="official-demo",
+                    url=catalog["packs"]["official"]["skills"][0]["url"],
+                    approved_sha256=hashlib.sha256(SKILL_DATA).hexdigest(),
+                    observed_sha256="b" * 64,
+                    status="rollback_detected",
+                )
+            ],
+        ):
+            with self.assertRaisesRegex(
+                externalctl.configctl.ConfigError,
+                "rollback review required",
+            ):
+                externalctl.command_check_updates(
+                    argparse.Namespace(pack=["official"], json=False),
+                    catalog,
+                )
 
     def test_state_accepts_only_current_or_reviewed_previous_hash(self) -> None:
         catalog = fixture_catalog()

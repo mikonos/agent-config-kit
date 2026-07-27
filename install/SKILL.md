@@ -96,7 +96,10 @@ On native Windows, use `py -3` for controller commands and default to
 ## Verify and preview
 
 Read [references/commands.md](references/commands.md). Run `verify-package` before the first lifecycle operation.
-Before an official-source install, also run `externalctl.py verify-catalog`.
+Before an official-source install, also run `externalctl.py verify-catalog`,
+then the read-only `externalctl.py check-updates`. Treat exit `1` as
+`update_available`, not as bundled Kit corruption. Do not install the changed
+external stage until the reviewed lock is updated.
 
 Installation, update, uninstall, and restore are dry-run by default. Show the
 planned creates, updates, removals, restores, adopted identical files, and
@@ -109,7 +112,8 @@ For `lark-official`, run the external install preview only after the bundled
 install is healthy. Explain that the preview makes HTTPS requests to
 `open.feishu.cn`, verifies fixed SHA-256 hashes and Skill names, and writes
 nothing until applied. A changed upstream hash or any same-name directory
-stops the whole external stage.
+stops the whole external stage. It does not invalidate, uninstall, or roll back
+the bundled profile.
 
 The controller must not:
 
@@ -136,6 +140,10 @@ already healthy and that `lark-official` was not installed. Give the hash,
 network, or conflict reason and a safe preview command for retrying. Do not
 claim the complete installation succeeded, and do not automatically roll back
 an already healthy bundled install.
+
+When `check-updates` reports changes, say which external Skill names changed
+and that the maintainer must review and repin them. Never recommend removing
+hash checks or accepting mutable latest content silently.
 
 For uninstall, require both `--apply` and `--confirm-uninstall`. The controller preserves adopted and drifted files and copies every removable owned file into the recovery directory before removal.
 

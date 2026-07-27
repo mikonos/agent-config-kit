@@ -15,6 +15,7 @@ python3 install/scripts/configctl.py uninstall --target /path/to/project --apply
 python3 install/scripts/configctl.py restore --target /path/to/project
 python3 install/scripts/configctl.py restore --target /path/to/project --apply
 python3 install/scripts/externalctl.py verify-catalog
+python3 install/scripts/externalctl.py check-updates
 python3 install/scripts/externalctl.py install --runtime codex --pack lark-official --target /path/to/project
 python3 install/scripts/externalctl.py install --runtime codex --pack lark-official --target /path/to/project --apply
 python3 install/scripts/externalctl.py doctor --target /path/to/project
@@ -34,8 +35,11 @@ their publisher instead of being redistributed in this repository. The
 `open.feishu.cn`. Preview downloads the files into memory and verifies the
 reviewed SHA-256 hashes and declared names before planning any target writes.
 If an official file changes, installation stops until the Catalog is reviewed
-and repinned. External Skills use their own state and recovery record, so they
-can be diagnosed, uninstalled, and restored separately from the bundled kit.
+and repinned. `check-updates` is read-only: exit `0` means current, `1` means
+an update is available, and `2` means an unsafe source, network failure, or
+rollback signal. An available external update does not invalidate the bundled
+Kit. External Skills use their own state and recovery record, so they can be
+diagnosed, uninstalled, and restored separately from the bundled kit.
 
 On native Windows, replace `python3` with `py -3` and install with
 `--without-hooks` in v0.1.
