@@ -11,21 +11,16 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "packs/core/rules/core.md"
 MANIFEST = ROOT / "manifest.json"
 RULE_TEMPLATES = {
-    ROOT / "adapters/codex/AGENTS.md": (
-        "<!-- Generated from packs/core/rules/core.md. -->\n\n{body}"
-    ),
-    ROOT / "adapters/claude-code/CLAUDE.md": (
-        "<!-- Generated from packs/core/rules/core.md. -->\n\n{body}"
-    ),
-    ROOT / "adapters/cursor/agent-config-kit.mdc": (
+    "codex": "<!-- Generated from {sources}. -->\n\n{body}",
+    "claude-code": "<!-- Generated from {sources}. -->\n\n{body}",
+    "cursor": (
         "---\n"
-        "description: Safe, beginner-friendly working agreement for AI-assisted work\n"
+        "description: Portable working agreement for AI-assisted work ({profile})\n"
         "alwaysApply: true\n"
         "---\n\n"
-        "<!-- Generated from packs/core/rules/core.md. -->\n\n"
+        "<!-- Generated from {sources}. -->\n\n"
         "{body}"
     ),
 }
@@ -90,11 +85,25 @@ def cursor_hook(message: str) -> dict:
 
 
 def render() -> dict[Path, str]:
-    body = SOURCE.read_text(encoding="utf-8").rstrip() + "\n"
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
-    rendered = {
-        path: template.format(body=body) for path, template in RULE_TEMPLATES.items()
-    }
+    rendered: dict[Path, str] = {}
+    for profile_name, profile in manifest["profiles"].items():
+        source_values = profile["rule_sources"]
+        body = "\n\n".join(
+            (ROOT / source).read_text(encoding="utf-8").strip()
+            for source in source_values
+        ) + "\n"
+        source_label = " + ".join(source_values)
+        for runtime_name, runtime in manifest["runtimes"].items():
+            rule = runtime["rules_by_profile"][profile_name]
+            output = ROOT / rule["source"]
+            if output in rendered:
+                raise ValueError(f"duplicate generated Rule output: {output}")
+            rendered[output] = RULE_TEMPLATES[runtime_name].format(
+                body=body,
+                profile=profile_name,
+                sources=source_label,
+            )
     for profile_name, profile in manifest["profiles"].items():
         message = "\n".join(
             (ROOT / path).read_text(encoding="utf-8").strip()

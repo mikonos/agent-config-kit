@@ -28,6 +28,23 @@ if hasattr(sys.stderr, "reconfigure"):
 PACKAGE_ROOT = Path(__file__).resolve().parents[2]
 MANIFEST_PATH = PACKAGE_ROOT / "manifest.json"
 STATE_REL = PurePosixPath(".agent-config-kit/install-state.json")
+LEGACY_RULE_MIGRATIONS = {
+    ("adapters/codex/AGENTS.md", "AGENTS.md"): {
+        "adapters/codex/AGENTS-daily-work.md",
+        "adapters/codex/AGENTS-knowledge-vault.md",
+    },
+    (
+        "adapters/cursor/agent-config-kit.mdc",
+        ".cursor/rules/agent-config-kit.mdc",
+    ): {
+        "adapters/cursor/agent-config-kit-daily-work.mdc",
+        "adapters/cursor/agent-config-kit-knowledge-vault.mdc",
+    },
+    ("adapters/claude-code/CLAUDE.md", "CLAUDE.md"): {
+        "adapters/claude-code/CLAUDE-daily-work.md",
+        "adapters/claude-code/CLAUDE-knowledge-vault.md",
+    },
+}
 
 
 class ConfigError(Exception):
@@ -223,7 +240,12 @@ def build_plan(
     planned: list[PlannedFile] = []
     seen_targets: set[str] = set()
 
-    rule = runtime["rule"]
+    rules_by_profile = runtime.get("rules_by_profile", {})
+    if profile_name not in rules_by_profile:
+        raise ConfigError(
+            f"runtime has no Rule adapter for profile: {runtime_name}/{profile_name}"
+        )
+    rule = rules_by_profile[profile_name]
     add_file(planned, seen_targets, rule["source"], rule["target"])
     for item in manifest["common_files"]:
         add_file(planned, seen_targets, item["source"], item["target"])
@@ -298,6 +320,41 @@ def validate_skill_pack(manifest: dict[str, Any], pack_name: str) -> int:
 
 def validate_package(manifest: dict[str, Any]) -> dict[str, int]:
     counts = {"profiles": 0, "plans": 0, "files": 0, "catalog_skills": 0}
+    profile_names = set(manifest["profiles"])
+    for runtime_name, runtime in manifest["runtimes"].items():
+        rules = runtime.get("rules_by_profile")
+        if not isinstance(rules, dict) or set(rules) != profile_names:
+            raise ConfigError(
+                f"Rule adapters must cover every profile: {runtime_name}"
+            )
+        rule_targets: set[str] = set()
+        rule_sources: set[str] = set()
+        for profile_name, rule in rules.items():
+            if (
+                not isinstance(rule, dict)
+                or set(rule) != {"source", "target"}
+                or not isinstance(rule["source"], str)
+                or not isinstance(rule["target"], str)
+            ):
+                raise ConfigError(
+                    f"invalid Rule adapter: {runtime_name}/{profile_name}"
+                )
+            if not rule["source"].startswith(f"adapters/{runtime_name}/"):
+                raise ConfigError(
+                    f"Rule adapter is outside its runtime: "
+                    f"{runtime_name}/{profile_name}"
+                )
+            ensure_source(rule["source"])
+            rule_sources.add(rule["source"])
+            rule_targets.add(str(safe_rel(rule["target"], "Rule target")))
+        if len(rule_sources) != len(rules):
+            raise ConfigError(
+                f"Rule adapter sources must be unique by profile: {runtime_name}"
+            )
+        if len(rule_targets) != 1:
+            raise ConfigError(
+                f"Rule targets must stay constant across profiles: {runtime_name}"
+            )
     if set(manifest["capability_requirements"]) != set(manifest["skill_packs"]):
         raise ConfigError("capability_requirements must cover every skill pack")
     for pack_name, names in manifest["skill_packs"].items():
@@ -372,12 +429,29 @@ def validate_package(manifest: dict[str, Any]) -> dict[str, int]:
     for profile_name, profile in manifest["profiles"].items():
         if (
             not isinstance(profile, dict)
+            or not isinstance(profile.get("rule_sources"), list)
+            or not profile.get("rule_sources")
+            or not all(
+                isinstance(source, str) and source
+                for source in profile["rule_sources"]
+            )
+            or len(profile["rule_sources"]) != len(set(profile["rule_sources"]))
             or not isinstance(profile.get("skill_packs"), list)
             or not isinstance(profile.get("include_hooks"), bool)
             or not isinstance(profile.get("hook_messages"), list)
             or not profile.get("hook_messages")
         ):
             raise ConfigError(f"invalid profile: {profile_name}")
+        for rule_source in profile["rule_sources"]:
+            if (
+                not rule_source.startswith("packs/core/rules/")
+                or not rule_source.endswith(".md")
+            ):
+                raise ConfigError(
+                    f"Rule source is outside the canonical directory: "
+                    f"{profile_name}"
+                )
+            ensure_source(rule_source)
         for message_path in profile["hook_messages"]:
             ensure_source(message_path)
         notices = profile.get("notices", [])
@@ -458,7 +532,14 @@ def validate_state_against_plan(
                 "install state contains a target outside the current package plan: "
                 + record["target"]
             )
-        if record["source"] != item.source_rel:
+        legacy_targets = LEGACY_RULE_MIGRATIONS.get(
+            (record["source"], record["target"]),
+            set(),
+        )
+        if (
+            record["source"] != item.source_rel
+            and item.source_rel not in legacy_targets
+        ):
             raise ConfigError(
                 "install state source/target mapping does not match the package plan: "
                 + record["target"]

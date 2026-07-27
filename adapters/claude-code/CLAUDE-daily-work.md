@@ -1,3 +1,5 @@
+<!-- Generated from packs/core/rules/core.md. -->
+
 # Portable Agent working contract
 
 ## 基本工作方式

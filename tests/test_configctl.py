@@ -70,6 +70,12 @@ class ConfigControllerTests(unittest.TestCase):
 
                 self.run_ctl(*common, "--apply")
                 self.assertTrue((project / rule).is_file())
+                rule_text = (project / rule).read_text(encoding="utf-8")
+                self.assertIn("老板", rule_text)
+                self.assertIn("最强大脑", rule_text)
+                self.assertIn("授权矩阵", rule_text)
+                self.assertNotIn("Knowledge Vault working contract", rule_text)
+                self.assertNotIn("Unknown Management Gate", rule_text)
                 self.assertTrue((project / "START-HERE.md").is_file())
                 self.assertTrue((project / ".agent-config-kit/install-state.json").is_file())
                 self.run_ctl("doctor", "--target", str(project))
@@ -142,6 +148,11 @@ class ConfigControllerTests(unittest.TestCase):
             for runtime in ("codex", "cursor", "claude-code"):
                 project = base / runtime
                 project.mkdir()
+                rule = {
+                    "codex": Path("AGENTS.md"),
+                    "cursor": Path(".cursor/rules/agent-config-kit.mdc"),
+                    "claude-code": Path("CLAUDE.md"),
+                }[runtime]
                 install = self.run_ctl(
                     "install",
                     "--runtime",
@@ -152,6 +163,10 @@ class ConfigControllerTests(unittest.TestCase):
                     str(project),
                     "--apply",
                 )
+                rule_text = (project / rule).read_text(encoding="utf-8")
+                self.assertIn("老板", rule_text)
+                self.assertIn("Knowledge Vault working contract", rule_text)
+                self.assertNotIn("Unknown Management Gate", rule_text)
                 if runtime == "codex":
                     config = json.loads((project / ".codex/hooks.json").read_text())
                     command = config["hooks"]["SessionStart"][0]["hooks"][0]["command"]
@@ -216,6 +231,11 @@ class ConfigControllerTests(unittest.TestCase):
             for runtime, skills_root in skills_roots.items():
                 project = base / runtime
                 project.mkdir()
+                rule = {
+                    "codex": Path("AGENTS.md"),
+                    "cursor": Path(".cursor/rules/agent-config-kit.mdc"),
+                    "claude-code": Path("CLAUDE.md"),
+                }[runtime]
                 install = self.run_ctl(
                     "install",
                     "--runtime",
@@ -243,6 +263,11 @@ class ConfigControllerTests(unittest.TestCase):
                 self.assertIn("does not bypass login or access controls", install.stdout)
                 self.assertIn("hidden prompts", install.stdout)
                 self.assertIn("not an evidence-based prediction tool", install.stdout)
+                rule_text = (project / rule).read_text(encoding="utf-8")
+                self.assertIn("老板", rule_text)
+                self.assertIn("Knowledge Vault working contract", rule_text)
+                self.assertIn("Unknown Management Gate", rule_text)
+                self.assertIn("Document Restraint", rule_text)
                 installed = {
                     path.name
                     for path in (project / skills_root).iterdir()
@@ -349,7 +374,10 @@ class ConfigControllerTests(unittest.TestCase):
     def test_identical_preexisting_file_is_adopted_and_preserved(self) -> None:
         with tempfile.TemporaryDirectory() as temp:
             project = Path(temp)
-            shutil.copy2(REPO / "adapters/codex/AGENTS.md", project / "AGENTS.md")
+            shutil.copy2(
+                REPO / "adapters/codex/AGENTS-daily-work.md",
+                project / "AGENTS.md",
+            )
             self.run_ctl(
                 "install",
                 "--runtime",
@@ -371,6 +399,62 @@ class ConfigControllerTests(unittest.TestCase):
             )
             self.assertTrue((project / "AGENTS.md").is_file())
             self.assertEqual(digest(project / "AGENTS.md"), original)
+
+    def test_legacy_shared_rule_state_can_uninstall_and_restore(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            runtimes = {
+                "codex": ("AGENTS.md", "adapters/codex/AGENTS.md"),
+                "cursor": (
+                    ".cursor/rules/agent-config-kit.mdc",
+                    "adapters/cursor/agent-config-kit.mdc",
+                ),
+                "claude-code": ("CLAUDE.md", "adapters/claude-code/CLAUDE.md"),
+            }
+            for runtime, (target, source) in runtimes.items():
+                for profile in ("daily-work", "knowledge-vault"):
+                    project = root / runtime / profile
+                    project.mkdir(parents=True)
+                    rule = project / target
+                    rule.parent.mkdir(parents=True, exist_ok=True)
+                    rule.write_text("legacy portable rule\n", encoding="utf-8")
+                    state_dir = project / ".agent-config-kit"
+                    state_dir.mkdir()
+                    (state_dir / "install-state.json").write_text(
+                        json.dumps(
+                            {
+                                "schema_version": 1,
+                                "status": "installed",
+                                "release": "0.1.0",
+                                "runtime": runtime,
+                                "profile": profile,
+                                "hooks_enabled": False,
+                                "files": [
+                                    {
+                                        "target": target,
+                                        "source": source,
+                                        "installed_sha256": digest(rule),
+                                        "owned": True,
+                                    }
+                                ],
+                            }
+                        ),
+                        encoding="utf-8",
+                    )
+
+                    self.run_ctl(
+                        "uninstall",
+                        "--target",
+                        str(project),
+                        "--apply",
+                        "--confirm-uninstall",
+                    )
+                    self.assertFalse(rule.exists())
+                    self.run_ctl("restore", "--target", str(project), "--apply")
+                    self.assertEqual(
+                        rule.read_text(encoding="utf-8"),
+                        "legacy portable rule\n",
+                    )
 
     def test_drift_blocks_update_and_is_preserved_on_uninstall(self) -> None:
         with tempfile.TemporaryDirectory() as temp:
@@ -505,7 +589,7 @@ class ConfigControllerTests(unittest.TestCase):
                 "--apply",
                 controller=controller,
             )
-            adapter = package / "adapters/codex/AGENTS.md"
+            adapter = package / "adapters/codex/AGENTS-daily-work.md"
             adapter.write_text(
                 adapter.read_text(encoding="utf-8") + "\n- Updated release rule.\n",
                 encoding="utf-8",

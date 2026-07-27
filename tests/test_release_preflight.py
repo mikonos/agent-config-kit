@@ -162,6 +162,23 @@ class ReleasePreflightTests(unittest.TestCase):
             [["python", "alignment"], ["python", "verify"]],
         )
 
+    def test_rule_alignment_failure_stops_before_skill_alignment(self) -> None:
+        calls: list[list[str]] = []
+
+        def runner(command: list[str]) -> int:
+            calls.append(command)
+            return 2 if command == ["python", "rules"] else 0
+
+        result = PREFLIGHT.run_preflight(
+            rule_alignment_command=["python", "rules"],
+            alignment_command=["python", "skills"],
+            verification_command=["python", "verify"],
+            runner=runner,
+        )
+
+        self.assertEqual(result, 2)
+        self.assertEqual(calls, [["python", "rules"]])
+
     def test_private_privacy_failure_stops_before_alignment(self) -> None:
         calls: list[list[str]] = []
 

@@ -13,8 +13,10 @@ Determine:
 
 - target project directory;
 - runtime: `codex`, `cursor`, or `claude-code`;
-- profile: `daily-work` for general use, `knowledge-vault` for Obsidian and
-  Zettelkasten work, or `full` for every currently admitted Skill;
+- profile: `daily-work` for the portable general Rule and general-use Skills,
+  `knowledge-vault` for that base plus the knowledge-governance Rule and
+  Obsidian/Zettelkasten Skills, or `full` for all three Rule layers and every
+  currently admitted Skill;
 - whether safe project hooks are wanted.
 
 Prefer `daily-work` for a beginner who did not ask for knowledge-vault workflows.

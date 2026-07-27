@@ -3,11 +3,17 @@
   "release": "0.1.0",
   "profiles": {
     "daily-work": {
+      "rule_sources": ["packs/core/rules/core.md"],
       "skill_packs": ["daily-work"],
       "include_hooks": true,
       "hook_messages": ["packs/safe-hooks/message.txt"]
     },
     "full": {
+      "rule_sources": [
+        "packs/core/rules/core.md",
+        "packs/core/rules/knowledge-vault.md",
+        "packs/core/rules/full.md"
+      ],
       "skill_packs": [
         "full-routing",
         "browser-automation",
@@ -78,6 +84,10 @@
       ]
     },
     "knowledge-vault": {
+      "rule_sources": [
+        "packs/core/rules/core.md",
+        "packs/core/rules/knowledge-vault.md"
+      ],
       "skill_packs": ["daily-work", "knowledge-vault", "obsidian"],
       "include_hooks": true,
       "hook_messages": [
@@ -978,9 +988,19 @@
   },
   "runtimes": {
     "codex": {
-      "rule": {
-        "source": "adapters/codex/AGENTS.md",
-        "target": "AGENTS.md"
+      "rules_by_profile": {
+        "daily-work": {
+          "source": "adapters/codex/AGENTS-daily-work.md",
+          "target": "AGENTS.md"
+        },
+        "full": {
+          "source": "adapters/codex/AGENTS.md",
+          "target": "AGENTS.md"
+        },
+        "knowledge-vault": {
+          "source": "adapters/codex/AGENTS-knowledge-vault.md",
+          "target": "AGENTS.md"
+        }
       },
       "skills_root": ".agents/skills",
       "hooks_by_profile": {
@@ -1005,9 +1025,19 @@
       }
     },
     "cursor": {
-      "rule": {
-        "source": "adapters/cursor/agent-config-kit.mdc",
-        "target": ".cursor/rules/agent-config-kit.mdc"
+      "rules_by_profile": {
+        "daily-work": {
+          "source": "adapters/cursor/agent-config-kit-daily-work.mdc",
+          "target": ".cursor/rules/agent-config-kit.mdc"
+        },
+        "full": {
+          "source": "adapters/cursor/agent-config-kit.mdc",
+          "target": ".cursor/rules/agent-config-kit.mdc"
+        },
+        "knowledge-vault": {
+          "source": "adapters/cursor/agent-config-kit-knowledge-vault.mdc",
+          "target": ".cursor/rules/agent-config-kit.mdc"
+        }
       },
       "skills_root": ".cursor/skills",
       "hooks_by_profile": {
@@ -1032,9 +1062,19 @@
       }
     },
     "claude-code": {
-      "rule": {
-        "source": "adapters/claude-code/CLAUDE.md",
-        "target": "CLAUDE.md"
+      "rules_by_profile": {
+        "daily-work": {
+          "source": "adapters/claude-code/CLAUDE-daily-work.md",
+          "target": "CLAUDE.md"
+        },
+        "full": {
+          "source": "adapters/claude-code/CLAUDE.md",
+          "target": "CLAUDE.md"
+        },
+        "knowledge-vault": {
+          "source": "adapters/claude-code/CLAUDE-knowledge-vault.md",
+          "target": "CLAUDE.md"
+        }
       },
       "skills_root": ".claude/skills",
       "hooks_by_profile": {

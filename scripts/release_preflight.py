@@ -27,6 +27,9 @@ PRIVATE_INPUTS = {
     "private reviewed derivatives": (
         PRIVATE_WORKBENCH / "reviewed-portable-derivatives.json"
     ),
+    "private reviewed rules": (
+        PRIVATE_WORKBENCH / "reviewed-portable-rules.json"
+    ),
     "private source roots": PRIVATE_WORKBENCH / "private-source-roots.json",
     "reviewed binary assets": PRIVATE_WORKBENCH / "reviewed-binary-assets.json",
 }
@@ -39,6 +42,7 @@ def default_runner(command: list[str]) -> int:
 def run_preflight(
     *,
     privacy_command: list[str] | None = None,
+    rule_alignment_command: list[str] | None = None,
     alignment_command: list[str],
     verification_command: list[str],
     runner: Runner = default_runner,
@@ -47,6 +51,10 @@ def run_preflight(
         privacy_result = runner(privacy_command)
         if privacy_result:
             return privacy_result
+    if rule_alignment_command is not None:
+        rule_result = runner(rule_alignment_command)
+        if rule_result:
+            return rule_result
     alignment_result = runner(alignment_command)
     if alignment_result:
         return alignment_result
@@ -180,6 +188,11 @@ def main() -> int:
         / "reviewed-portable-derivatives.json",
     )
     parser.add_argument(
+        "--private-reviewed-rules",
+        type=Path,
+        default=PRIVATE_INPUTS["private reviewed rules"],
+    )
+    parser.add_argument(
         "--private-source-roots",
         type=Path,
         default=PRIVATE_INPUTS["private source roots"],
@@ -210,6 +223,11 @@ def main() -> int:
             args.private_reviewed_derivatives,
             expected=PRIVATE_INPUTS["private reviewed derivatives"],
             label="private reviewed derivatives",
+        )
+        private_reviewed_rules = validate_private_path(
+            args.private_reviewed_rules,
+            expected=PRIVATE_INPUTS["private reviewed rules"],
+            label="private reviewed rules",
         )
         private_source_roots = validate_private_path(
             args.private_source_roots,
@@ -258,6 +276,12 @@ def main() -> int:
             str(private_inventory),
             "--reviewed-binary-assets",
             str(reviewed_binary_assets),
+        ],
+        rule_alignment_command=[
+            sys.executable,
+            str(ROOT / "scripts" / "check_rule_alignment.py"),
+            "--private-review",
+            str(private_reviewed_rules),
         ],
         alignment_command=alignment_command,
         verification_command=[

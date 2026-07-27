@@ -44,10 +44,12 @@ Hook；未完成这一步时 Rule 和 Skill 仍可用，但 Hook 会被跳过。
 
 ## 选择配置包
 
-- `daily-work`：读资料、做研究、制定计划、写作和验收；新手默认选它。
-- `knowledge-vault`：包含 `daily-work`，再增加卡片盒工作流和 5 个官方
-  Obsidian Skill。
-- `full`：安装当前全部已通过来源、许可和敏感信息审查的 Skill。它包含实验性
+- `daily-work`：安装通用协作 Rule，以及读资料、做研究、制定计划、写作和验收
+  Skill；新手默认选它。
+- `knowledge-vault`：包含 `daily-work`，再增加知识库治理 Rule、卡片盒工作流和
+  5 个官方 Obsidian Skill。
+- `full`：再增加复杂工程、未知管理、长任务、调试和文档节制 Rule，并安装当前
+  全部已通过来源、许可和敏感信息审查的 Skill。它包含实验性
   和上游已标记 deprecated 的独立分组，也包含一个明确标记的非商业产品管理
   分组，不是新手默认档。
 
@@ -208,10 +210,11 @@ python3 install/scripts/externalctl.py check-updates
 ## 发布前验证
 
 公开仓库内的检查只证明包本身自洽。维护者发布的唯一准出命令是
-`release_preflight.py`：它先用当前三棵 Skill 真源运行一致性门禁，成功后才会
-运行公开包验证。它读取 Git 忽略的私有 inventory、私人词账本和省略项账本；
-这些文件不进入公开 CI，也不得把本机路径、门禁 JSON 输出或私有 Skill 名称
-提交到仓库：
+`release_preflight.py`：它先核对维护者当前 `AGENTS.md` 与三个便携 Rule
+profile 的审查记录，再用当前三棵 Skill 真源运行一致性门禁，成功后才会运行
+公开包验证。它读取 Git 忽略的 Rule 审查记录、Skill inventory、私人词账本和
+省略项账本；这些文件不进入公开 CI，也不得把本机路径、门禁 JSON 输出或私有
+Skill 名称提交到仓库：
 
 ```bash
 python3 scripts/release_preflight.py \
@@ -228,6 +231,8 @@ python3 scripts/release_preflight.py \
 或省略项明细。`kit_snapshot` 表示维护者在私有 inventory 中明确保留、且由公开
 包验证继续核对来源与许可证的 Kit 附加能力；它不冒充当前本机真源。`excluded`
 表示已有明确的不分发裁决且包内确实不存在。
+Rule 对齐也会失败关闭：维护者 `AGENTS.md` 的内容哈希、三个 profile 的组成顺序、
+便携 Rule 哈希、保留行为和已审查的脱敏转换必须同时匹配。
 
 ```bash
 python3 scripts/build_adapters.py --check
