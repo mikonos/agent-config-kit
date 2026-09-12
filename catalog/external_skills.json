@@ -1,18 +1,22 @@
 {
-  "schema_version": 1,
   "packs": {
     "lark-official": {
       "description": "Official Lark Skills fetched from Feishu well-known HTTPS endpoints.",
-      "source_host": "open.feishu.cn",
       "skills": [
         {
           "name": "lark-approval",
-          "sha256": "fee377eca410dcda36b0bbbd632aab085b2e26e8232bb2ff88d394a1571d5ae2",
+          "previous_sha256": [
+            "fee377eca410dcda36b0bbbd632aab085b2e26e8232bb2ff88d394a1571d5ae2"
+          ],
+          "sha256": "2ac464c970291bf38e9a5ce7e2fb013c13abaf03d736ad75f64dd93a635aa5f7",
           "url": "https://open.feishu.cn/.well-known/skills/lark-approval/SKILL.md"
         },
         {
           "name": "lark-apps",
-          "sha256": "4bd8d41467b40f1aa1d0e115a36d9c7115d5bb79d31e0809f0f1b48ec85e4bd9",
+          "previous_sha256": [
+            "4bd8d41467b40f1aa1d0e115a36d9c7115d5bb79d31e0809f0f1b48ec85e4bd9"
+          ],
+          "sha256": "ec93c646ddc2c723f93469f49edaf48e4d0f0e4d3c38b80a518d1d154e584d28",
           "url": "https://open.feishu.cn/.well-known/skills/lark-apps/SKILL.md"
         },
         {
@@ -22,62 +26,98 @@
         },
         {
           "name": "lark-base",
-          "sha256": "19068634847371448441a5ad7ca0ef55abaa47f7f43cc1015553b146c8a48c55",
+          "previous_sha256": [
+            "19068634847371448441a5ad7ca0ef55abaa47f7f43cc1015553b146c8a48c55"
+          ],
+          "sha256": "b363d1898d4aeb2d8bf359edf56ae0464b6fefceb808bd76e1e04c017632f9f8",
           "url": "https://open.feishu.cn/.well-known/skills/lark-base/SKILL.md"
         },
         {
           "name": "lark-calendar",
-          "sha256": "355b07f024fb3f31fb07fadb8ab14b2eb1e7a62725e1139277aa420084c7d513",
+          "previous_sha256": [
+            "355b07f024fb3f31fb07fadb8ab14b2eb1e7a62725e1139277aa420084c7d513"
+          ],
+          "sha256": "d5d0ebd02b68d90e3bd8c1992a05696c3ad9900f4dcb2c86ff95edeac840355f",
           "url": "https://open.feishu.cn/.well-known/skills/lark-calendar/SKILL.md"
         },
         {
           "name": "lark-contact",
-          "sha256": "3f8cd36b6dfddfc4974ec3f796b4163d6511aafabd46f7eeacb2798c647f8f06",
+          "previous_sha256": [
+            "3f8cd36b6dfddfc4974ec3f796b4163d6511aafabd46f7eeacb2798c647f8f06"
+          ],
+          "sha256": "79041173aad9df428f51adc0435a9bdec2b45366b2003447c18af1ea1f55e7b6",
           "url": "https://open.feishu.cn/.well-known/skills/lark-contact/SKILL.md"
         },
         {
           "name": "lark-doc",
-          "sha256": "249110f21116d2e1eb09cc1b9b266889f290be57944975236254945dada65c0c",
+          "previous_sha256": [
+            "249110f21116d2e1eb09cc1b9b266889f290be57944975236254945dada65c0c"
+          ],
+          "sha256": "2786f910370662069b1b52b98508033c84baaf0bd7b0bae177426ece4ceafacc",
           "url": "https://open.feishu.cn/.well-known/skills/lark-doc/SKILL.md"
         },
         {
           "name": "lark-drive",
-          "sha256": "5423817c78709d70b0b84bb7bee15b8abc21c5982fc48c7e37ca2ddc42972c19",
+          "previous_sha256": [
+            "5423817c78709d70b0b84bb7bee15b8abc21c5982fc48c7e37ca2ddc42972c19"
+          ],
+          "sha256": "b140cd55b62be7f001384fb47627dc269ef08db3b943d0eb8c6aa4ef1bc9b685",
           "url": "https://open.feishu.cn/.well-known/skills/lark-drive/SKILL.md"
         },
         {
           "name": "lark-event",
-          "sha256": "37a53e919b24d494624a519c7d34b40f2fd6613d080ada8cc90bf59fd3442aea",
+          "previous_sha256": [
+            "37a53e919b24d494624a519c7d34b40f2fd6613d080ada8cc90bf59fd3442aea"
+          ],
+          "sha256": "e82b31451938a5c6bc5e65c1bc1ea241c75d0097d7deb1406f2ca3876c9802e3",
           "url": "https://open.feishu.cn/.well-known/skills/lark-event/SKILL.md"
         },
         {
           "name": "lark-im",
-          "sha256": "287bed8d773465befcf3da93bfb3c829e111c3ae6c8fa087724f9d69d0f2e5cf",
+          "previous_sha256": [
+            "287bed8d773465befcf3da93bfb3c829e111c3ae6c8fa087724f9d69d0f2e5cf"
+          ],
+          "sha256": "b880737bd5a6cfebf38a33493f3f37c492133d12e673016097a12a04dd7d2f9c",
           "url": "https://open.feishu.cn/.well-known/skills/lark-im/SKILL.md"
         },
         {
           "name": "lark-mail",
-          "sha256": "bee1da98483c1dfc1d6dc3b5a4ac6403279dad6f6a8bde77f7fdb5b1f4725d38",
+          "previous_sha256": [
+            "bee1da98483c1dfc1d6dc3b5a4ac6403279dad6f6a8bde77f7fdb5b1f4725d38"
+          ],
+          "sha256": "3bc941ebcb7b83bfa6e61f773b0a6c3b405b291ae7bfb5842d62310230df5a97",
           "url": "https://open.feishu.cn/.well-known/skills/lark-mail/SKILL.md"
         },
         {
           "name": "lark-markdown",
-          "sha256": "50024d5e506a95f122fb818011b7624c1948342ea8617089a102fcd72bab0a1b",
+          "previous_sha256": [
+            "50024d5e506a95f122fb818011b7624c1948342ea8617089a102fcd72bab0a1b"
+          ],
+          "sha256": "dd533844109c1b46e23c84171da7ea2ad2faa9f75999c27d7c7cc1fe8ec32709",
           "url": "https://open.feishu.cn/.well-known/skills/lark-markdown/SKILL.md"
         },
         {
           "name": "lark-minutes",
-          "sha256": "00d8955b0e5326bf1d7c5c2149ecc8a8b73bed7c9609797a9e8576aeb024e535",
+          "previous_sha256": [
+            "00d8955b0e5326bf1d7c5c2149ecc8a8b73bed7c9609797a9e8576aeb024e535"
+          ],
+          "sha256": "1058e122bb7d3f8d857fa9af7470082c2ce59673455bdaf5305f912dd3b9920f",
           "url": "https://open.feishu.cn/.well-known/skills/lark-minutes/SKILL.md"
         },
         {
           "name": "lark-note",
-          "sha256": "51ce47948e5ea9361dd0ecc6633519b01dfa8ae86729874217d08a0b0831df48",
+          "previous_sha256": [
+            "51ce47948e5ea9361dd0ecc6633519b01dfa8ae86729874217d08a0b0831df48"
+          ],
+          "sha256": "4d55ad009f7475e55240ad9f6be7b25b73f2974553325be84db372dd3c08248b",
           "url": "https://open.feishu.cn/.well-known/skills/lark-note/SKILL.md"
         },
         {
           "name": "lark-okr",
-          "sha256": "658ec51f59e3af529064821fb5fbee2ed3ff5cac9e22b66887541cfab4353772",
+          "previous_sha256": [
+            "658ec51f59e3af529064821fb5fbee2ed3ff5cac9e22b66887541cfab4353772"
+          ],
+          "sha256": "898fc8886d9c095a1a690e6606860d6073b76d374a0343993ab632813d81b187",
           "url": "https://open.feishu.cn/.well-known/skills/lark-okr/SKILL.md"
         },
         {
@@ -87,12 +127,18 @@
         },
         {
           "name": "lark-shared",
-          "sha256": "036e6fe4f45ee16dfd9271d4f4bfcaa97069de1e96a8e19a28b0bb9f45193296",
+          "previous_sha256": [
+            "036e6fe4f45ee16dfd9271d4f4bfcaa97069de1e96a8e19a28b0bb9f45193296"
+          ],
+          "sha256": "9fa68bb1f3ce564602c6df6c303ea4d2759de02442772f332fe5041d65720a1f",
           "url": "https://open.feishu.cn/.well-known/skills/lark-shared/SKILL.md"
         },
         {
           "name": "lark-sheets",
-          "sha256": "8c470db8e85b38ff81de56255f878f63ba4822bc892ba3355386435eca41e2fa",
+          "previous_sha256": [
+            "8c470db8e85b38ff81de56255f878f63ba4822bc892ba3355386435eca41e2fa"
+          ],
+          "sha256": "e2387f34558b5b6127c3e7f6d1acf4ea6539ce761cc3ce99b67622e95e3e368d",
           "url": "https://open.feishu.cn/.well-known/skills/lark-sheets/SKILL.md"
         },
         {
@@ -102,37 +148,58 @@
         },
         {
           "name": "lark-slides",
-          "sha256": "c43486b4bc270568502f24c96d1ec50f2949352748fd7cfc5ec8b907d6c0bcbf",
+          "previous_sha256": [
+            "c43486b4bc270568502f24c96d1ec50f2949352748fd7cfc5ec8b907d6c0bcbf"
+          ],
+          "sha256": "1f49aad386ac83154bbdb80e68ebe61561c86efcbbb358274706bff25518f401",
           "url": "https://open.feishu.cn/.well-known/skills/lark-slides/SKILL.md"
         },
         {
           "name": "lark-task",
-          "sha256": "d25f0a89674748d08363e2baf0aa6ef654a63745befc44ce6986a20718a2e4e1",
+          "previous_sha256": [
+            "d25f0a89674748d08363e2baf0aa6ef654a63745befc44ce6986a20718a2e4e1"
+          ],
+          "sha256": "f69e7f68432723240710a90ad390d97f777f5511868743d00a8478180a6a0d7a",
           "url": "https://open.feishu.cn/.well-known/skills/lark-task/SKILL.md"
         },
         {
           "name": "lark-vc",
-          "sha256": "07663b7ba87a5ab97e6b23f453ceb619b4de365720998d143fabe9b57c0ecb76",
+          "previous_sha256": [
+            "07663b7ba87a5ab97e6b23f453ceb619b4de365720998d143fabe9b57c0ecb76"
+          ],
+          "sha256": "46b56963508d7a89ce291020993f9c22fb46f52db2632443f9e81495a5469123",
           "url": "https://open.feishu.cn/.well-known/skills/lark-vc/SKILL.md"
         },
         {
           "name": "lark-vc-agent",
-          "sha256": "1d6d57b68e23e965d7f7b6510414dce04d5dcaa6efcf51e9a80db3f6bf27f973",
+          "previous_sha256": [
+            "1d6d57b68e23e965d7f7b6510414dce04d5dcaa6efcf51e9a80db3f6bf27f973"
+          ],
+          "sha256": "ca7478c596f989999562099cf9c56650f3c2b4f13aead4817d18974ba861ab01",
           "url": "https://open.feishu.cn/.well-known/skills/lark-vc-agent/SKILL.md"
         },
         {
           "name": "lark-whiteboard",
-          "sha256": "bb4e249612ad80f8be13c4c555a220db5192f1311651613f36ad0933d832d595",
+          "previous_sha256": [
+            "bb4e249612ad80f8be13c4c555a220db5192f1311651613f36ad0933d832d595"
+          ],
+          "sha256": "78a3fbffa0da5c561b3e7035543fe1e80dbd7854c38d84e35e1392598b288f07",
           "url": "https://open.feishu.cn/.well-known/skills/lark-whiteboard/SKILL.md"
         },
         {
           "name": "lark-wiki",
-          "sha256": "ef3c2f766db1a85426bcae9609a0ecfcfe931962c27d95231cfd6dd7c75d18dd",
+          "previous_sha256": [
+            "ef3c2f766db1a85426bcae9609a0ecfcfe931962c27d95231cfd6dd7c75d18dd"
+          ],
+          "sha256": "736cd467c6099df4f71398460417d0247ed54b50510c82ec18d82d02a128c684",
           "url": "https://open.feishu.cn/.well-known/skills/lark-wiki/SKILL.md"
         },
         {
           "name": "lark-workflow-meeting-summary",
-          "sha256": "ad3db979a2e6d8932ab33058967e1dab82090f8d8d82b16c59ee2955eb967d61",
+          "previous_sha256": [
+            "ad3db979a2e6d8932ab33058967e1dab82090f8d8d82b16c59ee2955eb967d61"
+          ],
+          "sha256": "2cc95a5db67b9cb73bc4d3f3d38f49b348e56f99cadca5cd998ed8c443f6e166",
           "url": "https://open.feishu.cn/.well-known/skills/lark-workflow-meeting-summary/SKILL.md"
         },
         {
@@ -140,7 +207,9 @@
           "sha256": "a283de746e65f97d7d25c3b9e351c2e5c16702be81c0f004d5be718c50994690",
           "url": "https://open.feishu.cn/.well-known/skills/lark-workflow-standup-report/SKILL.md"
         }
-      ]
+      ],
+      "source_host": "open.feishu.cn"
     }
-  }
+  },
+  "schema_version": 1
 }
